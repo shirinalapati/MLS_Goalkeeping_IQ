@@ -613,7 +613,7 @@ def estimate_reliability(
             split_half_correlation(match_pool, key, min_matches) if not match_pool.empty else None
         )
         # Tiny negative correlations (e.g. -0.0016) should serialize/display as 0.00,
-        # not −0.00.
+        # not -0.00.
         if half_correlation is not None and abs(half_correlation) < 5e-3:
             half_correlation = 0.0
 
