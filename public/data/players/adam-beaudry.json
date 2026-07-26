@@ -3,7 +3,7 @@
   "player_id": "odMXEAde5Y",
   "slug": "adam-beaudry",
   "name": "Adam Beaudry",
-  "generated_at": "2026-07-26T21:56:41Z",
+  "generated_at": "2026-07-26T23:47:04Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.3,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.801,
-          "adjusted_p96": 0.063,
+          "observed_p96": 0.8,
+          "adjusted_p96": 0.062,
           "baseline_p96": 0.051,
-          "total": 0.801,
+          "total": 0.8,
           "raw_total": 0.771,
           "percentile": 59.4,
           "observed_percentile": 100.0,
@@ -69,7 +69,7 @@
         "handling": {
           "observed_p96": -0.013,
           "adjusted_p96": -0.005,
-          "baseline_p96": -0.005,
+          "baseline_p96": -0.004,
           "total": -0.013,
           "raw_total": -0.013,
           "percentile": 45.7,
@@ -97,7 +97,7 @@
           "total": 0.008,
           "raw_total": 0.007,
           "percentile": 47.9,
-          "observed_percentile": 80.8,
+          "observed_percentile": 79.9,
           "opportunities": 1,
           "opportunities_p96": 1.0,
           "reliability": 0.001
@@ -147,7 +147,7 @@
           "date": "2025-03-23",
           "matchday": 5,
           "minutes": 96.0,
-          "total_ga": 0.823,
+          "total_ga": 0.822,
           "total_ga_p96": 0.82,
           "rolling_total_ga_p96": 0.82,
           "goals_conceded": 2,
@@ -156,7 +156,7 @@
           "xgoals_faced": 2.77,
           "goals_prevented": 0.77,
           "components": {
-            "shot_stopping": 0.801,
+            "shot_stopping": 0.8,
             "handling": -0.013,
             "claiming": 0.001,
             "sweeping": 0.008,
@@ -205,14 +205,16 @@
     "team": "Colorado Rapids",
     "team_abbreviation": "COL",
     "nationality": "USA",
+    "birth_date": "2006-04-18",
+    "age": 20,
     "talent_p96": 0.06,
     "talent_low": -0.1,
     "talent_high": 0.23,
     "talent_sd": 0.1,
-    "keeperiq": 55.7,
+    "keeperiq": 50.3,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 23,
+    "rank": 25,
     "weights": {
       "league_prior": 0.985,
       "prior_season": 0.015,

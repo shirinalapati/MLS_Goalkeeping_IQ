@@ -3,7 +3,7 @@
   "player_id": "aDQ0N1Kv5E",
   "slug": "kim-joon-hong",
   "name": "Kim Joon-Hong",
-  "generated_at": "2026-07-26T21:56:41Z",
+  "generated_at": "2026-07-26T23:47:04Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -25,10 +25,10 @@
       "keeperiq": 40.1,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.21,
-      "baseline_total_p96": 0.05,
+      "baseline_total_p96": 0.04,
       "adjusted_total": -1.76,
       "reliability": 0.114,
-      "interval_low": -0.12,
+      "interval_low": -0.13,
       "interval_high": 0.19,
       "interval_se": 0.097,
       "observed_interval_low": -0.79,
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.231,
+          "observed_p96": -0.232,
           "adjusted_p96": 0.018,
           "baseline_p96": 0.053,
-          "total": -1.942,
+          "total": -1.946,
           "raw_total": -2.195,
           "percentile": 19.9,
           "observed_percentile": 5.4,
@@ -69,8 +69,8 @@
         "handling": {
           "observed_p96": -0.016,
           "adjusted_p96": -0.005,
-          "baseline_p96": -0.005,
-          "total": -0.132,
+          "baseline_p96": -0.004,
+          "total": -0.131,
           "raw_total": -0.135,
           "percentile": 39.9,
           "observed_percentile": 24.3,
@@ -173,7 +173,7 @@
           "xgoals_faced": 3.24,
           "goals_prevented": 1.24,
           "components": {
-            "shot_stopping": 1.272,
+            "shot_stopping": 1.271,
             "handling": 0.047,
             "claiming": 0.002,
             "sweeping": 0.009,
@@ -186,16 +186,16 @@
           "date": "2025-03-02",
           "matchday": 2,
           "minutes": 102.0,
-          "total_ga": 0.047,
+          "total_ga": 0.046,
           "total_ga_p96": 0.04,
-          "rolling_total_ga_p96": 0.66,
+          "rolling_total_ga_p96": 0.65,
           "goals_conceded": 2,
           "shots_faced": 4,
           "saves": 2,
           "xgoals_faced": 2.12,
           "goals_prevented": 0.12,
           "components": {
-            "shot_stopping": 0.153,
+            "shot_stopping": 0.152,
             "handling": -0.113,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -218,7 +218,7 @@
           "goals_prevented": -0.9,
           "components": {
             "shot_stopping": -0.867,
-            "handling": 0.0,
+            "handling": 0.001,
             "claiming": 0.003,
             "sweeping": -0.0,
             "passing": 0.003,
@@ -239,8 +239,8 @@
           "xgoals_faced": 1.11,
           "goals_prevented": 1.11,
           "components": {
-            "shot_stopping": 1.144,
-            "handling": -0.061,
+            "shot_stopping": 1.143,
+            "handling": -0.06,
             "claiming": 0.007,
             "sweeping": 0.009,
             "passing": -0.008,
@@ -283,7 +283,7 @@
           "xgoals_faced": 2.35,
           "goals_prevented": 0.35,
           "components": {
-            "shot_stopping": 0.382,
+            "shot_stopping": 0.381,
             "handling": 0.048,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -305,7 +305,7 @@
           "xgoals_faced": 4.23,
           "goals_prevented": -1.77,
           "components": {
-            "shot_stopping": -1.738,
+            "shot_stopping": -1.739,
             "handling": -0.023,
             "claiming": -0.0,
             "sweeping": -0.021,
@@ -318,7 +318,7 @@
           "date": "2025-08-09",
           "matchday": 27,
           "minutes": 100.0,
-          "total_ga": -0.918,
+          "total_ga": -0.919,
           "total_ga_p96": -0.88,
           "rolling_total_ga_p96": -0.21,
           "goals_conceded": 2,
@@ -327,10 +327,10 @@
           "xgoals_faced": 1.07,
           "goals_prevented": -0.93,
           "components": {
-            "shot_stopping": -0.894,
+            "shot_stopping": -0.895,
             "handling": -0.081,
             "claiming": 0.001,
-            "sweeping": -0.002,
+            "sweeping": -0.003,
             "passing": 0.055,
             "fielding": 0.004
           }
@@ -347,7 +347,7 @@
           "date": "2025-03-02",
           "matchday": 2,
           "matches_in_window": 2,
-          "rate_p96": 0.66
+          "rate_p96": 0.65
         },
         {
           "date": "2025-03-09",
@@ -418,14 +418,16 @@
     "team": "D.C. United",
     "team_abbreviation": "DCU",
     "nationality": "South Korea",
+    "birth_date": "2003-06-03",
+    "age": 23,
     "talent_p96": 0.02,
     "talent_low": -0.13,
     "talent_high": 0.18,
     "talent_sd": 0.095,
-    "keeperiq": 18.9,
+    "keeperiq": 21.1,
     "keeperiq_low": 0.0,
     "keeperiq_high": 98.0,
-    "rank": 57,
+    "rank": 54,
     "weights": {
       "league_prior": 0.888,
       "prior_season": 0.112,

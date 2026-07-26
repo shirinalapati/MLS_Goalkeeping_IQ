@@ -3,7 +3,7 @@
   "player_id": "BLMv7wr75x",
   "slug": "wessel-speel",
   "name": "Wessel Speel",
-  "generated_at": "2026-07-26T21:56:41Z",
+  "generated_at": "2026-07-26T23:47:04Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -24,7 +24,7 @@
       "sample_status_label": "Limited Sample",
       "keeperiq": 34.8,
       "adjusted_total_p96": 0.03,
-      "observed_total_p96": -0.38,
+      "observed_total_p96": -0.39,
       "baseline_total_p96": 0.04,
       "adjusted_total": -0.91,
       "reliability": 0.04,
@@ -55,10 +55,10 @@
       "keeperiq_change": -1.9,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.404,
-          "adjusted_p96": 0.035,
-          "baseline_p96": 0.051,
-          "total": -0.952,
+          "observed_p96": -0.405,
+          "adjusted_p96": 0.034,
+          "baseline_p96": 0.05,
+          "total": -0.953,
           "raw_total": -1.023,
           "percentile": 32.8,
           "observed_percentile": 1.3,
@@ -147,7 +147,7 @@
           "date": "2025-06-15",
           "matchday": 19,
           "minutes": 101.0,
-          "total_ga": -0.757,
+          "total_ga": -0.758,
           "total_ga_p96": -0.72,
           "rolling_total_ga_p96": -0.72,
           "goals_conceded": 4,
@@ -156,7 +156,7 @@
           "xgoals_faced": 3.19,
           "goals_prevented": -0.81,
           "components": {
-            "shot_stopping": -0.779,
+            "shot_stopping": -0.78,
             "handling": 0.003,
             "claiming": 0.01,
             "sweeping": 0.006,
@@ -193,7 +193,7 @@
           "minutes": 20.0,
           "total_ga": -0.199,
           "total_ga_p96": -0.95,
-          "rolling_total_ga_p96": -0.38,
+          "rolling_total_ga_p96": -0.39,
           "goals_conceded": 1,
           "shots_faced": 2,
           "saves": 1,
@@ -226,7 +226,7 @@
           "date": "2025-06-28",
           "matchday": 21,
           "matches_in_window": 3,
-          "rate_p96": -0.38
+          "rate_p96": -0.39
         }
       ],
       "ranking_history": [
@@ -261,20 +261,22 @@
     "team": "Minnesota United FC",
     "team_abbreviation": "MIN",
     "nationality": "Netherlands",
+    "birth_date": "2001-10-17",
+    "age": 24,
     "talent_p96": 0.03,
     "talent_low": -0.13,
     "talent_high": 0.2,
     "talent_sd": 0.099,
-    "keeperiq": 27.4,
+    "keeperiq": 28.2,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 47,
+    "rank": 45,
     "weights": {
       "league_prior": 0.96,
       "prior_season": 0.04,
       "live_season": 0.0
     },
-    "prior_season_rate": -0.38,
+    "prior_season_rate": -0.39,
     "live_season_rate": null,
     "prior_season_minutes": 226.0,
     "live_season_minutes": 0.0,

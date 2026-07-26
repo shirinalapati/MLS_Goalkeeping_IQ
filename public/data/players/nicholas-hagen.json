@@ -3,7 +3,7 @@
   "player_id": "gpMOaPn1qz",
   "slug": "nicholas-hagen",
   "name": "Nicholas Hagen",
-  "generated_at": "2026-07-26T21:56:41Z",
+  "generated_at": "2026-07-26T23:47:04Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -29,7 +29,7 @@
       "adjusted_total": 0.07,
       "reliability": 0.03,
       "interval_low": -0.13,
-      "interval_high": 0.21,
+      "interval_high": 0.2,
       "interval_se": 0.101,
       "observed_interval_low": -1.94,
       "observed_interval_high": 1.95,
@@ -55,10 +55,10 @@
       "keeperiq_change": -10.3,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.02,
+          "observed_p96": -0.021,
           "adjusted_p96": 0.05,
-          "baseline_p96": 0.056,
-          "total": -0.061,
+          "baseline_p96": 0.055,
+          "total": -0.063,
           "raw_total": -0.154,
           "percentile": 49.2,
           "observed_percentile": 27.7,
@@ -70,7 +70,7 @@
           "observed_p96": 0.051,
           "adjusted_p96": -0.003,
           "baseline_p96": -0.005,
-          "total": 0.157,
+          "total": 0.158,
           "raw_total": 0.156,
           "percentile": 63.0,
           "observed_percentile": 100.0,
@@ -120,7 +120,7 @@
           "baseline_p96": 0.001,
           "total": 0.008,
           "raw_total": -0.008,
-          "percentile": 31.1,
+          "percentile": 27.7,
           "observed_percentile": 38.4,
           "opportunities": 37,
           "opportunities_p96": 12.08,
@@ -131,6 +131,14 @@
       "notes": {
         "strengths": [],
         "concerns": [
+          {
+            "component": "fielding",
+            "label": "Fielding",
+            "percentile": 27.7,
+            "band": "weak",
+            "opportunities": 37,
+            "text": "Fielding contribution below the MLS median."
+          },
           {
             "component": "sample",
             "label": "Sample",
@@ -147,9 +155,9 @@
           "date": "2025-05-24",
           "matchday": 15,
           "minutes": 99.0,
-          "total_ga": 3.089,
-          "total_ga_p96": 3.0,
-          "rolling_total_ga_p96": 3.0,
+          "total_ga": 3.088,
+          "total_ga_p96": 2.99,
+          "rolling_total_ga_p96": 2.99,
           "goals_conceded": 3,
           "shots_faced": 10,
           "saves": 7,
@@ -178,7 +186,7 @@
           "xgoals_faced": 1.78,
           "goals_prevented": -0.22,
           "components": {
-            "shot_stopping": -0.185,
+            "shot_stopping": -0.186,
             "handling": 0.024,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -214,7 +222,7 @@
           "date": "2025-05-24",
           "matchday": 15,
           "matches_in_window": 1,
-          "rate_p96": 3.0
+          "rate_p96": 2.99
         },
         {
           "date": "2025-05-29",
@@ -261,14 +269,16 @@
     "team": "Columbus Crew",
     "team_abbreviation": "CLB",
     "nationality": "Guatemala",
+    "birth_date": "1996-08-02",
+    "age": 29,
     "talent_p96": 0.05,
     "talent_low": -0.11,
-    "talent_high": 0.22,
+    "talent_high": 0.21,
     "talent_sd": 0.099,
-    "keeperiq": 42.6,
+    "keeperiq": 37.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 32,
+    "rank": 34,
     "weights": {
       "league_prior": 0.97,
       "prior_season": 0.03,

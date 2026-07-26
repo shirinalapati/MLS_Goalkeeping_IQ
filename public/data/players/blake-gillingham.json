@@ -3,7 +3,7 @@
   "player_id": "EGMP1vPx5a",
   "slug": "blake-gillingham",
   "name": "Blake Gillingham",
-  "generated_at": "2026-07-26T21:56:41Z",
+  "generated_at": "2026-07-26T23:47:04Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.639,
           "adjusted_p96": 0.081,
           "baseline_p96": 0.051,
-          "total": 2.198,
+          "total": 2.196,
           "raw_total": 2.095,
           "percentile": 79.4,
           "observed_percentile": 100.0,
@@ -69,7 +69,7 @@
         "handling": {
           "observed_p96": 0.01,
           "adjusted_p96": -0.004,
-          "baseline_p96": -0.005,
+          "baseline_p96": -0.004,
           "total": 0.033,
           "raw_total": 0.032,
           "percentile": 47.7,
@@ -118,7 +118,7 @@
           "observed_p96": 0.009,
           "adjusted_p96": 0.002,
           "baseline_p96": 0.002,
-          "total": 0.029,
+          "total": 0.03,
           "raw_total": 0.011,
           "percentile": 48.6,
           "observed_percentile": 83.5,
@@ -170,7 +170,7 @@
           "matchday": 6,
           "minutes": 101.0,
           "total_ga": 0.847,
-          "total_ga_p96": 0.81,
+          "total_ga_p96": 0.8,
           "rolling_total_ga_p96": 1.39,
           "goals_conceded": 3,
           "shots_faced": 9,
@@ -178,8 +178,8 @@
           "xgoals_faced": 4.08,
           "goals_prevented": 1.08,
           "components": {
-            "shot_stopping": 1.11,
-            "handling": 0.023,
+            "shot_stopping": 1.109,
+            "handling": 0.024,
             "claiming": -0.272,
             "sweeping": -0.036,
             "passing": 0.011,
@@ -222,11 +222,11 @@
           "xgoals_faced": 0.63,
           "goals_prevented": -0.37,
           "components": {
-            "shot_stopping": -0.341,
+            "shot_stopping": -0.342,
             "handling": 0.003,
             "claiming": 0.018,
             "sweeping": -0.002,
-            "passing": -0.038,
+            "passing": -0.037,
             "fielding": 0.009
           }
         }
@@ -289,14 +289,16 @@
     "team": "Houston Dynamo FC",
     "team_abbreviation": "HOU",
     "nationality": "USA",
+    "birth_date": "2002-10-11",
+    "age": 23,
     "talent_p96": 0.08,
     "talent_low": -0.08,
     "talent_high": 0.24,
     "talent_sd": 0.098,
-    "keeperiq": 72.6,
+    "keeperiq": 69.1,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 14,
+    "rank": 15,
     "weights": {
       "league_prior": 0.944,
       "prior_season": 0.056,

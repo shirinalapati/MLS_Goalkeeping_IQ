@@ -3,7 +3,7 @@
   "player_id": "9YqdoDvL5v",
   "slug": "jayden-hibbert",
   "name": "Jayden Hibbert",
-  "generated_at": "2026-07-26T21:56:41Z",
+  "generated_at": "2026-07-26T23:47:04Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": -2.7,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.111,
-          "adjusted_p96": 0.033,
+          "observed_p96": -0.112,
+          "adjusted_p96": 0.032,
           "baseline_p96": 0.054,
-          "total": -0.946,
+          "total": -0.95,
           "raw_total": -1.202,
           "percentile": 32.4,
           "observed_percentile": 12.2,
@@ -70,7 +70,7 @@
           "observed_p96": 0.032,
           "adjusted_p96": -0.002,
           "baseline_p96": -0.005,
-          "total": 0.27,
+          "total": 0.271,
           "raw_total": 0.267,
           "percentile": 86.9,
           "observed_percentile": 97.9,
@@ -97,7 +97,7 @@
           "total": 0.144,
           "raw_total": 0.133,
           "percentile": 67.6,
-          "observed_percentile": 91.3,
+          "observed_percentile": 92.1,
           "opportunities": 20,
           "opportunities_p96": 2.35,
           "reliability": 0.022
@@ -156,7 +156,7 @@
           "date": "2025-07-12",
           "matchday": 23,
           "minutes": 112.0,
-          "total_ga": -0.005,
+          "total_ga": -0.006,
           "total_ga_p96": -0.0,
           "rolling_total_ga_p96": -0.0,
           "goals_conceded": 1,
@@ -168,7 +168,7 @@
             "shot_stopping": -0.105,
             "handling": 0.016,
             "claiming": 0.003,
-            "sweeping": 0.045,
+            "sweeping": 0.044,
             "passing": 0.019,
             "fielding": 0.017
           }
@@ -178,7 +178,7 @@
           "date": "2025-08-24",
           "matchday": 29,
           "minutes": 98.0,
-          "total_ga": 0.387,
+          "total_ga": 0.386,
           "total_ga_p96": 0.38,
           "rolling_total_ga_p96": 0.17,
           "goals_conceded": 0,
@@ -200,7 +200,7 @@
           "date": "2025-08-31",
           "matchday": 30,
           "minutes": 104.0,
-          "total_ga": 1.303,
+          "total_ga": 1.302,
           "total_ga_p96": 1.2,
           "rolling_total_ga_p96": 0.51,
           "goals_conceded": 0,
@@ -209,8 +209,8 @@
           "xgoals_faced": 1.09,
           "goals_prevented": 1.09,
           "components": {
-            "shot_stopping": 1.121,
-            "handling": 0.161,
+            "shot_stopping": 1.12,
+            "handling": 0.162,
             "claiming": 0.002,
             "sweeping": 0.056,
             "passing": -0.042,
@@ -224,14 +224,14 @@
           "minutes": 108.0,
           "total_ga": -1.925,
           "total_ga_p96": -1.71,
-          "rolling_total_ga_p96": -0.05,
+          "rolling_total_ga_p96": -0.06,
           "goals_conceded": 5,
           "shots_faced": 7,
           "saves": 2,
           "xgoals_faced": 3.2,
           "goals_prevented": -1.8,
           "components": {
-            "shot_stopping": -1.77,
+            "shot_stopping": -1.771,
             "handling": 0.014,
             "claiming": -0.144,
             "sweeping": 0.001,
@@ -253,7 +253,7 @@
           "xgoals_faced": 0.89,
           "goals_prevented": -0.11,
           "components": {
-            "shot_stopping": -0.073,
+            "shot_stopping": -0.074,
             "handling": 0.015,
             "claiming": 0.001,
             "sweeping": -0.009,
@@ -266,7 +266,7 @@
           "date": "2025-09-27",
           "matchday": 34,
           "minutes": 99.0,
-          "total_ga": -0.059,
+          "total_ga": -0.06,
           "total_ga_p96": -0.06,
           "rolling_total_ga_p96": -0.06,
           "goals_conceded": 2,
@@ -297,8 +297,8 @@
           "xgoals_faced": 0.94,
           "goals_prevented": -0.06,
           "components": {
-            "shot_stopping": -0.026,
-            "handling": 0.029,
+            "shot_stopping": -0.027,
+            "handling": 0.03,
             "claiming": 0.016,
             "sweeping": 0.016,
             "passing": -0.004,
@@ -310,7 +310,7 @@
           "date": "2025-10-11",
           "matchday": 21,
           "minutes": 98.0,
-          "total_ga": -0.283,
+          "total_ga": -0.284,
           "total_ga_p96": -0.28,
           "rolling_total_ga_p96": -0.08,
           "goals_conceded": 4,
@@ -319,7 +319,7 @@
           "xgoals_faced": 3.71,
           "goals_prevented": -0.29,
           "components": {
-            "shot_stopping": -0.258,
+            "shot_stopping": -0.259,
             "handling": -0.037,
             "claiming": 0.016,
             "sweeping": 0.001,
@@ -333,7 +333,7 @@
           "date": "2025-07-12",
           "matchday": 23,
           "matches_in_window": 1,
-          "rate_p96": -0.0
+          "rate_p96": -0.01
         },
         {
           "date": "2025-08-24",
@@ -345,13 +345,13 @@
           "date": "2025-08-31",
           "matchday": 30,
           "matches_in_window": 3,
-          "rate_p96": 0.52
+          "rate_p96": 0.51
         },
         {
           "date": "2025-09-13",
           "matchday": 32,
           "matches_in_window": 4,
-          "rate_p96": -0.05
+          "rate_p96": -0.06
         },
         {
           "date": "2025-09-20",
@@ -410,13 +410,15 @@
     "team": "Atlanta United FC",
     "team_abbreviation": "ATL",
     "nationality": "Jamaica",
+    "birth_date": "2004-08-05",
+    "age": 21,
     "talent_p96": 0.04,
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.095,
-    "keeperiq": 34.0,
+    "keeperiq": 29.4,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 98.0,
+    "keeperiq_high": 100.0,
     "rank": 43,
     "weights": {
       "league_prior": 0.893,

@@ -3,7 +3,7 @@
   "player_id": "jYQJz3rWQG",
   "slug": "andrew-tarbell",
   "name": "Andrew Tarbell",
-  "generated_at": "2026-07-26T21:56:41Z",
+  "generated_at": "2026-07-26T23:47:04Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.8,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.21,
-          "adjusted_p96": 0.038,
+          "observed_p96": -0.211,
+          "adjusted_p96": 0.037,
           "baseline_p96": 0.051,
-          "total": -0.723,
+          "total": -0.725,
           "raw_total": -0.826,
           "percentile": 40.2,
           "observed_percentile": 5.8,
@@ -67,7 +67,7 @@
           "reliability": 0.052
         },
         "handling": {
-          "observed_p96": 0.01,
+          "observed_p96": 0.011,
           "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
           "total": 0.036,
@@ -92,7 +92,7 @@
         },
         "sweeping": {
           "observed_p96": 0.04,
-          "adjusted_p96": -0.0,
+          "adjusted_p96": -0.001,
           "baseline_p96": -0.001,
           "total": 0.139,
           "raw_total": 0.134,
@@ -147,7 +147,7 @@
           "date": "2025-02-23",
           "matchday": 1,
           "minutes": 96.0,
-          "total_ga": -0.508,
+          "total_ga": -0.509,
           "total_ga_p96": -0.51,
           "rolling_total_ga_p96": -0.51,
           "goals_conceded": 2,
@@ -169,7 +169,7 @@
           "date": "2025-03-03",
           "matchday": 2,
           "minutes": 100.0,
-          "total_ga": -1.636,
+          "total_ga": -1.637,
           "total_ga_p96": -1.57,
           "rolling_total_ga_p96": -1.05,
           "goals_conceded": 4,
@@ -178,7 +178,7 @@
           "xgoals_faced": 2.37,
           "goals_prevented": -1.63,
           "components": {
-            "shot_stopping": -1.601,
+            "shot_stopping": -1.602,
             "handling": -0.031,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -200,7 +200,7 @@
           "xgoals_faced": 1.31,
           "goals_prevented": 1.31,
           "components": {
-            "shot_stopping": 1.339,
+            "shot_stopping": 1.338,
             "handling": 0.046,
             "claiming": 0.002,
             "sweeping": 0.001,
@@ -223,7 +223,7 @@
           "goals_prevented": 0.19,
           "components": {
             "shot_stopping": 0.199,
-            "handling": 0.003,
+            "handling": 0.004,
             "claiming": 0.0,
             "sweeping": 0.001,
             "passing": -0.01,
@@ -289,14 +289,16 @@
     "team": "Houston Dynamo FC",
     "team_abbreviation": "HOU",
     "nationality": "USA",
+    "birth_date": "1993-10-07",
+    "age": 32,
     "talent_p96": 0.04,
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.098,
-    "keeperiq": 34.0,
+    "keeperiq": 33.3,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 41,
+    "rank": 40,
     "weights": {
       "league_prior": 0.944,
       "prior_season": 0.056,

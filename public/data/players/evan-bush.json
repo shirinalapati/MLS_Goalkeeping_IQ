@@ -3,7 +3,7 @@
   "player_id": "KPqjo08PQ6",
   "slug": "evan-bush",
   "name": "Evan Bush",
-  "generated_at": "2026-07-26T21:56:41Z",
+  "generated_at": "2026-07-26T23:47:04Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": -2.7,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.187,
-          "adjusted_p96": 0.028,
-          "baseline_p96": 0.046,
-          "total": -1.176,
+          "observed_p96": -0.188,
+          "adjusted_p96": 0.027,
+          "baseline_p96": 0.045,
+          "total": -1.18,
           "raw_total": -1.366,
           "percentile": 25.3,
           "observed_percentile": 11.6,
@@ -166,7 +166,7 @@
           "goals_prevented": 0.0,
           "components": {
             "shot_stopping": 0.03,
-            "handling": 0.0,
+            "handling": 0.001,
             "claiming": 0.001,
             "sweeping": 0.003,
             "passing": -0.017,
@@ -187,10 +187,10 @@
           "xgoals_faced": 0.35,
           "goals_prevented": -0.65,
           "components": {
-            "shot_stopping": -0.622,
-            "handling": 0.02,
+            "shot_stopping": -0.623,
+            "handling": 0.021,
             "claiming": 0.003,
-            "sweeping": 0.017,
+            "sweeping": 0.016,
             "passing": -0.008,
             "fielding": 0.012
           }
@@ -200,7 +200,7 @@
           "date": "2025-06-25",
           "matchday": 20,
           "minutes": 100.0,
-          "total_ga": 0.058,
+          "total_ga": 0.057,
           "total_ga_p96": 0.06,
           "rolling_total_ga_p96": -0.16,
           "goals_conceded": 1,
@@ -231,8 +231,8 @@
           "xgoals_faced": 0.0,
           "goals_prevented": 0.0,
           "components": {
-            "shot_stopping": 0.031,
-            "handling": 0.0,
+            "shot_stopping": 0.03,
+            "handling": 0.001,
             "claiming": 0.016,
             "sweeping": -0.001,
             "passing": 0.042,
@@ -244,7 +244,7 @@
           "date": "2025-07-06",
           "matchday": 22,
           "minutes": 106.0,
-          "total_ga": 0.2,
+          "total_ga": 0.199,
           "total_ga_p96": 0.18,
           "rolling_total_ga_p96": -0.03,
           "goals_conceded": 1,
@@ -253,8 +253,8 @@
           "xgoals_faced": 1.2,
           "goals_prevented": 0.2,
           "components": {
-            "shot_stopping": 0.233,
-            "handling": -0.011,
+            "shot_stopping": 0.232,
+            "handling": -0.01,
             "claiming": 0.007,
             "sweeping": 0.002,
             "passing": -0.038,
@@ -319,7 +319,7 @@
           "date": "2025-09-28",
           "matchday": 34,
           "matches_in_window": 5,
-          "rate_p96": -0.21
+          "rate_p96": -0.22
         }
       ],
       "ranking_history": [
@@ -354,13 +354,15 @@
     "team": "Columbus Crew",
     "team_abbreviation": "CLB",
     "nationality": "USA",
+    "birth_date": "1986-03-06",
+    "age": 40,
     "talent_p96": 0.02,
     "talent_low": -0.14,
     "talent_high": 0.17,
     "talent_sd": 0.093,
-    "keeperiq": 18.9,
+    "keeperiq": 16.3,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 96.7,
+    "keeperiq_high": 98.0,
     "rank": 60,
     "weights": {
       "league_prior": 0.841,
