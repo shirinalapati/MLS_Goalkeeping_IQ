@@ -1,0 +1,556 @@
+{
+  "schema_version": "1",
+  "player_id": "kRQa2L2LMK",
+  "slug": "evan-louro",
+  "name": "Evan Louro",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "kRQa2L2LMK",
+      "slug": "evan-louro",
+      "name": "Evan Louro",
+      "season": 2025,
+      "team_id": "NWMWlBK5lz",
+      "team": "FC Cincinnati",
+      "team_abbreviation": "CIN",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1996-01-19",
+      "age": 29,
+      "minutes": 405.0,
+      "appearances": 4,
+      "sample_status": "provisional",
+      "sample_status_label": "Provisional",
+      "keeperiq": 70.9,
+      "adjusted_total_p96": 0.07,
+      "observed_total_p96": 0.46,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": 1.94,
+      "reliability": 0.063,
+      "interval_low": -0.03,
+      "interval_high": 0.17,
+      "interval_se": 0.061,
+      "observed_interval_low": 0.35,
+      "observed_interval_high": 0.61,
+      "keeperiq_low": 7.7,
+      "keeperiq_high": 100.0,
+      "rank": 14,
+      "rank_observed": 7,
+      "rank_goals_conceded": 12,
+      "rank_pool": 13,
+      "rank_goals_conceded_pool": 6,
+      "rank_disagreement": -7,
+      "goals_conceded": 4,
+      "goals_conceded_p96": 0.95,
+      "shots_faced": 21,
+      "shots_faced_p96": 4.98,
+      "saves": 16,
+      "save_pct": 76.2,
+      "xgoals_faced": 5.48,
+      "goals_prevented": 1.48,
+      "goals_prevented_p96": 0.35,
+      "previous_rank": 13,
+      "rank_change": -1,
+      "keeperiq_change": -2.2,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 0.381,
+          "adjusted_p96": 0.072,
+          "baseline_p96": 0.052,
+          "total": 1.609,
+          "raw_total": 1.483,
+          "percentile": 71.1,
+          "observed_percentile": 96.2,
+          "opportunities": 20,
+          "opportunities_p96": 4.74,
+          "reliability": 0.068
+        },
+        "handling": {
+          "observed_p96": -0.001,
+          "adjusted_p96": -0.004,
+          "baseline_p96": -0.005,
+          "total": -0.003,
+          "raw_total": -0.005,
+          "percentile": 46.6,
+          "observed_percentile": 49.9,
+          "opportunities": 16,
+          "opportunities_p96": 3.79,
+          "reliability": 0.052
+        },
+        "claiming": {
+          "observed_p96": 0.008,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.032,
+          "raw_total": 0.03,
+          "percentile": 51.4,
+          "observed_percentile": 84.6,
+          "opportunities": 4,
+          "opportunities_p96": 0.95,
+          "reliability": 0.023
+        },
+        "sweeping": {
+          "observed_p96": 0.064,
+          "adjusted_p96": -0.0,
+          "baseline_p96": -0.001,
+          "total": 0.272,
+          "raw_total": 0.266,
+          "percentile": 86.2,
+          "observed_percentile": 99.4,
+          "opportunities": 12,
+          "opportunities_p96": 2.84,
+          "reliability": 0.013
+        },
+        "passing": {
+          "observed_p96": 0.003,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.005,
+          "total": 0.011,
+          "raw_total": 0.264,
+          "percentile": 69.8,
+          "observed_percentile": 72.0,
+          "opportunities": 131,
+          "opportunities_p96": 31.05,
+          "reliability": 0.498
+        },
+        "fielding": {
+          "observed_p96": 0.004,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.017,
+          "raw_total": -0.005,
+          "percentile": 39.6,
+          "observed_percentile": 48.7,
+          "opportunities": 69,
+          "opportunities_p96": 16.36,
+          "reliability": 0.014
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 70.9,
+            "band": "strong",
+            "opportunities": null,
+            "text": "Above-average complete impact across the full goalkeeping workload."
+          }
+        ],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Provisional sample (405 minutes); the rating is still partly regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "2lqRpzr4Mr",
+          "date": "2025-09-13",
+          "matchday": 32,
+          "minutes": 101.0,
+          "total_ga": 0.745,
+          "total_ga_p96": 0.71,
+          "rolling_total_ga_p96": 0.71,
+          "goals_conceded": 1,
+          "shots_faced": 4,
+          "saves": 3,
+          "xgoals_faced": 1.66,
+          "goals_prevented": 0.66,
+          "components": {
+            "shot_stopping": 0.693,
+            "handling": 0.038,
+            "claiming": 0.004,
+            "sweeping": 0.012,
+            "passing": -0.007,
+            "fielding": 0.004
+          }
+        },
+        {
+          "game_id": "xW5pbZZKQg",
+          "date": "2025-09-21",
+          "matchday": 33,
+          "minutes": 100.0,
+          "total_ga": 0.344,
+          "total_ga_p96": 0.33,
+          "rolling_total_ga_p96": 0.52,
+          "goals_conceded": 2,
+          "shots_faced": 8,
+          "saves": 6,
+          "xgoals_faced": 2.29,
+          "goals_prevented": 0.29,
+          "components": {
+            "shot_stopping": 0.325,
+            "handling": 0.002,
+            "claiming": 0.001,
+            "sweeping": 0.031,
+            "passing": -0.021,
+            "fielding": 0.005
+          }
+        },
+        {
+          "game_id": "ljqEmPPkqx",
+          "date": "2025-09-28",
+          "matchday": 34,
+          "minutes": 102.0,
+          "total_ga": 0.467,
+          "total_ga_p96": 0.44,
+          "rolling_total_ga_p96": 0.49,
+          "goals_conceded": 1,
+          "shots_faced": 6,
+          "saves": 5,
+          "xgoals_faced": 1.33,
+          "goals_prevented": 0.33,
+          "components": {
+            "shot_stopping": 0.363,
+            "handling": -0.059,
+            "claiming": 0.001,
+            "sweeping": 0.139,
+            "passing": 0.018,
+            "fielding": 0.005
+          }
+        },
+        {
+          "game_id": "0Oq6bWg2q6",
+          "date": "2025-10-04",
+          "matchday": 35,
+          "minutes": 102.0,
+          "total_ga": 0.381,
+          "total_ga_p96": 0.36,
+          "rolling_total_ga_p96": 0.46,
+          "goals_conceded": 0,
+          "shots_faced": 3,
+          "saves": 2,
+          "xgoals_faced": 0.2,
+          "goals_prevented": 0.2,
+          "components": {
+            "shot_stopping": 0.228,
+            "handling": 0.015,
+            "claiming": 0.027,
+            "sweeping": 0.088,
+            "passing": 0.021,
+            "fielding": 0.002
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-09-13",
+          "matchday": 32,
+          "matches_in_window": 1,
+          "rate_p96": 0.71
+        },
+        {
+          "date": "2025-09-21",
+          "matchday": 33,
+          "matches_in_window": 2,
+          "rate_p96": 0.52
+        },
+        {
+          "date": "2025-09-28",
+          "matchday": 34,
+          "matches_in_window": 3,
+          "rate_p96": 0.49
+        },
+        {
+          "date": "2025-10-04",
+          "matchday": 35,
+          "matches_in_window": 4,
+          "rate_p96": 0.46
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 13,
+          "keeperiq": 73.1,
+          "adj_total_p96": 0.0719
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "NWMWlBK5lz",
+          "team_name": "FC Cincinnati",
+          "team_abbreviation": "CIN",
+          "appearances": 4,
+          "minutes": 405.0,
+          "first_match": "2025-09-13",
+          "last_match": "2025-10-04"
+        }
+      ]
+    },
+    "2026": {
+      "player_id": "kRQa2L2LMK",
+      "slug": "evan-louro",
+      "name": "Evan Louro",
+      "season": 2026,
+      "team_id": "NWMWlBK5lz",
+      "team": "FC Cincinnati",
+      "team_abbreviation": "CIN",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1996-01-19",
+      "age": 30,
+      "minutes": 212.0,
+      "appearances": 2,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 31.4,
+      "adjusted_total_p96": 0.01,
+      "observed_total_p96": -0.8,
+      "baseline_total_p96": 0.03,
+      "adjusted_total": -1.77,
+      "reliability": 0.028,
+      "interval_low": -0.13,
+      "interval_high": 0.15,
+      "interval_se": 0.084,
+      "observed_interval_low": -1.0,
+      "observed_interval_high": -0.58,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 96.7,
+      "rank": 35,
+      "rank_observed": 46,
+      "rank_goals_conceded": 45,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 6,
+      "goals_conceded_p96": 2.72,
+      "shots_faced": 13,
+      "shots_faced_p96": 5.89,
+      "saves": 7,
+      "save_pct": 53.8,
+      "xgoals_faced": 3.98,
+      "goals_prevented": -2.02,
+      "goals_prevented_p96": -0.92,
+      "previous_rank": 35,
+      "rank_change": 0,
+      "keeperiq_change": 3.5,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.886,
+          "adjusted_p96": 0.018,
+          "baseline_p96": 0.051,
+          "total": -1.956,
+          "raw_total": -2.022,
+          "percentile": 25.1,
+          "observed_percentile": 0.0,
+          "opportunities": 13,
+          "opportunities_p96": 5.89,
+          "reliability": 0.045
+        },
+        "handling": {
+          "observed_p96": 0.022,
+          "adjusted_p96": -0.018,
+          "baseline_p96": -0.019,
+          "total": 0.048,
+          "raw_total": 0.047,
+          "percentile": 51.6,
+          "observed_percentile": 100.0,
+          "opportunities": 7,
+          "opportunities_p96": 3.17,
+          "reliability": 0.024
+        },
+        "claiming": {
+          "observed_p96": 0.001,
+          "adjusted_p96": -0.003,
+          "baseline_p96": -0.003,
+          "total": 0.003,
+          "raw_total": 0.002,
+          "percentile": 36.0,
+          "observed_percentile": 39.7,
+          "opportunities": 1,
+          "opportunities_p96": 0.45,
+          "reliability": 0.006
+        },
+        "sweeping": {
+          "observed_p96": 0.022,
+          "adjusted_p96": 0.003,
+          "baseline_p96": 0.003,
+          "total": 0.048,
+          "raw_total": 0.045,
+          "percentile": 67.0,
+          "observed_percentile": 90.2,
+          "opportunities": 6,
+          "opportunities_p96": 2.72,
+          "reliability": 0.007
+        },
+        "passing": {
+          "observed_p96": 0.024,
+          "adjusted_p96": 0.002,
+          "baseline_p96": -0.01,
+          "total": 0.053,
+          "raw_total": 0.186,
+          "percentile": 83.5,
+          "observed_percentile": 100.0,
+          "opportunities": 91,
+          "opportunities_p96": 41.21,
+          "reliability": 0.408
+        },
+        "fielding": {
+          "observed_p96": 0.018,
+          "adjusted_p96": 0.005,
+          "baseline_p96": 0.005,
+          "total": 0.039,
+          "raw_total": 0.027,
+          "percentile": 82.4,
+          "observed_percentile": 96.4,
+          "opportunities": 69,
+          "opportunities_p96": 31.25,
+          "reliability": 0.014
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [
+          {
+            "component": "passing",
+            "label": "Passing",
+            "percentile": 83.5,
+            "band": "strong",
+            "opportunities": 91,
+            "text": "Strong passing contribution."
+          },
+          {
+            "component": "fielding",
+            "label": "Fielding",
+            "percentile": 82.4,
+            "band": "strong",
+            "opportunities": 69,
+            "text": "Strong fielding contribution."
+          }
+        ],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (212 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "ljqEdkjz5x",
+          "date": "2026-03-22",
+          "matchday": 5,
+          "minutes": 110.0,
+          "total_ga": -1.147,
+          "total_ga_p96": -1.0,
+          "rolling_total_ga_p96": -1.0,
+          "goals_conceded": 3,
+          "shots_faced": 7,
+          "saves": 4,
+          "xgoals_faced": 1.67,
+          "goals_prevented": -1.33,
+          "components": {
+            "shot_stopping": -1.297,
+            "handling": 0.05,
+            "claiming": 0.002,
+            "sweeping": 0.023,
+            "passing": 0.041,
+            "fielding": 0.034
+          }
+        },
+        {
+          "game_id": "KAqBrojJqb",
+          "date": "2026-04-04",
+          "matchday": 6,
+          "minutes": 102.0,
+          "total_ga": -0.619,
+          "total_ga_p96": -0.58,
+          "rolling_total_ga_p96": -0.8,
+          "goals_conceded": 3,
+          "shots_faced": 6,
+          "saves": 3,
+          "xgoals_faced": 2.31,
+          "goals_prevented": -0.69,
+          "components": {
+            "shot_stopping": -0.658,
+            "handling": -0.003,
+            "claiming": 0.001,
+            "sweeping": 0.025,
+            "passing": 0.012,
+            "fielding": 0.005
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-03-22",
+          "matchday": 5,
+          "matches_in_window": 1,
+          "rate_p96": -1.0
+        },
+        {
+          "date": "2026-04-04",
+          "matchday": 6,
+          "matches_in_window": 2,
+          "rate_p96": -0.8
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2026-07-23",
+          "rank": 35,
+          "keeperiq": 27.9,
+          "adj_total_p96": 0.0084
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "NWMWlBK5lz",
+          "team_name": "FC Cincinnati",
+          "team_abbreviation": "CIN",
+          "appearances": 2,
+          "minutes": 212.0,
+          "first_match": "2026-03-22",
+          "last_match": "2026-04-04"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025,
+    2026
+  ],
+  "talent": {
+    "player_id": "kRQa2L2LMK",
+    "slug": "evan-louro",
+    "name": "Evan Louro",
+    "team": "FC Cincinnati",
+    "team_abbreviation": "CIN",
+    "nationality": "USA",
+    "talent_p96": 0.05,
+    "talent_low": -0.1,
+    "talent_high": 0.21,
+    "talent_sd": 0.097,
+    "keeperiq": 43.0,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 28,
+    "weights": {
+      "league_prior": 0.913,
+      "prior_season": 0.061,
+      "live_season": 0.026
+    },
+    "prior_season_rate": 0.46,
+    "live_season_rate": -0.8,
+    "prior_season_minutes": 405.0,
+    "live_season_minutes": 212.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": true
+  }
+}

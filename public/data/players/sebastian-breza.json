@@ -1,0 +1,482 @@
+{
+  "schema_version": "1",
+  "player_id": "raMyAW6BMd",
+  "slug": "sebastian-breza",
+  "name": "Sebastian Breza",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "raMyAW6BMd",
+      "slug": "sebastian-breza",
+      "name": "Sebastian Breza",
+      "season": 2025,
+      "team_id": "APk5LGOMOW",
+      "team": "CF Montréal",
+      "team_abbreviation": "MTL",
+      "changed_teams": false,
+      "nationality": "Canada",
+      "birth_date": "1998-03-15",
+      "age": 27,
+      "minutes": 301.0,
+      "appearances": 3,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 26.6,
+      "adjusted_total_p96": 0.02,
+      "observed_total_p96": -0.45,
+      "baseline_total_p96": 0.05,
+      "adjusted_total": -1.42,
+      "reliability": 0.036,
+      "interval_low": -0.15,
+      "interval_high": 0.18,
+      "interval_se": 0.1,
+      "observed_interval_low": -1.53,
+      "observed_interval_high": 0.6,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 52,
+      "rank_observed": 63,
+      "rank_goals_conceded": 65,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 9,
+      "goals_conceded_p96": 2.87,
+      "shots_faced": 20,
+      "shots_faced_p96": 6.38,
+      "saves": 11,
+      "save_pct": 55.0,
+      "xgoals_faced": 7.33,
+      "goals_prevented": -1.67,
+      "goals_prevented_p96": -0.53,
+      "previous_rank": 50,
+      "rank_change": -2,
+      "keeperiq_change": -3.3,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.503,
+          "adjusted_p96": 0.026,
+          "baseline_p96": 0.054,
+          "total": -1.577,
+          "raw_total": -1.671,
+          "percentile": 22.2,
+          "observed_percentile": 1.3,
+          "opportunities": 20,
+          "opportunities_p96": 6.38,
+          "reliability": 0.068
+        },
+        "handling": {
+          "observed_p96": 0.02,
+          "adjusted_p96": -0.004,
+          "baseline_p96": -0.005,
+          "total": 0.063,
+          "raw_total": 0.062,
+          "percentile": 49.7,
+          "observed_percentile": 97.1,
+          "opportunities": 11,
+          "opportunities_p96": 3.51,
+          "reliability": 0.036
+        },
+        "claiming": {
+          "observed_p96": 0.009,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.029,
+          "raw_total": 0.027,
+          "percentile": 61.1,
+          "observed_percentile": 95.2,
+          "opportunities": 9,
+          "opportunities_p96": 2.87,
+          "reliability": 0.05
+        },
+        "sweeping": {
+          "observed_p96": 0.018,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": 0.058,
+          "raw_total": 0.054,
+          "percentile": 51.1,
+          "observed_percentile": 92.5,
+          "opportunities": 6,
+          "opportunities_p96": 1.91,
+          "reliability": 0.007
+        },
+        "passing": {
+          "observed_p96": -0.008,
+          "adjusted_p96": -0.006,
+          "baseline_p96": -0.005,
+          "total": -0.025,
+          "raw_total": 0.163,
+          "percentile": 45.1,
+          "observed_percentile": 42.9,
+          "opportunities": 91,
+          "opportunities_p96": 29.02,
+          "reliability": 0.408
+        },
+        "fielding": {
+          "observed_p96": 0.009,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.028,
+          "raw_total": 0.012,
+          "percentile": 52.6,
+          "observed_percentile": 83.5,
+          "opportunities": 62,
+          "opportunities_p96": 19.77,
+          "reliability": 0.012
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 26.6,
+            "band": "weak",
+            "opportunities": null,
+            "text": "Complete impact sits below the MLS median."
+          },
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (301 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "vzqoKZOJqa",
+          "date": "2025-04-26",
+          "matchday": 10,
+          "minutes": 97.0,
+          "total_ga": 0.29,
+          "total_ga_p96": 0.29,
+          "rolling_total_ga_p96": 0.29,
+          "goals_conceded": 1,
+          "shots_faced": 6,
+          "saves": 5,
+          "xgoals_faced": 1.24,
+          "goals_prevented": 0.24,
+          "components": {
+            "shot_stopping": 0.272,
+            "handling": -0.02,
+            "claiming": 0.027,
+            "sweeping": 0.009,
+            "passing": -0.006,
+            "fielding": 0.008
+          }
+        },
+        {
+          "game_id": "2lqRpzlaMr",
+          "date": "2025-05-17",
+          "matchday": 14,
+          "minutes": 100.0,
+          "total_ga": -2.514,
+          "total_ga_p96": -2.41,
+          "rolling_total_ga_p96": -1.08,
+          "goals_conceded": 6,
+          "shots_faced": 8,
+          "saves": 2,
+          "xgoals_faced": 3.41,
+          "goals_prevented": -2.59,
+          "components": {
+            "shot_stopping": -2.559,
+            "handling": 0.03,
+            "claiming": 0.001,
+            "sweeping": 0.001,
+            "passing": 0.007,
+            "fielding": 0.005
+          }
+        },
+        {
+          "game_id": "2lqRpznLMr",
+          "date": "2025-07-16",
+          "matchday": 24,
+          "minutes": 104.0,
+          "total_ga": 0.8,
+          "total_ga_p96": 0.74,
+          "rolling_total_ga_p96": -0.45,
+          "goals_conceded": 2,
+          "shots_faced": 6,
+          "saves": 4,
+          "xgoals_faced": 2.68,
+          "goals_prevented": 0.68,
+          "components": {
+            "shot_stopping": 0.71,
+            "handling": 0.053,
+            "claiming": 0.002,
+            "sweeping": 0.047,
+            "passing": -0.027,
+            "fielding": 0.015
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-04-26",
+          "matchday": 10,
+          "matches_in_window": 1,
+          "rate_p96": 0.29
+        },
+        {
+          "date": "2025-05-17",
+          "matchday": 14,
+          "matches_in_window": 2,
+          "rate_p96": -1.08
+        },
+        {
+          "date": "2025-07-16",
+          "matchday": 24,
+          "matches_in_window": 3,
+          "rate_p96": -0.45
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 50,
+          "keeperiq": 29.9,
+          "adj_total_p96": 0.0192
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "APk5LGOMOW",
+          "team_name": "CF Montréal",
+          "team_abbreviation": "MTL",
+          "appearances": 3,
+          "minutes": 301.0,
+          "first_match": "2025-04-26",
+          "last_match": "2025-07-16"
+        }
+      ]
+    },
+    "2026": {
+      "player_id": "raMyAW6BMd",
+      "slug": "sebastian-breza",
+      "name": "Sebastian Breza",
+      "season": 2026,
+      "team_id": "APk5LGOMOW",
+      "team": "CF Montréal",
+      "team_abbreviation": "MTL",
+      "changed_teams": false,
+      "nationality": "Canada",
+      "birth_date": "1998-03-15",
+      "age": 28,
+      "minutes": 99.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 60.1,
+      "adjusted_total_p96": 0.02,
+      "observed_total_p96": 0.03,
+      "baseline_total_p96": 0.02,
+      "adjusted_total": 0.03,
+      "reliability": 0.072,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 17,
+      "rank_observed": 17,
+      "rank_goals_conceded": 10,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 1,
+      "goals_conceded_p96": 0.97,
+      "shots_faced": 1,
+      "shots_faced_p96": 0.97,
+      "saves": 0,
+      "save_pct": 0.0,
+      "xgoals_faced": 0.99,
+      "goals_prevented": -0.01,
+      "goals_prevented_p96": -0.01,
+      "previous_rank": 15,
+      "rank_change": -2,
+      "keeperiq_change": -7.0,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 0.018,
+          "adjusted_p96": 0.048,
+          "baseline_p96": 0.048,
+          "total": 0.018,
+          "raw_total": -0.013,
+          "percentile": 50.4,
+          "observed_percentile": 47.1,
+          "opportunities": 1,
+          "opportunities_p96": 0.97,
+          "reliability": 0.004
+        },
+        "handling": {
+          "observed_p96": 0.0,
+          "adjusted_p96": -0.018,
+          "baseline_p96": -0.018,
+          "total": 0.0,
+          "raw_total": 0.0,
+          "percentile": 44.6,
+          "observed_percentile": 80.9,
+          "opportunities": 0,
+          "opportunities_p96": 0.0,
+          "reliability": 0.0
+        },
+        "claiming": {
+          "observed_p96": 0.002,
+          "adjusted_p96": -0.003,
+          "baseline_p96": -0.003,
+          "total": 0.002,
+          "raw_total": 0.001,
+          "percentile": 32.4,
+          "observed_percentile": 49.8,
+          "opportunities": 2,
+          "opportunities_p96": 1.94,
+          "reliability": 0.012
+        },
+        "sweeping": {
+          "observed_p96": 0.011,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.012,
+          "raw_total": 0.01,
+          "percentile": 50.2,
+          "observed_percentile": 68.7,
+          "opportunities": 1,
+          "opportunities_p96": 0.97,
+          "reliability": 0.001
+        },
+        "passing": {
+          "observed_p96": -0.007,
+          "adjusted_p96": -0.009,
+          "baseline_p96": -0.009,
+          "total": -0.007,
+          "raw_total": 0.055,
+          "percentile": 50.5,
+          "observed_percentile": 53.7,
+          "opportunities": 33,
+          "opportunities_p96": 32.0,
+          "reliability": 0.2
+        },
+        "fielding": {
+          "observed_p96": 0.008,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.008,
+          "raw_total": 0.003,
+          "percentile": 50.4,
+          "observed_percentile": 64.1,
+          "opportunities": 20,
+          "opportunities_p96": 19.39,
+          "reliability": 0.004
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (99 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "2lqROejJQr",
+          "date": "2026-07-23",
+          "matchday": 17,
+          "minutes": 99.0,
+          "total_ga": 0.033,
+          "total_ga_p96": 0.03,
+          "rolling_total_ga_p96": 0.03,
+          "goals_conceded": 1,
+          "shots_faced": 1,
+          "saves": 0,
+          "xgoals_faced": 0.99,
+          "goals_prevented": -0.01,
+          "components": {
+            "shot_stopping": 0.018,
+            "handling": 0.0,
+            "claiming": 0.002,
+            "sweeping": 0.012,
+            "passing": -0.007,
+            "fielding": 0.008
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-07-23",
+          "matchday": 17,
+          "matches_in_window": 1,
+          "rate_p96": 0.03
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2026-07-23",
+          "rank": 15,
+          "keeperiq": 67.1,
+          "adj_total_p96": 0.0249
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "APk5LGOMOW",
+          "team_name": "CF Montréal",
+          "team_abbreviation": "MTL",
+          "appearances": 1,
+          "minutes": 99.0,
+          "first_match": "2026-07-23",
+          "last_match": "2026-07-23"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025,
+    2026
+  ],
+  "talent": {
+    "player_id": "raMyAW6BMd",
+    "slug": "sebastian-breza",
+    "name": "Sebastian Breza",
+    "team": "CF Montréal",
+    "team_abbreviation": "MTL",
+    "nationality": "Canada",
+    "talent_p96": 0.03,
+    "talent_low": -0.12,
+    "talent_high": 0.19,
+    "talent_sd": 0.096,
+    "keeperiq": 27.2,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 98.0,
+    "rank": 48,
+    "weights": {
+      "league_prior": 0.897,
+      "prior_season": 0.033,
+      "live_season": 0.07
+    },
+    "prior_season_rate": -0.45,
+    "live_season_rate": 0.03,
+    "prior_season_minutes": 301.0,
+    "live_season_minutes": 99.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": true
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "schema_version": "1",
+  "player_id": "gOMnRnO8Mw",
+  "slug": "thomas-hasal",
+  "name": "Thomas Hasal",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "gOMnRnO8Mw",
+      "slug": "thomas-hasal",
+      "name": "Thomas Hasal",
+      "season": 2025,
+      "team_id": "eVq3ya6MWO",
+      "team": "Los Angeles FC",
+      "team_abbreviation": "LAFC",
+      "changed_teams": false,
+      "nationality": "Canada",
+      "birth_date": "1999-07-09",
+      "age": 26,
+      "minutes": 156.0,
+      "appearances": 2,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 19.0,
+      "adjusted_total_p96": 0.01,
+      "observed_total_p96": -1.46,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": -2.37,
+      "reliability": 0.02,
+      "interval_low": -0.16,
+      "interval_high": 0.17,
+      "interval_se": 0.1,
+      "observed_interval_low": -2.34,
+      "observed_interval_high": 0.11,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 57,
+      "rank_observed": 67,
+      "rank_goals_conceded": 66,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 5,
+      "goals_conceded_p96": 3.08,
+      "shots_faced": 12,
+      "shots_faced_p96": 7.38,
+      "saves": 5,
+      "save_pct": 41.7,
+      "xgoals_faced": 2.66,
+      "goals_prevented": -2.34,
+      "goals_prevented_p96": -1.44,
+      "previous_rank": 58,
+      "rank_change": 1,
+      "keeperiq_change": 2.2,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -1.408,
+          "adjusted_p96": 0.015,
+          "baseline_p96": 0.052,
+          "total": -2.287,
+          "raw_total": -2.336,
+          "percentile": 17.4,
+          "observed_percentile": 0.0,
+          "opportunities": 10,
+          "opportunities_p96": 6.15,
+          "reliability": 0.035
+        },
+        "handling": {
+          "observed_p96": 0.001,
+          "adjusted_p96": -0.004,
+          "baseline_p96": -0.005,
+          "total": 0.002,
+          "raw_total": 0.001,
+          "percentile": 46.8,
+          "observed_percentile": 56.0,
+          "opportunities": 5,
+          "opportunities_p96": 3.08,
+          "reliability": 0.017
+        },
+        "claiming": {
+          "observed_p96": 0.009,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.015,
+          "raw_total": 0.014,
+          "percentile": 51.2,
+          "observed_percentile": 95.2,
+          "opportunities": 3,
+          "opportunities_p96": 1.85,
+          "reliability": 0.017
+        },
+        "sweeping": {
+          "observed_p96": -0.06,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": -0.098,
+          "raw_total": -0.1,
+          "percentile": 25.0,
+          "observed_percentile": 0.0,
+          "opportunities": 5,
+          "opportunities_p96": 3.08,
+          "reliability": 0.006
+        },
+        "passing": {
+          "observed_p96": -0.009,
+          "adjusted_p96": -0.006,
+          "baseline_p96": -0.005,
+          "total": -0.015,
+          "raw_total": 0.082,
+          "percentile": 45.1,
+          "observed_percentile": 42.9,
+          "opportunities": 48,
+          "opportunities_p96": 29.54,
+          "reliability": 0.267
+        },
+        "fielding": {
+          "observed_p96": 0.008,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.013,
+          "raw_total": 0.004,
+          "percentile": 39.8,
+          "observed_percentile": 70.6,
+          "opportunities": 24,
+          "opportunities_p96": 14.77,
+          "reliability": 0.005
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 19.0,
+            "band": "weak",
+            "opportunities": null,
+            "text": "Complete impact sits below the MLS median."
+          },
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (156 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "7VqGbzJe5v",
+          "date": "2025-03-08",
+          "matchday": 3,
+          "minutes": 100.0,
+          "total_ga": -2.438,
+          "total_ga_p96": -2.34,
+          "rolling_total_ga_p96": -2.34,
+          "goals_conceded": 5,
+          "shots_faced": 11,
+          "saves": 4,
+          "xgoals_faced": 2.61,
+          "goals_prevented": -2.39,
+          "components": {
+            "shot_stopping": -2.36,
+            "handling": 0.01,
+            "claiming": 0.004,
+            "sweeping": -0.099,
+            "passing": 0.004,
+            "fielding": 0.003
+          }
+        },
+        {
+          "game_id": "vzqoKZZpqa",
+          "date": "2025-09-28",
+          "matchday": 34,
+          "minutes": 56.0,
+          "total_ga": 0.066,
+          "total_ga_p96": 0.11,
+          "rolling_total_ga_p96": -1.46,
+          "goals_conceded": 0,
+          "shots_faced": 1,
+          "saves": 1,
+          "xgoals_faced": 0.05,
+          "goals_prevented": 0.05,
+          "components": {
+            "shot_stopping": 0.072,
+            "handling": -0.008,
+            "claiming": 0.011,
+            "sweeping": 0.001,
+            "passing": -0.019,
+            "fielding": 0.009
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-03-08",
+          "matchday": 3,
+          "matches_in_window": 1,
+          "rate_p96": -2.34
+        },
+        {
+          "date": "2025-09-28",
+          "matchday": 34,
+          "matches_in_window": 2,
+          "rate_p96": -1.46
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 58,
+          "keeperiq": 16.8,
+          "adj_total_p96": 0.0051
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "eVq3ya6MWO",
+          "team_name": "Los Angeles FC",
+          "team_abbreviation": "LAFC",
+          "appearances": 2,
+          "minutes": 156.0,
+          "first_match": "2025-03-08",
+          "last_match": "2025-09-28"
+        }
+      ]
+    },
+    "2026": {
+      "player_id": "gOMnRnO8Mw",
+      "slug": "thomas-hasal",
+      "name": "Thomas Hasal",
+      "season": 2026,
+      "team_id": "eVq3ya6MWO",
+      "team": "Los Angeles FC",
+      "team_abbreviation": "LAFC",
+      "changed_teams": false,
+      "nationality": "Canada",
+      "birth_date": "1999-07-09",
+      "age": 27,
+      "minutes": 227.0,
+      "appearances": 3,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 24.7,
+      "adjusted_total_p96": -0.01,
+      "observed_total_p96": -0.65,
+      "baseline_total_p96": 0.03,
+      "adjusted_total": -1.53,
+      "reliability": 0.051,
+      "interval_low": -0.17,
+      "interval_high": 0.16,
+      "interval_se": 0.099,
+      "observed_interval_low": -1.38,
+      "observed_interval_high": 0.11,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 39,
+      "rank_observed": 45,
+      "rank_goals_conceded": 15,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 3,
+      "goals_conceded_p96": 1.27,
+      "shots_faced": 8,
+      "shots_faced_p96": 3.38,
+      "saves": 5,
+      "save_pct": 62.5,
+      "xgoals_faced": 1.87,
+      "goals_prevented": -1.13,
+      "goals_prevented_p96": -0.48,
+      "previous_rank": 39,
+      "rank_change": 0,
+      "keeperiq_change": 0.0,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.45,
+          "adjusted_p96": 0.031,
+          "baseline_p96": 0.049,
+          "total": -1.063,
+          "raw_total": -1.135,
+          "percentile": 35.3,
+          "observed_percentile": 2.0,
+          "opportunities": 8,
+          "opportunities_p96": 3.38,
+          "reliability": 0.028
+        },
+        "handling": {
+          "observed_p96": -0.18,
+          "adjusted_p96": -0.022,
+          "baseline_p96": -0.018,
+          "total": -0.426,
+          "raw_total": -0.426,
+          "percentile": 13.7,
+          "observed_percentile": 0.0,
+          "opportunities": 5,
+          "opportunities_p96": 2.11,
+          "reliability": 0.017
+        },
+        "claiming": {
+          "observed_p96": 0.001,
+          "adjusted_p96": -0.003,
+          "baseline_p96": -0.003,
+          "total": 0.003,
+          "raw_total": 0.002,
+          "percentile": 36.0,
+          "observed_percentile": 46.7,
+          "opportunities": 2,
+          "opportunities_p96": 0.85,
+          "reliability": 0.012
+        },
+        "sweeping": {
+          "observed_p96": 0.009,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.022,
+          "raw_total": 0.019,
+          "percentile": 50.2,
+          "observed_percentile": 65.2,
+          "opportunities": 3,
+          "opportunities_p96": 1.27,
+          "reliability": 0.003
+        },
+        "passing": {
+          "observed_p96": -0.035,
+          "adjusted_p96": -0.017,
+          "baseline_p96": -0.007,
+          "total": -0.082,
+          "raw_total": 0.06,
+          "percentile": 25.4,
+          "observed_percentile": 0.0,
+          "opportunities": 33,
+          "opportunities_p96": 13.96,
+          "reliability": 0.2
+        },
+        "fielding": {
+          "observed_p96": 0.005,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.012,
+          "raw_total": 0.0,
+          "percentile": 8.4,
+          "observed_percentile": 43.9,
+          "opportunities": 14,
+          "opportunities_p96": 5.92,
+          "reliability": 0.003
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 24.7,
+            "band": "weak",
+            "opportunities": null,
+            "text": "Complete impact sits below the MLS median."
+          },
+          {
+            "component": "passing",
+            "label": "Passing",
+            "percentile": 25.4,
+            "band": "weak",
+            "opportunities": 33,
+            "text": "Passing contribution below the MLS median."
+          },
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (227 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "wvq9kwpZMW",
+          "date": "2026-04-11",
+          "matchday": 7,
+          "minutes": 30.0,
+          "total_ga": 0.024,
+          "total_ga_p96": 0.08,
+          "rolling_total_ga_p96": 0.08,
+          "goals_conceded": 0,
+          "shots_faced": 0,
+          "saves": 0,
+          "xgoals_faced": 0.0,
+          "goals_prevented": 0.0,
+          "components": {
+            "shot_stopping": 0.009,
+            "handling": 0.0,
+            "claiming": 0.002,
+            "sweeping": 0.017,
+            "passing": -0.006,
+            "fielding": 0.002
+          }
+        },
+        {
+          "game_id": "Vj589JwLq8",
+          "date": "2026-05-18",
+          "matchday": 14,
+          "minutes": 101.0,
+          "total_ga": -1.676,
+          "total_ga_p96": -1.59,
+          "rolling_total_ga_p96": -1.21,
+          "goals_conceded": 3,
+          "shots_faced": 4,
+          "saves": 1,
+          "xgoals_faced": 1.32,
+          "goals_prevented": -1.68,
+          "components": {
+            "shot_stopping": -1.645,
+            "handling": -0.009,
+            "claiming": 0.001,
+            "sweeping": 0.004,
+            "passing": -0.032,
+            "fielding": 0.005
+          }
+        },
+        {
+          "game_id": "p6qbYzRw50",
+          "date": "2026-05-25",
+          "matchday": 15,
+          "minutes": 96.0,
+          "total_ga": 0.119,
+          "total_ga_p96": 0.12,
+          "rolling_total_ga_p96": -0.65,
+          "goals_conceded": 0,
+          "shots_faced": 4,
+          "saves": 4,
+          "xgoals_faced": 0.54,
+          "goals_prevented": 0.54,
+          "components": {
+            "shot_stopping": 0.572,
+            "handling": -0.417,
+            "claiming": 0.001,
+            "sweeping": 0.001,
+            "passing": -0.044,
+            "fielding": 0.005
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-04-11",
+          "matchday": 7,
+          "matches_in_window": 1,
+          "rate_p96": 0.08
+        },
+        {
+          "date": "2026-05-18",
+          "matchday": 14,
+          "matches_in_window": 2,
+          "rate_p96": -1.21
+        },
+        {
+          "date": "2026-05-25",
+          "matchday": 15,
+          "matches_in_window": 3,
+          "rate_p96": -0.65
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2026-07-23",
+          "rank": 39,
+          "keeperiq": 24.7,
+          "adj_total_p96": -0.0063
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "eVq3ya6MWO",
+          "team_name": "Los Angeles FC",
+          "team_abbreviation": "LAFC",
+          "appearances": 3,
+          "minutes": 227.0,
+          "first_match": "2026-04-11",
+          "last_match": "2026-05-25"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025,
+    2026
+  ],
+  "talent": {
+    "player_id": "gOMnRnO8Mw",
+    "slug": "thomas-hasal",
+    "name": "Thomas Hasal",
+    "team": "Los Angeles FC",
+    "team_abbreviation": "LAFC",
+    "nationality": "Canada",
+    "talent_p96": -0.01,
+    "talent_low": -0.17,
+    "talent_high": 0.15,
+    "talent_sd": 0.098,
+    "keeperiq": 11.0,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 96.7,
+    "rank": 66,
+    "weights": {
+      "league_prior": 0.932,
+      "prior_season": 0.019,
+      "live_season": 0.05
+    },
+    "prior_season_rate": -1.46,
+    "live_season_rate": -0.65,
+    "prior_season_minutes": 156.0,
+    "live_season_minutes": 227.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": true
+  }
+}

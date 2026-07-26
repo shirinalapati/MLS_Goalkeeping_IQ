@@ -1,0 +1,223 @@
+# MLS KeeperIQ — analytical configuration
+# Single source of truth for every tunable analytical constant.
+# Values marked `fallback` are only used when empirical estimation fails; the
+# generated metadata always records which path was taken.
+
+model:
+  name: "MLS KeeperIQ"
+  methodology_version: "1.0.0"
+  question: >
+    Which MLS goalkeepers provide the greatest complete on-field value once
+    shot-stopping, handling, claiming, sweeping, passing, and fielding are all
+    valued in a common goal-equivalent unit and adjusted for sample reliability?
+
+source:
+  provider: "American Soccer Analysis"
+  base_url: "https://app.americansocceranalysis.com/api/v1"
+  league: "mls"
+  attribution_url: "https://www.americansocceranalysis.com/"
+  request_timeout_seconds: 300
+  max_retries: 4
+  retry_backoff_seconds: 3.0
+  cache_ttl_hours: 6
+
+seasons:
+  # Seasons pulled for empirical reliability / drift estimation.
+  history: [2021, 2022, 2023, 2024, 2025]
+  # The completed reference season shown in the "2025 Final" view.
+  final: 2025
+  # The in-progress season shown in the "2026 Live" view.
+  live: 2026
+
+rates:
+  # American Soccer Analysis publishes Goals Added on a per-96-minute basis
+  # because 96 minutes is close to the mean length of an MLS match including
+  # stoppage time. We keep that convention so KeeperIQ rates are directly
+  # comparable to published g+ figures.
+  minutes_basis: 96
+  # `goals_added_above_avg` is measured against a positional baseline, so a
+  # value of 0 means "an average MLS goalkeeper". `goals_added_raw` is not
+  # baselined and is retained for transparency only.
+  primary_value_field: "goals_added_above_avg"
+
+components:
+  # canonical key -> source action_type and the opportunity denominator used
+  # for the reliability weight.
+  - key: shot_stopping
+    label: "Shot Stopping"
+    source_action_type: "Shotstopping"
+    opportunity: "count_actions"
+    opportunity_label: "Shots faced on target"
+    description: >
+      Value added by preventing (or conceding) goals relative to the difficulty
+      of the shots faced, measured against an average goalkeeper.
+  - key: handling
+    label: "Handling"
+    source_action_type: "Handling"
+    opportunity: "count_actions"
+    opportunity_label: "Handling actions"
+    description: >
+      Value added by the quality of parries, catches, and rebound control after
+      a shot is stopped.
+  - key: claiming
+    label: "Claiming"
+    source_action_type: "Claiming"
+    opportunity: "count_actions"
+    opportunity_label: "Claim attempts"
+    description: >
+      Value added by claiming or punching crosses and set pieces inside the
+      penalty area, including the cost of failed claims.
+  - key: sweeping
+    label: "Sweeping"
+    source_action_type: "Sweeping"
+    opportunity: "count_actions"
+    opportunity_label: "Sweeping actions"
+    description: >
+      Value added by defensive actions taken outside the penalty area to break
+      up play behind the defensive line.
+  - key: passing
+    label: "Passing"
+    source_action_type: "Passing"
+    opportunity: "count_actions"
+    opportunity_label: "Passes attempted"
+    description: >
+      Value added by distribution relative to the expected outcome of the same
+      pass attempted by an average goalkeeper.
+  - key: fielding
+    label: "Fielding"
+    source_action_type: "Fielding"
+    opportunity: "count_actions"
+    opportunity_label: "Fielding actions"
+    description: >
+      Value added by controlling and securing loose balls, back-passes, and
+      other non-shot receptions.
+
+reliability:
+  # adjusted = league_mean + n / (n + k) * (observed - league_mean)
+  # `k` is estimated per component with a variance-components method on
+  # match-level data pooled over `seasons.history`. See methodology.
+  estimation:
+    method: "variance_components_match_level"
+    min_matches_per_player: 3
+    min_players: 20
+    # Guard rails: an estimate outside this range is rejected as implausible
+    # and the fallback below is used instead.
+    min_k: 5.0
+    max_k: 20000.0
+    # Empirical k is also rejected when within-season repeatability is essentially
+    # absent. A tiny positive tau^2 can otherwise invent a finite k for components
+    # dominated by rare high-magnitude events (fielding is the usual case).
+    min_split_half_correlation: 0.05
+  # Conservative fallbacks. These are deliberately large (heavy regression) so
+  # that a failed estimation never flatters a small sample. They are only used
+  # when the guard rails above reject the empirical estimate, and the output
+  # metadata records `source: "fallback"` for that component.
+  fallback_k:
+    shot_stopping: 250.0
+    handling: 250.0
+    claiming: 150.0
+    # Sweeping/fielding show ~0 within-season repeatability; use heavy shrinkage
+    # so the median weight is clearly a config choice, not implied reliability.
+    sweeping: 900.0
+    passing: 1500.0
+    fielding: 5000.0
+
+volume_reliability:
+  # A goalkeeper's *workload* (claim attempts per 96, shots faced per 96, ...) is
+  # also an estimate, and over 60 minutes it is a very poor one. Because
+  # opportunity counts do scale with minutes played, the natural denominator here
+  # is minutes rather than opportunities:
+  #
+  #   adjusted_rate = league_rate + minutes / (minutes + k) * (observed - league_rate)
+  #
+  # Without this, a goalkeeper with 20 minutes keeps a wildly extrapolated
+  # workload and lands nowhere near the league average even after his
+  # per-opportunity quality has been fully regressed.
+  enabled: true
+  estimation:
+    method: "variance_components_match_level_minutes"
+    min_matches_per_player: 3
+    min_players: 20
+    min_k: 10.0
+    max_k: 50000.0
+  fallback_k_minutes:
+    shot_stopping: 900.0
+    handling: 900.0
+    claiming: 900.0
+    sweeping: 900.0
+    passing: 600.0
+    fielding: 600.0
+
+talent:
+  # Normal-normal combination of a league prior, 2025 evidence, and live-season
+  # evidence. Precision of season evidence is n / sigma^2; the prior season is
+  # additionally penalised by an estimated year-over-year drift variance.
+  drift:
+    method: "consecutive_season_variance"
+    # If the moment estimate of drift variance is non-positive it is clamped to
+    # this share of the between-goalkeeper variance (tau^2).
+    min_drift_share_of_tau2: 0.15
+    fallback_drift_share_of_tau2: 0.50
+
+qualification:
+  final_season:
+    # A completed MLS regular season is 34 matches; 900 minutes is roughly a
+    # quarter of a full season of goalkeeping.
+    qualified_minutes: 900
+    provisional_minutes: 360
+  live_season:
+    # Scaled to how much of the season has actually been played so that a
+    # goalkeeper can qualify in May rather than only in October.
+    # threshold = share * max_goalkeeper_minutes_in_league
+    qualified_share_of_max_minutes: 0.50
+    provisional_share_of_max_minutes: 0.20
+    # Absolute floors so that very early-season noise cannot qualify anyone.
+    qualified_minutes_floor: 270
+    provisional_minutes_floor: 90
+  # Percentiles are computed against goalkeepers at or above provisional
+  # status; limited-sample goalkeepers are scored against that same reference
+  # distribution rather than being allowed to distort it.
+  reference_pool: ["qualified", "provisional"]
+
+uncertainty:
+  bootstrap:
+    enabled: true
+    resamples: 2000
+    seed: 20260101
+    interval: 0.90
+    min_matches: 2
+
+clustering:
+  enabled: true
+  # Style variables are genuine involvement rates (actions per 96 minutes), so
+  # these are playing-style archetypes rather than pure impact profiles.
+  style_variables:
+    - claiming_actions_p96
+    - sweeping_actions_p96
+    - passing_actions_p96
+    - fielding_actions_p96
+    - handling_actions_p96
+    - shot_stopping_actions_p96
+  candidate_k: [3, 4, 5, 6]
+  min_minutes: 900
+  seed: 20260101
+  n_init: 25
+
+profile_thresholds:
+  # Deterministic strength / concern rules driven by component percentiles.
+  elite_percentile: 85.0
+  strong_percentile: 70.0
+  weak_percentile: 30.0
+  poor_percentile: 15.0
+  # A component is only mentioned if the goalkeeper has at least this many
+  # opportunities, so we never call a 4-claim sample "elite claiming".
+  min_opportunities_for_claim: 25
+
+output:
+  public_data_dir: "public/data"
+  processed_dir: "data/processed"
+  raw_dir: "data/raw"
+  snapshot_dir: "data/snapshots"
+  duckdb_path: "data/keeperiq.duckdb"
+  # Snapshots are retained so that ranking movement can be computed.
+  max_snapshots_per_season: 120

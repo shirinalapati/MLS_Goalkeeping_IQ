@@ -1,0 +1,446 @@
+{
+  "schema_version": "1",
+  "player_id": "4JMAaogDMK",
+  "slug": "jimmy-maurer",
+  "name": "Jimmy Maurer",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "4JMAaogDMK",
+      "slug": "jimmy-maurer",
+      "name": "Jimmy Maurer",
+      "season": 2025,
+      "team_id": "YgOMngl5wN",
+      "team": "Houston Dynamo FC",
+      "team_abbreviation": "HOU",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1988-10-14",
+      "age": 37,
+      "minutes": 136.0,
+      "appearances": 2,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 42.7,
+      "adjusted_total_p96": 0.04,
+      "observed_total_p96": -0.2,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": -0.29,
+      "reliability": 0.029,
+      "interval_low": -0.12,
+      "interval_high": 0.2,
+      "interval_se": 0.099,
+      "observed_interval_low": -0.92,
+      "observed_interval_high": 0.47,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 35,
+      "rank_observed": 55,
+      "rank_goals_conceded": 5,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 1,
+      "goals_conceded_p96": 0.71,
+      "shots_faced": 5,
+      "shots_faced_p96": 3.53,
+      "saves": 4,
+      "save_pct": 80.0,
+      "xgoals_faced": 0.67,
+      "goals_prevented": -0.33,
+      "goals_prevented_p96": -0.24,
+      "previous_rank": 33,
+      "rank_change": -2,
+      "keeperiq_change": -7.1,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.206,
+          "adjusted_p96": 0.045,
+          "baseline_p96": 0.05,
+          "total": -0.292,
+          "raw_total": -0.334,
+          "percentile": 44.4,
+          "observed_percentile": 5.8,
+          "opportunities": 5,
+          "opportunities_p96": 3.53,
+          "reliability": 0.018
+        },
+        "handling": {
+          "observed_p96": -0.042,
+          "adjusted_p96": -0.005,
+          "baseline_p96": -0.005,
+          "total": -0.06,
+          "raw_total": -0.061,
+          "percentile": 41.0,
+          "observed_percentile": 1.0,
+          "opportunities": 4,
+          "opportunities_p96": 2.82,
+          "reliability": 0.014
+        },
+        "claiming": {
+          "observed_p96": 0.003,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.004,
+          "raw_total": 0.004,
+          "percentile": 42.0,
+          "observed_percentile": 54.4,
+          "opportunities": 2,
+          "opportunities_p96": 1.41,
+          "reliability": 0.012
+        },
+        "sweeping": {
+          "observed_p96": 0.033,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": 0.047,
+          "raw_total": 0.045,
+          "percentile": 44.5,
+          "observed_percentile": 99.2,
+          "opportunities": 5,
+          "opportunities_p96": 3.53,
+          "reliability": 0.006
+        },
+        "passing": {
+          "observed_p96": 0.002,
+          "adjusted_p96": -0.003,
+          "baseline_p96": -0.005,
+          "total": 0.002,
+          "raw_total": 0.087,
+          "percentile": 54.8,
+          "observed_percentile": 69.2,
+          "opportunities": 42,
+          "opportunities_p96": 29.65,
+          "reliability": 0.242
+        },
+        "fielding": {
+          "observed_p96": 0.007,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.011,
+          "raw_total": 0.003,
+          "percentile": 56.7,
+          "observed_percentile": 70.6,
+          "opportunities": 36,
+          "opportunities_p96": 25.41,
+          "reliability": 0.007
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (136 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "9vQ2bJZ1QK",
+          "date": "2025-03-16",
+          "matchday": 4,
+          "minutes": 66.0,
+          "total_ga": -0.634,
+          "total_ga_p96": -0.92,
+          "rolling_total_ga_p96": -0.92,
+          "goals_conceded": 1,
+          "shots_faced": 3,
+          "saves": 2,
+          "xgoals_faced": 0.4,
+          "goals_prevented": -0.6,
+          "components": {
+            "shot_stopping": -0.583,
+            "handling": -0.059,
+            "claiming": -0.0,
+            "sweeping": 0.022,
+            "passing": -0.013,
+            "fielding": 0.0
+          }
+        },
+        {
+          "game_id": "KAqBbdNJqb",
+          "date": "2025-03-23",
+          "matchday": 5,
+          "minutes": 70.0,
+          "total_ga": 0.346,
+          "total_ga_p96": 0.47,
+          "rolling_total_ga_p96": -0.2,
+          "goals_conceded": 0,
+          "shots_faced": 2,
+          "saves": 2,
+          "xgoals_faced": 0.27,
+          "goals_prevented": 0.27,
+          "components": {
+            "shot_stopping": 0.291,
+            "handling": -0.001,
+            "claiming": 0.005,
+            "sweeping": 0.025,
+            "passing": 0.015,
+            "fielding": 0.01
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-03-16",
+          "matchday": 4,
+          "matches_in_window": 1,
+          "rate_p96": -0.92
+        },
+        {
+          "date": "2025-03-23",
+          "matchday": 5,
+          "matches_in_window": 2,
+          "rate_p96": -0.2
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 33,
+          "keeperiq": 49.8,
+          "adj_total_p96": 0.0395
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "YgOMngl5wN",
+          "team_name": "Houston Dynamo FC",
+          "team_abbreviation": "HOU",
+          "appearances": 2,
+          "minutes": 136.0,
+          "first_match": "2025-03-16",
+          "last_match": "2025-03-23"
+        }
+      ]
+    },
+    "2026": {
+      "player_id": "4JMAaogDMK",
+      "slug": "jimmy-maurer",
+      "name": "Jimmy Maurer",
+      "season": 2026,
+      "team_id": "YgOMngl5wN",
+      "team": "Houston Dynamo FC",
+      "team_abbreviation": "HOU",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1988-10-14",
+      "age": 37,
+      "minutes": 52.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 67.1,
+      "adjusted_total_p96": 0.04,
+      "observed_total_p96": 1.21,
+      "baseline_total_p96": 0.03,
+      "adjusted_total": 0.66,
+      "reliability": 0.007,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 13,
+      "rank_observed": 3,
+      "rank_goals_conceded": 1,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 0,
+      "goals_conceded_p96": 0.0,
+      "shots_faced": 3,
+      "shots_faced_p96": 5.54,
+      "saves": 3,
+      "save_pct": 100.0,
+      "xgoals_faced": 0.65,
+      "goals_prevented": 0.65,
+      "goals_prevented_p96": 1.2,
+      "previous_rank": 13,
+      "rank_change": 0,
+      "keeperiq_change": 0.0,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 1.233,
+          "adjusted_p96": 0.06,
+          "baseline_p96": 0.05,
+          "total": 0.668,
+          "raw_total": 0.651,
+          "percentile": 60.6,
+          "observed_percentile": 100.0,
+          "opportunities": 3,
+          "opportunities_p96": 5.54,
+          "reliability": 0.011
+        },
+        "handling": {
+          "observed_p96": 0.047,
+          "adjusted_p96": -0.018,
+          "baseline_p96": -0.019,
+          "total": 0.026,
+          "raw_total": 0.025,
+          "percentile": 43.1,
+          "observed_percentile": 100.0,
+          "opportunities": 3,
+          "opportunities_p96": 5.54,
+          "reliability": 0.01
+        },
+        "claiming": {
+          "observed_p96": 0.004,
+          "adjusted_p96": -0.003,
+          "baseline_p96": -0.003,
+          "total": 0.002,
+          "raw_total": 0.002,
+          "percentile": 32.4,
+          "observed_percentile": 64.7,
+          "opportunities": 1,
+          "opportunities_p96": 1.85,
+          "reliability": 0.006
+        },
+        "sweeping": {
+          "observed_p96": -0.084,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.003,
+          "total": -0.045,
+          "raw_total": -0.046,
+          "percentile": 50.2,
+          "observed_percentile": 0.0,
+          "opportunities": 1,
+          "opportunities_p96": 1.85,
+          "reliability": 0.001
+        },
+        "passing": {
+          "observed_p96": -0.003,
+          "adjusted_p96": -0.008,
+          "baseline_p96": -0.009,
+          "total": -0.002,
+          "raw_total": 0.031,
+          "percentile": 50.5,
+          "observed_percentile": 60.6,
+          "opportunities": 15,
+          "opportunities_p96": 27.69,
+          "reliability": 0.102
+        },
+        "fielding": {
+          "observed_p96": 0.013,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.007,
+          "raw_total": 0.004,
+          "percentile": 43.4,
+          "observed_percentile": 89.0,
+          "opportunities": 7,
+          "opportunities_p96": 12.92,
+          "reliability": 0.001
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (52 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "xW5pOJrlMg",
+          "date": "2026-04-18",
+          "matchday": 8,
+          "minutes": 52.0,
+          "total_ga": 0.656,
+          "total_ga_p96": 1.21,
+          "rolling_total_ga_p96": 1.21,
+          "goals_conceded": 0,
+          "shots_faced": 3,
+          "saves": 3,
+          "xgoals_faced": 0.65,
+          "goals_prevented": 0.65,
+          "components": {
+            "shot_stopping": 0.668,
+            "handling": 0.026,
+            "claiming": 0.002,
+            "sweeping": -0.045,
+            "passing": -0.002,
+            "fielding": 0.007
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-04-18",
+          "matchday": 8,
+          "matches_in_window": 1,
+          "rate_p96": 1.21
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2026-07-23",
+          "rank": 13,
+          "keeperiq": 67.1,
+          "adj_total_p96": 0.0363
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "YgOMngl5wN",
+          "team_name": "Houston Dynamo FC",
+          "team_abbreviation": "HOU",
+          "appearances": 1,
+          "minutes": 52.0,
+          "first_match": "2026-04-18",
+          "last_match": "2026-04-18"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025,
+    2026
+  ],
+  "talent": {
+    "player_id": "4JMAaogDMK",
+    "slug": "jimmy-maurer",
+    "name": "Jimmy Maurer",
+    "team": "Houston Dynamo FC",
+    "team_abbreviation": "HOU",
+    "nationality": "USA",
+    "talent_p96": 0.05,
+    "talent_low": -0.11,
+    "talent_high": 0.22,
+    "talent_sd": 0.099,
+    "keeperiq": 42.7,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 29,
+    "weights": {
+      "league_prior": 0.964,
+      "prior_season": 0.029,
+      "live_season": 0.007
+    },
+    "prior_season_rate": -0.2,
+    "live_season_rate": 1.21,
+    "prior_season_minutes": 136.0,
+    "live_season_minutes": 52.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": true
+  }
+}

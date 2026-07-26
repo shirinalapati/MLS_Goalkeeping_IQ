@@ -1,0 +1,332 @@
+{
+  "schema_version": "1",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "minutes_basis": 96,
+  "primary_value_field": "goals_added_above_avg",
+  "source": {
+    "provider": "American Soccer Analysis",
+    "attribution_url": "https://www.americansocceranalysis.com/",
+    "league": "mls",
+    "base_url": "https://app.americansocceranalysis.com/api/v1"
+  },
+  "components": [
+    {
+      "key": "shot_stopping",
+      "label": "Shot Stopping",
+      "source_action_type": "Shotstopping",
+      "opportunity_label": "Shots faced on target",
+      "description": "Value added by preventing (or conceding) goals relative to the difficulty of the shots faced, measured against an average goalkeeper.",
+      "component": "shot_stopping",
+      "k": 274.754513974475,
+      "source": "empirical",
+      "per_opportunity_variance": 0.13149031628510424,
+      "talent_variance": 0.00047857381625154974,
+      "league_mean_per_opportunity": -0.002574866808737347,
+      "n_players": 263,
+      "n_matches": 4938,
+      "median_opportunities": 122.0,
+      "reliability_at_median": 0.30749492621487556,
+      "split_half_correlation": 0.17482804453024017,
+      "spearman_brown_reliability": 0.2976232059563166,
+      "year_over_year_correlation": -0.004866771186855586,
+      "drift_variance": 0.0001690142517252976,
+      "drift_source": "empirical",
+      "note": "Estimated as s^2 / tau^2 from match-level per-opportunity variance and between-goalkeeper season variance over 2021-2025."
+    },
+    {
+      "key": "handling",
+      "label": "Handling",
+      "source_action_type": "Handling",
+      "opportunity_label": "Handling actions",
+      "description": "Value added by the quality of parries, catches, and rebound control after a shot is stopped.",
+      "component": "handling",
+      "k": 290.5583555157292,
+      "source": "empirical",
+      "per_opportunity_variance": 0.001101089854538822,
+      "talent_variance": 3.7895652753968566e-06,
+      "league_mean_per_opportunity": 0.0003901074568544447,
+      "n_players": 259,
+      "n_matches": 4676,
+      "median_opportunities": 83.0,
+      "reliability_at_median": 0.22218750771994222,
+      "split_half_correlation": 0.16765699007119148,
+      "spearman_brown_reliability": 0.2871682206278224,
+      "year_over_year_correlation": 0.23518544901554542,
+      "drift_variance": 5.684347913095284e-07,
+      "drift_source": "clamped_to_floor",
+      "note": "Estimated as s^2 / tau^2 from match-level per-opportunity variance and between-goalkeeper season variance over 2021-2025."
+    },
+    {
+      "key": "claiming",
+      "label": "Claiming",
+      "source_action_type": "Claiming",
+      "opportunity_label": "Claim attempts",
+      "description": "Value added by claiming or punching crosses and set pieces inside the penalty area, including the cost of failed claims.",
+      "component": "claiming",
+      "k": 169.47091605771763,
+      "source": "empirical",
+      "per_opportunity_variance": 0.0008547026857818365,
+      "talent_variance": 5.043359094670532e-06,
+      "league_mean_per_opportunity": 0.0009198780487804876,
+      "n_players": 235,
+      "n_matches": 3212,
+      "median_opportunities": 30.0,
+      "reliability_at_median": 0.15039786547788947,
+      "split_half_correlation": 0.27724901067625746,
+      "spearman_brown_reliability": 0.4341346258384871,
+      "year_over_year_correlation": -0.007302156136381343,
+      "drift_variance": 7.565038642005799e-07,
+      "drift_source": "clamped_to_floor",
+      "note": "Estimated as s^2 / tau^2 from match-level per-opportunity variance and between-goalkeeper season variance over 2021-2025."
+    },
+    {
+      "key": "sweeping",
+      "label": "Sweeping",
+      "source_action_type": "Sweeping",
+      "opportunity_label": "Sweeping actions",
+      "description": "Value added by defensive actions taken outside the penalty area to break up play behind the defensive line.",
+      "component": "sweeping",
+      "k": 900.0,
+      "source": "fallback",
+      "per_opportunity_variance": 0.0032198981747233466,
+      "talent_variance": -5.118125724420385e-06,
+      "league_mean_per_opportunity": -0.00023327584348388486,
+      "n_players": 252,
+      "n_matches": 4070,
+      "median_opportunities": 46.5,
+      "reliability_at_median": 0.0491283676703645,
+      "split_half_correlation": 0.0,
+      "spearman_brown_reliability": 0.0,
+      "year_over_year_correlation": 0.07831921827239945,
+      "drift_variance": 0.0,
+      "drift_source": "unavailable",
+      "note": "The estimated between-goalkeeper variance was not positive: at these sample sizes this component's spread is indistinguishable from sampling noise. The conservative constant from configuration is used, which regresses heavily. Any non-zero reliability-at-median figure for this component is therefore a configuration weight, not evidence of repeatable skill."
+    },
+    {
+      "key": "passing",
+      "label": "Passing",
+      "source_action_type": "Passing",
+      "opportunity_label": "Passes attempted",
+      "description": "Value added by distribution relative to the expected outcome of the same pass attempted by an average goalkeeper.",
+      "component": "passing",
+      "k": 131.88863174691835,
+      "source": "empirical",
+      "per_opportunity_variance": 2.5521951582627032e-05,
+      "talent_variance": 1.9351138338898848e-07,
+      "league_mean_per_opportunity": -0.00017120231544166055,
+      "n_players": 266,
+      "n_matches": 5063,
+      "median_opportunities": 878.5,
+      "reliability_at_median": 0.8694674231252102,
+      "split_half_correlation": 0.6608313840022529,
+      "spearman_brown_reliability": 0.7957838349728059,
+      "year_over_year_correlation": 0.6463835412178015,
+      "drift_variance": 1.2930327015745848e-07,
+      "drift_source": "empirical",
+      "note": "Estimated as s^2 / tau^2 from match-level per-opportunity variance and between-goalkeeper season variance over 2021-2025."
+    },
+    {
+      "key": "fielding",
+      "label": "Fielding",
+      "source_action_type": "Fielding",
+      "opportunity_label": "Fielding actions",
+      "description": "Value added by controlling and securing loose balls, back-passes, and other non-shot receptions.",
+      "component": "fielding",
+      "k": 5000.0,
+      "source": "fallback",
+      "per_opportunity_variance": 0.00010270718459591317,
+      "talent_variance": 1.2512955779210243e-07,
+      "league_mean_per_opportunity": 1.0133704913150305e-05,
+      "n_players": 265,
+      "n_matches": 5059,
+      "median_opportunities": 457.0,
+      "reliability_at_median": 0.08374564779182701,
+      "split_half_correlation": -0.034227395883551316,
+      "spearman_brown_reliability": -0.07088085898825998,
+      "year_over_year_correlation": 0.054398100971939485,
+      "drift_variance": 1.8769433668815362e-08,
+      "drift_source": "clamped_to_floor",
+      "note": "Empirical k (820.8) was rejected because the split-half correlation (-0.034) is below the minimum 0.05, indicating essentially no within-season repeatability. The conservative configured constant is used instead; reliability-at-median is therefore a configuration weight, not evidence that the component is that reliable."
+    }
+  ],
+  "volumes": {
+    "shot_stopping": {
+      "component": "shot_stopping",
+      "k_minutes": 2137.1021338067376,
+      "source": "empirical",
+      "sampling_variance": 500.2492293060439,
+      "talent_variance": 0.23407829761274404,
+      "league_rate_p96": 4.264325918926359,
+      "n_players": 266,
+      "reliability_at_900_minutes": 0.29633511167829246,
+      "note": "Estimated as sampling variance divided by between-goalkeeper variance of the per-96 workload rate."
+    },
+    "handling": {
+      "component": "handling",
+      "k_minutes": 3522.3571899711396,
+      "source": "empirical",
+      "sampling_variance": 358.8758655713816,
+      "talent_variance": 0.10188514287908491,
+      "league_rate_p96": 2.9084831931214503,
+      "n_players": 266,
+      "reliability_at_900_minutes": 0.20351137670222277,
+      "note": "Estimated as sampling variance divided by between-goalkeeper variance of the per-96 workload rate."
+    },
+    "claiming": {
+      "component": "claiming",
+      "k_minutes": 2166.053898932031,
+      "source": "empirical",
+      "sampling_variance": 123.83374592491161,
+      "talent_variance": 0.05717020522248667,
+      "league_rate_p96": 1.1099392621256108,
+      "n_players": 266,
+      "reliability_at_900_minutes": 0.2935369141140957,
+      "note": "Estimated as sampling variance divided by between-goalkeeper variance of the per-96 workload rate."
+    },
+    "sweeping": {
+      "component": "sweeping",
+      "k_minutes": 1161.0128680859955,
+      "source": "empirical",
+      "sampling_variance": 194.04915778916012,
+      "talent_variance": 0.16713781829917412,
+      "league_rate_p96": 1.7715545264456727,
+      "n_players": 266,
+      "reliability_at_900_minutes": 0.4366784962559718,
+      "note": "Estimated as sampling variance divided by between-goalkeeper variance of the per-96 workload rate."
+    },
+    "passing": {
+      "component": "passing",
+      "k_minutes": 275.72534654037014,
+      "source": "empirical",
+      "sampling_variance": 5199.071623190384,
+      "talent_variance": 18.85598001208484,
+      "league_rate_p96": 30.43692612860967,
+      "n_players": 266,
+      "reliability_at_900_minutes": 0.7654849005750318,
+      "note": "Estimated as sampling variance divided by between-goalkeeper variance of the per-96 workload rate."
+    },
+    "fielding": {
+      "component": "fielding",
+      "k_minutes": 178.00815791419353,
+      "source": "empirical",
+      "sampling_variance": 5157.351357323225,
+      "talent_variance": 28.972556189302612,
+      "league_rate_p96": 17.776083998274117,
+      "n_players": 266,
+      "reliability_at_900_minutes": 0.8348730882903369,
+      "note": "Estimated as sampling variance divided by between-goalkeeper variance of the per-96 workload rate."
+    }
+  },
+  "league_baselines": {
+    "2025": {
+      "season": 2025,
+      "value_per_opportunity": {
+        "shot_stopping": 0.011805,
+        "handling": -0.001549,
+        "claiming": 0.000974,
+        "sweeping": -0.000462,
+        "passing": -0.000156,
+        "fielding": 7.8e-05
+      },
+      "workload_p96": {
+        "shot_stopping": 4.316,
+        "handling": 2.945,
+        "claiming": 1.083,
+        "sweeping": 1.776,
+        "passing": 30.839,
+        "fielding": 20.17
+      },
+      "pool_size": 48,
+      "pool_statuses": [
+        "qualified",
+        "provisional"
+      ],
+      "source": "season_reference_pool"
+    },
+    "2026": {
+      "season": 2026,
+      "value_per_opportunity": {
+        "shot_stopping": 0.011111,
+        "handling": -0.006277,
+        "claiming": -0.002658,
+        "sweeping": 0.001378,
+        "passing": -0.000286,
+        "fielding": 0.000183
+      },
+      "workload_p96": {
+        "shot_stopping": 4.473,
+        "handling": 2.975,
+        "claiming": 1.095,
+        "sweeping": 1.847,
+        "passing": 31.611,
+        "fielding": 22.256
+      },
+      "pool_size": 33,
+      "pool_statuses": [
+        "qualified",
+        "provisional"
+      ],
+      "source": "season_reference_pool"
+    }
+  },
+  "total": {
+    "talent_variance": 0.01020402325569831,
+    "drift_variance": 0.0015306034883547464,
+    "drift_source": "share_of_talent_variance",
+    "source": "empirical",
+    "note": "Estimated by the method of moments on Total G+ per 96 using precision weights derived from the component per-opportunity variances."
+  },
+  "reliability_seasons": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "bootstrap": {
+    "enabled": true,
+    "resamples": 2000,
+    "seed": 20260101,
+    "interval": 0.9,
+    "min_matches": 2,
+    "method": "match-level nonparametric bootstrap with shrinkage re-applied"
+  },
+  "qualification": {
+    "2025": {
+      "season": 2025,
+      "mode": "fixed_completed_season",
+      "qualified_minutes": 900.0,
+      "provisional_minutes": 360.0,
+      "max_goalkeeper_minutes": 4015.0,
+      "explanation": "2025 is complete, so a fixed bar applies: qualified at 900 minutes (roughly a quarter of a full MLS season) and provisional at 360 minutes."
+    },
+    "2026": {
+      "season": 2026,
+      "mode": "scaled_to_season_progress",
+      "qualified_minutes": 826.0,
+      "provisional_minutes": 330.4,
+      "max_goalkeeper_minutes": 1652.0,
+      "explanation": "2026 is in progress. Thresholds scale with the busiest goalkeeper in the league (1652 minutes): qualified at 50% of that (826 minutes) and provisional at 20% (330 minutes), subject to absolute floors of 270 and 90 minutes."
+    }
+  },
+  "profile_thresholds": {
+    "elite_percentile": 85.0,
+    "strong_percentile": 70.0,
+    "weak_percentile": 30.0,
+    "poor_percentile": 15.0,
+    "min_opportunities_for_claim": 25
+  },
+  "talent": {
+    "league_prior_rate": 0.0524,
+    "talent_variance": 0.010204,
+    "talent_sd": 0.101,
+    "drift_variance": 0.001531,
+    "drift_sd": 0.0391,
+    "drift_source": "share_of_talent_variance",
+    "variance_source": "empirical",
+    "prior_season": 2025,
+    "live_season": 2026,
+    "note": "Estimated by the method of moments on Total G+ per 96 using precision weights derived from the component per-opportunity variances."
+  }
+}

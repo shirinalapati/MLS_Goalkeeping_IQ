@@ -1,0 +1,257 @@
+{
+  "schema_version": "1",
+  "player_id": "kRQaoRPO5K",
+  "slug": "isaac-boehmer",
+  "name": "Isaac Boehmer",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2026": {
+      "player_id": "kRQaoRPO5K",
+      "slug": "isaac-boehmer",
+      "name": "Isaac Boehmer",
+      "season": 2026,
+      "team_id": "lgpMOvnQzy",
+      "team": "Vancouver Whitecaps FC",
+      "team_abbreviation": "VAN",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "2001-11-20",
+      "age": 24,
+      "minutes": 135.0,
+      "appearances": 2,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 31.4,
+      "adjusted_total_p96": 0.01,
+      "observed_total_p96": -0.46,
+      "baseline_total_p96": 0.02,
+      "adjusted_total": -0.64,
+      "reliability": 0.046,
+      "interval_low": -0.16,
+      "interval_high": 0.17,
+      "interval_se": 0.1,
+      "observed_interval_low": -1.08,
+      "observed_interval_high": 1.54,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 34,
+      "rank_observed": 43,
+      "rank_goals_conceded": 25,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 2,
+      "goals_conceded_p96": 1.42,
+      "shots_faced": 3,
+      "shots_faced_p96": 2.13,
+      "saves": 1,
+      "save_pct": 33.3,
+      "xgoals_faced": 0.81,
+      "goals_prevented": -1.19,
+      "goals_prevented_p96": -0.85,
+      "previous_rank": 28,
+      "rank_change": -6,
+      "keeperiq_change": -12.5,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.815,
+          "adjusted_p96": 0.03,
+          "baseline_p96": 0.048,
+          "total": -1.146,
+          "raw_total": -1.189,
+          "percentile": 35.3,
+          "observed_percentile": 0.0,
+          "opportunities": 3,
+          "opportunities_p96": 2.13,
+          "reliability": 0.011
+        },
+        "handling": {
+          "observed_p96": 0.007,
+          "adjusted_p96": -0.018,
+          "baseline_p96": -0.018,
+          "total": 0.009,
+          "raw_total": 0.009,
+          "percentile": 44.6,
+          "observed_percentile": 92.1,
+          "opportunities": 1,
+          "opportunities_p96": 0.71,
+          "reliability": 0.003
+        },
+        "claiming": {
+          "observed_p96": 0.001,
+          "adjusted_p96": -0.003,
+          "baseline_p96": -0.003,
+          "total": 0.001,
+          "raw_total": 0.0,
+          "percentile": 32.4,
+          "observed_percentile": 38.6,
+          "opportunities": 1,
+          "opportunities_p96": 0.71,
+          "reliability": 0.006
+        },
+        "sweeping": {
+          "observed_p96": 0.363,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.003,
+          "total": 0.51,
+          "raw_total": 0.508,
+          "percentile": 93.5,
+          "observed_percentile": 100.0,
+          "opportunities": 5,
+          "opportunities_p96": 3.56,
+          "reliability": 0.006
+        },
+        "passing": {
+          "observed_p96": -0.01,
+          "adjusted_p96": -0.009,
+          "baseline_p96": -0.01,
+          "total": -0.013,
+          "raw_total": 0.071,
+          "percentile": 50.5,
+          "observed_percentile": 50.5,
+          "opportunities": 52,
+          "opportunities_p96": 36.98,
+          "reliability": 0.283
+        },
+        "fielding": {
+          "observed_p96": -0.002,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": -0.003,
+          "raw_total": -0.01,
+          "percentile": 64.1,
+          "observed_percentile": 18.5,
+          "opportunities": 36,
+          "opportunities_p96": 25.6,
+          "reliability": 0.007
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (135 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "raMyNnyd5d",
+          "date": "2026-05-17",
+          "matchday": 14,
+          "minutes": 32.0,
+          "total_ga": 0.514,
+          "total_ga_p96": 1.54,
+          "rolling_total_ga_p96": 1.54,
+          "goals_conceded": 0,
+          "shots_faced": 0,
+          "saves": 0,
+          "xgoals_faced": 0.0,
+          "goals_prevented": 0.0,
+          "components": {
+            "shot_stopping": 0.01,
+            "handling": 0.0,
+            "claiming": 0.0,
+            "sweeping": 0.505,
+            "passing": -0.003,
+            "fielding": 0.002
+          }
+        },
+        {
+          "game_id": "4wM4O8ZNQj",
+          "date": "2026-05-24",
+          "matchday": 15,
+          "minutes": 103.0,
+          "total_ga": -1.156,
+          "total_ga_p96": -1.08,
+          "rolling_total_ga_p96": -0.46,
+          "goals_conceded": 2,
+          "shots_faced": 3,
+          "saves": 1,
+          "xgoals_faced": 0.81,
+          "goals_prevented": -1.19,
+          "components": {
+            "shot_stopping": -1.156,
+            "handling": 0.009,
+            "claiming": 0.001,
+            "sweeping": 0.005,
+            "passing": -0.01,
+            "fielding": -0.005
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-05-17",
+          "matchday": 14,
+          "matches_in_window": 1,
+          "rate_p96": 1.54
+        },
+        {
+          "date": "2026-05-24",
+          "matchday": 15,
+          "matches_in_window": 2,
+          "rate_p96": -0.46
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2026-07-23",
+          "rank": 28,
+          "keeperiq": 43.9,
+          "adj_total_p96": 0.0131
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "lgpMOvnQzy",
+          "team_name": "Vancouver Whitecaps FC",
+          "team_abbreviation": "VAN",
+          "appearances": 2,
+          "minutes": 135.0,
+          "first_match": "2026-05-17",
+          "last_match": "2026-05-24"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2026
+  ],
+  "talent": {
+    "player_id": "kRQaoRPO5K",
+    "slug": "isaac-boehmer",
+    "name": "Isaac Boehmer",
+    "team": "Vancouver Whitecaps FC",
+    "team_abbreviation": "VAN",
+    "nationality": "USA",
+    "talent_p96": 0.03,
+    "talent_low": -0.13,
+    "talent_high": 0.19,
+    "talent_sd": 0.099,
+    "keeperiq": 25.7,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 98.0,
+    "rank": 52,
+    "weights": {
+      "league_prior": 0.954,
+      "prior_season": 0.0,
+      "live_season": 0.046
+    },
+    "prior_season_rate": null,
+    "live_season_rate": -0.46,
+    "prior_season_minutes": 0.0,
+    "live_season_minutes": 135.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "no_prior_season",
+    "in_live_season": true
+  }
+}

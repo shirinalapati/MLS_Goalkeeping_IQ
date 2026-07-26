@@ -1,0 +1,229 @@
+{
+  "schema_version": "1",
+  "player_id": "Vj58WrY3M8",
+  "slug": "cabral-carter",
+  "name": "Cabral Carter",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2026": {
+      "player_id": "Vj58WrY3M8",
+      "slug": "cabral-carter",
+      "name": "Cabral Carter",
+      "season": 2026,
+      "team_id": "eVq3ya6MWO",
+      "team": "Los Angeles FC",
+      "team_abbreviation": "LAFC",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "2004-07-05",
+      "age": 22,
+      "minutes": 77.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 60.1,
+      "adjusted_total_p96": 0.02,
+      "observed_total_p96": -0.11,
+      "baseline_total_p96": 0.03,
+      "adjusted_total": -0.09,
+      "reliability": 0.007,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 18,
+      "rank_observed": 34,
+      "rank_goals_conceded": 42,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 2,
+      "goals_conceded_p96": 2.49,
+      "shots_faced": 8,
+      "shots_faced_p96": 9.97,
+      "saves": 5,
+      "save_pct": 62.5,
+      "xgoals_faced": 2.12,
+      "goals_prevented": 0.12,
+      "goals_prevented_p96": 0.15,
+      "previous_rank": 17,
+      "rank_change": -1,
+      "keeperiq_change": -3.5,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 0.179,
+          "adjusted_p96": 0.052,
+          "baseline_p96": 0.051,
+          "total": 0.143,
+          "raw_total": 0.119,
+          "percentile": 53.6,
+          "observed_percentile": 67.1,
+          "opportunities": 7,
+          "opportunities_p96": 8.73,
+          "reliability": 0.025
+        },
+        "handling": {
+          "observed_p96": -0.278,
+          "adjusted_p96": -0.021,
+          "baseline_p96": -0.019,
+          "total": -0.223,
+          "raw_total": -0.223,
+          "percentile": 22.7,
+          "observed_percentile": 0.0,
+          "opportunities": 5,
+          "opportunities_p96": 6.23,
+          "reliability": 0.017
+        },
+        "claiming": {
+          "observed_p96": 0.0,
+          "adjusted_p96": -0.003,
+          "baseline_p96": -0.003,
+          "total": 0.0,
+          "raw_total": 0.0,
+          "percentile": 32.4,
+          "observed_percentile": 38.6,
+          "opportunities": 0,
+          "opportunities_p96": 0.0,
+          "reliability": 0.0
+        },
+        "sweeping": {
+          "observed_p96": 0.006,
+          "adjusted_p96": 0.003,
+          "baseline_p96": 0.003,
+          "total": 0.005,
+          "raw_total": 0.004,
+          "percentile": 67.0,
+          "observed_percentile": 57.7,
+          "opportunities": 3,
+          "opportunities_p96": 3.74,
+          "reliability": 0.003
+        },
+        "passing": {
+          "observed_p96": -0.025,
+          "adjusted_p96": -0.011,
+          "baseline_p96": -0.009,
+          "total": -0.02,
+          "raw_total": 0.029,
+          "percentile": 39.5,
+          "observed_percentile": 16.8,
+          "opportunities": 20,
+          "opportunities_p96": 24.94,
+          "reliability": 0.132
+        },
+        "fielding": {
+          "observed_p96": 0.005,
+          "adjusted_p96": 0.003,
+          "baseline_p96": 0.003,
+          "total": 0.004,
+          "raw_total": -0.0,
+          "percentile": 31.3,
+          "observed_percentile": 40.3,
+          "opportunities": 7,
+          "opportunities_p96": 8.73,
+          "reliability": 0.001
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (77 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "wvq9kwpZMW",
+          "date": "2026-04-11",
+          "matchday": 7,
+          "minutes": 77.0,
+          "total_ga": -0.09,
+          "total_ga_p96": -0.11,
+          "rolling_total_ga_p96": -0.11,
+          "goals_conceded": 2,
+          "shots_faced": 8,
+          "saves": 5,
+          "xgoals_faced": 2.12,
+          "goals_prevented": 0.12,
+          "components": {
+            "shot_stopping": 0.143,
+            "handling": -0.223,
+            "claiming": 0.0,
+            "sweeping": 0.005,
+            "passing": -0.02,
+            "fielding": 0.004
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-04-11",
+          "matchday": 7,
+          "matches_in_window": 1,
+          "rate_p96": -0.11
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2026-07-23",
+          "rank": 17,
+          "keeperiq": 63.6,
+          "adj_total_p96": 0.0232
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "eVq3ya6MWO",
+          "team_name": "Los Angeles FC",
+          "team_abbreviation": "LAFC",
+          "appearances": 1,
+          "minutes": 77.0,
+          "first_match": "2026-04-11",
+          "last_match": "2026-04-11"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2026
+  ],
+  "talent": {
+    "player_id": "Vj58WrY3M8",
+    "slug": "cabral-carter",
+    "name": "Cabral Carter",
+    "team": "Los Angeles FC",
+    "team_abbreviation": "LAFC",
+    "nationality": "USA",
+    "talent_p96": 0.05,
+    "talent_low": -0.11,
+    "talent_high": 0.22,
+    "talent_sd": 0.101,
+    "keeperiq": 42.6,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 33,
+    "weights": {
+      "league_prior": 0.993,
+      "prior_season": 0.0,
+      "live_season": 0.007
+    },
+    "prior_season_rate": null,
+    "live_season_rate": -0.11,
+    "prior_season_minutes": 0.0,
+    "live_season_minutes": 77.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "no_prior_season",
+    "in_live_season": true
+  }
+}

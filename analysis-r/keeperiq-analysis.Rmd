@@ -1,0 +1,307 @@
+---
+title: "MLS KeeperIQ — R Statistical Report"
+subtitle: "Stability, rank disagreement, uncertainty, and New York Red Bulls trends"
+author: "KeeperIQ analysis layer"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_depth: 3
+    code_folding: hide
+    self_contained: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, fig.width = 8, fig.height = 5)
+library(tidyverse)
+library(DBI)
+library(duckdb)
+library(boot)
+library(scales)
+library(gt)
+
+source(file.path("R", "db.R"))
+source(file.path("R", "analysis.R"))
+
+# Keep the connection in the global knitr session — do not use on.exit()
+# inside a setup chunk (it would disconnect when the chunk ends).
+con <- connect_keeperiq()
+```
+
+## Purpose
+
+This report is the R analysis companion to the Python/TypeScript KeeperIQ product.
+It reads from the DuckDB relational database (`data/keeperiq.duckdb`) rather than
+re-implementing the scoring model. The goals are to:
+
+1. quantify year-to-year stability of adjusted goalkeeper impact
+2. contrast KeeperIQ ranks with traditional goals-allowed ranks
+3. bootstrap match-level uncertainty for selected keepers
+4. inspect component correlations
+5. profile New York Red Bulls goalkeepers specifically
+
+## Data pulled through SQL
+
+```{r load-data}
+leaderboard <- DBI::dbGetQuery(con, "
+  SELECT *
+  FROM v_season_leaderboard
+  ORDER BY season, rank_adjusted
+") |> as_tibble()
+
+components <- DBI::dbGetQuery(con, "
+  SELECT *
+  FROM v_component_matrix
+") |> as_tibble()
+
+disagreement <- DBI::dbGetQuery(con, "
+  SELECT *
+  FROM v_rank_disagreement
+  WHERE season IN (2025, 2026)
+") |> as_tibble()
+
+match_form <- DBI::dbGetQuery(con, "
+  SELECT *
+  FROM v_match_form
+  WHERE season IN (2025, 2026)
+") |> as_tibble()
+
+talent <- DBI::dbGetQuery(con, "
+  SELECT *
+  FROM v_talent_board
+  ORDER BY talent_rank
+") |> as_tibble()
+
+red_bulls <- leaderboard |>
+  filter(str_detect(tolower(coalesce(team_name, "")), "red bull") |
+           team_abbreviation %in% c("NYRB", "RBNY"))
+
+knitr::kable(
+  leaderboard |>
+    count(season, sample_status) |>
+    pivot_wider(names_from = sample_status, values_from = n, values_fill = 0),
+  caption = "Goalkeeper counts by season and sample status"
+)
+```
+
+## 1. Year-to-year stability
+
+How stable is reliability-adjusted total G+/96 for keepers who appear in
+adjacent seasons with provisional-or-better minutes?
+
+```{r yoy}
+stability <- yoy_stability(leaderboard)
+stability |>
+  gt() |>
+  fmt_number(columns = spearman, decimals = 3) |>
+  tab_header(
+    title = "Spearman stability of adjusted total G+/96",
+    subtitle = "Qualified and provisional goalkeepers only"
+  )
+```
+
+```{r yoy-plot}
+shared <- leaderboard |>
+  filter(sample_status %in% c("qualified", "provisional"), season %in% c(2025, 2026)) |>
+  select(player_id, player_name, season, adjusted_total_p96) |>
+  pivot_wider(names_from = season, values_from = adjusted_total_p96, names_prefix = "y") |>
+  drop_na()
+
+ggplot(shared, aes(x = y2025, y = y2026)) +
+  geom_hline(yintercept = 0, colour = "grey70") +
+  geom_vline(xintercept = 0, colour = "grey70") +
+  geom_abline(slope = 1, intercept = 0, linetype = 2, colour = "grey50") +
+  geom_point(alpha = 0.8, colour = "#0B3D2E", size = 2.5) +
+  geom_smooth(method = "lm", se = TRUE, colour = "#C4A35A", fill = "#C4A35A33") +
+  labs(
+    title = "2025 vs 2026 adjusted total G+/96",
+    x = "2025 adjusted G+/96",
+    y = "2026 adjusted G+/96",
+    caption = "Dashed line is y = x. Points are keepers with provisional+ minutes in both seasons."
+  ) +
+  theme_minimal(base_size = 12)
+```
+
+## 2. Goals-allowed rank versus KeeperIQ rank
+
+A disagreement identifies goalkeepers whose context-adjusted evaluation differs
+from the traditional result. It does **not** automatically prove one metric is
+correct.
+
+```{r disagreement-plot}
+ggplot(
+  disagreement |> filter(season == 2025, !is.na(rank_disagreement)),
+  aes(x = goals_allowed_rank, y = keeperiq_rank, colour = rank_disagreement)
+) +
+  geom_abline(slope = 1, intercept = 0, linetype = 2, colour = "grey60") +
+  geom_point(size = 2.8, alpha = 0.9) +
+  scale_colour_gradient2(low = "#B33A3A", mid = "grey70", high = "#1F7A4C") +
+  scale_x_reverse() +
+  scale_y_reverse() +
+  labs(
+    title = "2025: goals-allowed rank vs KeeperIQ rank",
+    x = "Goals allowed rank (lower = fewer goals conceded / 96)",
+    y = "KeeperIQ rank (lower = better)",
+    colour = "Rank gap\n(GA rank − IQ rank)"
+  ) +
+  theme_minimal(base_size = 12)
+```
+
+```{r disagreement-table}
+disagreement |>
+  filter(season == 2025) |>
+  mutate(abs_gap = abs(rank_disagreement)) |>
+  slice_max(abs_gap, n = 12, with_ties = FALSE) |>
+  select(
+    player_name, team_abbreviation, keeperiq_rank, goals_allowed_rank,
+    rank_disagreement, keeperiq, adjusted_total_p96, goals_conceded_p96, minutes
+  ) |>
+  gt() |>
+  fmt_number(columns = c(keeperiq, adjusted_total_p96, goals_conceded_p96), decimals = 2) |>
+  tab_header(title = "Largest 2025 rank disagreements")
+```
+
+## 3. Bootstrap uncertainty for selected keepers
+
+Match-level nonparametric bootstrap of mean match G+/96 for high-minute 2026
+keepers. This is an R-side uncertainty check complementary to the Python
+pipeline's own bootstrap intervals.
+
+```{r bootstrap}
+targets <- leaderboard |>
+  filter(season == 2026, sample_status == "qualified") |>
+  slice_min(rank_adjusted, n = 5, with_ties = FALSE)
+
+boot_rows <- purrr::map_dfr(targets$player_name, function(name) {
+  rates <- match_form |>
+    filter(player_name == name, season == 2026) |>
+    pull(ga_total_p96) |>
+    purrr::discard(is.na)
+  fit <- bootstrap_player_mean(rates, R = 1000L)
+  tibble(
+    player_name = name,
+    n_matches = length(rates),
+    mean_match_ga_p96 = fit$t0,
+    low_90 = fit$conf[1],
+    high_90 = fit$conf[2]
+  )
+})
+
+boot_rows |>
+  gt() |>
+  fmt_number(columns = c(mean_match_ga_p96, low_90, high_90), decimals = 3) |>
+  tab_header(
+    title = "Bootstrap 90% intervals for mean match G+/96",
+    subtitle = "Top five qualified 2026 goalkeepers by KeeperIQ rank"
+  )
+```
+
+## 4. Component correlations (2025)
+
+```{r component-cors}
+cmat <- component_cors(components, 2025)
+cmat |>
+  as.data.frame() |>
+  rownames_to_column("component") |>
+  gt() |>
+  fmt_number(decimals = 2) |>
+  tab_header(title = "Spearman correlations among adjusted component rates — 2025")
+```
+
+```{r component-heatmap}
+cmat_df <- as.data.frame(as.table(cmat)) |>
+  as_tibble() |>
+  rename(component_a = Var1, component_b = Var2, rho = Freq)
+
+ggplot(cmat_df, aes(component_a, component_b, fill = rho)) +
+  geom_tile(colour = "white") +
+  scale_fill_gradient2(limits = c(-1, 1), midpoint = 0) +
+  coord_fixed() +
+  labs(title = "2025 component correlation heatmap", x = NULL, y = NULL, fill = "ρ") +
+  theme_minimal(base_size = 11) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+## 5. New York Red Bulls goalkeeper trends
+
+```{r rbn-table}
+red_bulls |>
+  arrange(season, rank_adjusted) |>
+  select(
+    season, player_name, sample_status, minutes, keeperiq,
+    adjusted_total_p96, observed_total_p96, goals_conceded_p96,
+    save_pct, goals_prevented_p96, rank_adjusted, rank_disagreement, archetype_label
+  ) |>
+  gt() |>
+  fmt_number(
+    columns = c(keeperiq, adjusted_total_p96, observed_total_p96,
+                goals_conceded_p96, save_pct, goals_prevented_p96),
+    decimals = 2
+  ) |>
+  tab_header(title = "New York Red Bulls goalkeepers in KeeperIQ")
+```
+
+```{r rbn-form}
+rbn_names <- unique(red_bulls$player_name)
+rbn_form <- match_form |>
+  filter(player_name %in% rbn_names, season == 2026) |>
+  arrange(date_utc)
+
+if (nrow(rbn_form) > 0) {
+  ggplot(rbn_form, aes(x = as.Date(date_utc), y = rolling_5_match_ga_p96, colour = player_name)) +
+    geom_hline(yintercept = 0, colour = "grey70") +
+    geom_line(linewidth = 1) +
+    geom_point(aes(y = ga_total_p96), alpha = 0.35) +
+    labs(
+      title = "Red Bulls rolling 5-match G+/96 — 2026",
+      x = "Match date",
+      y = "Rolling G+/96",
+      colour = "Goalkeeper",
+      caption = "Points are individual match rates; lines are 5-match rolling averages."
+    ) +
+    theme_minimal(base_size = 12)
+} else {
+  cat("No 2026 Red Bulls match-form rows available in the current database extract.")
+}
+```
+
+## 6. Current-talent weights for Red Bulls keepers
+
+```{r rbn-talent}
+talent |>
+  filter(player_name %in% rbn_names) |>
+  select(
+    talent_rank, player_name, keeperiq_talent, talent_total_p96,
+    weight_league_prior, weight_prior_season, weight_live_season,
+    prior_season_minutes, live_season_minutes, prior_source
+  ) |>
+  gt() |>
+  fmt_number(columns = c(keeperiq_talent, talent_total_p96), decimals = 2) |>
+  fmt_percent(
+    columns = c(weight_league_prior, weight_prior_season, weight_live_season),
+    decimals = 1
+  ) |>
+  tab_header(title = "Current-talent blend — Red Bulls goalkeepers")
+```
+
+## Limitations
+
+- Goals Added is itself a model estimate from American Soccer Analysis.
+- R bootstraps here use match-level mean G+/96 and are complementary to, not
+  identical with, the Python pipeline's shrinkage-aware bootstrap.
+- Roster affiliation in the leaderboard view reflects ASA season team ids;
+  mid-season transfers can complicate club labels.
+- Small samples remain noisy even after reliability adjustment.
+
+## Session info
+
+```{r session}
+sessionInfo()
+```
+
+```{r cleanup, include=FALSE}
+if (exists("con") && DBI::dbIsValid(con)) {
+  DBI::dbDisconnect(con, shutdown = TRUE)
+}
+```

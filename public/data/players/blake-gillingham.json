@@ -1,0 +1,313 @@
+{
+  "schema_version": "1",
+  "player_id": "EGMP1vPx5a",
+  "slug": "blake-gillingham",
+  "name": "Blake Gillingham",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "EGMP1vPx5a",
+      "slug": "blake-gillingham",
+      "name": "Blake Gillingham",
+      "season": 2025,
+      "team_id": "YgOMngl5wN",
+      "team": "Houston Dynamo FC",
+      "team_abbreviation": "HOU",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "2002-10-11",
+      "age": 23,
+      "minutes": 330.0,
+      "appearances": 4,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 69.9,
+      "adjusted_total_p96": 0.07,
+      "observed_total_p96": 0.57,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": 1.97,
+      "reliability": 0.056,
+      "interval_low": -0.1,
+      "interval_high": 0.23,
+      "interval_se": 0.099,
+      "observed_interval_low": -0.0,
+      "observed_interval_high": 1.39,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 16,
+      "rank_observed": 6,
+      "rank_goals_conceded": 21,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 4,
+      "goals_conceded_p96": 1.16,
+      "shots_faced": 15,
+      "shots_faced_p96": 4.36,
+      "saves": 11,
+      "save_pct": 73.3,
+      "xgoals_faced": 6.09,
+      "goals_prevented": 2.09,
+      "goals_prevented_p96": 0.61,
+      "previous_rank": 16,
+      "rank_change": 0,
+      "keeperiq_change": 0.0,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 0.639,
+          "adjusted_p96": 0.081,
+          "baseline_p96": 0.051,
+          "total": 2.198,
+          "raw_total": 2.095,
+          "percentile": 79.4,
+          "observed_percentile": 100.0,
+          "opportunities": 15,
+          "opportunities_p96": 4.36,
+          "reliability": 0.052
+        },
+        "handling": {
+          "observed_p96": 0.01,
+          "adjusted_p96": -0.004,
+          "baseline_p96": -0.005,
+          "total": 0.033,
+          "raw_total": 0.032,
+          "percentile": 47.7,
+          "observed_percentile": 86.7,
+          "opportunities": 11,
+          "opportunities_p96": 3.2,
+          "reliability": 0.036
+        },
+        "claiming": {
+          "observed_p96": -0.07,
+          "adjusted_p96": -0.0,
+          "baseline_p96": 0.001,
+          "total": -0.24,
+          "raw_total": -0.241,
+          "percentile": 7.7,
+          "observed_percentile": 0.0,
+          "opportunities": 5,
+          "opportunities_p96": 1.45,
+          "reliability": 0.029
+        },
+        "sweeping": {
+          "observed_p96": 0.003,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": 0.011,
+          "raw_total": 0.006,
+          "percentile": 51.1,
+          "observed_percentile": 71.7,
+          "opportunities": 5,
+          "opportunities_p96": 1.45,
+          "reliability": 0.006
+        },
+        "passing": {
+          "observed_p96": -0.018,
+          "adjusted_p96": -0.01,
+          "baseline_p96": -0.005,
+          "total": -0.061,
+          "raw_total": 0.146,
+          "percentile": 39.3,
+          "observed_percentile": 12.2,
+          "opportunities": 100,
+          "opportunities_p96": 29.09,
+          "reliability": 0.431
+        },
+        "fielding": {
+          "observed_p96": 0.009,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.029,
+          "raw_total": 0.011,
+          "percentile": 48.6,
+          "observed_percentile": 83.5,
+          "opportunities": 65,
+          "opportunities_p96": 18.91,
+          "reliability": 0.013
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (330 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "KAqBbdNJqb",
+          "date": "2025-03-23",
+          "matchday": 5,
+          "minutes": 29.0,
+          "total_ga": 1.04,
+          "total_ga_p96": 3.44,
+          "rolling_total_ga_p96": 3.44,
+          "goals_conceded": 0,
+          "shots_faced": 2,
+          "saves": 2,
+          "xgoals_faced": 0.94,
+          "goals_prevented": 0.94,
+          "components": {
+            "shot_stopping": 0.949,
+            "handling": 0.026,
+            "claiming": 0.0,
+            "sweeping": 0.059,
+            "passing": 0.004,
+            "fielding": 0.002
+          }
+        },
+        {
+          "game_id": "0Oq6bWLxq6",
+          "date": "2025-03-30",
+          "matchday": 6,
+          "minutes": 101.0,
+          "total_ga": 0.847,
+          "total_ga_p96": 0.81,
+          "rolling_total_ga_p96": 1.39,
+          "goals_conceded": 3,
+          "shots_faced": 9,
+          "saves": 6,
+          "xgoals_faced": 4.08,
+          "goals_prevented": 1.08,
+          "components": {
+            "shot_stopping": 1.11,
+            "handling": 0.023,
+            "claiming": -0.272,
+            "sweeping": -0.036,
+            "passing": 0.011,
+            "fielding": 0.011
+          }
+        },
+        {
+          "game_id": "315Vpb7nQ9",
+          "date": "2025-04-06",
+          "matchday": 7,
+          "minutes": 101.0,
+          "total_ga": 0.434,
+          "total_ga_p96": 0.41,
+          "rolling_total_ga_p96": 0.96,
+          "goals_conceded": 0,
+          "shots_faced": 2,
+          "saves": 2,
+          "xgoals_faced": 0.45,
+          "goals_prevented": 0.45,
+          "components": {
+            "shot_stopping": 0.48,
+            "handling": -0.02,
+            "claiming": 0.014,
+            "sweeping": -0.01,
+            "passing": -0.038,
+            "fielding": 0.008
+          }
+        },
+        {
+          "game_id": "KPqjjZwYq6",
+          "date": "2025-04-13",
+          "matchday": 8,
+          "minutes": 99.0,
+          "total_ga": -0.351,
+          "total_ga_p96": -0.34,
+          "rolling_total_ga_p96": 0.57,
+          "goals_conceded": 1,
+          "shots_faced": 2,
+          "saves": 1,
+          "xgoals_faced": 0.63,
+          "goals_prevented": -0.37,
+          "components": {
+            "shot_stopping": -0.341,
+            "handling": 0.003,
+            "claiming": 0.018,
+            "sweeping": -0.002,
+            "passing": -0.038,
+            "fielding": 0.009
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-03-23",
+          "matchday": 5,
+          "matches_in_window": 1,
+          "rate_p96": 3.44
+        },
+        {
+          "date": "2025-03-30",
+          "matchday": 6,
+          "matches_in_window": 2,
+          "rate_p96": 1.39
+        },
+        {
+          "date": "2025-04-06",
+          "matchday": 7,
+          "matches_in_window": 3,
+          "rate_p96": 0.96
+        },
+        {
+          "date": "2025-04-13",
+          "matchday": 8,
+          "matches_in_window": 4,
+          "rate_p96": 0.57
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 16,
+          "keeperiq": 69.9,
+          "adj_total_p96": 0.0675
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "YgOMngl5wN",
+          "team_name": "Houston Dynamo FC",
+          "team_abbreviation": "HOU",
+          "appearances": 4,
+          "minutes": 330.0,
+          "first_match": "2025-03-23",
+          "last_match": "2025-04-13"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025
+  ],
+  "talent": {
+    "player_id": "EGMP1vPx5a",
+    "slug": "blake-gillingham",
+    "name": "Blake Gillingham",
+    "team": "Houston Dynamo FC",
+    "team_abbreviation": "HOU",
+    "nationality": "USA",
+    "talent_p96": 0.08,
+    "talent_low": -0.08,
+    "talent_high": 0.24,
+    "talent_sd": 0.098,
+    "keeperiq": 72.6,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 14,
+    "weights": {
+      "league_prior": 0.944,
+      "prior_season": 0.056,
+      "live_season": 0.0
+    },
+    "prior_season_rate": 0.57,
+    "live_season_rate": null,
+    "prior_season_minutes": 330.0,
+    "live_season_minutes": 0.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": false
+  }
+}

@@ -1,0 +1,46 @@
+[project]
+name = "mls-keeperiq-pipeline"
+version = "1.0.0"
+description = "Context-adjusted evaluation pipeline for Major League Soccer goalkeepers"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "pydantic>=2.6",
+    "requests>=2.31",
+    "PyYAML>=6.0",
+    "duckdb>=1.0",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[project.scripts]
+keeperiq = "keeperiq.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["pipeline/src"]
+
+[tool.pytest.ini_options]
+testpaths = ["pipeline/tests"]
+pythonpath = ["pipeline/src"]
+filterwarnings = ["error::DeprecationWarning:keeperiq.*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+src = ["pipeline/src", "pipeline/tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "N", "RUF"]
+ignore = ["B008"]
+
+[tool.ruff.lint.per-file-ignores]
+"pipeline/tests/*" = ["E501"]

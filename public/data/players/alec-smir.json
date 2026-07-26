@@ -1,0 +1,257 @@
+{
+  "schema_version": "1",
+  "player_id": "gOMn2jBXMw",
+  "slug": "alec-smir",
+  "name": "Alec Smir",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "gOMn2jBXMw",
+      "slug": "alec-smir",
+      "name": "Alec Smir",
+      "season": 2025,
+      "team_id": "kRQand1MKZ",
+      "team": "Minnesota United FC",
+      "team_abbreviation": "MIN",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1999-04-13",
+      "age": 26,
+      "minutes": 187.0,
+      "appearances": 2,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 42.7,
+      "adjusted_total_p96": 0.04,
+      "observed_total_p96": 0.06,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": 0.11,
+      "reliability": 0.031,
+      "interval_low": -0.12,
+      "interval_high": 0.2,
+      "interval_se": 0.098,
+      "observed_interval_low": -0.45,
+      "observed_interval_high": 0.67,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 33,
+      "rank_observed": 27,
+      "rank_goals_conceded": 43,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 3,
+      "goals_conceded_p96": 1.54,
+      "shots_faced": 9,
+      "shots_faced_p96": 4.62,
+      "saves": 6,
+      "save_pct": 66.7,
+      "xgoals_faced": 3.05,
+      "goals_prevented": 0.05,
+      "goals_prevented_p96": 0.03,
+      "previous_rank": 29,
+      "rank_change": -4,
+      "keeperiq_change": -13.3,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 0.055,
+          "adjusted_p96": 0.051,
+          "baseline_p96": 0.051,
+          "total": 0.107,
+          "raw_total": 0.049,
+          "percentile": 49.6,
+          "observed_percentile": 49.2,
+          "opportunities": 9,
+          "opportunities_p96": 4.62,
+          "reliability": 0.032
+        },
+        "handling": {
+          "observed_p96": 0.004,
+          "adjusted_p96": -0.004,
+          "baseline_p96": -0.005,
+          "total": 0.007,
+          "raw_total": 0.006,
+          "percentile": 46.8,
+          "observed_percentile": 64.0,
+          "opportunities": 6,
+          "opportunities_p96": 3.08,
+          "reliability": 0.02
+        },
+        "claiming": {
+          "observed_p96": 0.001,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.001,
+          "raw_total": 0.0,
+          "percentile": 34.9,
+          "observed_percentile": 29.3,
+          "opportunities": 0,
+          "opportunities_p96": 0.0,
+          "reliability": 0.0
+        },
+        "sweeping": {
+          "observed_p96": 0.005,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": 0.009,
+          "raw_total": 0.007,
+          "percentile": 44.5,
+          "observed_percentile": 73.9,
+          "opportunities": 3,
+          "opportunities_p96": 1.54,
+          "reliability": 0.003
+        },
+        "passing": {
+          "observed_p96": -0.014,
+          "adjusted_p96": -0.008,
+          "baseline_p96": -0.005,
+          "total": -0.027,
+          "raw_total": 0.09,
+          "percentile": 42.9,
+          "observed_percentile": 39.3,
+          "opportunities": 51,
+          "opportunities_p96": 26.18,
+          "reliability": 0.279
+        },
+        "fielding": {
+          "observed_p96": 0.006,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.012,
+          "raw_total": 0.002,
+          "percentile": 27.7,
+          "observed_percentile": 60.1,
+          "opportunities": 19,
+          "opportunities_p96": 9.75,
+          "reliability": 0.004
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (187 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "XVqKzDeR50",
+          "date": "2025-03-22",
+          "matchday": 5,
+          "minutes": 102.0,
+          "total_ga": -0.482,
+          "total_ga_p96": -0.45,
+          "rolling_total_ga_p96": -0.45,
+          "goals_conceded": 2,
+          "shots_faced": 4,
+          "saves": 2,
+          "xgoals_faced": 1.54,
+          "goals_prevented": -0.46,
+          "components": {
+            "shot_stopping": -0.431,
+            "handling": -0.043,
+            "claiming": 0.001,
+            "sweeping": 0.008,
+            "passing": -0.022,
+            "fielding": 0.005
+          }
+        },
+        {
+          "game_id": "vzqoKZLYqa",
+          "date": "2025-06-28",
+          "matchday": 21,
+          "minutes": 85.0,
+          "total_ga": 0.592,
+          "total_ga_p96": 0.67,
+          "rolling_total_ga_p96": 0.06,
+          "goals_conceded": 1,
+          "shots_faced": 5,
+          "saves": 4,
+          "xgoals_faced": 1.51,
+          "goals_prevented": 0.51,
+          "components": {
+            "shot_stopping": 0.538,
+            "handling": 0.05,
+            "claiming": 0.0,
+            "sweeping": 0.001,
+            "passing": -0.005,
+            "fielding": 0.007
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-03-22",
+          "matchday": 5,
+          "matches_in_window": 1,
+          "rate_p96": -0.45
+        },
+        {
+          "date": "2025-06-28",
+          "matchday": 21,
+          "matches_in_window": 2,
+          "rate_p96": 0.06
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 29,
+          "keeperiq": 56.0,
+          "adj_total_p96": 0.0409
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "kRQand1MKZ",
+          "team_name": "Minnesota United FC",
+          "team_abbreviation": "MIN",
+          "appearances": 2,
+          "minutes": 187.0,
+          "first_match": "2025-03-22",
+          "last_match": "2025-06-28"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025
+  ],
+  "talent": {
+    "player_id": "gOMn2jBXMw",
+    "slug": "alec-smir",
+    "name": "Alec Smir",
+    "team": "Minnesota United FC",
+    "team_abbreviation": "MIN",
+    "nationality": "USA",
+    "talent_p96": 0.05,
+    "talent_low": -0.11,
+    "talent_high": 0.22,
+    "talent_sd": 0.099,
+    "keeperiq": 42.6,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 30,
+    "weights": {
+      "league_prior": 0.969,
+      "prior_season": 0.031,
+      "live_season": 0.0
+    },
+    "prior_season_rate": 0.06,
+    "live_season_rate": null,
+    "prior_season_minutes": 187.0,
+    "live_season_minutes": 0.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": false
+  }
+}

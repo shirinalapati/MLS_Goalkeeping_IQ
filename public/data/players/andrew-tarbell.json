@@ -1,0 +1,313 @@
+{
+  "schema_version": "1",
+  "player_id": "jYQJz3rWQG",
+  "slug": "andrew-tarbell",
+  "name": "Andrew Tarbell",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "jYQJz3rWQG",
+      "slug": "andrew-tarbell",
+      "name": "Andrew Tarbell",
+      "season": 2025,
+      "team_id": "YgOMngl5wN",
+      "team": "Houston Dynamo FC",
+      "team_abbreviation": "HOU",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1993-10-07",
+      "age": 32,
+      "minutes": 330.0,
+      "appearances": 4,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 37.5,
+      "adjusted_total_p96": 0.03,
+      "observed_total_p96": -0.16,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": -0.55,
+      "reliability": 0.057,
+      "interval_low": -0.14,
+      "interval_high": 0.19,
+      "interval_se": 0.1,
+      "observed_interval_low": -1.05,
+      "observed_interval_high": 0.91,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 44,
+      "rank_observed": 52,
+      "rank_goals_conceded": 59,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 7,
+      "goals_conceded_p96": 2.04,
+      "shots_faced": 15,
+      "shots_faced_p96": 4.36,
+      "saves": 8,
+      "save_pct": 53.3,
+      "xgoals_faced": 6.17,
+      "goals_prevented": -0.83,
+      "goals_prevented_p96": -0.24,
+      "previous_rank": 42,
+      "rank_change": -2,
+      "keeperiq_change": -0.8,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.21,
+          "adjusted_p96": 0.038,
+          "baseline_p96": 0.051,
+          "total": -0.723,
+          "raw_total": -0.826,
+          "percentile": 40.2,
+          "observed_percentile": 5.8,
+          "opportunities": 15,
+          "opportunities_p96": 4.36,
+          "reliability": 0.052
+        },
+        "handling": {
+          "observed_p96": 0.01,
+          "adjusted_p96": -0.004,
+          "baseline_p96": -0.004,
+          "total": 0.036,
+          "raw_total": 0.035,
+          "percentile": 47.7,
+          "observed_percentile": 87.6,
+          "opportunities": 8,
+          "opportunities_p96": 2.33,
+          "reliability": 0.027
+        },
+        "claiming": {
+          "observed_p96": 0.001,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.004,
+          "raw_total": 0.002,
+          "percentile": 37.8,
+          "observed_percentile": 35.2,
+          "opportunities": 2,
+          "opportunities_p96": 0.58,
+          "reliability": 0.012
+        },
+        "sweeping": {
+          "observed_p96": 0.04,
+          "adjusted_p96": -0.0,
+          "baseline_p96": -0.001,
+          "total": 0.139,
+          "raw_total": 0.134,
+          "percentile": 77.7,
+          "observed_percentile": 99.2,
+          "opportunities": 3,
+          "opportunities_p96": 0.87,
+          "reliability": 0.003
+        },
+        "passing": {
+          "observed_p96": -0.011,
+          "adjusted_p96": -0.008,
+          "baseline_p96": -0.005,
+          "total": -0.038,
+          "raw_total": 0.168,
+          "percentile": 42.9,
+          "observed_percentile": 39.3,
+          "opportunities": 97,
+          "opportunities_p96": 28.22,
+          "reliability": 0.424
+        },
+        "fielding": {
+          "observed_p96": 0.009,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.03,
+          "raw_total": 0.012,
+          "percentile": 55.6,
+          "observed_percentile": 83.5,
+          "opportunities": 71,
+          "opportunities_p96": 20.65,
+          "reliability": 0.014
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (330 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "KXMeZ2Rx56",
+          "date": "2025-02-23",
+          "matchday": 1,
+          "minutes": 96.0,
+          "total_ga": -0.508,
+          "total_ga_p96": -0.51,
+          "rolling_total_ga_p96": -0.51,
+          "goals_conceded": 2,
+          "shots_faced": 3,
+          "saves": 1,
+          "xgoals_faced": 1.31,
+          "goals_prevented": -0.69,
+          "components": {
+            "shot_stopping": -0.66,
+            "handling": 0.018,
+            "claiming": 0.001,
+            "sweeping": 0.136,
+            "passing": -0.018,
+            "fielding": 0.015
+          }
+        },
+        {
+          "game_id": "NWMWpbL75l",
+          "date": "2025-03-03",
+          "matchday": 2,
+          "minutes": 100.0,
+          "total_ga": -1.636,
+          "total_ga_p96": -1.57,
+          "rolling_total_ga_p96": -1.05,
+          "goals_conceded": 4,
+          "shots_faced": 5,
+          "saves": 1,
+          "xgoals_faced": 2.37,
+          "goals_prevented": -1.63,
+          "components": {
+            "shot_stopping": -1.601,
+            "handling": -0.031,
+            "claiming": 0.001,
+            "sweeping": 0.001,
+            "passing": -0.015,
+            "fielding": 0.009
+          }
+        },
+        {
+          "game_id": "0x5gj16rM7",
+          "date": "2025-03-08",
+          "matchday": 3,
+          "minutes": 97.0,
+          "total_ga": 1.403,
+          "total_ga_p96": 1.39,
+          "rolling_total_ga_p96": -0.24,
+          "goals_conceded": 0,
+          "shots_faced": 5,
+          "saves": 5,
+          "xgoals_faced": 1.31,
+          "goals_prevented": 1.31,
+          "components": {
+            "shot_stopping": 1.339,
+            "handling": 0.046,
+            "claiming": 0.002,
+            "sweeping": 0.001,
+            "passing": 0.004,
+            "fielding": 0.012
+          }
+        },
+        {
+          "game_id": "9vQ2bJZ1QK",
+          "date": "2025-03-16",
+          "matchday": 4,
+          "minutes": 37.0,
+          "total_ga": 0.188,
+          "total_ga_p96": 0.49,
+          "rolling_total_ga_p96": -0.16,
+          "goals_conceded": 1,
+          "shots_faced": 2,
+          "saves": 1,
+          "xgoals_faced": 1.19,
+          "goals_prevented": 0.19,
+          "components": {
+            "shot_stopping": 0.199,
+            "handling": 0.003,
+            "claiming": 0.0,
+            "sweeping": 0.001,
+            "passing": -0.01,
+            "fielding": -0.006
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-02-23",
+          "matchday": 1,
+          "matches_in_window": 1,
+          "rate_p96": -0.51
+        },
+        {
+          "date": "2025-03-03",
+          "matchday": 2,
+          "matches_in_window": 2,
+          "rate_p96": -1.05
+        },
+        {
+          "date": "2025-03-08",
+          "matchday": 3,
+          "matches_in_window": 3,
+          "rate_p96": -0.24
+        },
+        {
+          "date": "2025-03-16",
+          "matchday": 4,
+          "matches_in_window": 4,
+          "rate_p96": -0.16
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 42,
+          "keeperiq": 38.3,
+          "adj_total_p96": 0.0299
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "YgOMngl5wN",
+          "team_name": "Houston Dynamo FC",
+          "team_abbreviation": "HOU",
+          "appearances": 4,
+          "minutes": 330.0,
+          "first_match": "2025-02-23",
+          "last_match": "2025-03-16"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025
+  ],
+  "talent": {
+    "player_id": "jYQJz3rWQG",
+    "slug": "andrew-tarbell",
+    "name": "Andrew Tarbell",
+    "team": "Houston Dynamo FC",
+    "team_abbreviation": "HOU",
+    "nationality": "USA",
+    "talent_p96": 0.04,
+    "talent_low": -0.12,
+    "talent_high": 0.2,
+    "talent_sd": 0.098,
+    "keeperiq": 34.0,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 41,
+    "weights": {
+      "league_prior": 0.944,
+      "prior_season": 0.056,
+      "live_season": 0.0
+    },
+    "prior_season_rate": -0.16,
+    "live_season_rate": null,
+    "prior_season_minutes": 330.0,
+    "live_season_minutes": 0.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": false
+  }
+}

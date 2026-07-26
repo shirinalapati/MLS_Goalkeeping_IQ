@@ -1,0 +1,266 @@
+{
+  "schema_version": "1",
+  "player_id": "7VqG3Onxqv",
+  "slug": "aj-marcucci",
+  "name": "AJ Marcucci",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "7VqG3Onxqv",
+      "slug": "aj-marcucci",
+      "name": "AJ Marcucci",
+      "season": 2025,
+      "team_id": "a2lqRX2Mr0",
+      "team": "New York Red Bulls",
+      "team_abbreviation": "NYRB",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1999-07-31",
+      "age": 26,
+      "minutes": 207.0,
+      "appearances": 2,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 49.7,
+      "adjusted_total_p96": 0.04,
+      "observed_total_p96": -0.08,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": -0.16,
+      "reliability": 0.065,
+      "interval_low": -0.05,
+      "interval_high": 0.13,
+      "interval_se": 0.055,
+      "observed_interval_low": -0.17,
+      "observed_interval_high": 0.02,
+      "keeperiq_low": 2.6,
+      "keeperiq_high": 95.8,
+      "rank": 29,
+      "rank_observed": 45,
+      "rank_goals_conceded": 9,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 2,
+      "goals_conceded_p96": 0.93,
+      "shots_faced": 5,
+      "shots_faced_p96": 2.32,
+      "saves": 3,
+      "save_pct": 60.0,
+      "xgoals_faced": 1.67,
+      "goals_prevented": -0.33,
+      "goals_prevented_p96": -0.15,
+      "previous_rank": 27,
+      "rank_change": -2,
+      "keeperiq_change": -6.3,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.124,
+          "adjusted_p96": 0.044,
+          "baseline_p96": 0.049,
+          "total": -0.267,
+          "raw_total": -0.331,
+          "percentile": 44.4,
+          "observed_percentile": 11.8,
+          "opportunities": 5,
+          "opportunities_p96": 2.32,
+          "reliability": 0.018
+        },
+        "handling": {
+          "observed_p96": 0.027,
+          "adjusted_p96": -0.004,
+          "baseline_p96": -0.004,
+          "total": 0.058,
+          "raw_total": 0.057,
+          "percentile": 49.7,
+          "observed_percentile": 97.5,
+          "opportunities": 3,
+          "opportunities_p96": 1.39,
+          "reliability": 0.01
+        },
+        "claiming": {
+          "observed_p96": 0.001,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.003,
+          "raw_total": 0.002,
+          "percentile": 37.8,
+          "observed_percentile": 38.1,
+          "opportunities": 1,
+          "opportunities_p96": 0.46,
+          "reliability": 0.006
+        },
+        "sweeping": {
+          "observed_p96": -0.002,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": -0.004,
+          "raw_total": -0.006,
+          "percentile": 44.5,
+          "observed_percentile": 41.1,
+          "opportunities": 3,
+          "opportunities_p96": 1.39,
+          "reliability": 0.003
+        },
+        "passing": {
+          "observed_p96": 0.014,
+          "adjusted_p96": 0.001,
+          "baseline_p96": -0.005,
+          "total": 0.03,
+          "raw_total": 0.159,
+          "percentile": 73.1,
+          "observed_percentile": 90.8,
+          "opportunities": 69,
+          "opportunities_p96": 32.0,
+          "reliability": 0.343
+        },
+        "fielding": {
+          "observed_p96": 0.007,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.015,
+          "raw_total": 0.004,
+          "percentile": 56.7,
+          "observed_percentile": 69.8,
+          "opportunities": 51,
+          "opportunities_p96": 23.65,
+          "reliability": 0.01
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [
+          {
+            "component": "passing",
+            "label": "Passing",
+            "percentile": 73.1,
+            "band": "strong",
+            "opportunities": 69,
+            "text": "Strong passing contribution."
+          }
+        ],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (207 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "p6qbjAo6q0",
+          "date": "2025-03-22",
+          "matchday": 5,
+          "minutes": 103.0,
+          "total_ga": -0.181,
+          "total_ga_p96": -0.17,
+          "rolling_total_ga_p96": -0.17,
+          "goals_conceded": 1,
+          "shots_faced": 2,
+          "saves": 1,
+          "xgoals_faced": 0.72,
+          "goals_prevented": -0.28,
+          "components": {
+            "shot_stopping": -0.251,
+            "handling": 0.042,
+            "claiming": 0.003,
+            "sweeping": -0.014,
+            "passing": 0.033,
+            "fielding": 0.006
+          }
+        },
+        {
+          "game_id": "gOMnAZKAQw",
+          "date": "2025-08-10",
+          "matchday": 27,
+          "minutes": 104.0,
+          "total_ga": 0.017,
+          "total_ga_p96": 0.02,
+          "rolling_total_ga_p96": -0.08,
+          "goals_conceded": 1,
+          "shots_faced": 3,
+          "saves": 2,
+          "xgoals_faced": 0.95,
+          "goals_prevented": -0.05,
+          "components": {
+            "shot_stopping": -0.015,
+            "handling": 0.016,
+            "claiming": 0.001,
+            "sweeping": 0.01,
+            "passing": -0.003,
+            "fielding": 0.009
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-03-22",
+          "matchday": 5,
+          "matches_in_window": 1,
+          "rate_p96": -0.17
+        },
+        {
+          "date": "2025-08-10",
+          "matchday": 27,
+          "matches_in_window": 2,
+          "rate_p96": -0.08
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 27,
+          "keeperiq": 56.0,
+          "adj_total_p96": 0.0439
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "a2lqRX2Mr0",
+          "team_name": "New York Red Bulls",
+          "team_abbreviation": "NYRB",
+          "appearances": 2,
+          "minutes": 207.0,
+          "first_match": "2025-03-22",
+          "last_match": "2025-08-10"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025
+  ],
+  "talent": {
+    "player_id": "7VqG3Onxqv",
+    "slug": "aj-marcucci",
+    "name": "AJ Marcucci",
+    "team": "New York Red Bulls",
+    "team_abbreviation": "NYRB",
+    "nationality": "USA",
+    "talent_p96": 0.04,
+    "talent_low": -0.12,
+    "talent_high": 0.2,
+    "talent_sd": 0.098,
+    "keeperiq": 39.0,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 35,
+    "weights": {
+      "league_prior": 0.935,
+      "prior_season": 0.065,
+      "live_season": 0.0
+    },
+    "prior_season_rate": -0.08,
+    "live_season_rate": null,
+    "prior_season_minutes": 207.0,
+    "live_season_minutes": 0.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": false
+  }
+}

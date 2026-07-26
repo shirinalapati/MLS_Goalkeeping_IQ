@@ -1,0 +1,301 @@
+{
+  "schema_version": "1",
+  "player_id": "odMX7wpAQY",
+  "slug": "jordan-farr",
+  "name": "Jordan Farr",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "odMX7wpAQY",
+      "slug": "jordan-farr",
+      "name": "Jordan Farr",
+      "season": 2025,
+      "team_id": "EKXMeX3Q64",
+      "team": "D.C. United",
+      "team_abbreviation": "DCU",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1994-10-05",
+      "age": 31,
+      "minutes": 276.0,
+      "appearances": 3,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 26.6,
+      "adjusted_total_p96": 0.02,
+      "observed_total_p96": -0.4,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": -1.14,
+      "reliability": 0.046,
+      "interval_low": -0.14,
+      "interval_high": 0.18,
+      "interval_se": 0.099,
+      "observed_interval_low": -1.06,
+      "observed_interval_high": 0.25,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 51,
+      "rank_observed": 62,
+      "rank_goals_conceded": 60,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 6,
+      "goals_conceded_p96": 2.09,
+      "shots_faced": 14,
+      "shots_faced_p96": 4.87,
+      "saves": 7,
+      "save_pct": 50.0,
+      "xgoals_faced": 4.81,
+      "goals_prevented": -1.19,
+      "goals_prevented_p96": -0.41,
+      "previous_rank": 51,
+      "rank_change": 0,
+      "keeperiq_change": -3.3,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.384,
+          "adjusted_p96": 0.032,
+          "baseline_p96": 0.051,
+          "total": -1.105,
+          "raw_total": -1.192,
+          "percentile": 30.6,
+          "observed_percentile": 1.3,
+          "opportunities": 13,
+          "opportunities_p96": 4.52,
+          "reliability": 0.045
+        },
+        "handling": {
+          "observed_p96": 0.02,
+          "adjusted_p96": -0.004,
+          "baseline_p96": -0.005,
+          "total": 0.058,
+          "raw_total": 0.057,
+          "percentile": 49.7,
+          "observed_percentile": 97.1,
+          "opportunities": 7,
+          "opportunities_p96": 2.43,
+          "reliability": 0.024
+        },
+        "claiming": {
+          "observed_p96": -0.011,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": -0.033,
+          "raw_total": -0.035,
+          "percentile": 29.3,
+          "observed_percentile": 9.4,
+          "opportunities": 3,
+          "opportunities_p96": 1.04,
+          "reliability": 0.017
+        },
+        "sweeping": {
+          "observed_p96": 0.045,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": 0.129,
+          "raw_total": 0.126,
+          "percentile": 51.1,
+          "observed_percentile": 99.2,
+          "opportunities": 13,
+          "opportunities_p96": 4.52,
+          "reliability": 0.014
+        },
+        "passing": {
+          "observed_p96": -0.016,
+          "adjusted_p96": -0.009,
+          "baseline_p96": -0.005,
+          "total": -0.047,
+          "raw_total": 0.126,
+          "percentile": 39.3,
+          "observed_percentile": 22.2,
+          "opportunities": 86,
+          "opportunities_p96": 29.91,
+          "reliability": 0.395
+        },
+        "fielding": {
+          "observed_p96": -0.05,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": -0.145,
+          "raw_total": -0.16,
+          "percentile": 18.9,
+          "observed_percentile": 0.0,
+          "opportunities": 44,
+          "opportunities_p96": 15.3,
+          "reliability": 0.009
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 26.6,
+            "band": "weak",
+            "opportunities": null,
+            "text": "Complete impact sits below the MLS median."
+          },
+          {
+            "component": "fielding",
+            "label": "Fielding",
+            "percentile": 18.9,
+            "band": "weak",
+            "opportunities": 44,
+            "text": "Fielding contribution below the MLS median."
+          },
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (276 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "Oa5wjZZgM1",
+          "date": "2025-09-27",
+          "matchday": 34,
+          "minutes": 95.0,
+          "total_ga": -1.605,
+          "total_ga_p96": -1.62,
+          "rolling_total_ga_p96": -1.62,
+          "goals_conceded": 5,
+          "shots_faced": 7,
+          "saves": 2,
+          "xgoals_faced": 3.37,
+          "goals_prevented": -1.63,
+          "components": {
+            "shot_stopping": -1.6,
+            "handling": 0.023,
+            "claiming": -0.005,
+            "sweeping": -0.004,
+            "passing": -0.023,
+            "fielding": 0.005
+          }
+        },
+        {
+          "game_id": "2lqRpzz4Mr",
+          "date": "2025-10-04",
+          "matchday": 35,
+          "minutes": 82.0,
+          "total_ga": 0.202,
+          "total_ga_p96": 0.24,
+          "rolling_total_ga_p96": -0.76,
+          "goals_conceded": 0,
+          "shots_faced": 0,
+          "saves": 0,
+          "xgoals_faced": 0.0,
+          "goals_prevented": 0.0,
+          "components": {
+            "shot_stopping": 0.026,
+            "handling": 0.0,
+            "claiming": 0.002,
+            "sweeping": 0.184,
+            "passing": -0.012,
+            "fielding": 0.002
+          }
+        },
+        {
+          "game_id": "315VpbAbQ9",
+          "date": "2025-10-18",
+          "matchday": 36,
+          "minutes": 99.0,
+          "total_ga": 0.261,
+          "total_ga_p96": 0.25,
+          "rolling_total_ga_p96": -0.4,
+          "goals_conceded": 1,
+          "shots_faced": 7,
+          "saves": 5,
+          "xgoals_faced": 1.44,
+          "goals_prevented": 0.44,
+          "components": {
+            "shot_stopping": 0.47,
+            "handling": 0.035,
+            "claiming": -0.03,
+            "sweeping": -0.051,
+            "passing": -0.012,
+            "fielding": -0.151
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-09-27",
+          "matchday": 34,
+          "matches_in_window": 1,
+          "rate_p96": -1.62
+        },
+        {
+          "date": "2025-10-04",
+          "matchday": 35,
+          "matches_in_window": 2,
+          "rate_p96": -0.76
+        },
+        {
+          "date": "2025-10-18",
+          "matchday": 36,
+          "matches_in_window": 3,
+          "rate_p96": -0.4
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 51,
+          "keeperiq": 29.9,
+          "adj_total_p96": 0.0191
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "EKXMeX3Q64",
+          "team_name": "D.C. United",
+          "team_abbreviation": "DCU",
+          "appearances": 3,
+          "minutes": 276.0,
+          "first_match": "2025-09-27",
+          "last_match": "2025-10-18"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025
+  ],
+  "talent": {
+    "player_id": "odMX7wpAQY",
+    "slug": "jordan-farr",
+    "name": "Jordan Farr",
+    "team": "D.C. United",
+    "team_abbreviation": "DCU",
+    "nationality": "USA",
+    "talent_p96": 0.03,
+    "talent_low": -0.13,
+    "talent_high": 0.19,
+    "talent_sd": 0.099,
+    "keeperiq": 27.0,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 98.0,
+    "rank": 49,
+    "weights": {
+      "league_prior": 0.955,
+      "prior_season": 0.045,
+      "live_season": 0.0
+    },
+    "prior_season_rate": -0.4,
+    "live_season_rate": null,
+    "prior_season_minutes": 276.0,
+    "live_season_minutes": 0.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": false
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "schema_version": "1",
+  "player_id": "gpMOaPn1qz",
+  "slug": "nicholas-hagen",
+  "name": "Nicholas Hagen",
+  "generated_at": "2026-07-26T21:56:41Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2025": {
+      "player_id": "gpMOaPn1qz",
+      "slug": "nicholas-hagen",
+      "name": "Nicholas Hagen",
+      "season": 2025,
+      "team_id": "mvzqoLZQap",
+      "team": "Columbus Crew",
+      "team_abbreviation": "CLB",
+      "changed_teams": false,
+      "nationality": "Guatemala",
+      "birth_date": "1996-08-02",
+      "age": 29,
+      "minutes": 294.0,
+      "appearances": 3,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 42.7,
+      "adjusted_total_p96": 0.04,
+      "observed_total_p96": 0.02,
+      "baseline_total_p96": 0.05,
+      "adjusted_total": 0.07,
+      "reliability": 0.03,
+      "interval_low": -0.13,
+      "interval_high": 0.21,
+      "interval_se": 0.101,
+      "observed_interval_low": -1.94,
+      "observed_interval_high": 1.95,
+      "keeperiq_low": 0.0,
+      "keeperiq_high": 100.0,
+      "rank": 34,
+      "rank_observed": 32,
+      "rank_goals_conceded": 67,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 10,
+      "goals_conceded_p96": 3.27,
+      "shots_faced": 23,
+      "shots_faced_p96": 7.51,
+      "saves": 13,
+      "save_pct": 56.5,
+      "xgoals_faced": 9.85,
+      "goals_prevented": -0.15,
+      "goals_prevented_p96": -0.05,
+      "previous_rank": 31,
+      "rank_change": -3,
+      "keeperiq_change": -10.3,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.02,
+          "adjusted_p96": 0.05,
+          "baseline_p96": 0.056,
+          "total": -0.061,
+          "raw_total": -0.154,
+          "percentile": 49.2,
+          "observed_percentile": 27.7,
+          "opportunities": 23,
+          "opportunities_p96": 7.51,
+          "reliability": 0.077
+        },
+        "handling": {
+          "observed_p96": 0.051,
+          "adjusted_p96": -0.003,
+          "baseline_p96": -0.005,
+          "total": 0.157,
+          "raw_total": 0.156,
+          "percentile": 63.0,
+          "observed_percentile": 100.0,
+          "opportunities": 13,
+          "opportunities_p96": 4.24,
+          "reliability": 0.043
+        },
+        "claiming": {
+          "observed_p96": 0.002,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.006,
+          "raw_total": 0.005,
+          "percentile": 37.8,
+          "observed_percentile": 42.0,
+          "opportunities": 2,
+          "opportunities_p96": 0.65,
+          "reliability": 0.012
+        },
+        "sweeping": {
+          "observed_p96": 0.002,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": 0.006,
+          "raw_total": 0.002,
+          "percentile": 41.5,
+          "observed_percentile": 63.6,
+          "opportunities": 8,
+          "opportunities_p96": 2.61,
+          "reliability": 0.009
+        },
+        "passing": {
+          "observed_p96": -0.015,
+          "adjusted_p96": -0.009,
+          "baseline_p96": -0.004,
+          "total": -0.047,
+          "raw_total": 0.137,
+          "percentile": 42.2,
+          "observed_percentile": 28.6,
+          "opportunities": 68,
+          "opportunities_p96": 22.2,
+          "reliability": 0.34
+        },
+        "fielding": {
+          "observed_p96": 0.003,
+          "adjusted_p96": 0.001,
+          "baseline_p96": 0.001,
+          "total": 0.008,
+          "raw_total": -0.008,
+          "percentile": 31.1,
+          "observed_percentile": 38.4,
+          "opportunities": 37,
+          "opportunities_p96": 12.08,
+          "reliability": 0.007
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (294 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "9vQ2bJeLQK",
+          "date": "2025-05-24",
+          "matchday": 15,
+          "minutes": 99.0,
+          "total_ga": 3.089,
+          "total_ga_p96": 3.0,
+          "rolling_total_ga_p96": 3.0,
+          "goals_conceded": 3,
+          "shots_faced": 10,
+          "saves": 7,
+          "xgoals_faced": 5.85,
+          "goals_prevented": 2.85,
+          "components": {
+            "shot_stopping": 2.882,
+            "handling": 0.146,
+            "claiming": 0.005,
+            "sweeping": 0.038,
+            "passing": 0.014,
+            "fielding": 0.003
+          }
+        },
+        {
+          "game_id": "jYQJmNXZqG",
+          "date": "2025-05-29",
+          "matchday": 16,
+          "minutes": 98.0,
+          "total_ga": -0.155,
+          "total_ga_p96": -0.15,
+          "rolling_total_ga_p96": 1.43,
+          "goals_conceded": 2,
+          "shots_faced": 6,
+          "saves": 4,
+          "xgoals_faced": 1.78,
+          "goals_prevented": -0.22,
+          "components": {
+            "shot_stopping": -0.185,
+            "handling": 0.024,
+            "claiming": 0.001,
+            "sweeping": 0.001,
+            "passing": 0.005,
+            "fielding": 0.0
+          }
+        },
+        {
+          "game_id": "Pk5Lp8XE5O",
+          "date": "2025-05-31",
+          "matchday": 17,
+          "minutes": 97.0,
+          "total_ga": -2.866,
+          "total_ga_p96": -2.84,
+          "rolling_total_ga_p96": 0.02,
+          "goals_conceded": 5,
+          "shots_faced": 7,
+          "saves": 2,
+          "xgoals_faced": 2.21,
+          "goals_prevented": -2.79,
+          "components": {
+            "shot_stopping": -2.759,
+            "handling": -0.012,
+            "claiming": 0.001,
+            "sweeping": -0.034,
+            "passing": -0.066,
+            "fielding": 0.004
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2025-05-24",
+          "matchday": 15,
+          "matches_in_window": 1,
+          "rate_p96": 3.0
+        },
+        {
+          "date": "2025-05-29",
+          "matchday": 16,
+          "matches_in_window": 2,
+          "rate_p96": 1.43
+        },
+        {
+          "date": "2025-05-31",
+          "matchday": 17,
+          "matches_in_window": 3,
+          "rate_p96": 0.02
+        }
+      ],
+      "ranking_history": [
+        {
+          "captured_at": "2026-07-25T18:59:39Z",
+          "max_match_date": "2025-12-06",
+          "rank": 31,
+          "keeperiq": 53.0,
+          "adj_total_p96": 0.0398
+        }
+      ],
+      "team_stints": [
+        {
+          "team_id": "mvzqoLZQap",
+          "team_name": "Columbus Crew",
+          "team_abbreviation": "CLB",
+          "appearances": 3,
+          "minutes": 294.0,
+          "first_match": "2025-05-24",
+          "last_match": "2025-05-31"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2025
+  ],
+  "talent": {
+    "player_id": "gpMOaPn1qz",
+    "slug": "nicholas-hagen",
+    "name": "Nicholas Hagen",
+    "team": "Columbus Crew",
+    "team_abbreviation": "CLB",
+    "nationality": "Guatemala",
+    "talent_p96": 0.05,
+    "talent_low": -0.11,
+    "talent_high": 0.22,
+    "talent_sd": 0.099,
+    "keeperiq": 42.6,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 32,
+    "weights": {
+      "league_prior": 0.97,
+      "prior_season": 0.03,
+      "live_season": 0.0
+    },
+    "prior_season_rate": 0.02,
+    "live_season_rate": null,
+    "prior_season_minutes": 294.0,
+    "live_season_minutes": 0.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "prior_season_available",
+    "in_live_season": false
+  }
+}
