@@ -69,8 +69,10 @@ jobs:
       - name: Commit updated data when the source changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          # [skip ci] prevents this data commit from re-triggering workflows.
-          commit_message: "chore(data): refresh MLS KeeperIQ snapshot [skip ci]"
+          # Do not use [skip ci]: Vercel (and similar) ignore those commits, so the
+          # live site would stop redeploying when data refreshes. This workflow only
+          # runs on schedule / workflow_dispatch, so a data push will not re-trigger it.
+          commit_message: "chore(data): refresh MLS KeeperIQ snapshot"
           file_pattern: public/data/** data/processed/** data/snapshots/**
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com

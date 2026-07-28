@@ -217,7 +217,7 @@ On **Compare**, export Excel and PowerPoint for the selected season-view keepers
 2. Installs Python + Node dependencies
 3. Fetches ASA data with `--force`
 4. Validates, rebuilds artefacts, runs pipeline + frontend tests and a production build
-5. Commits changed `public/data`, `data/processed`, and `data/snapshots` with `[skip ci]` so the workflow cannot loop
+5. Commits changed `public/data`, `data/processed`, and `data/snapshots` (no `[skip ci]`, so Vercel can redeploy the live site)
 
 The site surfaces last attempted update, last successful update, latest match date, and whether the displayed data is current or a fallback on **Overview → Season coverage**.
 

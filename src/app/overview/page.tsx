@@ -71,7 +71,7 @@ export default async function OverviewPage() {
         <MetaCard
           label="2026 Live"
           value={`${season2026.counts.qualified} qualified`}
-          detail={`Updated through ${formatDate(season2026.max_match_date)}`}
+          detail={`Refreshed ${formatDate(status.last_successful_update)} · matches through ${formatDate(season2026.max_match_date)}`}
           href="/leaderboard?view=2026"
         />
         <MetaCard
