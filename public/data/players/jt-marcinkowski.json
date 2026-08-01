@@ -3,7 +3,7 @@
   "player_id": "ljqE2keVQx",
   "slug": "jt-marcinkowski",
   "name": "JT Marcinkowski",
-  "generated_at": "2026-07-31T16:12:40Z",
+  "generated_at": "2026-08-01T15:19:49Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.264,
+          "observed_p96": -0.265,
           "adjusted_p96": 0.034,
           "baseline_p96": 0.047,
-          "total": -0.834,
+          "total": -0.835,
           "raw_total": -0.927,
           "percentile": 32.8,
           "observed_percentile": 2.5,
@@ -170,7 +170,7 @@
             "claiming": 0.005,
             "sweeping": 0.007,
             "passing": 0.03,
-            "fielding": 0.002
+            "fielding": 0.001
           }
         },
         {
@@ -178,8 +178,8 @@
           "date": "2025-09-07",
           "matchday": 26,
           "minutes": 104.0,
-          "total_ga": -0.514,
-          "total_ga_p96": -0.47,
+          "total_ga": -0.515,
+          "total_ga_p96": -0.48,
           "rolling_total_ga_p96": -0.19,
           "goals_conceded": 1,
           "shots_faced": 3,
@@ -200,7 +200,7 @@
           "date": "2025-10-04",
           "matchday": 35,
           "minutes": 100.0,
-          "total_ga": -0.251,
+          "total_ga": -0.252,
           "total_ga_p96": -0.24,
           "rolling_total_ga_p96": -0.2,
           "goals_conceded": 2,
@@ -283,10 +283,10 @@
       "sample_status": "qualified",
       "sample_status_label": "Qualified",
       "keeperiq": 85.1,
-      "adjusted_total_p96": 0.09,
-      "observed_total_p96": 0.3,
-      "baseline_total_p96": 0.03,
-      "adjusted_total": 4.15,
+      "adjusted_total_p96": 0.1,
+      "observed_total_p96": 0.31,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": 4.24,
       "reliability": 0.18,
       "interval_low": -0.06,
       "interval_high": 0.25,
@@ -307,33 +307,33 @@
       "shots_faced_p96": 4.92,
       "saves": 48,
       "save_pct": 70.6,
-      "xgoals_faced": 22.07,
-      "goals_prevented": 4.07,
-      "goals_prevented_p96": 0.29,
+      "xgoals_faced": 21.73,
+      "goals_prevented": 3.73,
+      "goals_prevented_p96": 0.27,
       "previous_rank": 5,
       "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.324,
-          "adjusted_p96": 0.109,
-          "baseline_p96": 0.06,
-          "total": 4.477,
-          "raw_total": 4.068,
-          "percentile": 85.1,
+          "observed_p96": 0.299,
+          "adjusted_p96": 0.108,
+          "baseline_p96": 0.065,
+          "total": 4.139,
+          "raw_total": 3.733,
+          "percentile": 81.6,
           "observed_percentile": 88.6,
           "opportunities": 66,
           "opportunities_p96": 4.77,
           "reliability": 0.194
         },
         "handling": {
-          "observed_p96": -0.011,
-          "adjusted_p96": -0.019,
+          "observed_p96": -0.003,
+          "adjusted_p96": -0.018,
           "baseline_p96": -0.02,
-          "total": -0.147,
-          "raw_total": -0.154,
-          "percentile": 55.7,
-          "observed_percentile": 55.7,
+          "total": -0.04,
+          "raw_total": -0.047,
+          "percentile": 68.6,
+          "observed_percentile": 81.5,
           "opportunities": 48,
           "opportunities_p96": 3.47,
           "reliability": 0.142
@@ -344,50 +344,50 @@
           "baseline_p96": -0.003,
           "total": -0.007,
           "raw_total": -0.014,
-          "percentile": 31.4,
-          "observed_percentile": 33.9,
+          "percentile": 32.1,
+          "observed_percentile": 34.6,
           "opportunities": 23,
           "opportunities_p96": 1.66,
           "reliability": 0.119
         },
         "sweeping": {
           "observed_p96": -0.006,
-          "adjusted_p96": 0.003,
-          "baseline_p96": 0.003,
-          "total": -0.087,
-          "raw_total": -0.104,
-          "percentile": 33.2,
-          "observed_percentile": 21.8,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": -0.084,
+          "raw_total": -0.101,
+          "percentile": 30.2,
+          "observed_percentile": 21.7,
           "opportunities": 22,
           "opportunities_p96": 1.59,
           "reliability": 0.024
         },
         "passing": {
-          "observed_p96": 0.004,
+          "observed_p96": 0.005,
           "adjusted_p96": 0.001,
           "baseline_p96": -0.01,
-          "total": 0.059,
-          "raw_total": 0.89,
-          "percentile": 82.3,
-          "observed_percentile": 82.3,
+          "total": 0.063,
+          "raw_total": 0.894,
+          "percentile": 82.4,
+          "observed_percentile": 82.4,
           "opportunities": 468,
           "opportunities_p96": 33.83,
           "reliability": 0.78
         },
         "fielding": {
-          "observed_p96": -0.01,
-          "adjusted_p96": 0.003,
+          "observed_p96": 0.012,
+          "adjusted_p96": 0.005,
           "baseline_p96": 0.004,
-          "total": -0.145,
-          "raw_total": -0.218,
-          "percentile": 32.4,
-          "observed_percentile": 12.5,
-          "opportunities": 345,
-          "opportunities_p96": 24.94,
-          "reliability": 0.065
+          "total": 0.165,
+          "raw_total": 0.093,
+          "percentile": 82.8,
+          "observed_percentile": 84.0,
+          "opportunities": 344,
+          "opportunities_p96": 24.87,
+          "reliability": 0.064
         }
       },
-      "archetype": "Busy Handler",
+      "archetype": "High-Volume Shot Stopper",
       "notes": {
         "strengths": [
           {
@@ -399,20 +399,28 @@
             "text": "Top-tier complete impact once every component is valued together."
           },
           {
-            "component": "shot_stopping",
-            "label": "Shot Stopping",
-            "percentile": 85.1,
-            "band": "elite",
-            "opportunities": 66,
-            "text": "Elite adjusted shot stopping percentile."
+            "component": "fielding",
+            "label": "Fielding",
+            "percentile": 82.8,
+            "band": "strong",
+            "opportunities": 344,
+            "text": "Strong fielding contribution."
           },
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 82.3,
+            "percentile": 82.4,
             "band": "strong",
             "opportunities": 468,
             "text": "Strong passing contribution."
+          },
+          {
+            "component": "shot_stopping",
+            "label": "Shot Stopping",
+            "percentile": 81.6,
+            "band": "strong",
+            "opportunities": 66,
+            "text": "Strong shot stopping contribution."
           }
         ],
         "concerns": []
@@ -423,7 +431,7 @@
           "date": "2026-03-22",
           "matchday": 5,
           "minutes": 102.0,
-          "total_ga": -0.374,
+          "total_ga": -0.375,
           "total_ga_p96": -0.35,
           "rolling_total_ga_p96": -0.35,
           "goals_conceded": 1,
@@ -432,7 +440,7 @@
           "xgoals_faced": 0.58,
           "goals_prevented": -0.42,
           "components": {
-            "shot_stopping": -0.388,
+            "shot_stopping": -0.389,
             "handling": 0.007,
             "claiming": 0.003,
             "sweeping": 0.011,
@@ -478,7 +486,7 @@
           "components": {
             "shot_stopping": 0.562,
             "handling": -0.079,
-            "claiming": -0.001,
+            "claiming": -0.0,
             "sweeping": 0.001,
             "passing": 0.003,
             "fielding": 0.005
@@ -498,7 +506,7 @@
           "xgoals_faced": 1.15,
           "goals_prevented": -0.85,
           "components": {
-            "shot_stopping": -0.813,
+            "shot_stopping": -0.814,
             "handling": 0.062,
             "claiming": 0.003,
             "sweeping": 0.018,
@@ -564,7 +572,7 @@
           "xgoals_faced": 1.47,
           "goals_prevented": 0.47,
           "components": {
-            "shot_stopping": 0.503,
+            "shot_stopping": 0.502,
             "handling": 0.005,
             "claiming": -0.101,
             "sweeping": -0.109,
@@ -586,7 +594,7 @@
           "xgoals_faced": 0.66,
           "goals_prevented": -0.34,
           "components": {
-            "shot_stopping": -0.312,
+            "shot_stopping": -0.313,
             "handling": -0.03,
             "claiming": 0.049,
             "sweeping": 0.057,
@@ -599,7 +607,7 @@
           "date": "2026-05-14",
           "matchday": 13,
           "minutes": 101.0,
-          "total_ga": 0.697,
+          "total_ga": 0.696,
           "total_ga_p96": 0.66,
           "rolling_total_ga_p96": 0.06,
           "goals_conceded": 3,
@@ -613,7 +621,7 @@
             "claiming": 0.005,
             "sweeping": 0.002,
             "passing": 0.015,
-            "fielding": -0.047
+            "fielding": -0.048
           }
         },
         {
@@ -630,7 +638,7 @@
           "xgoals_faced": 1.91,
           "goals_prevented": 1.91,
           "components": {
-            "shot_stopping": 1.938,
+            "shot_stopping": 1.937,
             "handling": 0.096,
             "claiming": 0.022,
             "sweeping": 0.008,
@@ -665,7 +673,7 @@
           "date": "2026-07-23",
           "matchday": 17,
           "minutes": 102.0,
-          "total_ga": 0.582,
+          "total_ga": 0.581,
           "total_ga_p96": 0.55,
           "rolling_total_ga_p96": 0.22,
           "goals_conceded": 3,
@@ -687,21 +695,21 @@
           "date": "2026-07-26",
           "matchday": 18,
           "minutes": 102.0,
-          "total_ga": 1.353,
-          "total_ga_p96": 1.27,
-          "rolling_total_ga_p96": 0.3,
+          "total_ga": 1.443,
+          "total_ga_p96": 1.36,
+          "rolling_total_ga_p96": 0.31,
           "goals_conceded": 1,
           "shots_faced": 5,
           "saves": 4,
-          "xgoals_faced": 2.85,
-          "goals_prevented": 1.85,
+          "xgoals_faced": 2.52,
+          "goals_prevented": 1.52,
           "components": {
-            "shot_stopping": 1.882,
-            "handling": -0.209,
+            "shot_stopping": 1.547,
+            "handling": -0.101,
             "claiming": 0.001,
-            "sweeping": -0.081,
-            "passing": 0.001,
-            "fielding": -0.24
+            "sweeping": -0.078,
+            "passing": 0.005,
+            "fielding": 0.07
           }
         }
       ],
@@ -782,7 +790,7 @@
           "date": "2026-07-26",
           "matchday": 18,
           "matches_in_window": 5,
-          "rate_p96": 0.8
+          "rate_p96": 0.82
         }
       ],
       "ranking_history": [
@@ -831,17 +839,17 @@
     "talent_low": -0.07,
     "talent_high": 0.22,
     "talent_sd": 0.088,
-    "keeperiq": 50.9,
+    "keeperiq": 53.5,
     "keeperiq_low": 3.4,
     "keeperiq_high": 100.0,
-    "rank": 23,
+    "rank": 22,
     "weights": {
       "league_prior": 0.755,
       "prior_season": 0.078,
       "live_season": 0.166
     },
     "prior_season_rate": -0.2,
-    "live_season_rate": 0.3,
+    "live_season_rate": 0.31,
     "prior_season_minutes": 303.0,
     "live_season_minutes": 1328.0,
     "league_prior_rate": 0.05,

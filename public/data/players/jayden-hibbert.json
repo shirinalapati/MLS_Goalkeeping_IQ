@@ -3,7 +3,7 @@
   "player_id": "9YqdoDvL5v",
   "slug": "jayden-hibbert",
   "name": "Jayden Hibbert",
-  "generated_at": "2026-07-31T16:12:40Z",
+  "generated_at": "2026-08-01T15:19:49Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.08,
       "baseline_total_p96": 0.05,
-      "adjusted_total": -0.65,
+      "adjusted_total": -0.66,
       "reliability": 0.109,
       "interval_low": -0.13,
       "interval_high": 0.18,
@@ -57,8 +57,8 @@
         "shot_stopping": {
           "observed_p96": -0.112,
           "adjusted_p96": 0.032,
-          "baseline_p96": 0.054,
-          "total": -0.95,
+          "baseline_p96": 0.053,
+          "total": -0.952,
           "raw_total": -1.202,
           "percentile": 32.4,
           "observed_percentile": 12.2,
@@ -157,18 +157,18 @@
           "matchday": 23,
           "minutes": 112.0,
           "total_ga": -0.006,
-          "total_ga_p96": -0.0,
-          "rolling_total_ga_p96": -0.0,
+          "total_ga_p96": -0.01,
+          "rolling_total_ga_p96": -0.01,
           "goals_conceded": 1,
           "shots_faced": 5,
           "saves": 4,
           "xgoals_faced": 0.86,
           "goals_prevented": -0.14,
           "components": {
-            "shot_stopping": -0.105,
+            "shot_stopping": -0.106,
             "handling": 0.016,
             "claiming": 0.003,
-            "sweeping": 0.044,
+            "sweeping": 0.045,
             "passing": 0.019,
             "fielding": 0.017
           }
@@ -187,7 +187,7 @@
           "xgoals_faced": 0.29,
           "goals_prevented": 0.29,
           "components": {
-            "shot_stopping": 0.325,
+            "shot_stopping": 0.324,
             "handling": -0.009,
             "claiming": 0.043,
             "sweeping": 0.038,
@@ -244,7 +244,7 @@
           "date": "2025-09-20",
           "matchday": 33,
           "minutes": 102.0,
-          "total_ga": -0.108,
+          "total_ga": -0.109,
           "total_ga_p96": -0.1,
           "rolling_total_ga_p96": -0.06,
           "goals_conceded": 1,
@@ -275,7 +275,7 @@
           "xgoals_faced": 1.81,
           "goals_prevented": -0.19,
           "components": {
-            "shot_stopping": -0.159,
+            "shot_stopping": -0.16,
             "handling": 0.08,
             "claiming": -0.024,
             "sweeping": -0.004,
@@ -375,7 +375,7 @@
           "date": "2025-10-11",
           "matchday": 21,
           "matches_in_window": 5,
-          "rate_p96": -0.44
+          "rate_p96": -0.45
         }
       ],
       "ranking_history": [
@@ -421,11 +421,11 @@
     "age": 21,
     "talent_p96": 0.04,
     "talent_low": -0.12,
-    "talent_high": 0.2,
+    "talent_high": 0.19,
     "talent_sd": 0.095,
     "keeperiq": 29.4,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 100.0,
+    "keeperiq_high": 98.0,
     "rank": 43,
     "weights": {
       "league_prior": 0.893,
