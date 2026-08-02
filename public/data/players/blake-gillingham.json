@@ -3,7 +3,7 @@
   "player_id": "EGMP1vPx5a",
   "slug": "blake-gillingham",
   "name": "Blake Gillingham",
-  "generated_at": "2026-08-01T15:19:49Z",
+  "generated_at": "2026-08-02T15:20:40Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -56,7 +56,7 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.639,
-          "adjusted_p96": 0.08,
+          "adjusted_p96": 0.081,
           "baseline_p96": 0.05,
           "total": 2.196,
           "raw_total": 2.095,
@@ -69,8 +69,8 @@
         "handling": {
           "observed_p96": 0.01,
           "adjusted_p96": -0.004,
-          "baseline_p96": -0.005,
-          "total": 0.033,
+          "baseline_p96": -0.004,
+          "total": 0.034,
           "raw_total": 0.032,
           "percentile": 47.7,
           "observed_percentile": 86.7,
@@ -106,7 +106,7 @@
           "observed_p96": -0.018,
           "adjusted_p96": -0.01,
           "baseline_p96": -0.005,
-          "total": -0.061,
+          "total": -0.06,
           "raw_total": 0.146,
           "percentile": 39.3,
           "observed_percentile": 12.2,
@@ -200,7 +200,7 @@
           "xgoals_faced": 0.45,
           "goals_prevented": 0.45,
           "components": {
-            "shot_stopping": 0.479,
+            "shot_stopping": 0.48,
             "handling": -0.02,
             "claiming": 0.014,
             "sweeping": -0.01,
@@ -223,7 +223,7 @@
           "goals_prevented": -0.37,
           "components": {
             "shot_stopping": -0.342,
-            "handling": 0.003,
+            "handling": 0.004,
             "claiming": 0.018,
             "sweeping": -0.002,
             "passing": -0.037,
@@ -271,6 +271,13 @@
           "rank": 16,
           "keeperiq": 69.9,
           "adj_total_p96": 0.0665
+        },
+        {
+          "captured_at": "2026-08-01T15:20:41Z",
+          "max_match_date": "2025-12-06",
+          "rank": 16,
+          "keeperiq": 69.9,
+          "adj_total_p96": 0.0663
         }
       ],
       "team_stints": [
@@ -302,10 +309,10 @@
     "talent_low": -0.08,
     "talent_high": 0.24,
     "talent_sd": 0.098,
-    "keeperiq": 69.1,
+    "keeperiq": 67.8,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 15,
+    "rank": 16,
     "weights": {
       "league_prior": 0.944,
       "prior_season": 0.056,

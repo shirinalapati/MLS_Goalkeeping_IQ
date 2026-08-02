@@ -3,7 +3,7 @@
   "player_id": "gpMOaPn1qz",
   "slug": "nicholas-hagen",
   "name": "Nicholas Hagen",
-  "generated_at": "2026-08-01T15:19:49Z",
+  "generated_at": "2026-08-02T15:20:40Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -56,7 +56,7 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.021,
-          "adjusted_p96": 0.049,
+          "adjusted_p96": 0.05,
           "baseline_p96": 0.055,
           "total": -0.064,
           "raw_total": -0.154,
@@ -67,9 +67,9 @@
           "reliability": 0.077
         },
         "handling": {
-          "observed_p96": 0.051,
+          "observed_p96": 0.052,
           "adjusted_p96": -0.003,
-          "baseline_p96": -0.005,
+          "baseline_p96": -0.004,
           "total": 0.158,
           "raw_total": 0.156,
           "percentile": 63.0,
@@ -115,7 +115,7 @@
           "reliability": 0.34
         },
         "fielding": {
-          "observed_p96": 0.003,
+          "observed_p96": 0.002,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
           "total": 0.008,
@@ -183,7 +183,7 @@
             "claiming": 0.001,
             "sweeping": 0.001,
             "passing": 0.005,
-            "fielding": 0.0
+            "fielding": -0.0
           }
         },
         {
@@ -191,7 +191,7 @@
           "date": "2025-05-31",
           "matchday": 17,
           "minutes": 97.0,
-          "total_ga": -2.867,
+          "total_ga": -2.866,
           "total_ga_p96": -2.84,
           "rolling_total_ga_p96": 0.02,
           "goals_conceded": 5,
@@ -243,6 +243,13 @@
           "rank": 34,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0392
+        },
+        {
+          "captured_at": "2026-08-01T15:20:41Z",
+          "max_match_date": "2025-12-06",
+          "rank": 34,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.039
         }
       ],
       "team_stints": [
@@ -269,12 +276,12 @@
     "team_abbreviation": "CLB",
     "nationality": "Guatemala",
     "birth_date": "1996-08-02",
-    "age": 29,
+    "age": 30,
     "talent_p96": 0.05,
     "talent_low": -0.11,
     "talent_high": 0.21,
     "talent_sd": 0.099,
-    "keeperiq": 37.7,
+    "keeperiq": 40.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 34,

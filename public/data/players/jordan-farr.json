@@ -3,7 +3,7 @@
   "player_id": "odMX7wpAQY",
   "slug": "jordan-farr",
   "name": "Jordan Farr",
-  "generated_at": "2026-08-01T15:19:49Z",
+  "generated_at": "2026-08-02T15:20:40Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -57,7 +57,7 @@
         "shot_stopping": {
           "observed_p96": -0.385,
           "adjusted_p96": 0.032,
-          "baseline_p96": 0.05,
+          "baseline_p96": 0.051,
           "total": -1.107,
           "raw_total": -1.192,
           "percentile": 30.6,
@@ -70,7 +70,7 @@
           "observed_p96": 0.02,
           "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
-          "total": 0.058,
+          "total": 0.059,
           "raw_total": 0.057,
           "percentile": 49.7,
           "observed_percentile": 97.1,
@@ -108,7 +108,7 @@
           "baseline_p96": -0.005,
           "total": -0.047,
           "raw_total": 0.126,
-          "percentile": 39.3,
+          "percentile": 42.2,
           "observed_percentile": 22.2,
           "opportunities": 86,
           "opportunities_p96": 29.91,
@@ -195,7 +195,7 @@
           "goals_prevented": 0.0,
           "components": {
             "shot_stopping": 0.025,
-            "handling": 0.0,
+            "handling": 0.001,
             "claiming": 0.002,
             "sweeping": 0.184,
             "passing": -0.012,
@@ -259,6 +259,13 @@
           "rank": 51,
           "keeperiq": 26.6,
           "adj_total_p96": 0.0195
+        },
+        {
+          "captured_at": "2026-08-01T15:20:41Z",
+          "max_match_date": "2025-12-06",
+          "rank": 51,
+          "keeperiq": 26.6,
+          "adj_total_p96": 0.0193
         }
       ],
       "team_stints": [
@@ -290,10 +297,10 @@
     "talent_low": -0.13,
     "talent_high": 0.19,
     "talent_sd": 0.099,
-    "keeperiq": 28.2,
+    "keeperiq": 27.9,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 98.0,
-    "rank": 46,
+    "keeperiq_high": 100.0,
+    "rank": 47,
     "weights": {
       "league_prior": 0.955,
       "prior_season": 0.045,

@@ -3,7 +3,7 @@
   "player_id": "xW5pxyxB5g",
   "slug": "david-bingham",
   "name": "David Bingham",
-  "generated_at": "2026-08-01T15:19:49Z",
+  "generated_at": "2026-08-02T15:20:40Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -23,7 +23,7 @@
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
       "keeperiq": 59.8,
-      "adjusted_total_p96": 0.05,
+      "adjusted_total_p96": 0.06,
       "observed_total_p96": 0.58,
       "baseline_total_p96": 0.04,
       "adjusted_total": 1.2,
@@ -69,8 +69,8 @@
         "handling": {
           "observed_p96": 0.062,
           "adjusted_p96": -0.003,
-          "baseline_p96": -0.005,
-          "total": 0.129,
+          "baseline_p96": -0.004,
+          "total": 0.13,
           "raw_total": 0.128,
           "percentile": 59.8,
           "observed_percentile": 100.0,
@@ -117,7 +117,7 @@
         "fielding": {
           "observed_p96": 0.006,
           "adjusted_p96": 0.002,
-          "baseline_p96": 0.002,
+          "baseline_p96": 0.001,
           "total": 0.013,
           "raw_total": 0.002,
           "percentile": 47.8,
@@ -147,7 +147,7 @@
           "date": "2025-05-31",
           "matchday": 17,
           "minutes": 95.0,
-          "total_ga": 0.712,
+          "total_ga": 0.713,
           "total_ga_p96": 0.72,
           "rolling_total_ga_p96": 0.72,
           "goals_conceded": 0,
@@ -157,7 +157,7 @@
           "goals_prevented": 0.64,
           "components": {
             "shot_stopping": 0.672,
-            "handling": 0.053,
+            "handling": 0.054,
             "claiming": 0.008,
             "sweeping": 0.001,
             "passing": -0.022,
@@ -215,6 +215,13 @@
           "rank": 23,
           "keeperiq": 59.8,
           "adj_total_p96": 0.0551
+        },
+        {
+          "captured_at": "2026-08-01T15:20:41Z",
+          "max_match_date": "2025-12-06",
+          "rank": 23,
+          "keeperiq": 59.8,
+          "adj_total_p96": 0.0548
         }
       ],
       "team_stints": [
