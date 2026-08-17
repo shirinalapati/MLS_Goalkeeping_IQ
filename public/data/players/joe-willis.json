@@ -3,7 +3,7 @@
   "player_id": "gOMn6lylMw",
   "slug": "joe-willis",
   "name": "Joe Willis",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.0,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -0.14,
+      "adjusted_total": -0.15,
       "reliability": 0.437,
       "interval_low": -0.1,
       "interval_high": 0.14,
@@ -58,7 +58,7 @@
           "observed_p96": 0.014,
           "adjusted_p96": 0.035,
           "baseline_p96": 0.047,
-          "total": 0.563,
+          "total": 0.565,
           "raw_total": -0.586,
           "percentile": 34.6,
           "observed_percentile": 35.4,
@@ -70,7 +70,7 @@
           "observed_p96": -0.0,
           "adjusted_p96": -0.003,
           "baseline_p96": -0.004,
-          "total": -0.005,
+          "total": -0.009,
           "raw_total": -0.031,
           "percentile": 57.1,
           "observed_percentile": 52.8,
@@ -94,7 +94,7 @@
           "observed_p96": 0.0,
           "adjusted_p96": -0.001,
           "baseline_p96": -0.001,
-          "total": 0.018,
+          "total": 0.019,
           "raw_total": -0.028,
           "percentile": 54.4,
           "observed_percentile": 59.0,
@@ -195,7 +195,7 @@
           "xgoals_faced": 1.85,
           "goals_prevented": -0.15,
           "components": {
-            "shot_stopping": -0.117,
+            "shot_stopping": -0.116,
             "handling": 0.021,
             "claiming": 0.001,
             "sweeping": 0.01,
@@ -331,7 +331,7 @@
             "handling": -0.047,
             "claiming": 0.001,
             "sweeping": -0.014,
-            "passing": -0.014,
+            "passing": -0.015,
             "fielding": 0.004
           }
         },
@@ -474,7 +474,7 @@
           "minutes": 97.0,
           "total_ga": 0.171,
           "total_ga_p96": 0.17,
-          "rolling_total_ga_p96": 0.02,
+          "rolling_total_ga_p96": 0.01,
           "goals_conceded": 1,
           "shots_faced": 3,
           "saves": 2,
@@ -582,7 +582,7 @@
           "date": "2025-06-28",
           "matchday": 21,
           "minutes": 104.0,
-          "total_ga": 0.09,
+          "total_ga": 0.089,
           "total_ga_p96": 0.08,
           "rolling_total_ga_p96": 0.08,
           "goals_conceded": 0,
@@ -670,7 +670,7 @@
           "date": "2025-07-20",
           "matchday": 25,
           "minutes": 101.0,
-          "total_ga": 0.01,
+          "total_ga": 0.011,
           "total_ga_p96": 0.01,
           "rolling_total_ga_p96": 0.06,
           "goals_conceded": 0,
@@ -926,7 +926,7 @@
             "claiming": -0.618,
             "sweeping": 0.002,
             "passing": -0.019,
-            "fielding": 0.013
+            "fielding": 0.012
           }
         },
         {
@@ -1233,6 +1233,13 @@
           "rank": 50,
           "keeperiq": 28.3,
           "adj_total_p96": 0.0194
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 50,
+          "keeperiq": 28.3,
+          "adj_total_p96": 0.0195
         }
       ],
       "team_stints": [

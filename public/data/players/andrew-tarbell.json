@@ -3,7 +3,7 @@
   "player_id": "jYQJz3rWQG",
   "slug": "andrew-tarbell",
   "name": "Andrew Tarbell",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.16,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -0.55,
+      "adjusted_total": -0.56,
       "reliability": 0.057,
       "interval_low": -0.14,
       "interval_high": 0.19,
@@ -58,7 +58,7 @@
           "observed_p96": -0.211,
           "adjusted_p96": 0.037,
           "baseline_p96": 0.05,
-          "total": -0.726,
+          "total": -0.725,
           "raw_total": -0.826,
           "percentile": 40.2,
           "observed_percentile": 5.8,
@@ -156,7 +156,7 @@
           "xgoals_faced": 1.31,
           "goals_prevented": -0.69,
           "components": {
-            "shot_stopping": -0.661,
+            "shot_stopping": -0.66,
             "handling": 0.018,
             "claiming": 0.001,
             "sweeping": 0.136,
@@ -292,6 +292,13 @@
           "rank": 44,
           "keeperiq": 37.5,
           "adj_total_p96": 0.0277
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 44,
+          "keeperiq": 37.5,
+          "adj_total_p96": 0.0277
         }
       ],
       "team_stints": [
@@ -323,10 +330,10 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.098,
-    "keeperiq": 32.5,
+    "keeperiq": 36.0,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 41,
+    "rank": 40,
     "weights": {
       "league_prior": 0.944,
       "prior_season": 0.056,

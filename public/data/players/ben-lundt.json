@@ -3,7 +3,7 @@
   "player_id": "gjMNvV70MK",
   "slug": "ben-lundt",
   "name": "Ben Lundt",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.02,
           "adjusted_p96": 0.042,
           "baseline_p96": 0.052,
-          "total": -0.193,
+          "total": -0.192,
           "raw_total": -0.472,
           "percentile": 43.9,
           "observed_percentile": 28.1,
@@ -69,8 +69,8 @@
         "handling": {
           "observed_p96": -0.0,
           "adjusted_p96": -0.004,
-          "baseline_p96": -0.004,
-          "total": -0.002,
+          "baseline_p96": -0.005,
+          "total": -0.003,
           "raw_total": -0.008,
           "percentile": 47.3,
           "observed_percentile": 50.5,
@@ -423,6 +423,13 @@
           "rank": 37,
           "keeperiq": 42.3,
           "adj_total_p96": 0.037
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 37,
+          "keeperiq": 42.3,
+          "adj_total_p96": 0.037
         }
       ],
       "team_stints": [
@@ -453,7 +460,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 32.5,
+      "keeperiq": 28.9,
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -0.0,
       "baseline_total_p96": 0.03,
@@ -461,12 +468,12 @@
       "reliability": 0.063,
       "interval_low": -0.09,
       "interval_high": 0.1,
-      "interval_se": 0.058,
+      "interval_se": 0.059,
       "observed_interval_low": -0.1,
       "observed_interval_high": 0.1,
       "keeperiq_low": 0.0,
       "keeperiq_high": 89.7,
-      "rank": 34,
+      "rank": 35,
       "rank_observed": 22,
       "rank_goals_conceded": 8,
       "rank_pool": null,
@@ -481,9 +488,9 @@
       "xgoals_faced": 2.09,
       "goals_prevented": 0.09,
       "goals_prevented_p96": 0.04,
-      "previous_rank": 36,
-      "rank_change": 2,
-      "keeperiq_change": 7.3,
+      "previous_rank": 34,
+      "rank_change": -1,
+      "keeperiq_change": -3.6,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.072,
@@ -491,20 +498,20 @@
           "baseline_p96": 0.056,
           "total": 0.151,
           "raw_total": 0.089,
-          "percentile": 50.8,
-          "observed_percentile": 50.8,
+          "percentile": 49.9,
+          "observed_percentile": 49.9,
           "opportunities": 5,
           "opportunities_p96": 2.36,
           "reliability": 0.018
         },
         "handling": {
           "observed_p96": 0.007,
-          "adjusted_p96": -0.019,
-          "baseline_p96": -0.02,
+          "adjusted_p96": -0.018,
+          "baseline_p96": -0.018,
           "total": 0.014,
           "raw_total": 0.013,
-          "percentile": 60.1,
-          "observed_percentile": 95.9,
+          "percentile": 64.1,
+          "observed_percentile": 95.8,
           "opportunities": 3,
           "opportunities_p96": 1.42,
           "reliability": 0.01
@@ -515,8 +522,8 @@
           "baseline_p96": -0.002,
           "total": 0.002,
           "raw_total": 0.001,
-          "percentile": 33.9,
-          "observed_percentile": 41.1,
+          "percentile": 33.7,
+          "observed_percentile": 41.0,
           "opportunities": 2,
           "opportunities_p96": 0.95,
           "reliability": 0.012
@@ -527,8 +534,8 @@
           "baseline_p96": 0.004,
           "total": 0.018,
           "raw_total": 0.015,
-          "percentile": 56.5,
-          "observed_percentile": 61.0,
+          "percentile": 56.0,
+          "observed_percentile": 61.1,
           "opportunities": 3,
           "opportunities_p96": 1.42,
           "reliability": 0.003
@@ -536,7 +543,7 @@
         "passing": {
           "observed_p96": -0.093,
           "adjusted_p96": -0.037,
-          "baseline_p96": -0.009,
+          "baseline_p96": -0.008,
           "total": -0.197,
           "raw_total": -0.07,
           "percentile": 0.0,
@@ -547,12 +554,12 @@
         },
         "fielding": {
           "observed_p96": 0.004,
-          "adjusted_p96": 0.003,
-          "baseline_p96": 0.003,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
           "total": 0.008,
           "raw_total": -0.003,
-          "percentile": 40.9,
-          "observed_percentile": 30.2,
+          "percentile": 34.0,
+          "observed_percentile": 29.7,
           "opportunities": 34,
           "opportunities_p96": 16.08,
           "reliability": 0.007
@@ -562,6 +569,14 @@
       "notes": {
         "strengths": [],
         "concerns": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 28.9,
+            "band": "weak",
+            "opportunities": null,
+            "text": "Complete impact sits below the MLS median."
+          },
           {
             "component": "passing",
             "label": "Passing",
@@ -586,7 +601,7 @@
           "date": "2026-05-23",
           "matchday": 15,
           "minutes": 98.0,
-          "total_ga": 0.103,
+          "total_ga": 0.104,
           "total_ga_p96": 0.1,
           "rolling_total_ga_p96": 0.1,
           "goals_conceded": 0,
@@ -675,6 +690,13 @@
           "rank": 36,
           "keeperiq": 25.2,
           "adj_total_p96": 0.0144
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2026-08-16",
+          "rank": 34,
+          "keeperiq": 32.5,
+          "adj_total_p96": 0.0056
         }
       ],
       "team_stints": [
@@ -707,10 +729,10 @@
     "talent_low": -0.11,
     "talent_high": 0.19,
     "talent_sd": 0.092,
-    "keeperiq": 33.2,
+    "keeperiq": 36.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 39,
+    "rank": 38,
     "weights": {
       "league_prior": 0.823,
       "prior_season": 0.121,

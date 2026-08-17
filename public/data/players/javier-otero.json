@@ -3,7 +3,7 @@
   "player_id": "p6qborPBQ0",
   "slug": "javier-otero",
   "name": "Javier Otero",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -164,7 +164,7 @@
           "xgoals_faced": 1.1,
           "goals_prevented": 0.1,
           "components": {
-            "shot_stopping": 0.129,
+            "shot_stopping": 0.13,
             "handling": -0.003,
             "claiming": 0.007,
             "sweeping": 0.007,
@@ -244,6 +244,13 @@
           "rank": 42,
           "keeperiq": 38.3,
           "adj_total_p96": 0.0286
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 42,
+          "keeperiq": 38.3,
+          "adj_total_p96": 0.0286
         }
       ],
       "team_stints": [
@@ -274,8 +281,8 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 44.9,
-      "adjusted_total_p96": 0.02,
+      "keeperiq": 49.9,
+      "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.07,
       "baseline_total_p96": 0.03,
       "adjusted_total": -0.14,
@@ -286,8 +293,8 @@
       "observed_interval_low": -0.16,
       "observed_interval_high": 0.04,
       "keeperiq_low": 0.0,
-      "keeperiq_high": 96.5,
-      "rank": 26,
+      "keeperiq_high": 96.6,
+      "rank": 24,
       "rank_observed": 31,
       "rank_goals_conceded": 3,
       "rank_pool": null,
@@ -302,29 +309,29 @@
       "xgoals_faced": 0.65,
       "goals_prevented": -0.35,
       "goals_prevented_p96": -0.18,
-      "previous_rank": 25,
-      "rank_change": -1,
-      "keeperiq_change": -2.0,
+      "previous_rank": 26,
+      "rank_change": 2,
+      "keeperiq_change": 5.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.148,
-          "adjusted_p96": 0.05,
+          "adjusted_p96": 0.051,
           "baseline_p96": 0.056,
           "total": -0.291,
           "raw_total": -0.348,
-          "percentile": 48.4,
-          "observed_percentile": 15.6,
+          "percentile": 44.4,
+          "observed_percentile": 15.4,
           "opportunities": 5,
           "opportunities_p96": 2.54,
           "reliability": 0.018
         },
         "handling": {
-          "observed_p96": 0.016,
-          "adjusted_p96": -0.019,
-          "baseline_p96": -0.02,
-          "total": 0.031,
+          "observed_p96": 0.015,
+          "adjusted_p96": -0.018,
+          "baseline_p96": -0.018,
+          "total": 0.03,
           "raw_total": 0.029,
-          "percentile": 60.1,
+          "percentile": 64.1,
           "observed_percentile": 100.0,
           "opportunities": 4,
           "opportunities_p96": 2.03,
@@ -332,12 +339,12 @@
         },
         "claiming": {
           "observed_p96": -0.016,
-          "adjusted_p96": -0.003,
-          "baseline_p96": -0.003,
+          "adjusted_p96": -0.002,
+          "baseline_p96": -0.002,
           "total": -0.032,
           "raw_total": -0.033,
-          "percentile": 26.0,
-          "observed_percentile": 12.7,
+          "percentile": 25.8,
+          "observed_percentile": 12.4,
           "opportunities": 5,
           "opportunities_p96": 2.54,
           "reliability": 0.029
@@ -345,10 +352,10 @@
         "sweeping": {
           "observed_p96": 0.089,
           "adjusted_p96": 0.005,
-          "baseline_p96": 0.005,
+          "baseline_p96": 0.004,
           "total": 0.175,
           "raw_total": 0.172,
-          "percentile": 87.6,
+          "percentile": 87.5,
           "observed_percentile": 100.0,
           "opportunities": 9,
           "opportunities_p96": 4.57,
@@ -360,20 +367,20 @@
           "baseline_p96": -0.009,
           "total": -0.042,
           "raw_total": 0.076,
-          "percentile": 39.1,
-          "observed_percentile": 22.0,
+          "percentile": 38.6,
+          "observed_percentile": 21.7,
           "opportunities": 58,
           "opportunities_p96": 29.46,
           "reliability": 0.305
         },
         "fielding": {
           "observed_p96": 0.01,
-          "adjusted_p96": 0.003,
-          "baseline_p96": 0.003,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
           "total": 0.021,
           "raw_total": 0.01,
-          "percentile": 40.9,
-          "observed_percentile": 79.2,
+          "percentile": 34.0,
+          "observed_percentile": 79.0,
           "opportunities": 30,
           "opportunities_p96": 15.24,
           "reliability": 0.006
@@ -488,6 +495,13 @@
           "rank": 25,
           "keeperiq": 46.9,
           "adj_total_p96": 0.0324
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2026-08-16",
+          "rank": 26,
+          "keeperiq": 44.9,
+          "adj_total_p96": 0.0237
         }
       ],
       "team_stints": [
@@ -520,10 +534,10 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.096,
-    "keeperiq": 32.6,
+    "keeperiq": 36.1,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 40,
+    "rank": 39,
     "weights": {
       "league_prior": 0.905,
       "prior_season": 0.044,

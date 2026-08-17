@@ -3,7 +3,7 @@
   "player_id": "BLMv7wr75x",
   "slug": "wessel-speel",
   "name": "Wessel Speel",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -70,7 +70,7 @@
           "observed_p96": 0.01,
           "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
-          "total": 0.025,
+          "total": 0.024,
           "raw_total": 0.023,
           "percentile": 47.7,
           "observed_percentile": 87.6,
@@ -179,7 +179,7 @@
           "goals_prevented": -0.01,
           "components": {
             "shot_stopping": 0.019,
-            "handling": 0.029,
+            "handling": 0.028,
             "claiming": 0.01,
             "sweeping": -0.006,
             "passing": -0.012,
@@ -192,7 +192,7 @@
           "matchday": 21,
           "minutes": 20.0,
           "total_ga": -0.199,
-          "total_ga_p96": -0.95,
+          "total_ga_p96": -0.96,
           "rolling_total_ga_p96": -0.39,
           "goals_conceded": 1,
           "shots_faced": 2,
@@ -260,6 +260,13 @@
         },
         {
           "captured_at": "2026-08-09T14:54:08Z",
+          "max_match_date": "2025-12-06",
+          "rank": 46,
+          "keeperiq": 34.8,
+          "adj_total_p96": 0.026
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
           "max_match_date": "2025-12-06",
           "rank": 46,
           "keeperiq": 34.8,

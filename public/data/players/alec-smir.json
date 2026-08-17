@@ -3,7 +3,7 @@
   "player_id": "gOMn2jBXMw",
   "slug": "alec-smir",
   "name": "Alec Smir",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -56,7 +56,7 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.054,
-          "adjusted_p96": 0.05,
+          "adjusted_p96": 0.051,
           "baseline_p96": 0.05,
           "total": 0.106,
           "raw_total": 0.049,
@@ -70,7 +70,7 @@
           "observed_p96": 0.004,
           "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
-          "total": 0.008,
+          "total": 0.007,
           "raw_total": 0.006,
           "percentile": 46.8,
           "observed_percentile": 64.0,
@@ -169,7 +169,7 @@
           "date": "2025-06-28",
           "matchday": 21,
           "minutes": 85.0,
-          "total_ga": 0.591,
+          "total_ga": 0.592,
           "total_ga_p96": 0.67,
           "rolling_total_ga_p96": 0.06,
           "goals_conceded": 1,
@@ -236,6 +236,13 @@
           "rank": 33,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0401
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 33,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.0402
         }
       ],
       "team_stints": [
@@ -267,10 +274,10 @@
     "talent_low": -0.11,
     "talent_high": 0.22,
     "talent_sd": 0.099,
-    "keeperiq": 37.7,
+    "keeperiq": 41.5,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 32,
+    "rank": 31,
     "weights": {
       "league_prior": 0.969,
       "prior_season": 0.031,

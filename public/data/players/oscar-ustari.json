@@ -3,7 +3,7 @@
   "player_id": "gpMO4XD5zy",
   "slug": "oscar-ustari",
   "name": "Óscar Ustari",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.2,
           "adjusted_p96": -0.019,
           "baseline_p96": 0.053,
-          "total": -4.829,
+          "total": -4.828,
           "raw_total": -5.536,
           "percentile": 7.5,
           "observed_percentile": 6.9,
@@ -69,8 +69,8 @@
         "handling": {
           "observed_p96": -0.012,
           "adjusted_p96": -0.006,
-          "baseline_p96": -0.004,
-          "total": -0.291,
+          "baseline_p96": -0.005,
+          "total": -0.294,
           "raw_total": -0.307,
           "percentile": 32.2,
           "observed_percentile": 33.7,
@@ -118,7 +118,7 @@
           "observed_p96": 0.003,
           "adjusted_p96": 0.002,
           "baseline_p96": 0.002,
-          "total": 0.068,
+          "total": 0.067,
           "raw_total": -0.058,
           "percentile": 79.0,
           "observed_percentile": 39.5,
@@ -216,7 +216,7 @@
           "date": "2025-03-09",
           "matchday": 3,
           "minutes": 38.0,
-          "total_ga": -0.032,
+          "total_ga": -0.033,
           "total_ga_p96": -0.08,
           "rolling_total_ga_p96": -0.55,
           "goals_conceded": 0,
@@ -426,7 +426,7 @@
             "shot_stopping": -0.221,
             "handling": -0.001,
             "claiming": 0.001,
-            "sweeping": 0.038,
+            "sweeping": 0.039,
             "passing": 0.004,
             "fielding": 0.01
           }
@@ -577,7 +577,7 @@
           "xgoals_faced": 0.35,
           "goals_prevented": -0.65,
           "components": {
-            "shot_stopping": -0.622,
+            "shot_stopping": -0.621,
             "handling": 0.022,
             "claiming": 0.019,
             "sweeping": -0.004,
@@ -634,7 +634,7 @@
           "date": "2025-09-20",
           "matchday": 33,
           "minutes": 102.0,
-          "total_ga": -0.203,
+          "total_ga": -0.204,
           "total_ga_p96": -0.19,
           "rolling_total_ga_p96": -0.2,
           "goals_conceded": 2,
@@ -901,6 +901,13 @@
         },
         {
           "captured_at": "2026-08-09T14:54:08Z",
+          "max_match_date": "2025-12-06",
+          "rank": 62,
+          "keeperiq": 9.4,
+          "adj_total_p96": -0.0257
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
           "max_match_date": "2025-12-06",
           "rank": 62,
           "keeperiq": 9.4,

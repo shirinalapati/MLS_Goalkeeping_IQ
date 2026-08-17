@@ -3,7 +3,7 @@
   "player_id": "Xj5Y43JyMb",
   "slug": "jeffrey-gal",
   "name": "Jeffrey Gal",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.523,
+          "observed_p96": -0.522,
           "adjusted_p96": -0.013,
           "baseline_p96": 0.045,
-          "total": -4.159,
+          "total": -4.158,
           "raw_total": -4.392,
           "percentile": 10.1,
           "observed_percentile": 1.0,
@@ -70,7 +70,7 @@
           "observed_p96": -0.01,
           "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
-          "total": -0.076,
+          "total": -0.077,
           "raw_total": -0.081,
           "percentile": 46.1,
           "observed_percentile": 41.4,
@@ -251,7 +251,7 @@
             "claiming": 0.019,
             "sweeping": 0.002,
             "passing": -0.046,
-            "fielding": 0.012
+            "fielding": 0.011
           }
         },
         {
@@ -259,7 +259,7 @@
           "date": "2025-06-26",
           "matchday": 20,
           "minutes": 99.0,
-          "total_ga": -0.174,
+          "total_ga": -0.173,
           "total_ga_p96": -0.17,
           "rolling_total_ga_p96": -0.38,
           "goals_conceded": 1,
@@ -281,7 +281,7 @@
           "date": "2025-06-29",
           "matchday": 21,
           "minutes": 100.0,
-          "total_ga": -0.376,
+          "total_ga": -0.375,
           "total_ga_p96": -0.36,
           "rolling_total_ga_p96": -0.38,
           "goals_conceded": 2,
@@ -290,7 +290,7 @@
           "xgoals_faced": 1.59,
           "goals_prevented": -0.41,
           "components": {
-            "shot_stopping": -0.381,
+            "shot_stopping": -0.38,
             "handling": 0.001,
             "claiming": 0.014,
             "sweeping": 0.005,
@@ -313,7 +313,7 @@
           "goals_prevented": -0.82,
           "components": {
             "shot_stopping": -0.792,
-            "handling": 0.005,
+            "handling": 0.004,
             "claiming": 0.032,
             "sweeping": 0.001,
             "passing": -0.04,
@@ -428,6 +428,13 @@
           "rank": 64,
           "keeperiq": 7.3,
           "adj_total_p96": -0.0349
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 64,
+          "keeperiq": 7.3,
+          "adj_total_p96": -0.0349
         }
       ],
       "team_stints": [
@@ -461,7 +468,7 @@
     "talent_sd": 0.091,
     "keeperiq": 3.2,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 59.1,
+    "keeperiq_high": 61.2,
     "rank": 73,
     "weights": {
       "league_prior": 0.813,

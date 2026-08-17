@@ -3,7 +3,7 @@
   "player_id": "2lqRkwRnQr",
   "slug": "luis-barraza",
   "name": "Luis Barraza",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.102,
-          "adjusted_p96": 0.008,
+          "observed_p96": -0.101,
+          "adjusted_p96": 0.009,
           "baseline_p96": 0.054,
-          "total": -2.476,
+          "total": -2.475,
           "raw_total": -3.191,
           "percentile": 13.8,
           "observed_percentile": 15.9,
@@ -67,10 +67,10 @@
           "reliability": 0.307
         },
         "handling": {
-          "observed_p96": 0.008,
+          "observed_p96": 0.007,
           "adjusted_p96": -0.002,
           "baseline_p96": -0.005,
-          "total": 0.185,
+          "total": 0.183,
           "raw_total": 0.169,
           "percentile": 76.7,
           "observed_percentile": 82.9,
@@ -118,7 +118,7 @@
           "observed_p96": -0.009,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
-          "total": -0.21,
+          "total": -0.211,
           "raw_total": -0.337,
           "percentile": 14.8,
           "observed_percentile": 16.2,
@@ -189,7 +189,7 @@
           "xgoals_faced": 0.52,
           "goals_prevented": -0.48,
           "components": {
-            "shot_stopping": -0.454,
+            "shot_stopping": -0.453,
             "handling": 0.04,
             "claiming": 0.002,
             "sweeping": -0.009,
@@ -378,7 +378,7 @@
           "date": "2025-05-31",
           "matchday": 17,
           "minutes": 104.0,
-          "total_ga": -0.102,
+          "total_ga": -0.103,
           "total_ga_p96": -0.09,
           "rolling_total_ga_p96": 0.05,
           "goals_conceded": 1,
@@ -388,7 +388,7 @@
           "goals_prevented": -0.14,
           "components": {
             "shot_stopping": -0.109,
-            "handling": 0.009,
+            "handling": 0.008,
             "claiming": 0.005,
             "sweeping": 0.001,
             "passing": -0.013,
@@ -422,7 +422,7 @@
           "date": "2025-06-15",
           "matchday": 19,
           "minutes": 106.0,
-          "total_ga": 0.09,
+          "total_ga": 0.089,
           "total_ga_p96": 0.08,
           "rolling_total_ga_p96": -0.18,
           "goals_conceded": 2,
@@ -454,7 +454,7 @@
           "goals_prevented": 0.0,
           "components": {
             "shot_stopping": 0.034,
-            "handling": 0.027,
+            "handling": 0.026,
             "claiming": 0.001,
             "sweeping": 0.028,
             "passing": -0.027,
@@ -652,7 +652,7 @@
           "goals_prevented": 0.48,
           "components": {
             "shot_stopping": 0.507,
-            "handling": -0.053,
+            "handling": -0.054,
             "claiming": 0.001,
             "sweeping": 0.001,
             "passing": -0.024,
@@ -673,7 +673,7 @@
           "xgoals_faced": 3.44,
           "goals_prevented": 0.44,
           "components": {
-            "shot_stopping": 0.468,
+            "shot_stopping": 0.469,
             "handling": -0.003,
             "claiming": 0.019,
             "sweeping": 0.048,
@@ -885,6 +885,13 @@
           "rank": 60,
           "keeperiq": 13.5,
           "adj_total_p96": 0.001
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 60,
+          "keeperiq": 13.5,
+          "adj_total_p96": 0.001
         }
       ],
       "team_stints": [
@@ -916,7 +923,7 @@
     "talent_low": -0.13,
     "talent_high": 0.15,
     "talent_sd": 0.087,
-    "keeperiq": 15.0,
+    "keeperiq": 14.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 96.4,
     "rank": 62,

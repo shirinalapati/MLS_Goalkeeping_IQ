@@ -3,7 +3,7 @@
   "player_id": "kRQa2L2LMK",
   "slug": "evan-louro",
   "name": "Evan Louro",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.07,
       "observed_total_p96": 0.46,
       "baseline_total_p96": 0.04,
-      "adjusted_total": 1.94,
+      "adjusted_total": 1.93,
       "reliability": 0.063,
       "interval_low": -0.03,
       "interval_high": 0.17,
@@ -67,9 +67,9 @@
           "reliability": 0.068
         },
         "handling": {
-          "observed_p96": -0.0,
+          "observed_p96": -0.001,
           "adjusted_p96": -0.004,
-          "baseline_p96": -0.004,
+          "baseline_p96": -0.005,
           "total": -0.002,
           "raw_total": -0.005,
           "percentile": 46.6,
@@ -118,7 +118,7 @@
           "observed_p96": 0.004,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
-          "total": 0.017,
+          "total": 0.016,
           "raw_total": -0.005,
           "percentile": 39.6,
           "observed_percentile": 48.7,
@@ -301,6 +301,13 @@
           "rank": 14,
           "keeperiq": 70.9,
           "adj_total_p96": 0.0683
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 14,
+          "keeperiq": 70.9,
+          "adj_total_p96": 0.0683
         }
       ],
       "team_stints": [
@@ -331,7 +338,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 38.2,
+      "keeperiq": 41.0,
       "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.8,
       "baseline_total_p96": 0.04,
@@ -339,12 +346,12 @@
       "reliability": 0.028,
       "interval_low": -0.12,
       "interval_high": 0.15,
-      "interval_se": 0.084,
+      "interval_se": 0.083,
       "observed_interval_low": -1.0,
       "observed_interval_high": -0.58,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
-      "rank": 31,
+      "rank": 30,
       "rank_observed": 47,
       "rank_goals_conceded": 46,
       "rank_pool": null,
@@ -360,16 +367,16 @@
       "goals_prevented": -2.02,
       "goals_prevented_p96": -0.92,
       "previous_rank": 31,
-      "rank_change": 0,
-      "keeperiq_change": 0.7,
+      "rank_change": 1,
+      "keeperiq_change": 2.8,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.887,
+          "observed_p96": -0.886,
           "adjusted_p96": 0.026,
           "baseline_p96": 0.06,
           "total": -1.958,
           "raw_total": -2.022,
-          "percentile": 26.1,
+          "percentile": 25.8,
           "observed_percentile": 0.0,
           "opportunities": 13,
           "opportunities_p96": 5.89,
@@ -377,11 +384,11 @@
         },
         "handling": {
           "observed_p96": 0.022,
-          "adjusted_p96": -0.019,
-          "baseline_p96": -0.02,
+          "adjusted_p96": -0.018,
+          "baseline_p96": -0.018,
           "total": 0.048,
           "raw_total": 0.047,
-          "percentile": 60.1,
+          "percentile": 64.1,
           "observed_percentile": 100.0,
           "opportunities": 7,
           "opportunities_p96": 3.17,
@@ -393,8 +400,8 @@
           "baseline_p96": -0.002,
           "total": 0.003,
           "raw_total": 0.002,
-          "percentile": 33.9,
-          "observed_percentile": 41.1,
+          "percentile": 35.9,
+          "observed_percentile": 44.4,
           "opportunities": 1,
           "opportunities_p96": 0.45,
           "reliability": 0.006
@@ -405,8 +412,8 @@
           "baseline_p96": 0.004,
           "total": 0.048,
           "raw_total": 0.045,
-          "percentile": 71.5,
-          "observed_percentile": 89.1,
+          "percentile": 71.6,
+          "observed_percentile": 89.2,
           "opportunities": 6,
           "opportunities_p96": 2.72,
           "reliability": 0.007
@@ -414,10 +421,10 @@
         "passing": {
           "observed_p96": 0.024,
           "adjusted_p96": 0.002,
-          "baseline_p96": -0.011,
+          "baseline_p96": -0.01,
           "total": 0.053,
           "raw_total": 0.186,
-          "percentile": 87.7,
+          "percentile": 87.6,
           "observed_percentile": 100.0,
           "opportunities": 91,
           "opportunities_p96": 41.21,
@@ -429,8 +436,8 @@
           "baseline_p96": 0.005,
           "total": 0.039,
           "raw_total": 0.027,
-          "percentile": 86.2,
-          "observed_percentile": 96.4,
+          "percentile": 86.3,
+          "observed_percentile": 96.5,
           "opportunities": 69,
           "opportunities_p96": 31.25,
           "reliability": 0.014
@@ -442,7 +449,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 87.7,
+            "percentile": 87.6,
             "band": "elite",
             "opportunities": 91,
             "text": "Elite adjusted passing percentile."
@@ -450,7 +457,7 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 86.2,
+            "percentile": 86.3,
             "band": "elite",
             "opportunities": 69,
             "text": "Elite adjusted fielding percentile."
@@ -562,6 +569,13 @@
           "rank": 31,
           "keeperiq": 37.5,
           "adj_total_p96": 0.0249
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2026-08-16",
+          "rank": 31,
+          "keeperiq": 38.2,
+          "adj_total_p96": 0.016
         }
       ],
       "team_stints": [
@@ -594,10 +608,10 @@
     "talent_low": -0.1,
     "talent_high": 0.21,
     "talent_sd": 0.097,
-    "keeperiq": 42.0,
+    "keeperiq": 43.4,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 29,
+    "rank": 28,
     "weights": {
       "league_prior": 0.913,
       "prior_season": 0.061,

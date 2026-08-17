@@ -3,7 +3,7 @@
   "player_id": "9YqdoDvL5v",
   "slug": "jayden-hibbert",
   "name": "Jayden Hibbert",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -68,9 +68,9 @@
         },
         "handling": {
           "observed_p96": 0.032,
-          "adjusted_p96": -0.001,
-          "baseline_p96": -0.004,
-          "total": 0.272,
+          "adjusted_p96": -0.002,
+          "baseline_p96": -0.005,
+          "total": 0.271,
           "raw_total": 0.267,
           "percentile": 86.9,
           "observed_percentile": 97.9,
@@ -117,8 +117,8 @@
         "fielding": {
           "observed_p96": 0.006,
           "adjusted_p96": 0.002,
-          "baseline_p96": 0.002,
-          "total": 0.053,
+          "baseline_p96": 0.001,
+          "total": 0.052,
           "raw_total": 0.008,
           "percentile": 55.2,
           "observed_percentile": 59.8,
@@ -157,8 +157,8 @@
           "matchday": 23,
           "minutes": 112.0,
           "total_ga": -0.006,
-          "total_ga_p96": -0.0,
-          "rolling_total_ga_p96": -0.0,
+          "total_ga_p96": -0.01,
+          "rolling_total_ga_p96": -0.01,
           "goals_conceded": 1,
           "shots_faced": 5,
           "saves": 4,
@@ -413,6 +413,13 @@
           "rank": 47,
           "keeperiq": 34.4,
           "adj_total_p96": 0.0241
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 47,
+          "keeperiq": 34.4,
+          "adj_total_p96": 0.0242
         }
       ],
       "team_stints": [
@@ -442,12 +449,12 @@
     "age": 22,
     "talent_p96": 0.04,
     "talent_low": -0.12,
-    "talent_high": 0.2,
+    "talent_high": 0.19,
     "talent_sd": 0.095,
-    "keeperiq": 32.5,
+    "keeperiq": 36.0,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 43,
+    "rank": 42,
     "weights": {
       "league_prior": 0.893,
       "prior_season": 0.107,

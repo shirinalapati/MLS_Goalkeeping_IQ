@@ -3,7 +3,7 @@
   "player_id": "0Oq6woOxQ6",
   "slug": "maarten-paes",
   "name": "Maarten Paes",
-  "generated_at": "2026-08-16T14:38:56Z",
+  "generated_at": "2026-08-17T14:45:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -23,7 +23,7 @@
       "sample_status": "qualified",
       "sample_status_label": "Qualified",
       "keeperiq": 17.9,
-      "adjusted_total_p96": 0.01,
+      "adjusted_total_p96": 0.0,
       "observed_total_p96": -0.1,
       "baseline_total_p96": 0.04,
       "adjusted_total": -2.42,
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.077,
+          "observed_p96": -0.076,
           "adjusted_p96": 0.016,
           "baseline_p96": 0.051,
-          "total": -1.794,
+          "total": -1.793,
           "raw_total": -2.481,
           "percentile": 18.5,
           "observed_percentile": 18.1,
@@ -68,9 +68,9 @@
         },
         "handling": {
           "observed_p96": -0.016,
-          "adjusted_p96": -0.006,
+          "adjusted_p96": -0.007,
           "baseline_p96": -0.004,
-          "total": -0.376,
+          "total": -0.378,
           "raw_total": -0.392,
           "percentile": 30.1,
           "observed_percentile": 19.9,
@@ -410,7 +410,7 @@
           "goals_prevented": -0.2,
           "components": {
             "shot_stopping": -0.172,
-            "handling": -0.002,
+            "handling": -0.003,
             "claiming": 0.011,
             "sweeping": 0.001,
             "passing": 0.011,
@@ -829,6 +829,13 @@
           "rank": 58,
           "keeperiq": 17.9,
           "adj_total_p96": 0.005
+        },
+        {
+          "captured_at": "2026-08-16T14:39:34Z",
+          "max_match_date": "2025-12-06",
+          "rank": 58,
+          "keeperiq": 17.9,
+          "adj_total_p96": 0.005
         }
       ],
       "team_stints": [
@@ -860,7 +867,7 @@
     "talent_low": -0.13,
     "talent_high": 0.15,
     "talent_sd": 0.086,
-    "keeperiq": 15.0,
+    "keeperiq": 14.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 96.4,
     "rank": 61,
