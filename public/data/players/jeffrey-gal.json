@@ -3,7 +3,7 @@
   "player_id": "Xj5Y43JyMb",
   "slug": "jeffrey-gal",
   "name": "Jeffrey Gal",
-  "generated_at": "2026-08-19T14:53:41Z",
+  "generated_at": "2026-08-20T14:55:00Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -23,7 +23,7 @@
       "sample_status": "provisional",
       "sample_status_label": "Provisional",
       "keeperiq": 7.3,
-      "adjusted_total_p96": -0.03,
+      "adjusted_total_p96": -0.04,
       "observed_total_p96": -0.62,
       "baseline_total_p96": 0.04,
       "adjusted_total": -4.94,
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.522,
+          "observed_p96": -0.523,
           "adjusted_p96": -0.013,
-          "baseline_p96": 0.045,
-          "total": -4.158,
+          "baseline_p96": 0.044,
+          "total": -4.163,
           "raw_total": -4.392,
           "percentile": 10.1,
           "observed_percentile": 1.0,
@@ -193,7 +193,7 @@
           "date": "2025-05-10",
           "matchday": 12,
           "minutes": 102.0,
-          "total_ga": 0.097,
+          "total_ga": 0.096,
           "total_ga_p96": 0.09,
           "rolling_total_ga_p96": -0.12,
           "goals_conceded": 0,
@@ -246,12 +246,12 @@
           "xgoals_faced": 0.99,
           "goals_prevented": -1.01,
           "components": {
-            "shot_stopping": -0.976,
+            "shot_stopping": -0.977,
             "handling": -0.007,
             "claiming": 0.019,
             "sweeping": 0.002,
             "passing": -0.046,
-            "fielding": 0.011
+            "fielding": 0.012
           }
         },
         {
@@ -259,7 +259,7 @@
           "date": "2025-06-26",
           "matchday": 20,
           "minutes": 99.0,
-          "total_ga": -0.173,
+          "total_ga": -0.174,
           "total_ga_p96": -0.17,
           "rolling_total_ga_p96": -0.38,
           "goals_conceded": 1,
@@ -281,7 +281,7 @@
           "date": "2025-06-29",
           "matchday": 21,
           "minutes": 100.0,
-          "total_ga": -0.375,
+          "total_ga": -0.376,
           "total_ga_p96": -0.36,
           "rolling_total_ga_p96": -0.38,
           "goals_conceded": 2,
@@ -290,7 +290,7 @@
           "xgoals_faced": 1.59,
           "goals_prevented": -0.41,
           "components": {
-            "shot_stopping": -0.38,
+            "shot_stopping": -0.381,
             "handling": 0.001,
             "claiming": 0.014,
             "sweeping": 0.005,
@@ -312,7 +312,7 @@
           "xgoals_faced": 1.18,
           "goals_prevented": -0.82,
           "components": {
-            "shot_stopping": -0.792,
+            "shot_stopping": -0.793,
             "handling": 0.004,
             "claiming": 0.032,
             "sweeping": 0.001,
@@ -325,7 +325,7 @@
           "date": "2025-11-01",
           "matchday": 39,
           "minutes": 103.0,
-          "total_ga": -1.941,
+          "total_ga": -1.942,
           "total_ga_p96": -1.81,
           "rolling_total_ga_p96": -0.62,
           "goals_conceded": 3,
@@ -475,8 +475,8 @@
     "talent_sd": 0.091,
     "keeperiq": 3.2,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 61.2,
-    "rank": 73,
+    "keeperiq_high": 67.3,
+    "rank": 74,
     "weights": {
       "league_prior": 0.813,
       "prior_season": 0.187,

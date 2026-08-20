@@ -1,0 +1,223 @@
+{
+  "schema_version": "1",
+  "player_id": "jYQJaDwkqG",
+  "slug": "damian-las",
+  "name": "Damian Las",
+  "generated_at": "2026-08-20T14:55:00Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2026": {
+      "player_id": "jYQJaDwkqG",
+      "slug": "damian-las",
+      "name": "Damian Las",
+      "season": 2026,
+      "team_id": "gpMOLwl5zy",
+      "team": "Austin FC",
+      "team_abbreviation": "ATX",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "2002-04-11",
+      "age": 24,
+      "minutes": 100.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 57.8,
+      "adjusted_total_p96": 0.04,
+      "observed_total_p96": -0.11,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": -0.11,
+      "reliability": 0.012,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 19,
+      "rank_observed": 37,
+      "rank_goals_conceded": 10,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 1,
+      "goals_conceded_p96": 0.96,
+      "shots_faced": 7,
+      "shots_faced_p96": 6.72,
+      "saves": 6,
+      "save_pct": 85.7,
+      "xgoals_faced": 1.17,
+      "goals_prevented": 0.17,
+      "goals_prevented_p96": 0.16,
+      "previous_rank": null,
+      "rank_change": null,
+      "keeperiq_change": null,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 0.193,
+          "adjusted_p96": 0.067,
+          "baseline_p96": 0.065,
+          "total": 0.201,
+          "raw_total": 0.171,
+          "percentile": 56.6,
+          "observed_percentile": 70.5,
+          "opportunities": 7,
+          "opportunities_p96": 6.72,
+          "reliability": 0.025
+        },
+        "handling": {
+          "observed_p96": -0.295,
+          "adjusted_p96": -0.02,
+          "baseline_p96": -0.017,
+          "total": -0.307,
+          "raw_total": -0.307,
+          "percentile": 15.5,
+          "observed_percentile": 0.0,
+          "opportunities": 6,
+          "opportunities_p96": 5.76,
+          "reliability": 0.02
+        },
+        "claiming": {
+          "observed_p96": 0.0,
+          "adjusted_p96": -0.002,
+          "baseline_p96": -0.002,
+          "total": 0.001,
+          "raw_total": 0.0,
+          "percentile": 33.8,
+          "observed_percentile": 36.7,
+          "opportunities": 0,
+          "opportunities_p96": 0.0,
+          "reliability": 0.0
+        },
+        "sweeping": {
+          "observed_p96": 0.001,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.001,
+          "raw_total": 0.0,
+          "percentile": 42.5,
+          "observed_percentile": 35.4,
+          "opportunities": 0,
+          "opportunities_p96": 0.0,
+          "reliability": 0.0
+        },
+        "passing": {
+          "observed_p96": -0.014,
+          "adjusted_p96": -0.01,
+          "baseline_p96": -0.009,
+          "total": -0.015,
+          "raw_total": 0.048,
+          "percentile": 40.3,
+          "observed_percentile": 38.5,
+          "opportunities": 34,
+          "opportunities_p96": 32.64,
+          "reliability": 0.205
+        },
+        "fielding": {
+          "observed_p96": 0.005,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.005,
+          "raw_total": -0.0,
+          "percentile": 54.1,
+          "observed_percentile": 41.1,
+          "opportunities": 19,
+          "opportunities_p96": 18.24,
+          "reliability": 0.004
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (100 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "gjMNWr635K",
+          "date": "2026-08-20",
+          "matchday": 21,
+          "minutes": 100.0,
+          "total_ga": -0.113,
+          "total_ga_p96": -0.11,
+          "rolling_total_ga_p96": -0.11,
+          "goals_conceded": 1,
+          "shots_faced": 7,
+          "saves": 6,
+          "xgoals_faced": 1.17,
+          "goals_prevented": 0.17,
+          "components": {
+            "shot_stopping": 0.201,
+            "handling": -0.307,
+            "claiming": 0.001,
+            "sweeping": 0.001,
+            "passing": -0.015,
+            "fielding": 0.005
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-08-20",
+          "matchday": 21,
+          "matches_in_window": 1,
+          "rate_p96": -0.11
+        }
+      ],
+      "ranking_history": [],
+      "team_stints": [
+        {
+          "team_id": "gpMOLwl5zy",
+          "team_name": "Austin FC",
+          "team_abbreviation": "ATX",
+          "appearances": 1,
+          "minutes": 100.0,
+          "first_match": "2026-08-20",
+          "last_match": "2026-08-20"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2026
+  ],
+  "talent": {
+    "player_id": "jYQJaDwkqG",
+    "slug": "damian-las",
+    "name": "Damian Las",
+    "team": "Austin FC",
+    "team_abbreviation": "ATX",
+    "nationality": "USA",
+    "birth_date": "2002-04-11",
+    "age": 24,
+    "talent_p96": 0.05,
+    "talent_low": -0.12,
+    "talent_high": 0.21,
+    "talent_sd": 0.1,
+    "keeperiq": 41.5,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 35,
+    "weights": {
+      "league_prior": 0.988,
+      "prior_season": 0.0,
+      "live_season": 0.012
+    },
+    "prior_season_rate": null,
+    "live_season_rate": -0.11,
+    "prior_season_minutes": 0.0,
+    "live_season_minutes": 100.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "no_prior_season",
+    "in_live_season": true
+  }
+}

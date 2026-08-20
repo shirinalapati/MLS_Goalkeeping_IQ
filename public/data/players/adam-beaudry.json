@@ -3,7 +3,7 @@
   "player_id": "odMXEAde5Y",
   "slug": "adam-beaudry",
   "name": "Adam Beaudry",
-  "generated_at": "2026-08-19T14:53:41Z",
+  "generated_at": "2026-08-20T14:55:00Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -57,8 +57,8 @@
         "shot_stopping": {
           "observed_p96": 0.8,
           "adjusted_p96": 0.062,
-          "baseline_p96": 0.051,
-          "total": 0.8,
+          "baseline_p96": 0.05,
+          "total": 0.799,
           "raw_total": 0.771,
           "percentile": 59.4,
           "observed_percentile": 100.0,
@@ -121,7 +121,7 @@
           "total": 0.006,
           "raw_total": 0.001,
           "percentile": 44.6,
-          "observed_percentile": 56.0,
+          "observed_percentile": 59.4,
           "opportunities": 18,
           "opportunities_p96": 18.0,
           "reliability": 0.004
@@ -156,7 +156,7 @@
           "xgoals_faced": 2.77,
           "goals_prevented": 0.77,
           "components": {
-            "shot_stopping": 0.8,
+            "shot_stopping": 0.799,
             "handling": -0.013,
             "claiming": 0.001,
             "sweeping": 0.008,
@@ -253,10 +253,10 @@
     "talent_low": -0.1,
     "talent_high": 0.23,
     "talent_sd": 0.1,
-    "keeperiq": 47.8,
+    "keeperiq": 54.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 26,
+    "rank": 24,
     "weights": {
       "league_prior": 0.985,
       "prior_season": 0.015,
