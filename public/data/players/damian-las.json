@@ -3,7 +3,7 @@
   "player_id": "jYQJaDwkqG",
   "slug": "damian-las",
   "name": "Damian Las",
-  "generated_at": "2026-08-23T14:39:34Z",
+  "generated_at": "2026-08-24T15:01:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 59.6,
+      "keeperiq": 60.0,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": 0.16,
       "baseline_total_p96": 0.04,
@@ -50,17 +50,17 @@
       "xgoals_faced": 1.26,
       "goals_prevented": 0.26,
       "goals_prevented_p96": 0.25,
-      "previous_rank": 19,
-      "rank_change": 1,
-      "keeperiq_change": 1.8,
+      "previous_rank": 18,
+      "rank_change": 0,
+      "keeperiq_change": 0.4,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.283,
-          "adjusted_p96": 0.06,
-          "baseline_p96": 0.057,
+          "observed_p96": 0.282,
+          "adjusted_p96": 0.062,
+          "baseline_p96": 0.059,
           "total": 0.294,
           "raw_total": 0.264,
-          "percentile": 59.4,
+          "percentile": 56.1,
           "observed_percentile": 84.3,
           "opportunities": 7,
           "opportunities_p96": 6.72,
@@ -68,11 +68,11 @@
         },
         "handling": {
           "observed_p96": -0.111,
-          "adjusted_p96": -0.018,
-          "baseline_p96": -0.017,
+          "adjusted_p96": -0.019,
+          "baseline_p96": -0.018,
           "total": -0.116,
           "raw_total": -0.116,
-          "percentile": 33.9,
+          "percentile": 35.5,
           "observed_percentile": 0.0,
           "opportunities": 6,
           "opportunities_p96": 5.76,
@@ -85,7 +85,7 @@
           "total": 0.001,
           "raw_total": 0.0,
           "percentile": 31.4,
-          "observed_percentile": 34.4,
+          "observed_percentile": 34.3,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -96,8 +96,8 @@
           "baseline_p96": 0.004,
           "total": 0.001,
           "raw_total": 0.0,
-          "percentile": 38.4,
-          "observed_percentile": 32.9,
+          "percentile": 38.5,
+          "observed_percentile": 34.2,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -108,8 +108,8 @@
           "baseline_p96": -0.009,
           "total": -0.015,
           "raw_total": 0.048,
-          "percentile": 40.5,
-          "observed_percentile": 38.4,
+          "percentile": 40.6,
+          "observed_percentile": 38.5,
           "opportunities": 34,
           "opportunities_p96": 32.64,
           "reliability": 0.205
@@ -121,7 +121,7 @@
           "total": 0.005,
           "raw_total": -0.0,
           "percentile": 54.2,
-          "observed_percentile": 44.2,
+          "observed_percentile": 41.1,
           "opportunities": 19,
           "opportunities_p96": 18.24,
           "reliability": 0.004
@@ -180,6 +180,13 @@
           "rank": 19,
           "keeperiq": 57.8,
           "adj_total_p96": 0.0422
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2026-08-23",
+          "rank": 18,
+          "keeperiq": 59.6,
+          "adj_total_p96": 0.038
         }
       ],
       "team_stints": [
@@ -211,7 +218,7 @@
     "talent_low": -0.11,
     "talent_high": 0.22,
     "talent_sd": 0.1,
-    "keeperiq": 41.8,
+    "keeperiq": 41.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 31,

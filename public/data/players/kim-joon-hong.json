@@ -3,7 +3,7 @@
   "player_id": "aDQ0N1Kv5E",
   "slug": "kim-joon-hong",
   "name": "Kim Joon-Hong",
-  "generated_at": "2026-08-23T14:39:34Z",
+  "generated_at": "2026-08-24T15:01:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -27,7 +27,7 @@
       "observed_total_p96": -0.21,
       "baseline_total_p96": 0.04,
       "adjusted_total": -1.77,
-      "reliability": 0.114,
+      "reliability": 0.113,
       "interval_low": -0.13,
       "interval_high": 0.19,
       "interval_se": 0.097,
@@ -58,7 +58,7 @@
           "observed_p96": -0.232,
           "adjusted_p96": 0.017,
           "baseline_p96": 0.052,
-          "total": -1.95,
+          "total": -1.952,
           "raw_total": -2.195,
           "percentile": 19.9,
           "observed_percentile": 5.4,
@@ -67,7 +67,7 @@
           "reliability": 0.133
         },
         "handling": {
-          "observed_p96": -0.016,
+          "observed_p96": -0.015,
           "adjusted_p96": -0.005,
           "baseline_p96": -0.004,
           "total": -0.13,
@@ -173,7 +173,7 @@
           "xgoals_faced": 3.24,
           "goals_prevented": 1.24,
           "components": {
-            "shot_stopping": 1.271,
+            "shot_stopping": 1.27,
             "handling": 0.047,
             "claiming": 0.002,
             "sweeping": 0.009,
@@ -239,10 +239,10 @@
           "xgoals_faced": 1.11,
           "goals_prevented": 1.11,
           "components": {
-            "shot_stopping": 1.143,
+            "shot_stopping": 1.142,
             "handling": -0.06,
             "claiming": 0.007,
-            "sweeping": 0.009,
+            "sweeping": 0.008,
             "passing": -0.007,
             "fielding": 0.004
           }
@@ -298,7 +298,7 @@
           "minutes": 100.0,
           "total_ga": -1.613,
           "total_ga_p96": -1.55,
-          "rolling_total_ga_p96": -0.11,
+          "rolling_total_ga_p96": -0.12,
           "goals_conceded": 6,
           "shots_faced": 10,
           "saves": 4,
@@ -327,7 +327,7 @@
           "xgoals_faced": 1.07,
           "goals_prevented": -0.93,
           "components": {
-            "shot_stopping": -0.895,
+            "shot_stopping": -0.896,
             "handling": -0.081,
             "claiming": 0.001,
             "sweeping": -0.003,
@@ -442,6 +442,13 @@
           "rank": 40,
           "keeperiq": 40.1,
           "adj_total_p96": 0.0337
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2025-12-06",
+          "rank": 40,
+          "keeperiq": 40.1,
+          "adj_total_p96": 0.034
         }
       ],
       "team_stints": [
@@ -473,10 +480,10 @@
     "talent_low": -0.13,
     "talent_high": 0.18,
     "talent_sd": 0.095,
-    "keeperiq": 23.1,
+    "keeperiq": 24.6,
     "keeperiq_low": 0.0,
     "keeperiq_high": 97.8,
-    "rank": 55,
+    "rank": 54,
     "weights": {
       "league_prior": 0.888,
       "prior_season": 0.112,

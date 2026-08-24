@@ -3,7 +3,7 @@
   "player_id": "raMyAW6BMd",
   "slug": "sebastian-breza",
   "name": "Sebastian Breza",
-  "generated_at": "2026-08-23T14:39:34Z",
+  "generated_at": "2026-08-24T15:01:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -155,7 +155,7 @@
           "date": "2025-04-26",
           "matchday": 10,
           "minutes": 97.0,
-          "total_ga": 0.29,
+          "total_ga": 0.289,
           "total_ga_p96": 0.29,
           "rolling_total_ga_p96": 0.29,
           "goals_conceded": 1,
@@ -187,7 +187,7 @@
           "goals_prevented": -2.59,
           "components": {
             "shot_stopping": -2.56,
-            "handling": 0.03,
+            "handling": 0.031,
             "claiming": 0.001,
             "sweeping": 0.001,
             "passing": 0.007,
@@ -199,7 +199,7 @@
           "date": "2025-07-16",
           "matchday": 24,
           "minutes": 104.0,
-          "total_ga": 0.8,
+          "total_ga": 0.799,
           "total_ga_p96": 0.74,
           "rolling_total_ga_p96": -0.45,
           "goals_conceded": 2,
@@ -234,7 +234,7 @@
           "date": "2025-07-16",
           "matchday": 24,
           "matches_in_window": 3,
-          "rate_p96": -0.45
+          "rate_p96": -0.46
         }
       ],
       "ranking_history": [
@@ -293,6 +293,13 @@
           "rank": 52,
           "keeperiq": 26.6,
           "adj_total_p96": 0.0171
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2025-12-06",
+          "rank": 52,
+          "keeperiq": 26.6,
+          "adj_total_p96": 0.0174
         }
       ],
       "team_stints": [
@@ -323,20 +330,20 @@
       "appearances": 3,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 51.0,
+      "keeperiq": 49.9,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": 0.18,
       "baseline_total_p96": 0.03,
       "adjusted_total": 0.56,
       "reliability": 0.088,
       "interval_low": -0.12,
-      "interval_high": 0.18,
+      "interval_high": 0.19,
       "interval_se": 0.092,
       "observed_interval_low": -0.12,
       "observed_interval_high": 0.49,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
-      "rank": 22,
+      "rank": 24,
       "rank_observed": 13,
       "rank_goals_conceded": 19,
       "rank_pool": null,
@@ -351,30 +358,30 @@
       "xgoals_faced": 4.46,
       "goals_prevented": 0.46,
       "goals_prevented_p96": 0.14,
-      "previous_rank": 21,
-      "rank_change": -1,
-      "keeperiq_change": -5.6,
+      "previous_rank": 22,
+      "rank_change": -2,
+      "keeperiq_change": -1.1,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.173,
-          "adjusted_p96": 0.059,
-          "baseline_p96": 0.052,
-          "total": 0.552,
+          "adjusted_p96": 0.061,
+          "baseline_p96": 0.055,
+          "total": 0.551,
           "raw_total": 0.459,
-          "percentile": 59.4,
-          "observed_percentile": 67.2,
+          "percentile": 56.1,
+          "observed_percentile": 66.0,
           "opportunities": 8,
           "opportunities_p96": 2.51,
           "reliability": 0.028
         },
         "handling": {
           "observed_p96": -0.01,
-          "adjusted_p96": -0.016,
-          "baseline_p96": -0.016,
-          "total": -0.031,
+          "adjusted_p96": -0.017,
+          "baseline_p96": -0.017,
+          "total": -0.03,
           "raw_total": -0.033,
-          "percentile": 52.1,
-          "observed_percentile": 57.0,
+          "percentile": 50.0,
+          "observed_percentile": 61.5,
           "opportunities": 4,
           "opportunities_p96": 1.25,
           "reliability": 0.014
@@ -385,19 +392,19 @@
           "baseline_p96": -0.002,
           "total": 0.005,
           "raw_total": 0.003,
-          "percentile": 33.4,
-          "observed_percentile": 42.0,
+          "percentile": 33.3,
+          "observed_percentile": 42.1,
           "opportunities": 2,
           "opportunities_p96": 0.63,
           "reliability": 0.012
         },
         "sweeping": {
           "observed_p96": 0.031,
-          "adjusted_p96": 0.004,
+          "adjusted_p96": 0.005,
           "baseline_p96": 0.004,
           "total": 0.1,
           "raw_total": 0.096,
-          "percentile": 51.9,
+          "percentile": 48.5,
           "observed_percentile": 95.7,
           "opportunities": 4,
           "opportunities_p96": 1.25,
@@ -409,7 +416,7 @@
           "baseline_p96": -0.009,
           "total": -0.079,
           "raw_total": 0.113,
-          "percentile": 24.7,
+          "percentile": 28.2,
           "observed_percentile": 13.4,
           "opportunities": 104,
           "opportunities_p96": 32.63,
@@ -422,7 +429,7 @@
           "total": 0.012,
           "raw_total": -0.004,
           "percentile": 54.2,
-          "observed_percentile": 27.3,
+          "observed_percentile": 27.4,
           "opportunities": 64,
           "opportunities_p96": 20.08,
           "reliability": 0.013
@@ -435,7 +442,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 24.7,
+            "percentile": 28.2,
             "band": "weak",
             "opportunities": 104,
             "text": "Passing contribution below the MLS median."
@@ -510,7 +517,7 @@
           "goals_prevented": 0.64,
           "components": {
             "shot_stopping": 0.666,
-            "handling": 0.019,
+            "handling": 0.02,
             "claiming": 0.001,
             "sweeping": 0.096,
             "passing": -0.047,
@@ -594,6 +601,13 @@
           "rank": 21,
           "keeperiq": 56.6,
           "adj_total_p96": 0.0406
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2026-08-23",
+          "rank": 22,
+          "keeperiq": 51.0,
+          "adj_total_p96": 0.0335
         }
       ],
       "team_stints": [
@@ -626,7 +640,7 @@
     "talent_low": -0.11,
     "talent_high": 0.2,
     "talent_sd": 0.095,
-    "keeperiq": 34.5,
+    "keeperiq": 38.2,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 38,

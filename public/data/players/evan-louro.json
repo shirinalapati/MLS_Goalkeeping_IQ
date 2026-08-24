@@ -3,7 +3,7 @@
   "player_id": "kRQa2L2LMK",
   "slug": "evan-louro",
   "name": "Evan Louro",
-  "generated_at": "2026-08-23T14:39:34Z",
+  "generated_at": "2026-08-24T15:01:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,7 +55,7 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.381,
+          "observed_p96": 0.38,
           "adjusted_p96": 0.071,
           "baseline_p96": 0.051,
           "total": 1.605,
@@ -222,7 +222,7 @@
           "date": "2025-10-04",
           "matchday": 35,
           "minutes": 102.0,
-          "total_ga": 0.381,
+          "total_ga": 0.38,
           "total_ga_p96": 0.36,
           "rolling_total_ga_p96": 0.46,
           "goals_conceded": 0,
@@ -322,6 +322,13 @@
           "rank": 14,
           "keeperiq": 70.9,
           "adj_total_p96": 0.0677
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2025-12-06",
+          "rank": 14,
+          "keeperiq": 70.9,
+          "adj_total_p96": 0.068
         }
       ],
       "team_stints": [
@@ -352,7 +359,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 41.1,
+      "keeperiq": 41.2,
       "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.8,
       "baseline_total_p96": 0.04,
@@ -364,7 +371,7 @@
       "observed_interval_low": -1.0,
       "observed_interval_high": -0.58,
       "keeperiq_low": 0.0,
-      "keeperiq_high": 100.0,
+      "keeperiq_high": 96.6,
       "rank": 32,
       "rank_observed": 49,
       "rank_goals_conceded": 48,
@@ -380,17 +387,17 @@
       "xgoals_faced": 3.98,
       "goals_prevented": -2.02,
       "goals_prevented_p96": -0.92,
-      "previous_rank": 31,
-      "rank_change": -1,
-      "keeperiq_change": 0.0,
+      "previous_rank": 32,
+      "rank_change": 0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.887,
-          "adjusted_p96": 0.024,
-          "baseline_p96": 0.057,
-          "total": -1.958,
+          "adjusted_p96": 0.026,
+          "baseline_p96": 0.06,
+          "total": -1.959,
           "raw_total": -2.022,
-          "percentile": 22.6,
+          "percentile": 26.1,
           "observed_percentile": 0.0,
           "opportunities": 13,
           "opportunities_p96": 5.89,
@@ -398,11 +405,11 @@
         },
         "handling": {
           "observed_p96": 0.022,
-          "adjusted_p96": -0.016,
-          "baseline_p96": -0.017,
+          "adjusted_p96": -0.017,
+          "baseline_p96": -0.018,
           "total": 0.048,
           "raw_total": 0.047,
-          "percentile": 53.4,
+          "percentile": 50.0,
           "observed_percentile": 100.0,
           "opportunities": 7,
           "opportunities_p96": 3.17,
@@ -414,8 +421,8 @@
           "baseline_p96": -0.002,
           "total": 0.003,
           "raw_total": 0.002,
-          "percentile": 33.4,
-          "observed_percentile": 38.7,
+          "percentile": 33.3,
+          "observed_percentile": 38.6,
           "opportunities": 1,
           "opportunities_p96": 0.45,
           "reliability": 0.006
@@ -426,8 +433,8 @@
           "baseline_p96": 0.005,
           "total": 0.048,
           "raw_total": 0.045,
-          "percentile": 72.5,
-          "observed_percentile": 88.5,
+          "percentile": 68.6,
+          "observed_percentile": 88.4,
           "opportunities": 6,
           "opportunities_p96": 2.72,
           "reliability": 0.007
@@ -450,7 +457,7 @@
           "baseline_p96": 0.005,
           "total": 0.039,
           "raw_total": 0.027,
-          "percentile": 83.8,
+          "percentile": 86.4,
           "observed_percentile": 96.5,
           "opportunities": 69,
           "opportunities_p96": 31.25,
@@ -471,10 +478,10 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 83.8,
-            "band": "strong",
+            "percentile": 86.4,
+            "band": "elite",
             "opportunities": 69,
-            "text": "Strong fielding contribution."
+            "text": "Elite adjusted fielding percentile."
           }
         ],
         "concerns": [
@@ -494,7 +501,7 @@
           "date": "2026-03-22",
           "matchday": 5,
           "minutes": 110.0,
-          "total_ga": -1.148,
+          "total_ga": -1.149,
           "total_ga_p96": -1.0,
           "rolling_total_ga_p96": -1.0,
           "goals_conceded": 3,
@@ -604,6 +611,13 @@
           "rank": 31,
           "keeperiq": 41.1,
           "adj_total_p96": 0.0258
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2026-08-23",
+          "rank": 32,
+          "keeperiq": 41.1,
+          "adj_total_p96": 0.0182
         }
       ],
       "team_stints": [

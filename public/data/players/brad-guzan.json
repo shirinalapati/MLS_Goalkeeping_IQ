@@ -3,7 +3,7 @@
   "player_id": "0x5gZ9mM7O",
   "slug": "brad-guzan",
   "name": "Brad Guzan",
-  "generated_at": "2026-08-23T14:39:34Z",
+  "generated_at": "2026-08-24T15:01:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.074,
+          "observed_p96": -0.075,
           "adjusted_p96": 0.013,
-          "baseline_p96": 0.054,
-          "total": -2.037,
+          "baseline_p96": 0.053,
+          "total": -2.042,
           "raw_total": -2.833,
           "percentile": 16.2,
           "observed_percentile": 20.4,
@@ -70,7 +70,7 @@
           "observed_p96": 0.007,
           "adjusted_p96": -0.002,
           "baseline_p96": -0.004,
-          "total": 0.178,
+          "total": 0.18,
           "raw_total": 0.162,
           "percentile": 79.1,
           "observed_percentile": 79.9,
@@ -246,7 +246,7 @@
           "date": "2025-03-16",
           "matchday": 4,
           "minutes": 99.0,
-          "total_ga": -0.133,
+          "total_ga": -0.134,
           "total_ga_p96": -0.13,
           "rolling_total_ga_p96": 0.13,
           "goals_conceded": 2,
@@ -255,7 +255,7 @@
           "xgoals_faced": 2.04,
           "goals_prevented": 0.04,
           "components": {
-            "shot_stopping": 0.069,
+            "shot_stopping": 0.068,
             "handling": -0.234,
             "claiming": 0.001,
             "sweeping": 0.008,
@@ -299,7 +299,7 @@
           "xgoals_faced": 2.85,
           "goals_prevented": -0.15,
           "components": {
-            "shot_stopping": -0.121,
+            "shot_stopping": -0.122,
             "handling": 0.047,
             "claiming": 0.002,
             "sweeping": 0.001,
@@ -334,8 +334,8 @@
           "date": "2025-04-12",
           "matchday": 8,
           "minutes": 106.0,
-          "total_ga": 1.32,
-          "total_ga_p96": 1.2,
+          "total_ga": 1.319,
+          "total_ga_p96": 1.19,
           "rolling_total_ga_p96": 0.17,
           "goals_conceded": 1,
           "shots_faced": 7,
@@ -422,7 +422,7 @@
           "date": "2025-05-10",
           "matchday": 12,
           "minutes": 102.0,
-          "total_ga": 1.711,
+          "total_ga": 1.71,
           "total_ga_p96": 1.61,
           "rolling_total_ga_p96": 0.12,
           "goals_conceded": 2,
@@ -497,7 +497,7 @@
           "xgoals_faced": 1.35,
           "goals_prevented": -0.65,
           "components": {
-            "shot_stopping": -0.62,
+            "shot_stopping": -0.621,
             "handling": 0.048,
             "claiming": 0.001,
             "sweeping": -0.006,
@@ -532,8 +532,8 @@
           "date": "2025-05-31",
           "matchday": 17,
           "minutes": 100.0,
-          "total_ga": -0.265,
-          "total_ga_p96": -0.25,
+          "total_ga": -0.266,
+          "total_ga_p96": -0.26,
           "rolling_total_ga_p96": 0.07,
           "goals_conceded": 2,
           "shots_faced": 3,
@@ -563,7 +563,7 @@
           "xgoals_faced": 1.88,
           "goals_prevented": -2.12,
           "components": {
-            "shot_stopping": -2.093,
+            "shot_stopping": -2.094,
             "handling": -0.077,
             "claiming": 0.001,
             "sweeping": -0.003,
@@ -588,7 +588,7 @@
             "shot_stopping": 0.747,
             "handling": 0.14,
             "claiming": 0.001,
-            "sweeping": -0.176,
+            "sweeping": -0.177,
             "passing": -0.018,
             "fielding": 0.004
           }
@@ -629,7 +629,7 @@
           "xgoals_faced": 2.96,
           "goals_prevented": 0.96,
           "components": {
-            "shot_stopping": 0.991,
+            "shot_stopping": 0.99,
             "handling": 0.038,
             "claiming": 0.001,
             "sweeping": -0.091,
@@ -708,7 +708,7 @@
           "date": "2025-08-17",
           "matchday": 28,
           "minutes": 100.0,
-          "total_ga": -1.402,
+          "total_ga": -1.403,
           "total_ga_p96": -1.35,
           "rolling_total_ga_p96": -0.08,
           "goals_conceded": 3,
@@ -843,7 +843,7 @@
           "date": "2025-05-28",
           "matchday": 16,
           "matches_in_window": 5,
-          "rate_p96": 0.32
+          "rate_p96": 0.31
         },
         {
           "date": "2025-05-31",
@@ -903,7 +903,7 @@
           "date": "2025-10-18",
           "matchday": 36,
           "matches_in_window": 5,
-          "rate_p96": -0.58
+          "rate_p96": -0.59
         }
       ],
       "ranking_history": [
@@ -962,6 +962,13 @@
           "rank": 54,
           "keeperiq": 25.3,
           "adj_total_p96": 0.0141
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2025-12-06",
+          "rank": 54,
+          "keeperiq": 25.3,
+          "adj_total_p96": 0.0145
         }
       ],
       "team_stints": [

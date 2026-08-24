@@ -3,7 +3,7 @@
   "player_id": "0x5gP9Jjq7",
   "slug": "earl-edwards-jr",
   "name": "Earl Edwards Jr.",
-  "generated_at": "2026-08-23T14:39:34Z",
+  "generated_at": "2026-08-24T15:01:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.743,
+          "observed_p96": -0.744,
           "adjusted_p96": -0.025,
           "baseline_p96": 0.049,
-          "total": -4.941,
+          "total": -4.942,
           "raw_total": -5.134,
           "percentile": 6.1,
           "observed_percentile": 0.3,
@@ -68,7 +68,7 @@
         },
         "handling": {
           "observed_p96": 0.007,
-          "adjusted_p96": -0.004,
+          "adjusted_p96": -0.003,
           "baseline_p96": -0.004,
           "total": 0.044,
           "raw_total": 0.04,
@@ -193,7 +193,7 @@
           "date": "2025-04-20",
           "matchday": 9,
           "minutes": 105.0,
-          "total_ga": -2.664,
+          "total_ga": -2.665,
           "total_ga_p96": -2.44,
           "rolling_total_ga_p96": -2.0,
           "goals_conceded": 5,
@@ -290,7 +290,7 @@
           "xgoals_faced": 1.26,
           "goals_prevented": -0.74,
           "components": {
-            "shot_stopping": -0.712,
+            "shot_stopping": -0.713,
             "handling": 0.004,
             "claiming": 0.001,
             "sweeping": -0.013,
@@ -421,6 +421,13 @@
           "rank": 63,
           "keeperiq": 8.0,
           "adj_total_p96": -0.0321
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2025-12-06",
+          "rank": 63,
+          "keeperiq": 8.0,
+          "adj_total_p96": -0.0317
         }
       ],
       "team_stints": [
@@ -481,15 +488,15 @@
       "goals_prevented_p96": 3.14,
       "previous_rank": 12,
       "rank_change": 0,
-      "keeperiq_change": -2.3,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 3.169,
-          "adjusted_p96": 0.068,
-          "baseline_p96": 0.056,
+          "observed_p96": 3.168,
+          "adjusted_p96": 0.071,
+          "baseline_p96": 0.058,
           "total": 0.792,
           "raw_total": 0.785,
-          "percentile": 61.5,
+          "percentile": 56.9,
           "observed_percentile": 100.0,
           "opportunities": 2,
           "opportunities_p96": 8.0,
@@ -497,11 +504,11 @@
         },
         "handling": {
           "observed_p96": -0.178,
-          "adjusted_p96": -0.017,
-          "baseline_p96": -0.017,
+          "adjusted_p96": -0.019,
+          "baseline_p96": -0.018,
           "total": -0.044,
           "raw_total": -0.045,
-          "percentile": 38.3,
+          "percentile": 38.4,
           "observed_percentile": 0.0,
           "opportunities": 2,
           "opportunities_p96": 8.0,
@@ -514,7 +521,7 @@
           "total": 0.0,
           "raw_total": 0.0,
           "percentile": 31.4,
-          "observed_percentile": 34.4,
+          "observed_percentile": 34.3,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -525,7 +532,7 @@
           "baseline_p96": 0.005,
           "total": 0.038,
           "raw_total": 0.037,
-          "percentile": 72.5,
+          "percentile": 68.6,
           "observed_percentile": 100.0,
           "opportunities": 2,
           "opportunities_p96": 8.0,
@@ -533,11 +540,11 @@
         },
         "passing": {
           "observed_p96": 0.034,
-          "adjusted_p96": -0.006,
+          "adjusted_p96": -0.007,
           "baseline_p96": -0.009,
           "total": 0.009,
           "raw_total": 0.024,
-          "percentile": 59.4,
+          "percentile": 60.3,
           "observed_percentile": 100.0,
           "opportunities": 10,
           "opportunities_p96": 40.0,
@@ -658,6 +665,13 @@
           "rank": 12,
           "keeperiq": 70.3,
           "adj_total_p96": 0.0587
+        },
+        {
+          "captured_at": "2026-08-23T14:40:26Z",
+          "max_match_date": "2026-08-23",
+          "rank": 12,
+          "keeperiq": 68.0,
+          "adj_total_p96": 0.051
         }
       ],
       "team_stints": [
