@@ -3,7 +3,7 @@
   "player_id": "Xj5Y43JyMb",
   "slug": "jeffrey-gal",
   "name": "Jeffrey Gal",
-  "generated_at": "2026-08-29T17:44:24Z",
+  "generated_at": "2026-08-30T18:04:43Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -67,10 +67,10 @@
           "reliability": 0.068
         },
         "handling": {
-          "observed_p96": -0.01,
+          "observed_p96": -0.009,
           "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
-          "total": -0.076,
+          "total": -0.075,
           "raw_total": -0.081,
           "percentile": 46.1,
           "observed_percentile": 41.4,
@@ -181,9 +181,9 @@
           "goals_prevented": 0.0,
           "components": {
             "shot_stopping": 0.018,
-            "handling": 0.0,
+            "handling": 0.001,
             "claiming": 0.0,
-            "sweeping": -0.298,
+            "sweeping": -0.299,
             "passing": -0.011,
             "fielding": -0.003
           }
@@ -494,9 +494,9 @@
     "talent_low": -0.22,
     "talent_high": 0.08,
     "talent_sd": 0.091,
-    "keeperiq": 3.1,
+    "keeperiq": 3.0,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 65.0,
+    "keeperiq_high": 61.0,
     "rank": 75,
     "weights": {
       "league_prior": 0.813,

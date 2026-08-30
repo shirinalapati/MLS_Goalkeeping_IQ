@@ -3,7 +3,7 @@
   "player_id": "odMXEAde5Y",
   "slug": "adam-beaudry",
   "name": "Adam Beaudry",
-  "generated_at": "2026-08-29T17:44:24Z",
+  "generated_at": "2026-08-30T18:04:43Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.8,
           "adjusted_p96": 0.062,
           "baseline_p96": 0.05,
-          "total": 0.8,
+          "total": 0.799,
           "raw_total": 0.771,
           "percentile": 59.4,
           "observed_percentile": 100.0,
@@ -72,7 +72,7 @@
           "baseline_p96": -0.004,
           "total": -0.013,
           "raw_total": -0.013,
-          "percentile": 45.7,
+          "percentile": 46.4,
           "observed_percentile": 31.9,
           "opportunities": 3,
           "opportunities_p96": 3.0,
@@ -156,7 +156,7 @@
           "xgoals_faced": 2.77,
           "goals_prevented": 0.77,
           "components": {
-            "shot_stopping": 0.8,
+            "shot_stopping": 0.799,
             "handling": -0.013,
             "claiming": 0.001,
             "sweeping": 0.008,
@@ -256,10 +256,191 @@
           "last_match": "2025-03-23"
         }
       ]
+    },
+    "2026": {
+      "player_id": "odMXEAde5Y",
+      "slug": "adam-beaudry",
+      "name": "Adam Beaudry",
+      "season": 2026,
+      "team_id": "pzeQZ6xQKw",
+      "team": "Colorado Rapids",
+      "team_abbreviation": "COL",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "2006-04-18",
+      "age": 20,
+      "minutes": 98.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 47.0,
+      "adjusted_total_p96": 0.04,
+      "observed_total_p96": 0.03,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": 0.03,
+      "reliability": 0.41,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 25,
+      "rank_observed": 25,
+      "rank_goals_conceded": 1,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 0,
+      "goals_conceded_p96": 0.0,
+      "shots_faced": 0,
+      "shots_faced_p96": 0.0,
+      "saves": 0,
+      "save_pct": null,
+      "xgoals_faced": 0.0,
+      "goals_prevented": 0.0,
+      "goals_prevented_p96": 0.0,
+      "previous_rank": null,
+      "rank_change": null,
+      "keeperiq_change": null,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 0.029,
+          "adjusted_p96": 0.055,
+          "baseline_p96": 0.055,
+          "total": 0.029,
+          "raw_total": 0.0,
+          "percentile": 55.1,
+          "observed_percentile": 41.6,
+          "opportunities": 0,
+          "opportunities_p96": 0.0,
+          "reliability": 0.0
+        },
+        "handling": {
+          "observed_p96": 0.001,
+          "adjusted_p96": -0.018,
+          "baseline_p96": -0.018,
+          "total": 0.001,
+          "raw_total": 0.0,
+          "percentile": 41.5,
+          "observed_percentile": 89.8,
+          "opportunities": 0,
+          "opportunities_p96": 0.0,
+          "reliability": 0.0
+        },
+        "claiming": {
+          "observed_p96": 0.001,
+          "adjusted_p96": -0.002,
+          "baseline_p96": -0.002,
+          "total": 0.001,
+          "raw_total": 0.001,
+          "percentile": 31.7,
+          "observed_percentile": 34.7,
+          "opportunities": 2,
+          "opportunities_p96": 1.96,
+          "reliability": 0.012
+        },
+        "sweeping": {
+          "observed_p96": 0.005,
+          "adjusted_p96": 0.005,
+          "baseline_p96": 0.005,
+          "total": 0.005,
+          "raw_total": 0.004,
+          "percentile": 66.3,
+          "observed_percentile": 47.2,
+          "opportunities": 3,
+          "opportunities_p96": 2.94,
+          "reliability": 0.003
+        },
+        "passing": {
+          "observed_p96": -0.013,
+          "adjusted_p96": -0.01,
+          "baseline_p96": -0.009,
+          "total": -0.013,
+          "raw_total": 0.048,
+          "percentile": 40.7,
+          "observed_percentile": 38.6,
+          "opportunities": 36,
+          "opportunities_p96": 35.27,
+          "reliability": 0.214
+        },
+        "fielding": {
+          "observed_p96": 0.004,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.004,
+          "raw_total": -0.001,
+          "percentile": 67.6,
+          "observed_percentile": 25.3,
+          "opportunities": 29,
+          "opportunities_p96": 28.41,
+          "reliability": 0.006
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (98 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "KAqBrovmqb",
+          "date": "2026-08-30",
+          "matchday": 23,
+          "minutes": 98.0,
+          "total_ga": 0.026,
+          "total_ga_p96": 0.03,
+          "rolling_total_ga_p96": 0.03,
+          "goals_conceded": 0,
+          "shots_faced": 0,
+          "saves": 0,
+          "xgoals_faced": 0.0,
+          "goals_prevented": 0.0,
+          "components": {
+            "shot_stopping": 0.029,
+            "handling": 0.001,
+            "claiming": 0.001,
+            "sweeping": 0.005,
+            "passing": -0.013,
+            "fielding": 0.004
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-08-30",
+          "matchday": 23,
+          "matches_in_window": 1,
+          "rate_p96": 0.03
+        }
+      ],
+      "ranking_history": [],
+      "team_stints": [
+        {
+          "team_id": "pzeQZ6xQKw",
+          "team_name": "Colorado Rapids",
+          "team_abbreviation": "COL",
+          "appearances": 1,
+          "minutes": 98.0,
+          "first_match": "2026-08-30",
+          "last_match": "2026-08-30"
+        }
+      ]
     }
   },
   "available_seasons": [
-    2025
+    2025,
+    2026
   ],
   "talent": {
     "player_id": "odMXEAde5Y",
@@ -270,25 +451,25 @@
     "nationality": "USA",
     "birth_date": "2006-04-18",
     "age": 20,
-    "talent_p96": 0.06,
-    "talent_low": -0.1,
-    "talent_high": 0.23,
-    "talent_sd": 0.1,
-    "keeperiq": 53.2,
-    "keeperiq_low": 0.0,
-    "keeperiq_high": 100.0,
-    "rank": 25,
+    "talent_p96": 0.05,
+    "talent_low": -0.08,
+    "talent_high": 0.17,
+    "talent_sd": 0.077,
+    "keeperiq": 35.0,
+    "keeperiq_low": 3.0,
+    "keeperiq_high": 97.8,
+    "rank": 37,
     "weights": {
-      "league_prior": 0.985,
-      "prior_season": 0.015,
-      "live_season": 0.0
+      "league_prior": 0.584,
+      "prior_season": 0.009,
+      "live_season": 0.407
     },
     "prior_season_rate": 0.82,
-    "live_season_rate": null,
+    "live_season_rate": 0.03,
     "prior_season_minutes": 96.0,
-    "live_season_minutes": 0.0,
+    "live_season_minutes": 98.0,
     "league_prior_rate": 0.05,
     "prior_source": "prior_season_available",
-    "in_live_season": false
+    "in_live_season": true
   }
 }
