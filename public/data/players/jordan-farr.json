@@ -3,7 +3,7 @@
   "player_id": "odMX7wpAQY",
   "slug": "jordan-farr",
   "name": "Jordan Farr",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.4,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -1.15,
+      "adjusted_total": -1.14,
       "reliability": 0.046,
       "interval_low": -0.14,
       "interval_high": 0.18,
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.386,
+          "observed_p96": -0.385,
           "adjusted_p96": 0.031,
           "baseline_p96": 0.05,
-          "total": -1.109,
+          "total": -1.107,
           "raw_total": -1.192,
           "percentile": 30.6,
           "observed_percentile": 1.3,
@@ -172,7 +172,7 @@
           "xgoals_faced": 3.37,
           "goals_prevented": -1.63,
           "components": {
-            "shot_stopping": -1.602,
+            "shot_stopping": -1.601,
             "handling": 0.023,
             "claiming": -0.005,
             "sweeping": -0.004,
@@ -185,7 +185,7 @@
           "date": "2025-10-04",
           "matchday": 35,
           "minutes": 82.0,
-          "total_ga": 0.201,
+          "total_ga": 0.202,
           "total_ga_p96": 0.24,
           "rolling_total_ga_p96": -0.76,
           "goals_conceded": 0,
@@ -216,7 +216,7 @@
           "xgoals_faced": 1.44,
           "goals_prevented": 0.44,
           "components": {
-            "shot_stopping": 0.468,
+            "shot_stopping": 0.469,
             "handling": 0.035,
             "claiming": -0.03,
             "sweeping": -0.051,
@@ -315,6 +315,13 @@
           "rank": 51,
           "keeperiq": 26.6,
           "adj_total_p96": 0.019
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2025-12-06",
+          "rank": 51,
+          "keeperiq": 26.6,
+          "adj_total_p96": 0.019
         }
       ],
       "team_stints": [
@@ -346,7 +353,7 @@
     "talent_low": -0.13,
     "talent_high": 0.19,
     "talent_sd": 0.099,
-    "keeperiq": 28.7,
+    "keeperiq": 30.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 49,

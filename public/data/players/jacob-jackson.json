@@ -3,7 +3,7 @@
   "player_id": "2lqRjZp2qr",
   "slug": "jacob-jackson",
   "name": "Jacob Jackson",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.063,
-          "adjusted_p96": 0.049,
+          "observed_p96": 0.064,
+          "adjusted_p96": 0.05,
           "baseline_p96": 0.048,
-          "total": 0.257,
+          "total": 0.259,
           "raw_total": 0.141,
           "percentile": 49.4,
           "observed_percentile": 51.8,
@@ -186,7 +186,7 @@
           "xgoals_faced": 0.13,
           "goals_prevented": 0.13,
           "components": {
-            "shot_stopping": 0.165,
+            "shot_stopping": 0.166,
             "handling": 0.058,
             "claiming": 0.014,
             "sweeping": 0.001,
@@ -199,7 +199,7 @@
           "date": "2025-09-21",
           "matchday": 33,
           "minutes": 101.0,
-          "total_ga": -0.346,
+          "total_ga": -0.345,
           "total_ga_p96": -0.33,
           "rolling_total_ga_p96": 0.28,
           "goals_conceded": 1,
@@ -230,7 +230,7 @@
           "xgoals_faced": 1.45,
           "goals_prevented": 0.45,
           "components": {
-            "shot_stopping": 0.485,
+            "shot_stopping": 0.486,
             "handling": 0.03,
             "claiming": 0.001,
             "sweeping": 0.01,
@@ -335,6 +335,13 @@
           "rank": 24,
           "keeperiq": 59.6,
           "adj_total_p96": 0.0487
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2025-12-06",
+          "rank": 24,
+          "keeperiq": 59.6,
+          "adj_total_p96": 0.0486
         }
       ],
       "team_stints": [
@@ -366,10 +373,10 @@
     "talent_low": -0.08,
     "talent_high": 0.23,
     "talent_sd": 0.097,
-    "keeperiq": 69.2,
+    "keeperiq": 65.2,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 18,
+    "rank": 19,
     "weights": {
       "league_prior": 0.916,
       "prior_season": 0.084,

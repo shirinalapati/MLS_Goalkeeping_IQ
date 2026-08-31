@@ -3,7 +3,7 @@
   "player_id": "7VqG3Onxqv",
   "slug": "aj-marcucci",
   "name": "AJ Marcucci",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -32,7 +32,7 @@
       "interval_high": 0.13,
       "interval_se": 0.055,
       "observed_interval_low": -0.17,
-      "observed_interval_high": 0.01,
+      "observed_interval_high": 0.02,
       "keeperiq_low": 2.6,
       "keeperiq_high": 95.8,
       "rank": 29,
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.125,
+          "observed_p96": -0.124,
           "adjusted_p96": 0.043,
           "baseline_p96": 0.048,
-          "total": -0.269,
+          "total": -0.268,
           "raw_total": -0.331,
           "percentile": 44.4,
           "observed_percentile": 11.8,
@@ -165,7 +165,7 @@
           "xgoals_faced": 0.72,
           "goals_prevented": -0.28,
           "components": {
-            "shot_stopping": -0.253,
+            "shot_stopping": -0.252,
             "handling": 0.042,
             "claiming": 0.003,
             "sweeping": -0.014,
@@ -178,8 +178,8 @@
           "date": "2025-08-10",
           "matchday": 27,
           "minutes": 104.0,
-          "total_ga": 0.016,
-          "total_ga_p96": 0.01,
+          "total_ga": 0.017,
+          "total_ga_p96": 0.02,
           "rolling_total_ga_p96": -0.08,
           "goals_conceded": 1,
           "shots_faced": 3,
@@ -187,7 +187,7 @@
           "xgoals_faced": 0.95,
           "goals_prevented": -0.05,
           "components": {
-            "shot_stopping": -0.017,
+            "shot_stopping": -0.016,
             "handling": 0.017,
             "claiming": 0.001,
             "sweeping": 0.01,
@@ -280,6 +280,13 @@
           "rank": 29,
           "keeperiq": 49.7,
           "adj_total_p96": 0.0428
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2025-12-06",
+          "rank": 29,
+          "keeperiq": 49.7,
+          "adj_total_p96": 0.0427
         }
       ],
       "team_stints": [
@@ -311,10 +318,10 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.098,
-    "keeperiq": 34.3,
+    "keeperiq": 37.5,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 40,
+    "rank": 39,
     "weights": {
       "league_prior": 0.935,
       "prior_season": 0.065,

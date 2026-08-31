@@ -3,7 +3,7 @@
   "player_id": "gOMn2jBXMw",
   "slug": "alec-smir",
   "name": "Alec Smir",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.054,
           "adjusted_p96": 0.05,
           "baseline_p96": 0.05,
-          "total": 0.105,
+          "total": 0.106,
           "raw_total": 0.049,
           "percentile": 49.6,
           "observed_percentile": 49.2,
@@ -79,7 +79,7 @@
           "reliability": 0.02
         },
         "claiming": {
-          "observed_p96": 0.001,
+          "observed_p96": 0.0,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
           "total": 0.001,
@@ -169,7 +169,7 @@
           "date": "2025-06-28",
           "matchday": 21,
           "minutes": 85.0,
-          "total_ga": 0.591,
+          "total_ga": 0.592,
           "total_ga_p96": 0.67,
           "rolling_total_ga_p96": 0.06,
           "goals_conceded": 1,
@@ -178,7 +178,7 @@
           "xgoals_faced": 1.51,
           "goals_prevented": 0.51,
           "components": {
-            "shot_stopping": 0.537,
+            "shot_stopping": 0.538,
             "handling": 0.05,
             "claiming": 0.0,
             "sweeping": 0.001,
@@ -271,6 +271,13 @@
           "rank": 33,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0398
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2025-12-06",
+          "rank": 33,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.0397
         }
       ],
       "team_stints": [
@@ -301,10 +308,10 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 47.0,
+      "keeperiq": 46.6,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.64,
-      "baseline_total_p96": 0.04,
+      "baseline_total_p96": 0.03,
       "adjusted_total": -0.35,
       "reliability": 0.006,
       "interval_low": null,
@@ -329,17 +336,17 @@
       "xgoals_faced": 1.65,
       "goals_prevented": -0.35,
       "goals_prevented_p96": -0.64,
-      "previous_rank": null,
-      "rank_change": null,
-      "keeperiq_change": null,
+      "previous_rank": 28,
+      "rank_change": 0,
+      "keeperiq_change": -0.4,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.608,
-          "adjusted_p96": 0.052,
-          "baseline_p96": 0.058,
+          "adjusted_p96": 0.044,
+          "baseline_p96": 0.051,
           "total": -0.336,
           "raw_total": -0.352,
-          "percentile": 55.1,
+          "percentile": 52.3,
           "observed_percentile": 0.0,
           "opportunities": 4,
           "opportunities_p96": 7.25,
@@ -347,35 +354,35 @@
         },
         "handling": {
           "observed_p96": -0.032,
-          "adjusted_p96": -0.019,
+          "adjusted_p96": -0.018,
           "baseline_p96": -0.018,
           "total": -0.018,
           "raw_total": -0.018,
-          "percentile": 36.4,
-          "observed_percentile": 18.3,
+          "percentile": 38.3,
+          "observed_percentile": 18.1,
           "opportunities": 2,
           "opportunities_p96": 3.62,
           "reliability": 0.007
         },
         "claiming": {
           "observed_p96": 0.001,
-          "adjusted_p96": -0.002,
-          "baseline_p96": -0.002,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
           "total": 0.0,
           "raw_total": 0.0,
-          "percentile": 31.7,
-          "observed_percentile": 34.7,
+          "percentile": 31.5,
+          "observed_percentile": 34.5,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
         },
         "sweeping": {
           "observed_p96": 0.001,
-          "adjusted_p96": 0.004,
-          "baseline_p96": 0.004,
+          "adjusted_p96": 0.005,
+          "baseline_p96": 0.005,
           "total": 0.001,
           "raw_total": 0.0,
-          "percentile": 41.7,
+          "percentile": 45.0,
           "observed_percentile": 34.0,
           "opportunities": 0,
           "opportunities_p96": 0.0,
@@ -387,8 +394,8 @@
           "baseline_p96": -0.008,
           "total": -0.001,
           "raw_total": 0.032,
-          "percentile": 50.4,
-          "observed_percentile": 71.4,
+          "percentile": 50.3,
+          "observed_percentile": 71.1,
           "opportunities": 13,
           "opportunities_p96": 23.55,
           "reliability": 0.09
@@ -399,8 +406,8 @@
           "baseline_p96": 0.004,
           "total": 0.002,
           "raw_total": -0.001,
-          "percentile": 39.4,
-          "observed_percentile": 25.3,
+          "percentile": 42.1,
+          "observed_percentile": 25.5,
           "opportunities": 6,
           "opportunities_p96": 10.87,
           "reliability": 0.001
@@ -452,7 +459,15 @@
           "rate_p96": -0.64
         }
       ],
-      "ranking_history": [],
+      "ranking_history": [
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2026-08-30",
+          "rank": 28,
+          "keeperiq": 47.0,
+          "adj_total_p96": 0.0323
+        }
+      ],
       "team_stints": [
         {
           "team_id": "kRQand1MKZ",
@@ -480,13 +495,13 @@
     "birth_date": "1999-04-13",
     "age": 27,
     "talent_p96": 0.05,
-    "talent_low": -0.12,
+    "talent_low": -0.11,
     "talent_high": 0.21,
     "talent_sd": 0.099,
-    "keeperiq": 34.8,
+    "keeperiq": 38.0,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 38,
+    "rank": 37,
     "weights": {
       "league_prior": 0.963,
       "prior_season": 0.031,

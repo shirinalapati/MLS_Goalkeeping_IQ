@@ -3,7 +3,7 @@
   "player_id": "4wM4an045j",
   "slug": "david-ochoa",
   "name": "David Ochoa",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.123,
           "adjusted_p96": 0.046,
           "baseline_p96": 0.048,
-          "total": -0.13,
+          "total": -0.129,
           "raw_total": -0.16,
           "percentile": 45.7,
           "observed_percentile": 11.8,
@@ -147,7 +147,7 @@
           "date": "2025-06-30",
           "matchday": 21,
           "minutes": 101.0,
-          "total_ga": -0.121,
+          "total_ga": -0.12,
           "total_ga_p96": -0.11,
           "rolling_total_ga_p96": -0.11,
           "goals_conceded": 1,
@@ -156,7 +156,7 @@
           "xgoals_faced": 0.84,
           "goals_prevented": -0.16,
           "components": {
-            "shot_stopping": -0.13,
+            "shot_stopping": -0.129,
             "handling": 0.001,
             "claiming": 0.009,
             "sweeping": 0.009,
@@ -170,7 +170,7 @@
           "date": "2025-06-30",
           "matchday": 21,
           "matches_in_window": 1,
-          "rate_p96": -0.12
+          "rate_p96": -0.11
         }
       ],
       "ranking_history": [
@@ -243,6 +243,13 @@
           "rank": 39,
           "keeperiq": 40.4,
           "adj_total_p96": 0.0357
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2025-12-06",
+          "rank": 39,
+          "keeperiq": 40.4,
+          "adj_total_p96": 0.0357
         }
       ],
       "team_stints": [
@@ -274,10 +281,10 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.097,
-    "keeperiq": 33.3,
+    "keeperiq": 36.5,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 44,
+    "rank": 43,
     "weights": {
       "league_prior": 0.925,
       "prior_season": 0.075,

@@ -3,7 +3,7 @@
   "player_id": "4JMAaogDMK",
   "slug": "jimmy-maurer",
   "name": "Jimmy Maurer",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -57,8 +57,8 @@
         "shot_stopping": {
           "observed_p96": -0.207,
           "adjusted_p96": 0.044,
-          "baseline_p96": 0.049,
-          "total": -0.294,
+          "baseline_p96": 0.05,
+          "total": -0.293,
           "raw_total": -0.334,
           "percentile": 44.4,
           "observed_percentile": 5.8,
@@ -178,7 +178,7 @@
           "xgoals_faced": 0.27,
           "goals_prevented": 0.27,
           "components": {
-            "shot_stopping": 0.29,
+            "shot_stopping": 0.291,
             "handling": -0.0,
             "claiming": 0.005,
             "sweeping": 0.025,
@@ -271,6 +271,13 @@
           "rank": 35,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0379
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2025-12-06",
+          "rank": 35,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.0379
         }
       ],
       "team_stints": [
@@ -301,10 +308,10 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 64.4,
-      "adjusted_total_p96": 0.05,
+      "keeperiq": 64.5,
+      "adjusted_total_p96": 0.04,
       "observed_total_p96": 1.21,
-      "baseline_total_p96": 0.04,
+      "baseline_total_p96": 0.03,
       "adjusted_total": 0.66,
       "reliability": 0.007,
       "interval_low": null,
@@ -329,17 +336,17 @@
       "xgoals_faced": 0.65,
       "goals_prevented": 0.65,
       "goals_prevented_p96": 1.2,
-      "previous_rank": 14,
-      "rank_change": -1,
-      "keeperiq_change": -2.8,
+      "previous_rank": 15,
+      "rank_change": 0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": 1.232,
-          "adjusted_p96": 0.068,
-          "baseline_p96": 0.058,
+          "adjusted_p96": 0.06,
+          "baseline_p96": 0.05,
           "total": 0.667,
           "raw_total": 0.651,
-          "percentile": 57.0,
+          "percentile": 57.1,
           "observed_percentile": 100.0,
           "opportunities": 3,
           "opportunities_p96": 5.54,
@@ -348,10 +355,10 @@
         "handling": {
           "observed_p96": 0.048,
           "adjusted_p96": -0.018,
-          "baseline_p96": -0.019,
+          "baseline_p96": -0.018,
           "total": 0.026,
           "raw_total": 0.025,
-          "percentile": 36.4,
+          "percentile": 44.2,
           "observed_percentile": 100.0,
           "opportunities": 3,
           "opportunities_p96": 5.54,
@@ -359,12 +366,12 @@
         },
         "claiming": {
           "observed_p96": 0.004,
-          "adjusted_p96": -0.002,
-          "baseline_p96": -0.002,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
           "total": 0.002,
           "raw_total": 0.002,
-          "percentile": 31.7,
-          "observed_percentile": 79.5,
+          "percentile": 31.5,
+          "observed_percentile": 75.8,
           "opportunities": 1,
           "opportunities_p96": 1.85,
           "reliability": 0.006
@@ -375,7 +382,7 @@
           "baseline_p96": 0.005,
           "total": -0.045,
           "raw_total": -0.046,
-          "percentile": 48.5,
+          "percentile": 52.0,
           "observed_percentile": 0.0,
           "opportunities": 1,
           "opportunities_p96": 1.85,
@@ -387,8 +394,8 @@
           "baseline_p96": -0.008,
           "total": -0.002,
           "raw_total": 0.031,
-          "percentile": 50.4,
-          "observed_percentile": 71.4,
+          "percentile": 50.3,
+          "observed_percentile": 71.1,
           "opportunities": 15,
           "opportunities_p96": 27.69,
           "reliability": 0.102
@@ -400,7 +407,7 @@
           "total": 0.007,
           "raw_total": 0.004,
           "percentile": 46.6,
-          "observed_percentile": 91.4,
+          "observed_percentile": 91.5,
           "opportunities": 7,
           "opportunities_p96": 12.92,
           "reliability": 0.001
@@ -522,6 +529,13 @@
           "rank": 14,
           "keeperiq": 67.2,
           "adj_total_p96": 0.0487
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2026-08-30",
+          "rank": 15,
+          "keeperiq": 64.4,
+          "adj_total_p96": 0.0483
         }
       ],
       "team_stints": [
@@ -554,7 +568,7 @@
     "talent_low": -0.11,
     "talent_high": 0.22,
     "talent_sd": 0.099,
-    "keeperiq": 38.3,
+    "keeperiq": 38.4,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 32,

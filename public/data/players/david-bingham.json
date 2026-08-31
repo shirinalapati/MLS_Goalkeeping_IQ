@@ -3,7 +3,7 @@
   "player_id": "xW5pxyxB5g",
   "slug": "david-bingham",
   "name": "David Bingham",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.49,
-          "adjusted_p96": 0.064,
+          "observed_p96": 0.491,
+          "adjusted_p96": 0.065,
           "baseline_p96": 0.051,
-          "total": 1.022,
+          "total": 1.023,
           "raw_total": 0.962,
           "percentile": 62.6,
           "observed_percentile": 99.0,
@@ -82,7 +82,7 @@
           "observed_p96": 0.01,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
-          "total": 0.022,
+          "total": 0.021,
           "raw_total": 0.021,
           "percentile": 51.6,
           "observed_percentile": 98.9,
@@ -147,7 +147,7 @@
           "date": "2025-05-31",
           "matchday": 17,
           "minutes": 95.0,
-          "total_ga": 0.712,
+          "total_ga": 0.713,
           "total_ga_p96": 0.72,
           "rolling_total_ga_p96": 0.72,
           "goals_conceded": 0,
@@ -156,7 +156,7 @@
           "xgoals_faced": 0.64,
           "goals_prevented": 0.64,
           "components": {
-            "shot_stopping": 0.671,
+            "shot_stopping": 0.672,
             "handling": 0.054,
             "claiming": 0.008,
             "sweeping": 0.001,
@@ -178,7 +178,7 @@
           "xgoals_faced": 2.32,
           "goals_prevented": 0.32,
           "components": {
-            "shot_stopping": 0.35,
+            "shot_stopping": 0.351,
             "handling": 0.076,
             "claiming": 0.014,
             "sweeping": 0.048,
@@ -271,6 +271,13 @@
           "rank": 23,
           "keeperiq": 59.8,
           "adj_total_p96": 0.0546
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2025-12-06",
+          "rank": 23,
+          "keeperiq": 59.8,
+          "adj_total_p96": 0.0545
         }
       ],
       "team_stints": [
@@ -302,7 +309,7 @@
     "talent_low": -0.1,
     "talent_high": 0.23,
     "talent_sd": 0.1,
-    "keeperiq": 58.7,
+    "keeperiq": 58.8,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 22,

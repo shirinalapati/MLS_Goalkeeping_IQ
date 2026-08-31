@@ -3,7 +3,7 @@
   "player_id": "EGMP1vPx5a",
   "slug": "blake-gillingham",
   "name": "Blake Gillingham",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.638,
+          "observed_p96": 0.639,
           "adjusted_p96": 0.08,
           "baseline_p96": 0.05,
-          "total": 2.194,
+          "total": 2.195,
           "raw_total": 2.095,
           "percentile": 79.4,
           "observed_percentile": 100.0,
@@ -80,7 +80,7 @@
         },
         "claiming": {
           "observed_p96": -0.07,
-          "adjusted_p96": -0.0,
+          "adjusted_p96": -0.001,
           "baseline_p96": 0.001,
           "total": -0.24,
           "raw_total": -0.241,
@@ -169,7 +169,7 @@
           "date": "2025-03-30",
           "matchday": 6,
           "minutes": 101.0,
-          "total_ga": 0.846,
+          "total_ga": 0.847,
           "total_ga_p96": 0.8,
           "rolling_total_ga_p96": 1.39,
           "goals_conceded": 3,
@@ -178,7 +178,7 @@
           "xgoals_faced": 4.08,
           "goals_prevented": 1.08,
           "components": {
-            "shot_stopping": 1.108,
+            "shot_stopping": 1.109,
             "handling": 0.024,
             "claiming": -0.272,
             "sweeping": -0.036,
@@ -191,7 +191,7 @@
           "date": "2025-04-06",
           "matchday": 7,
           "minutes": 101.0,
-          "total_ga": 0.433,
+          "total_ga": 0.434,
           "total_ga_p96": 0.41,
           "rolling_total_ga_p96": 0.96,
           "goals_conceded": 0,
@@ -213,7 +213,7 @@
           "date": "2025-04-13",
           "matchday": 8,
           "minutes": 99.0,
-          "total_ga": -0.352,
+          "total_ga": -0.351,
           "total_ga_p96": -0.34,
           "rolling_total_ga_p96": 0.57,
           "goals_conceded": 1,
@@ -222,7 +222,7 @@
           "xgoals_faced": 0.63,
           "goals_prevented": -0.37,
           "components": {
-            "shot_stopping": -0.343,
+            "shot_stopping": -0.342,
             "handling": 0.004,
             "claiming": 0.018,
             "sweeping": -0.002,
@@ -323,6 +323,13 @@
         },
         {
           "captured_at": "2026-08-24T15:01:45Z",
+          "max_match_date": "2025-12-06",
+          "rank": 16,
+          "keeperiq": 69.9,
+          "adj_total_p96": 0.066
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
           "max_match_date": "2025-12-06",
           "rank": 16,
           "keeperiq": 69.9,

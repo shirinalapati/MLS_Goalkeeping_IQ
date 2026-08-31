@@ -3,7 +3,7 @@
   "player_id": "Oa5wV6LWM1",
   "slug": "tomas-romero",
   "name": "Tomás Romero",
-  "generated_at": "2026-08-30T18:04:43Z",
+  "generated_at": "2026-08-31T20:05:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -32,7 +32,7 @@
       "interval_high": 0.22,
       "interval_se": 0.093,
       "observed_interval_low": 0.37,
-      "observed_interval_high": 1.16,
+      "observed_interval_high": 1.17,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
       "rank": 11,
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.74,
-          "adjusted_p96": 0.083,
+          "observed_p96": 0.741,
+          "adjusted_p96": 0.084,
           "baseline_p96": 0.048,
-          "total": 2.545,
+          "total": 2.546,
           "raw_total": 2.446,
           "percentile": 79.4,
           "observed_percentile": 100.0,
@@ -165,7 +165,7 @@
           "xgoals_faced": 0.66,
           "goals_prevented": 0.66,
           "components": {
-            "shot_stopping": 0.689,
+            "shot_stopping": 0.69,
             "handling": -0.138,
             "claiming": 0.004,
             "sweeping": -0.001,
@@ -187,7 +187,7 @@
           "xgoals_faced": 1.44,
           "goals_prevented": 0.44,
           "components": {
-            "shot_stopping": 0.471,
+            "shot_stopping": 0.472,
             "handling": 0.11,
             "claiming": 0.001,
             "sweeping": -0.014,
@@ -200,7 +200,7 @@
           "date": "2025-07-03",
           "matchday": 22,
           "minutes": 98.0,
-          "total_ga": 1.402,
+          "total_ga": 1.403,
           "total_ga_p96": 1.37,
           "rolling_total_ga_p96": 0.82,
           "goals_conceded": 0,
@@ -209,7 +209,7 @@
           "xgoals_faced": 1.34,
           "goals_prevented": 1.34,
           "components": {
-            "shot_stopping": 1.373,
+            "shot_stopping": 1.374,
             "handling": 0.021,
             "claiming": 0.009,
             "sweeping": 0.001,
@@ -233,7 +233,7 @@
           "components": {
             "shot_stopping": 0.011,
             "handling": 0.0,
-            "claiming": 0.002,
+            "claiming": 0.001,
             "sweeping": -0.037,
             "passing": -0.019,
             "fielding": 0.005
@@ -336,6 +336,13 @@
           "rank": 11,
           "keeperiq": 76.7,
           "adj_total_p96": 0.0716
+        },
+        {
+          "captured_at": "2026-08-30T18:05:28Z",
+          "max_match_date": "2025-12-06",
+          "rank": 11,
+          "keeperiq": 76.7,
+          "adj_total_p96": 0.0716
         }
       ],
       "team_stints": [
@@ -367,10 +374,10 @@
     "talent_low": -0.06,
     "talent_high": 0.26,
     "talent_sd": 0.097,
-    "keeperiq": 81.3,
+    "keeperiq": 83.3,
     "keeperiq_low": 3.0,
     "keeperiq_high": 100.0,
-    "rank": 10,
+    "rank": 9,
     "weights": {
       "league_prior": 0.926,
       "prior_season": 0.074,
