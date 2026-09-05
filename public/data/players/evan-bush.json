@@ -3,7 +3,7 @@
   "player_id": "KPqjo08PQ6",
   "slug": "evan-bush",
   "name": "Evan Bush",
-  "generated_at": "2026-09-04T17:37:08Z",
+  "generated_at": "2026-09-05T16:50:01Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.188,
           "adjusted_p96": 0.027,
           "baseline_p96": 0.045,
-          "total": -1.181,
+          "total": -1.182,
           "raw_total": -1.366,
           "percentile": 25.3,
           "observed_percentile": 11.6,
@@ -91,7 +91,7 @@
           "reliability": 0.05
         },
         "sweeping": {
-          "observed_p96": -0.005,
+          "observed_p96": -0.006,
           "adjusted_p96": -0.001,
           "baseline_p96": -0.001,
           "total": -0.035,
@@ -120,7 +120,7 @@
           "baseline_p96": 0.002,
           "total": 0.081,
           "raw_total": 0.048,
-          "percentile": 72.0,
+          "percentile": 68.6,
           "observed_percentile": 98.8,
           "opportunities": 150,
           "opportunities_p96": 23.84,
@@ -129,16 +129,7 @@
       },
       "archetype": null,
       "notes": {
-        "strengths": [
-          {
-            "component": "fielding",
-            "label": "Fielding",
-            "percentile": 72.0,
-            "band": "strong",
-            "opportunities": 150,
-            "text": "Strong fielding contribution."
-          }
-        ],
+        "strengths": [],
         "concerns": [
           {
             "component": "sample",
@@ -156,7 +147,7 @@
           "date": "2025-03-22",
           "matchday": 5,
           "minutes": 97.0,
-          "total_ga": 0.037,
+          "total_ga": 0.036,
           "total_ga_p96": 0.04,
           "rolling_total_ga_p96": 0.04,
           "goals_conceded": 0,
@@ -165,7 +156,7 @@
           "xgoals_faced": 0.0,
           "goals_prevented": 0.0,
           "components": {
-            "shot_stopping": 0.03,
+            "shot_stopping": 0.029,
             "handling": 0.001,
             "claiming": 0.001,
             "sweeping": 0.003,
@@ -437,10 +428,10 @@
     "talent_low": -0.14,
     "talent_high": 0.17,
     "talent_sd": 0.093,
-    "keeperiq": 20.2,
+    "keeperiq": 17.7,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 97.8,
-    "rank": 59,
+    "keeperiq_high": 96.1,
+    "rank": 60,
     "weights": {
       "league_prior": 0.841,
       "prior_season": 0.159,

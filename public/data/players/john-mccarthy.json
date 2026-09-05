@@ -3,7 +3,7 @@
   "player_id": "2vQ1L20Oqr",
   "slug": "john-mccarthy",
   "name": "John McCarthy",
-  "generated_at": "2026-09-04T17:37:08Z",
+  "generated_at": "2026-09-05T16:50:01Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -29,7 +29,7 @@
       "adjusted_total": -4.73,
       "reliability": 0.164,
       "interval_low": -0.2,
-      "interval_high": 0.11,
+      "interval_high": 0.1,
       "interval_se": 0.093,
       "observed_interval_low": -0.75,
       "observed_interval_high": 0.02,
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.337,
+          "observed_p96": -0.338,
           "adjusted_p96": -0.014,
           "baseline_p96": 0.053,
-          "total": -4.26,
+          "total": -4.262,
           "raw_total": -4.63,
           "percentile": 9.2,
           "observed_percentile": 1.9,
@@ -238,7 +238,7 @@
           "xgoals_faced": 1.53,
           "goals_prevented": -0.47,
           "components": {
-            "shot_stopping": -0.434,
+            "shot_stopping": -0.435,
             "handling": 0.001,
             "claiming": 0.045,
             "sweeping": 0.001,
@@ -623,7 +623,7 @@
     "talent_sd": 0.093,
     "keeperiq": 12.4,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 96.2,
+    "keeperiq_high": 96.1,
     "rank": 69,
     "weights": {
       "league_prior": 0.84,

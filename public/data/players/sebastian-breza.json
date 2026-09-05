@@ -3,7 +3,7 @@
   "player_id": "raMyAW6BMd",
   "slug": "sebastian-breza",
   "name": "Sebastian Breza",
-  "generated_at": "2026-09-04T17:37:08Z",
+  "generated_at": "2026-09-05T16:50:01Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -68,7 +68,7 @@
         },
         "handling": {
           "observed_p96": 0.021,
-          "adjusted_p96": -0.003,
+          "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
           "total": 0.064,
           "raw_total": 0.062,
@@ -208,7 +208,7 @@
           "xgoals_faced": 2.68,
           "goals_prevented": 0.68,
           "components": {
-            "shot_stopping": 0.71,
+            "shot_stopping": 0.709,
             "handling": 0.053,
             "claiming": 0.002,
             "sweeping": 0.047,
@@ -385,12 +385,12 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.173,
-          "adjusted_p96": 0.054,
-          "baseline_p96": 0.047,
+          "adjusted_p96": 0.056,
+          "baseline_p96": 0.049,
           "total": 0.552,
           "raw_total": 0.459,
-          "percentile": 56.3,
-          "observed_percentile": 69.5,
+          "percentile": 56.1,
+          "observed_percentile": 69.4,
           "opportunities": 8,
           "opportunities_p96": 2.51,
           "reliability": 0.028
@@ -401,7 +401,7 @@
           "baseline_p96": -0.017,
           "total": -0.03,
           "raw_total": -0.033,
-          "percentile": 52.2,
+          "percentile": 52.1,
           "observed_percentile": 63.3,
           "opportunities": 4,
           "opportunities_p96": 1.25,
@@ -413,7 +413,7 @@
           "baseline_p96": -0.001,
           "total": 0.005,
           "raw_total": 0.003,
-          "percentile": 33.4,
+          "percentile": 33.5,
           "observed_percentile": 35.5,
           "opportunities": 2,
           "opportunities_p96": 0.63,
@@ -437,8 +437,8 @@
           "baseline_p96": -0.009,
           "total": -0.079,
           "raw_total": 0.113,
-          "percentile": 28.3,
-          "observed_percentile": 10.7,
+          "percentile": 28.4,
+          "observed_percentile": 10.8,
           "opportunities": 104,
           "opportunities_p96": 32.63,
           "reliability": 0.441
@@ -449,8 +449,8 @@
           "baseline_p96": 0.004,
           "total": 0.012,
           "raw_total": -0.004,
-          "percentile": 52.4,
-          "observed_percentile": 25.5,
+          "percentile": 52.2,
+          "observed_percentile": 25.4,
           "opportunities": 64,
           "opportunities_p96": 20.08,
           "reliability": 0.013
@@ -463,7 +463,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 28.3,
+            "percentile": 28.4,
             "band": "weak",
             "opportunities": 104,
             "text": "Passing contribution below the MLS median."
@@ -682,10 +682,10 @@
     "talent_low": -0.11,
     "talent_high": 0.2,
     "talent_sd": 0.095,
-    "keeperiq": 37.7,
+    "keeperiq": 37.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 38,
+    "rank": 37,
     "weights": {
       "league_prior": 0.882,
       "prior_season": 0.033,
