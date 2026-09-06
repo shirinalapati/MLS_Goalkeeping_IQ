@@ -3,7 +3,7 @@
   "player_id": "Vj58WrY3M8",
   "slug": "cabral-carter",
   "name": "Cabral Carter",
-  "generated_at": "2026-09-05T16:50:01Z",
+  "generated_at": "2026-09-06T17:03:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 68.2,
+      "keeperiq": 71.9,
       "adjusted_total_p96": 0.05,
       "observed_total_p96": 0.16,
       "baseline_total_p96": 0.03,
@@ -35,9 +35,9 @@
       "observed_interval_high": 0.36,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
-      "rank": 11,
-      "rank_observed": 15,
-      "rank_goals_conceded": 13,
+      "rank": 10,
+      "rank_observed": 14,
+      "rank_goals_conceded": 12,
       "rank_pool": null,
       "rank_goals_conceded_pool": null,
       "rank_disagreement": null,
@@ -51,13 +51,13 @@
       "goals_prevented": 1.3,
       "goals_prevented_p96": 0.69,
       "previous_rank": 11,
-      "rank_change": 0,
-      "keeperiq_change": -0.1,
+      "rank_change": 1,
+      "keeperiq_change": 3.7,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.716,
-          "adjusted_p96": 0.073,
-          "baseline_p96": 0.053,
+          "adjusted_p96": 0.075,
+          "baseline_p96": 0.056,
           "total": 1.358,
           "raw_total": 1.303,
           "percentile": 71.6,
@@ -68,11 +68,11 @@
         },
         "handling": {
           "observed_p96": -0.142,
-          "adjusted_p96": -0.021,
-          "baseline_p96": -0.019,
-          "total": -0.27,
+          "adjusted_p96": -0.022,
+          "baseline_p96": -0.02,
+          "total": -0.269,
           "raw_total": -0.271,
-          "percentile": 18.8,
+          "percentile": 23.4,
           "observed_percentile": 0.0,
           "opportunities": 9,
           "opportunities_p96": 4.75,
@@ -84,19 +84,19 @@
           "baseline_p96": -0.001,
           "total": 0.001,
           "raw_total": 0.0,
-          "percentile": 33.5,
-          "observed_percentile": 34.5,
+          "percentile": 33.4,
+          "observed_percentile": 34.6,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
         },
         "sweeping": {
           "observed_p96": -0.416,
-          "adjusted_p96": 0.004,
+          "adjusted_p96": 0.003,
           "baseline_p96": 0.005,
           "total": -0.788,
           "raw_total": -0.79,
-          "percentile": 16.4,
+          "percentile": 16.3,
           "observed_percentile": 0.0,
           "opportunities": 6,
           "opportunities_p96": 3.16,
@@ -108,8 +108,8 @@
           "baseline_p96": -0.008,
           "total": -0.004,
           "raw_total": 0.11,
-          "percentile": 57.0,
-          "observed_percentile": 71.2,
+          "percentile": 53.5,
+          "observed_percentile": 70.9,
           "opportunities": 51,
           "opportunities_p96": 26.9,
           "reliability": 0.279
@@ -121,7 +121,7 @@
           "total": 0.009,
           "raw_total": -0.001,
           "percentile": 25.3,
-          "observed_percentile": 34.1,
+          "observed_percentile": 37.3,
           "opportunities": 23,
           "opportunities_p96": 12.13,
           "reliability": 0.005
@@ -129,7 +129,16 @@
       },
       "archetype": null,
       "notes": {
-        "strengths": [],
+        "strengths": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 71.9,
+            "band": "strong",
+            "opportunities": null,
+            "text": "Above-average complete impact across the full goalkeeping workload."
+          }
+        ],
         "concerns": [
           {
             "component": "sample",
@@ -156,7 +165,7 @@
           "xgoals_faced": 2.12,
           "goals_prevented": 0.12,
           "components": {
-            "shot_stopping": 0.143,
+            "shot_stopping": 0.142,
             "handling": -0.222,
             "claiming": 0.0,
             "sweeping": 0.005,
@@ -285,6 +294,13 @@
           "rank": 11,
           "keeperiq": 68.3,
           "adj_total_p96": 0.0487
+        },
+        {
+          "captured_at": "2026-09-05T16:50:43Z",
+          "max_match_date": "2026-09-04",
+          "rank": 11,
+          "keeperiq": 68.2,
+          "adj_total_p96": 0.051
         }
       ],
       "team_stints": [
@@ -316,10 +332,10 @@
     "talent_low": -0.11,
     "talent_high": 0.22,
     "talent_sd": 0.1,
-    "keeperiq": 39.0,
+    "keeperiq": 40.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 29,
+    "rank": 28,
     "weights": {
       "league_prior": 0.976,
       "prior_season": 0.0,

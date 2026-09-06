@@ -3,7 +3,7 @@
   "player_id": "Oa5wV6LWM1",
   "slug": "tomas-romero",
   "name": "Tomás Romero",
-  "generated_at": "2026-09-05T16:50:01Z",
+  "generated_at": "2026-09-06T17:03:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.741,
-          "adjusted_p96": 0.084,
+          "observed_p96": 0.74,
+          "adjusted_p96": 0.083,
           "baseline_p96": 0.048,
-          "total": 2.546,
+          "total": 2.545,
           "raw_total": 2.446,
           "percentile": 79.4,
           "observed_percentile": 100.0,
@@ -165,7 +165,7 @@
           "xgoals_faced": 0.66,
           "goals_prevented": 0.66,
           "components": {
-            "shot_stopping": 0.69,
+            "shot_stopping": 0.689,
             "handling": -0.138,
             "claiming": 0.004,
             "sweeping": -0.001,
@@ -210,7 +210,7 @@
           "goals_prevented": 1.34,
           "components": {
             "shot_stopping": 1.374,
-            "handling": 0.021,
+            "handling": 0.022,
             "claiming": 0.009,
             "sweeping": 0.001,
             "passing": -0.01,
@@ -350,6 +350,13 @@
           "rank": 11,
           "keeperiq": 76.7,
           "adj_total_p96": 0.0719
+        },
+        {
+          "captured_at": "2026-09-05T16:50:43Z",
+          "max_match_date": "2025-12-06",
+          "rank": 11,
+          "keeperiq": 76.7,
+          "adj_total_p96": 0.0718
         }
       ],
       "team_stints": [
@@ -381,10 +388,10 @@
     "talent_low": -0.06,
     "talent_high": 0.26,
     "talent_sd": 0.097,
-    "keeperiq": 83.3,
+    "keeperiq": 81.2,
     "keeperiq_low": 3.0,
     "keeperiq_high": 100.0,
-    "rank": 9,
+    "rank": 10,
     "weights": {
       "league_prior": 0.926,
       "prior_season": 0.074,

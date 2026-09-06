@@ -3,7 +3,7 @@
   "player_id": "EGMP1vPx5a",
   "slug": "blake-gillingham",
   "name": "Blake Gillingham",
-  "generated_at": "2026-09-05T16:50:01Z",
+  "generated_at": "2026-09-06T17:03:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.639,
+          "observed_p96": 0.638,
           "adjusted_p96": 0.08,
           "baseline_p96": 0.05,
-          "total": 2.195,
+          "total": 2.194,
           "raw_total": 2.095,
           "percentile": 79.4,
           "observed_percentile": 100.0,
@@ -70,7 +70,7 @@
           "observed_p96": 0.01,
           "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
-          "total": 0.034,
+          "total": 0.035,
           "raw_total": 0.032,
           "percentile": 47.7,
           "observed_percentile": 86.7,
@@ -115,7 +115,7 @@
           "reliability": 0.431
         },
         "fielding": {
-          "observed_p96": 0.009,
+          "observed_p96": 0.008,
           "adjusted_p96": 0.002,
           "baseline_p96": 0.001,
           "total": 0.029,
@@ -191,7 +191,7 @@
           "date": "2025-04-06",
           "matchday": 7,
           "minutes": 101.0,
-          "total_ga": 0.434,
+          "total_ga": 0.433,
           "total_ga_p96": 0.41,
           "rolling_total_ga_p96": 0.96,
           "goals_conceded": 0,
@@ -201,7 +201,7 @@
           "goals_prevented": 0.45,
           "components": {
             "shot_stopping": 0.479,
-            "handling": -0.02,
+            "handling": -0.019,
             "claiming": 0.014,
             "sweeping": -0.011,
             "passing": -0.038,
@@ -341,6 +341,13 @@
           "rank": 16,
           "keeperiq": 69.9,
           "adj_total_p96": 0.0664
+        },
+        {
+          "captured_at": "2026-09-05T16:50:43Z",
+          "max_match_date": "2025-12-06",
+          "rank": 16,
+          "keeperiq": 69.9,
+          "adj_total_p96": 0.0663
         }
       ],
       "team_stints": [
@@ -372,7 +379,7 @@
     "talent_low": -0.08,
     "talent_high": 0.24,
     "talent_sd": 0.098,
-    "keeperiq": 70.0,
+    "keeperiq": 69.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 16,

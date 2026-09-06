@@ -3,7 +3,7 @@
   "player_id": "jYQJz3rWQG",
   "slug": "andrew-tarbell",
   "name": "Andrew Tarbell",
-  "generated_at": "2026-09-05T16:50:01Z",
+  "generated_at": "2026-09-06T17:03:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -56,9 +56,9 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.211,
-          "adjusted_p96": 0.037,
+          "adjusted_p96": 0.036,
           "baseline_p96": 0.05,
-          "total": -0.726,
+          "total": -0.727,
           "raw_total": -0.826,
           "percentile": 40.2,
           "observed_percentile": 5.8,
@@ -225,7 +225,7 @@
             "shot_stopping": 0.199,
             "handling": 0.004,
             "claiming": 0.0,
-            "sweeping": 0.0,
+            "sweeping": 0.001,
             "passing": -0.01,
             "fielding": -0.006
           }
@@ -341,6 +341,13 @@
           "rank": 44,
           "keeperiq": 37.5,
           "adj_total_p96": 0.0277
+        },
+        {
+          "captured_at": "2026-09-05T16:50:43Z",
+          "max_match_date": "2025-12-06",
+          "rank": 44,
+          "keeperiq": 37.5,
+          "adj_total_p96": 0.0276
         }
       ],
       "team_stints": [
@@ -372,7 +379,7 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.098,
-    "keeperiq": 36.4,
+    "keeperiq": 33.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 42,

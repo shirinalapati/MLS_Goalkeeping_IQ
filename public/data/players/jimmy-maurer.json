@@ -3,7 +3,7 @@
   "player_id": "4JMAaogDMK",
   "slug": "jimmy-maurer",
   "name": "Jimmy Maurer",
-  "generated_at": "2026-09-05T16:50:01Z",
+  "generated_at": "2026-09-06T17:03:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -70,7 +70,7 @@
           "observed_p96": -0.042,
           "adjusted_p96": -0.005,
           "baseline_p96": -0.004,
-          "total": -0.06,
+          "total": -0.059,
           "raw_total": -0.061,
           "percentile": 41.0,
           "observed_percentile": 1.0,
@@ -178,7 +178,7 @@
           "xgoals_faced": 0.27,
           "goals_prevented": 0.27,
           "components": {
-            "shot_stopping": 0.291,
+            "shot_stopping": 0.29,
             "handling": -0.0,
             "claiming": 0.005,
             "sweeping": 0.025,
@@ -285,6 +285,13 @@
           "rank": 35,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0383
+        },
+        {
+          "captured_at": "2026-09-05T16:50:43Z",
+          "max_match_date": "2025-12-06",
+          "rank": 35,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.0381
         }
       ],
       "team_stints": [
@@ -315,7 +322,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 64.5,
+      "keeperiq": 59.6,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": 1.21,
       "baseline_total_p96": 0.03,
@@ -328,7 +335,7 @@
       "observed_interval_high": null,
       "keeperiq_low": null,
       "keeperiq_high": null,
-      "rank": 15,
+      "rank": 17,
       "rank_observed": 2,
       "rank_goals_conceded": 1,
       "rank_pool": null,
@@ -344,16 +351,16 @@
       "goals_prevented": 0.65,
       "goals_prevented_p96": 1.2,
       "previous_rank": 15,
-      "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "rank_change": -2,
+      "keeperiq_change": -4.9,
       "components": {
         "shot_stopping": {
           "observed_p96": 1.232,
-          "adjusted_p96": 0.062,
-          "baseline_p96": 0.052,
+          "adjusted_p96": 0.065,
+          "baseline_p96": 0.055,
           "total": 0.667,
           "raw_total": 0.651,
-          "percentile": 56.9,
+          "percentile": 60.1,
           "observed_percentile": 100.0,
           "opportunities": 3,
           "opportunities_p96": 5.54,
@@ -361,11 +368,11 @@
         },
         "handling": {
           "observed_p96": 0.048,
-          "adjusted_p96": -0.018,
-          "baseline_p96": -0.018,
+          "adjusted_p96": -0.019,
+          "baseline_p96": -0.02,
           "total": 0.026,
           "raw_total": 0.025,
-          "percentile": 44.2,
+          "percentile": 46.3,
           "observed_percentile": 100.0,
           "opportunities": 3,
           "opportunities_p96": 5.54,
@@ -378,18 +385,18 @@
           "total": 0.002,
           "raw_total": 0.002,
           "percentile": 31.6,
-          "observed_percentile": 75.9,
+          "observed_percentile": 72.6,
           "opportunities": 1,
           "opportunities_p96": 1.85,
           "reliability": 0.006
         },
         "sweeping": {
           "observed_p96": -0.084,
-          "adjusted_p96": 0.005,
-          "baseline_p96": 0.005,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
           "total": -0.045,
           "raw_total": -0.046,
-          "percentile": 52.0,
+          "percentile": 51.2,
           "observed_percentile": 0.0,
           "opportunities": 1,
           "opportunities_p96": 1.85,
@@ -401,8 +408,8 @@
           "baseline_p96": -0.008,
           "total": -0.002,
           "raw_total": 0.031,
-          "percentile": 46.8,
-          "observed_percentile": 71.2,
+          "percentile": 46.7,
+          "observed_percentile": 70.9,
           "opportunities": 15,
           "opportunities_p96": 27.69,
           "reliability": 0.102
@@ -550,6 +557,13 @@
           "rank": 15,
           "keeperiq": 64.5,
           "adj_total_p96": 0.0415
+        },
+        {
+          "captured_at": "2026-09-05T16:50:43Z",
+          "max_match_date": "2026-09-04",
+          "rank": 15,
+          "keeperiq": 64.5,
+          "adj_total_p96": 0.0437
         }
       ],
       "team_stints": [
@@ -582,7 +596,7 @@
     "talent_low": -0.11,
     "talent_high": 0.22,
     "talent_sd": 0.099,
-    "keeperiq": 38.3,
+    "keeperiq": 39.8,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 32,
