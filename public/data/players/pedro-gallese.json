@@ -3,7 +3,7 @@
   "player_id": "kRQa22wjMK",
   "slug": "pedro-gallese",
   "name": "Pedro Gallese",
-  "generated_at": "2026-09-09T17:50:51Z",
+  "generated_at": "2026-09-10T17:43:00Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -25,8 +25,8 @@
       "keeperiq": 44.3,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": 0.05,
-      "baseline_total_p96": 0.05,
-      "adjusted_total": 1.78,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": 1.77,
       "reliability": 0.366,
       "interval_low": -0.1,
       "interval_high": 0.18,
@@ -58,7 +58,7 @@
           "observed_p96": 0.072,
           "adjusted_p96": 0.059,
           "baseline_p96": 0.052,
-          "total": 2.523,
+          "total": 2.52,
           "raw_total": 1.508,
           "percentile": 57.0,
           "observed_percentile": 53.6,
@@ -70,7 +70,7 @@
           "observed_p96": 0.002,
           "adjusted_p96": -0.003,
           "baseline_p96": -0.004,
-          "total": 0.074,
+          "total": 0.072,
           "raw_total": 0.045,
           "percentile": 61.4,
           "observed_percentile": 57.6,
@@ -106,7 +106,7 @@
           "observed_p96": -0.018,
           "adjusted_p96": -0.016,
           "baseline_p96": -0.004,
-          "total": -0.632,
+          "total": -0.631,
           "raw_total": 1.471,
           "percentile": 8.5,
           "observed_percentile": 8.5,
@@ -221,7 +221,7 @@
           "date": "2025-03-15",
           "matchday": 4,
           "minutes": 105.0,
-          "total_ga": 1.147,
+          "total_ga": 1.146,
           "total_ga_p96": 1.05,
           "rolling_total_ga_p96": -0.23,
           "goals_conceded": 2,
@@ -296,10 +296,10 @@
           "xgoals_faced": 0.24,
           "goals_prevented": 0.24,
           "components": {
-            "shot_stopping": 0.267,
+            "shot_stopping": 0.266,
             "handling": 0.042,
             "claiming": 0.001,
-            "sweeping": -0.003,
+            "sweeping": -0.004,
             "passing": -0.018,
             "fielding": 0.005
           }
@@ -366,7 +366,7 @@
             "handling": -0.019,
             "claiming": 0.001,
             "sweeping": 0.01,
-            "passing": -0.012,
+            "passing": -0.011,
             "fielding": 0.01
           }
         },
@@ -387,7 +387,7 @@
             "shot_stopping": -0.682,
             "handling": -0.067,
             "claiming": 0.001,
-            "sweeping": 0.009,
+            "sweeping": 0.008,
             "passing": -0.051,
             "fielding": 0.005
           }
@@ -419,7 +419,7 @@
           "date": "2025-05-18",
           "matchday": 14,
           "minutes": 97.0,
-          "total_ga": 0.994,
+          "total_ga": 0.993,
           "total_ga_p96": 0.98,
           "rolling_total_ga_p96": 0.15,
           "goals_conceded": 0,
@@ -507,7 +507,7 @@
           "date": "2025-06-15",
           "matchday": 19,
           "minutes": 99.0,
-          "total_ga": 0.809,
+          "total_ga": 0.808,
           "total_ga_p96": 0.78,
           "rolling_total_ga_p96": 0.04,
           "goals_conceded": 0,
@@ -736,7 +736,7 @@
           "xgoals_faced": 1.32,
           "goals_prevented": 0.32,
           "components": {
-            "shot_stopping": 0.354,
+            "shot_stopping": 0.353,
             "handling": 0.03,
             "claiming": 0.003,
             "sweeping": -0.007,
@@ -869,7 +869,7 @@
           "goals_prevented": 0.11,
           "components": {
             "shot_stopping": 0.143,
-            "handling": -0.046,
+            "handling": -0.047,
             "claiming": -0.026,
             "sweeping": -0.299,
             "passing": -0.045,
@@ -906,7 +906,7 @@
           "date": "2025-03-30",
           "matchday": 6,
           "matches_in_window": 5,
-          "rate_p96": -0.2
+          "rate_p96": -0.21
         },
         {
           "date": "2025-04-05",
@@ -1206,10 +1206,10 @@
     "talent_low": -0.08,
     "talent_high": 0.19,
     "talent_sd": 0.082,
-    "keeperiq": 38.0,
+    "keeperiq": 41.4,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 100.0,
-    "rank": 34,
+    "keeperiq_high": 97.7,
+    "rank": 32,
     "weights": {
       "league_prior": 0.653,
       "prior_season": 0.347,
