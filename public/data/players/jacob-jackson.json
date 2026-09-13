@@ -3,7 +3,7 @@
   "player_id": "2lqRjZp2qr",
   "slug": "jacob-jackson",
   "name": "Jacob Jackson",
-  "generated_at": "2026-09-12T17:10:09Z",
+  "generated_at": "2026-09-13T17:25:22Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -28,7 +28,7 @@
       "baseline_total_p96": 0.04,
       "adjusted_total": 1.37,
       "reliability": 0.086,
-      "interval_low": -0.1,
+      "interval_low": -0.11,
       "interval_high": 0.2,
       "interval_se": 0.093,
       "observed_interval_low": -0.05,
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.064,
+          "observed_p96": 0.063,
           "adjusted_p96": 0.049,
-          "baseline_p96": 0.048,
-          "total": 0.258,
+          "baseline_p96": 0.047,
+          "total": 0.256,
           "raw_total": 0.141,
           "percentile": 49.4,
           "observed_percentile": 51.8,
@@ -103,7 +103,7 @@
           "reliability": 0.019
         },
         "passing": {
-          "observed_p96": 0.002,
+          "observed_p96": 0.003,
           "adjusted_p96": -0.001,
           "baseline_p96": -0.005,
           "total": 0.01,
@@ -177,7 +177,7 @@
           "date": "2025-09-14",
           "matchday": 32,
           "minutes": 102.0,
-          "total_ga": 0.232,
+          "total_ga": 0.231,
           "total_ga_p96": 0.22,
           "rolling_total_ga_p96": 0.61,
           "goals_conceded": 0,
@@ -208,7 +208,7 @@
           "xgoals_faced": 0.55,
           "goals_prevented": -0.45,
           "components": {
-            "shot_stopping": -0.418,
+            "shot_stopping": -0.419,
             "handling": 0.002,
             "claiming": 0.022,
             "sweeping": 0.035,
@@ -401,10 +401,10 @@
     "talent_low": -0.08,
     "talent_high": 0.23,
     "talent_sd": 0.097,
-    "keeperiq": 62.8,
+    "keeperiq": 58.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 19,
+    "rank": 20,
     "weights": {
       "league_prior": 0.916,
       "prior_season": 0.084,

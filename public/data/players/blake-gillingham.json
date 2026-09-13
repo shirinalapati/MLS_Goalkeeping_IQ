@@ -3,7 +3,7 @@
   "player_id": "EGMP1vPx5a",
   "slug": "blake-gillingham",
   "name": "Blake Gillingham",
-  "generated_at": "2026-09-12T17:10:09Z",
+  "generated_at": "2026-09-13T17:25:22Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -57,8 +57,8 @@
         "shot_stopping": {
           "observed_p96": 0.638,
           "adjusted_p96": 0.08,
-          "baseline_p96": 0.05,
-          "total": 2.194,
+          "baseline_p96": 0.049,
+          "total": 2.193,
           "raw_total": 2.095,
           "percentile": 79.4,
           "observed_percentile": 100.0,
@@ -103,7 +103,7 @@
           "reliability": 0.006
         },
         "passing": {
-          "observed_p96": -0.018,
+          "observed_p96": -0.017,
           "adjusted_p96": -0.01,
           "baseline_p96": -0.005,
           "total": -0.06,
@@ -115,7 +115,7 @@
           "reliability": 0.431
         },
         "fielding": {
-          "observed_p96": 0.009,
+          "observed_p96": 0.008,
           "adjusted_p96": 0.002,
           "baseline_p96": 0.001,
           "total": 0.029,
@@ -222,7 +222,7 @@
           "xgoals_faced": 0.63,
           "goals_prevented": -0.37,
           "components": {
-            "shot_stopping": -0.342,
+            "shot_stopping": -0.343,
             "handling": 0.004,
             "claiming": 0.018,
             "sweeping": -0.002,
@@ -393,10 +393,10 @@
     "talent_low": -0.08,
     "talent_high": 0.24,
     "talent_sd": 0.098,
-    "keeperiq": 67.2,
+    "keeperiq": 63.2,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 16,
+    "rank": 17,
     "weights": {
       "league_prior": 0.944,
       "prior_season": 0.056,

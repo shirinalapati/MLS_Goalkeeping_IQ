@@ -3,7 +3,7 @@
   "player_id": "gpMOaPn1qz",
   "slug": "nicholas-hagen",
   "name": "Nicholas Hagen",
-  "generated_at": "2026-09-12T17:10:09Z",
+  "generated_at": "2026-09-13T17:25:22Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.04,
       "observed_total_p96": 0.02,
       "baseline_total_p96": 0.05,
-      "adjusted_total": 0.07,
+      "adjusted_total": 0.06,
       "reliability": 0.03,
       "interval_low": -0.13,
       "interval_high": 0.2,
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.021,
+          "observed_p96": -0.022,
           "adjusted_p96": 0.049,
           "baseline_p96": 0.054,
-          "total": -0.065,
+          "total": -0.066,
           "raw_total": -0.154,
           "percentile": 49.2,
           "observed_percentile": 27.7,
@@ -147,7 +147,7 @@
           "date": "2025-05-24",
           "matchday": 15,
           "minutes": 99.0,
-          "total_ga": 3.088,
+          "total_ga": 3.087,
           "total_ga_p96": 2.99,
           "rolling_total_ga_p96": 2.99,
           "goals_conceded": 3,
@@ -178,7 +178,7 @@
           "xgoals_faced": 1.78,
           "goals_prevented": -0.22,
           "components": {
-            "shot_stopping": -0.186,
+            "shot_stopping": -0.187,
             "handling": 0.024,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -365,10 +365,10 @@
     "talent_low": -0.11,
     "talent_high": 0.21,
     "talent_sd": 0.099,
-    "keeperiq": 41.4,
+    "keeperiq": 43.2,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 34,
+    "rank": 33,
     "weights": {
       "league_prior": 0.97,
       "prior_season": 0.03,
