@@ -3,7 +3,7 @@
   "player_id": "2lqRjZp2qr",
   "slug": "jacob-jackson",
   "name": "Jacob Jackson",
-  "generated_at": "2026-09-13T17:25:22Z",
+  "generated_at": "2026-09-14T19:22:23Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -32,7 +32,7 @@
       "interval_high": 0.2,
       "interval_se": 0.093,
       "observed_interval_low": -0.05,
-      "observed_interval_high": 0.77,
+      "observed_interval_high": 0.76,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
       "rank": 24,
@@ -58,7 +58,7 @@
           "observed_p96": 0.063,
           "adjusted_p96": 0.049,
           "baseline_p96": 0.047,
-          "total": 0.256,
+          "total": 0.255,
           "raw_total": 0.141,
           "percentile": 49.4,
           "observed_percentile": 51.8,
@@ -155,7 +155,7 @@
           "date": "2025-09-07",
           "matchday": 31,
           "minutes": 83.0,
-          "total_ga": 0.939,
+          "total_ga": 0.938,
           "total_ga_p96": 1.09,
           "rolling_total_ga_p96": 1.09,
           "goals_conceded": 0,
@@ -164,10 +164,10 @@
           "xgoals_faced": 0.0,
           "goals_prevented": 0.0,
           "components": {
-            "shot_stopping": 0.025,
+            "shot_stopping": 0.024,
             "handling": 0.001,
             "claiming": 0.013,
-            "sweeping": 0.899,
+            "sweeping": 0.898,
             "passing": -0.003,
             "fielding": 0.004
           }
@@ -186,7 +186,7 @@
           "xgoals_faced": 0.13,
           "goals_prevented": 0.13,
           "components": {
-            "shot_stopping": 0.165,
+            "shot_stopping": 0.164,
             "handling": 0.058,
             "claiming": 0.014,
             "sweeping": 0.001,
@@ -221,7 +221,7 @@
           "date": "2025-09-28",
           "matchday": 34,
           "minutes": 103.0,
-          "total_ga": 0.544,
+          "total_ga": 0.543,
           "total_ga_p96": 0.51,
           "rolling_total_ga_p96": 0.34,
           "goals_conceded": 1,
@@ -244,7 +244,7 @@
           "date": "2025-09-07",
           "matchday": 31,
           "matches_in_window": 1,
-          "rate_p96": 1.09
+          "rate_p96": 1.08
         },
         {
           "date": "2025-09-14",
@@ -370,6 +370,13 @@
           "rank": 24,
           "keeperiq": 59.6,
           "adj_total_p96": 0.0487
+        },
+        {
+          "captured_at": "2026-09-13T17:26:06Z",
+          "max_match_date": "2025-12-06",
+          "rank": 24,
+          "keeperiq": 59.6,
+          "adj_total_p96": 0.0483
         }
       ],
       "team_stints": [
@@ -397,14 +404,14 @@
     "nationality": "USA",
     "birth_date": "2000-04-25",
     "age": 26,
-    "talent_p96": 0.08,
+    "talent_p96": 0.07,
     "talent_low": -0.08,
     "talent_high": 0.23,
     "talent_sd": 0.097,
-    "keeperiq": 58.9,
+    "keeperiq": 59.6,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 20,
+    "rank": 19,
     "weights": {
       "league_prior": 0.916,
       "prior_season": 0.084,

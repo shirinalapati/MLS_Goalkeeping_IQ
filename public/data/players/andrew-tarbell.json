@@ -3,7 +3,7 @@
   "player_id": "jYQJz3rWQG",
   "slug": "andrew-tarbell",
   "name": "Andrew Tarbell",
-  "generated_at": "2026-09-13T17:25:22Z",
+  "generated_at": "2026-09-14T19:22:23Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.212,
           "adjusted_p96": 0.036,
           "baseline_p96": 0.049,
-          "total": -0.728,
+          "total": -0.729,
           "raw_total": -0.826,
           "percentile": 40.2,
           "observed_percentile": 5.8,
@@ -147,7 +147,7 @@
           "date": "2025-02-23",
           "matchday": 1,
           "minutes": 96.0,
-          "total_ga": -0.509,
+          "total_ga": -0.51,
           "total_ga_p96": -0.51,
           "rolling_total_ga_p96": -0.51,
           "goals_conceded": 2,
@@ -156,10 +156,10 @@
           "xgoals_faced": 1.31,
           "goals_prevented": -0.69,
           "components": {
-            "shot_stopping": -0.661,
+            "shot_stopping": -0.662,
             "handling": 0.018,
             "claiming": 0.001,
-            "sweeping": 0.136,
+            "sweeping": 0.135,
             "passing": -0.018,
             "fielding": 0.015
           }
@@ -169,7 +169,7 @@
           "date": "2025-03-03",
           "matchday": 2,
           "minutes": 100.0,
-          "total_ga": -1.637,
+          "total_ga": -1.638,
           "total_ga_p96": -1.57,
           "rolling_total_ga_p96": -1.05,
           "goals_conceded": 4,
@@ -362,6 +362,13 @@
           "rank": 44,
           "keeperiq": 37.5,
           "adj_total_p96": 0.0274
+        },
+        {
+          "captured_at": "2026-09-13T17:26:06Z",
+          "max_match_date": "2025-12-06",
+          "rank": 44,
+          "keeperiq": 37.5,
+          "adj_total_p96": 0.027
         }
       ],
       "team_stints": [
@@ -393,10 +400,10 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.098,
-    "keeperiq": 38.7,
+    "keeperiq": 30.2,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 100.0,
-    "rank": 40,
+    "keeperiq_high": 97.7,
+    "rank": 43,
     "weights": {
       "league_prior": 0.944,
       "prior_season": 0.056,

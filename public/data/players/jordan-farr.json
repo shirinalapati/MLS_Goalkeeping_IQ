@@ -3,7 +3,7 @@
   "player_id": "odMX7wpAQY",
   "slug": "jordan-farr",
   "name": "Jordan Farr",
-  "generated_at": "2026-09-13T17:25:22Z",
+  "generated_at": "2026-09-14T19:22:23Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -27,7 +27,7 @@
       "observed_total_p96": -0.4,
       "baseline_total_p96": 0.04,
       "adjusted_total": -1.15,
-      "reliability": 0.046,
+      "reliability": 0.045,
       "interval_low": -0.14,
       "interval_high": 0.18,
       "interval_se": 0.099,
@@ -56,9 +56,9 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.386,
-          "adjusted_p96": 0.031,
-          "baseline_p96": 0.05,
-          "total": -1.11,
+          "adjusted_p96": 0.03,
+          "baseline_p96": 0.049,
+          "total": -1.111,
           "raw_total": -1.192,
           "percentile": 30.6,
           "observed_percentile": 1.3,
@@ -163,7 +163,7 @@
           "date": "2025-09-27",
           "matchday": 34,
           "minutes": 95.0,
-          "total_ga": -1.606,
+          "total_ga": -1.607,
           "total_ga_p96": -1.62,
           "rolling_total_ga_p96": -1.62,
           "goals_conceded": 5,
@@ -350,6 +350,13 @@
           "rank": 51,
           "keeperiq": 26.6,
           "adj_total_p96": 0.0191
+        },
+        {
+          "captured_at": "2026-09-13T17:26:06Z",
+          "max_match_date": "2025-12-06",
+          "rank": 51,
+          "keeperiq": 26.6,
+          "adj_total_p96": 0.0187
         }
       ],
       "team_stints": [
@@ -381,10 +388,10 @@
     "talent_low": -0.13,
     "talent_high": 0.19,
     "talent_sd": 0.099,
-    "keeperiq": 26.7,
+    "keeperiq": 24.3,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 100.0,
-    "rank": 49,
+    "keeperiq_high": 97.7,
+    "rank": 51,
     "weights": {
       "league_prior": 0.955,
       "prior_season": 0.045,

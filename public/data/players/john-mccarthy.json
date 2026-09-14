@@ -3,7 +3,7 @@
   "player_id": "2vQ1L20Oqr",
   "slug": "john-mccarthy",
   "name": "John McCarthy",
-  "generated_at": "2026-09-13T17:25:22Z",
+  "generated_at": "2026-09-14T19:22:23Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -25,7 +25,7 @@
       "keeperiq": 3.1,
       "adjusted_total_p96": -0.05,
       "observed_total_p96": -0.38,
-      "baseline_total_p96": 0.05,
+      "baseline_total_p96": 0.04,
       "adjusted_total": -4.74,
       "reliability": 0.164,
       "interval_low": -0.2,
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.338,
+          "observed_p96": -0.339,
           "adjusted_p96": -0.015,
-          "baseline_p96": 0.052,
-          "total": -4.27,
+          "baseline_p96": 0.051,
+          "total": -4.274,
           "raw_total": -4.63,
           "percentile": 9.2,
           "observed_percentile": 1.9,
@@ -118,7 +118,7 @@
           "observed_p96": 0.01,
           "adjusted_p96": 0.002,
           "baseline_p96": 0.001,
-          "total": 0.123,
+          "total": 0.122,
           "raw_total": 0.058,
           "percentile": 56.1,
           "observed_percentile": 89.8,
@@ -185,8 +185,8 @@
           "date": "2025-03-22",
           "matchday": 5,
           "minutes": 102.0,
-          "total_ga": 0.941,
-          "total_ga_p96": 0.89,
+          "total_ga": 0.94,
+          "total_ga_p96": 0.88,
           "rolling_total_ga_p96": 0.31,
           "goals_conceded": 2,
           "shots_faced": 8,
@@ -194,7 +194,7 @@
           "xgoals_faced": 2.76,
           "goals_prevented": 0.76,
           "components": {
-            "shot_stopping": 0.791,
+            "shot_stopping": 0.79,
             "handling": 0.138,
             "claiming": 0.01,
             "sweeping": 0.025,
@@ -221,7 +221,7 @@
             "claiming": 0.002,
             "sweeping": 0.001,
             "passing": 0.016,
-            "fielding": 0.011
+            "fielding": 0.01
           }
         },
         {
@@ -238,7 +238,7 @@
           "xgoals_faced": 1.53,
           "goals_prevented": -0.47,
           "components": {
-            "shot_stopping": -0.435,
+            "shot_stopping": -0.436,
             "handling": 0.001,
             "claiming": 0.045,
             "sweeping": 0.001,
@@ -260,7 +260,7 @@
           "xgoals_faced": 0.88,
           "goals_prevented": -0.12,
           "components": {
-            "shot_stopping": -0.086,
+            "shot_stopping": -0.087,
             "handling": 0.035,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -275,7 +275,7 @@
           "minutes": 102.0,
           "total_ga": 1.356,
           "total_ga_p96": 1.28,
-          "rolling_total_ga_p96": 0.11,
+          "rolling_total_ga_p96": 0.1,
           "goals_conceded": 1,
           "shots_faced": 7,
           "saves": 5,
@@ -318,7 +318,7 @@
           "matchday": 11,
           "minutes": 101.0,
           "total_ga": 0.005,
-          "total_ga_p96": 0.01,
+          "total_ga_p96": 0.0,
           "rolling_total_ga_p96": -0.14,
           "goals_conceded": 0,
           "shots_faced": 0,
@@ -602,6 +602,13 @@
           "rank": 66,
           "keeperiq": 3.1,
           "adj_total_p96": -0.048
+        },
+        {
+          "captured_at": "2026-09-13T17:26:06Z",
+          "max_match_date": "2025-12-06",
+          "rank": 66,
+          "keeperiq": 3.1,
+          "adj_total_p96": -0.0483
         }
       ],
       "team_stints": [
@@ -640,11 +647,11 @@
     "age": 34,
     "talent_p96": -0.02,
     "talent_low": -0.17,
-    "talent_high": 0.14,
+    "talent_high": 0.13,
     "talent_sd": 0.093,
     "keeperiq": 12.1,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 96.1,
+    "keeperiq_high": 96.0,
     "rank": 69,
     "weights": {
       "league_prior": 0.84,
