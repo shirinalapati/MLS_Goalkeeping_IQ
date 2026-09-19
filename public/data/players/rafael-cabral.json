@@ -3,7 +3,7 @@
   "player_id": "p6qb4pwM0G",
   "slug": "rafael-cabral",
   "name": "Rafael Cabral",
-  "generated_at": "2026-09-18T17:41:36Z",
+  "generated_at": "2026-09-19T17:17:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.07,
       "observed_total_p96": 0.1,
       "baseline_total_p96": 0.04,
-      "adjusted_total": 3.76,
+      "adjusted_total": 3.75,
       "reliability": 0.41,
       "interval_low": -0.06,
       "interval_high": 0.19,
@@ -58,7 +58,7 @@
           "observed_p96": 0.092,
           "adjusted_p96": 0.064,
           "baseline_p96": 0.047,
-          "total": 3.433,
+          "total": 3.431,
           "raw_total": 2.388,
           "percentile": 64.3,
           "observed_percentile": 67.0,
@@ -70,7 +70,7 @@
           "observed_p96": -0.014,
           "adjusted_p96": -0.007,
           "baseline_p96": -0.004,
-          "total": -0.533,
+          "total": -0.534,
           "raw_total": -0.562,
           "percentile": 21.3,
           "observed_percentile": 26.4,
@@ -94,7 +94,7 @@
           "observed_p96": 0.006,
           "adjusted_p96": -0.0,
           "baseline_p96": -0.001,
-          "total": 0.227,
+          "total": 0.228,
           "raw_total": 0.185,
           "percentile": 82.9,
           "observed_percentile": 78.2,
@@ -321,7 +321,7 @@
           "xgoals_faced": 0.0,
           "goals_prevented": 0.0,
           "components": {
-            "shot_stopping": 0.03,
+            "shot_stopping": 0.029,
             "handling": 0.001,
             "claiming": 0.001,
             "sweeping": 0.023,
@@ -444,7 +444,7 @@
           "date": "2025-05-15",
           "matchday": 13,
           "minutes": 95.0,
-          "total_ga": 0.728,
+          "total_ga": 0.727,
           "total_ga_p96": 0.74,
           "rolling_total_ga_p96": 0.31,
           "goals_conceded": 0,
@@ -629,7 +629,7 @@
           "xgoals_faced": 0.28,
           "goals_prevented": 0.28,
           "components": {
-            "shot_stopping": 0.308,
+            "shot_stopping": 0.307,
             "handling": -0.014,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -651,7 +651,7 @@
           "xgoals_faced": 0.25,
           "goals_prevented": 0.25,
           "components": {
-            "shot_stopping": 0.283,
+            "shot_stopping": 0.282,
             "handling": 0.008,
             "claiming": 0.002,
             "sweeping": 0.048,
@@ -1041,7 +1041,7 @@
           "date": "2025-05-29",
           "matchday": 16,
           "matches_in_window": 5,
-          "rate_p96": 0.1
+          "rate_p96": 0.09
         },
         {
           "date": "2025-06-01",
@@ -1303,11 +1303,11 @@
       "nationality": "Brazil",
       "birth_date": "1990-05-20",
       "age": 36,
-      "minutes": 2343.0,
+      "minutes": 2342.0,
       "appearances": 23,
       "sample_status": "qualified",
       "sample_status_label": "Qualified",
-      "keeperiq": 38.8,
+      "keeperiq": 38.7,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.0,
       "baseline_total_p96": 0.04,
@@ -1337,16 +1337,16 @@
       "goals_prevented_p96": -0.05,
       "previous_rank": 32,
       "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.017,
           "adjusted_p96": 0.04,
-          "baseline_p96": 0.06,
-          "total": -0.412,
+          "baseline_p96": 0.061,
+          "total": -0.413,
           "raw_total": -1.099,
-          "percentile": 30.3,
-          "observed_percentile": 32.1,
+          "percentile": 30.2,
+          "observed_percentile": 32.0,
           "opportunities": 99,
           "opportunities_p96": 4.06,
           "reliability": 0.265
@@ -1355,10 +1355,10 @@
           "observed_p96": -0.011,
           "adjusted_p96": -0.015,
           "baseline_p96": -0.016,
-          "total": -0.266,
-          "raw_total": -0.284,
-          "percentile": 61.5,
-          "observed_percentile": 50.0,
+          "total": -0.264,
+          "raw_total": -0.282,
+          "percentile": 61.6,
+          "observed_percentile": 48.6,
           "opportunities": 63,
           "opportunities_p96": 2.58,
           "reliability": 0.178
@@ -1381,7 +1381,7 @@
           "baseline_p96": 0.004,
           "total": 0.162,
           "raw_total": 0.134,
-          "percentile": 59.0,
+          "percentile": 58.9,
           "observed_percentile": 52.5,
           "opportunities": 43,
           "opportunities_p96": 1.76,
@@ -1396,7 +1396,7 @@
           "percentile": 57.3,
           "observed_percentile": 57.3,
           "opportunities": 947,
-          "opportunities_p96": 38.8,
+          "opportunities_p96": 38.82,
           "reliability": 0.878
         },
         "fielding": {
@@ -1408,7 +1408,7 @@
           "percentile": 98.4,
           "observed_percentile": 94.9,
           "opportunities": 789,
-          "opportunities_p96": 32.33,
+          "opportunities_p96": 32.34,
           "reliability": 0.136
         }
       },
@@ -1661,7 +1661,7 @@
           "xgoals_faced": 2.62,
           "goals_prevented": -0.38,
           "components": {
-            "shot_stopping": -0.354,
+            "shot_stopping": -0.355,
             "handling": -0.025,
             "claiming": 0.003,
             "sweeping": 0.075,
@@ -1696,7 +1696,7 @@
           "date": "2026-05-17",
           "matchday": 14,
           "minutes": 101.0,
-          "total_ga": -0.072,
+          "total_ga": -0.073,
           "total_ga_p96": -0.07,
           "rolling_total_ga_p96": 0.32,
           "goals_conceded": 1,
@@ -1915,9 +1915,9 @@
           "game_id": "eVq36leX5W",
           "date": "2026-09-13",
           "matchday": 26,
-          "minutes": 105.0,
-          "total_ga": -0.813,
-          "total_ga_p96": -0.74,
+          "minutes": 104.0,
+          "total_ga": -0.81,
+          "total_ga_p96": -0.75,
           "rolling_total_ga_p96": -0.0,
           "goals_conceded": 2,
           "shots_faced": 3,
@@ -1925,11 +1925,11 @@
           "xgoals_faced": 1.14,
           "goals_prevented": -0.86,
           "components": {
-            "shot_stopping": -0.834,
-            "handling": -0.012,
+            "shot_stopping": -0.835,
+            "handling": -0.01,
             "claiming": 0.001,
             "sweeping": -0.008,
-            "passing": 0.026,
+            "passing": 0.027,
             "fielding": 0.015
           }
         }
@@ -2201,7 +2201,7 @@
           "team_name": "Real Salt Lake",
           "team_abbreviation": "RSL",
           "appearances": 23,
-          "minutes": 2343.0,
+          "minutes": 2342.0,
           "first_match": "2026-02-22",
           "last_match": "2026-09-13"
         }
@@ -2237,7 +2237,7 @@
     "prior_season_rate": 0.1,
     "live_season_rate": -0.0,
     "prior_season_minutes": 3564.0,
-    "live_season_minutes": 2343.0,
+    "live_season_minutes": 2342.0,
     "league_prior_rate": 0.05,
     "prior_source": "prior_season_available",
     "in_live_season": true

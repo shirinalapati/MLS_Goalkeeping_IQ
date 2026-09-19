@@ -3,7 +3,7 @@
   "player_id": "wvq9XwJ35W",
   "slug": "luka-gavran",
   "name": "Luka Gavran",
-  "generated_at": "2026-09-18T17:41:36Z",
+  "generated_at": "2026-09-19T17:17:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -70,7 +70,7 @@
           "observed_p96": -0.021,
           "adjusted_p96": -0.005,
           "baseline_p96": -0.004,
-          "total": -0.066,
+          "total": -0.067,
           "raw_total": -0.069,
           "percentile": 45.7,
           "observed_percentile": 10.6,
@@ -386,17 +386,17 @@
       "appearances": 25,
       "sample_status": "qualified",
       "sample_status_label": "Qualified",
-      "keeperiq": 11.5,
+      "keeperiq": 11.4,
       "adjusted_total_p96": -0.02,
       "observed_total_p96": -0.15,
       "baseline_total_p96": 0.05,
-      "adjusted_total": -4.11,
+      "adjusted_total": -4.12,
       "reliability": 0.311,
       "interval_low": -0.16,
       "interval_high": 0.12,
-      "interval_se": 0.085,
+      "interval_se": 0.086,
       "observed_interval_low": -0.42,
-      "observed_interval_high": 0.11,
+      "observed_interval_high": 0.12,
       "keeperiq_low": 0.0,
       "keeperiq_high": 84.0,
       "rank": 48,
@@ -416,15 +416,15 @@
       "goals_prevented_p96": -0.2,
       "previous_rank": 48,
       "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.176,
-          "adjusted_p96": -0.009,
-          "baseline_p96": 0.064,
-          "total": -4.721,
+          "adjusted_p96": -0.008,
+          "baseline_p96": 0.065,
+          "total": -4.723,
           "raw_total": -5.477,
-          "percentile": 7.2,
+          "percentile": 7.1,
           "observed_percentile": 10.5,
           "opportunities": 121,
           "opportunities_p96": 4.5,
@@ -433,11 +433,11 @@
         "handling": {
           "observed_p96": -0.003,
           "adjusted_p96": -0.014,
-          "baseline_p96": -0.017,
-          "total": -0.07,
-          "raw_total": -0.09,
-          "percentile": 81.6,
-          "observed_percentile": 83.5,
+          "baseline_p96": -0.016,
+          "total": -0.083,
+          "raw_total": -0.103,
+          "percentile": 78.2,
+          "observed_percentile": 80.1,
           "opportunities": 78,
           "opportunities_p96": 2.9,
           "reliability": 0.212
@@ -460,7 +460,7 @@
           "baseline_p96": 0.005,
           "total": 0.272,
           "raw_total": 0.241,
-          "percentile": 77.7,
+          "percentile": 77.6,
           "observed_percentile": 64.5,
           "opportunities": 63,
           "opportunities_p96": 2.35,
@@ -491,17 +491,9 @@
           "reliability": 0.091
         }
       },
-      "archetype": "Busy Handler",
+      "archetype": "High-Volume Shot Stopper",
       "notes": {
         "strengths": [
-          {
-            "component": "handling",
-            "label": "Handling",
-            "percentile": 81.6,
-            "band": "strong",
-            "opportunities": 78,
-            "text": "Strong handling contribution."
-          },
           {
             "component": "fielding",
             "label": "Fielding",
@@ -511,9 +503,17 @@
             "text": "Strong fielding contribution."
           },
           {
+            "component": "handling",
+            "label": "Handling",
+            "percentile": 78.2,
+            "band": "strong",
+            "opportunities": 78,
+            "text": "Strong handling contribution."
+          },
+          {
             "component": "sweeping",
             "label": "Sweeping",
-            "percentile": 77.7,
+            "percentile": 77.6,
             "band": "strong",
             "opportunities": 63,
             "text": "Strong sweeping contribution."
@@ -523,7 +523,7 @@
           {
             "component": "total",
             "label": "Complete impact",
-            "percentile": 11.5,
+            "percentile": 11.4,
             "band": "poor",
             "opportunities": null,
             "text": "Complete impact sits well below the MLS median."
@@ -531,7 +531,7 @@
           {
             "component": "shot_stopping",
             "label": "Shot Stopping",
-            "percentile": 7.2,
+            "percentile": 7.1,
             "band": "poor",
             "opportunities": 121,
             "text": "Shot Stopping contribution well below the MLS median."
@@ -597,7 +597,7 @@
           "xgoals_faced": 0.93,
           "goals_prevented": 0.93,
           "components": {
-            "shot_stopping": 0.957,
+            "shot_stopping": 0.956,
             "handling": 0.034,
             "claiming": 0.012,
             "sweeping": 0.001,
@@ -654,7 +654,7 @@
           "date": "2026-04-04",
           "matchday": 6,
           "minutes": 109.0,
-          "total_ga": -1.159,
+          "total_ga": -1.16,
           "total_ga_p96": -1.02,
           "rolling_total_ga_p96": -0.25,
           "goals_conceded": 2,
@@ -707,7 +707,7 @@
           "xgoals_faced": 2.05,
           "goals_prevented": -0.95,
           "components": {
-            "shot_stopping": -0.914,
+            "shot_stopping": -0.915,
             "handling": -0.003,
             "claiming": -0.053,
             "sweeping": 0.001,
@@ -896,7 +896,7 @@
           "date": "2026-07-25",
           "matchday": 18,
           "minutes": 107.0,
-          "total_ga": 0.66,
+          "total_ga": 0.659,
           "total_ga_p96": 0.59,
           "rolling_total_ga_p96": -0.19,
           "goals_conceded": 1,
@@ -1006,7 +1006,7 @@
           "date": "2026-08-29",
           "matchday": 23,
           "minutes": 100.0,
-          "total_ga": -0.429,
+          "total_ga": -0.43,
           "total_ga_p96": -0.41,
           "rolling_total_ga_p96": -0.1,
           "goals_conceded": 1,
@@ -1072,8 +1072,8 @@
           "date": "2026-09-12",
           "matchday": 26,
           "minutes": 103.0,
-          "total_ga": 0.018,
-          "total_ga_p96": 0.02,
+          "total_ga": 0.005,
+          "total_ga_p96": 0.0,
           "rolling_total_ga_p96": -0.15,
           "goals_conceded": 3,
           "shots_faced": 8,
@@ -1082,7 +1082,7 @@
           "goals_prevented": -0.11,
           "components": {
             "shot_stopping": -0.079,
-            "handling": 0.031,
+            "handling": 0.018,
             "claiming": 0.001,
             "sweeping": 0.056,
             "passing": 0.0,
@@ -1395,7 +1395,7 @@
     "talent_sd": 0.081,
     "keeperiq": 5.6,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 79.5,
+    "keeperiq_high": 79.6,
     "rank": 73,
     "weights": {
       "league_prior": 0.651,

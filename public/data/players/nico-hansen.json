@@ -3,7 +3,7 @@
   "player_id": "N6MmeEN0ME",
   "slug": "nico-hansen",
   "name": "Nico Hansen",
-  "generated_at": "2026-09-18T17:41:36Z",
+  "generated_at": "2026-09-19T17:17:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -599,11 +599,11 @@
       "appearances": 14,
       "sample_status": "qualified",
       "sample_status_label": "Qualified",
-      "keeperiq": 48.0,
+      "keeperiq": 44.5,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.02,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -0.24,
+      "adjusted_total": -0.23,
       "reliability": 0.238,
       "interval_low": -0.11,
       "interval_high": 0.17,
@@ -612,12 +612,12 @@
       "observed_interval_high": 0.25,
       "keeperiq_low": 0.0,
       "keeperiq_high": 96.6,
-      "rank": 27,
+      "rank": 28,
       "rank_observed": 30,
       "rank_goals_conceded": 10,
-      "rank_pool": 19,
+      "rank_pool": 20,
       "rank_goals_conceded_pool": 6,
-      "rank_disagreement": -13,
+      "rank_disagreement": -14,
       "goals_conceded": 14,
       "goals_conceded_p96": 0.96,
       "shots_faced": 52,
@@ -628,29 +628,29 @@
       "goals_prevented": -0.58,
       "goals_prevented_p96": -0.04,
       "previous_rank": 27,
-      "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "rank_change": -1,
+      "keeperiq_change": -3.5,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.011,
           "adjusted_p96": 0.047,
           "baseline_p96": 0.058,
-          "total": -0.165,
+          "total": -0.166,
           "raw_total": -0.577,
-          "percentile": 39.7,
-          "observed_percentile": 34.6,
+          "percentile": 36.2,
+          "observed_percentile": 34.5,
           "opportunities": 51,
           "opportunities_p96": 3.48,
           "reliability": 0.156
         },
         "handling": {
           "observed_p96": -0.004,
-          "adjusted_p96": -0.015,
+          "adjusted_p96": -0.014,
           "baseline_p96": -0.016,
-          "total": -0.065,
-          "raw_total": -0.077,
-          "percentile": 68.3,
-          "observed_percentile": 73.9,
+          "total": -0.06,
+          "raw_total": -0.071,
+          "percentile": 71.5,
+          "observed_percentile": 77.4,
           "opportunities": 37,
           "opportunities_p96": 2.53,
           "reliability": 0.113
@@ -662,7 +662,7 @@
           "total": -0.054,
           "raw_total": -0.062,
           "percentile": 30.6,
-          "observed_percentile": 24.1,
+          "observed_percentile": 24.2,
           "opportunities": 17,
           "opportunities_p96": 1.16,
           "reliability": 0.091
@@ -673,8 +673,8 @@
           "baseline_p96": 0.007,
           "total": 0.004,
           "raw_total": -0.013,
-          "percentile": 95.6,
-          "observed_percentile": 30.8,
+          "percentile": 95.5,
+          "observed_percentile": 30.7,
           "opportunities": 53,
           "opportunities_p96": 3.62,
           "reliability": 0.056
@@ -697,7 +697,7 @@
           "baseline_p96": 0.005,
           "total": 0.191,
           "raw_total": 0.116,
-          "percentile": 90.9,
+          "percentile": 91.0,
           "observed_percentile": 92.4,
           "opportunities": 452,
           "opportunities_p96": 30.86,
@@ -710,7 +710,7 @@
           {
             "component": "sweeping",
             "label": "Sweeping",
-            "percentile": 95.6,
+            "percentile": 95.5,
             "band": "elite",
             "opportunities": 53,
             "text": "Elite adjusted sweeping percentile."
@@ -718,10 +718,18 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 90.9,
+            "percentile": 91.0,
             "band": "elite",
             "opportunities": 452,
             "text": "Elite adjusted fielding percentile."
+          },
+          {
+            "component": "handling",
+            "label": "Handling",
+            "percentile": 71.5,
+            "band": "strong",
+            "opportunities": 37,
+            "text": "Strong handling contribution."
           }
         ],
         "concerns": []
@@ -1018,8 +1026,8 @@
           "date": "2026-09-13",
           "matchday": 26,
           "minutes": 97.0,
-          "total_ga": 0.242,
-          "total_ga_p96": 0.24,
+          "total_ga": 0.248,
+          "total_ga_p96": 0.25,
           "rolling_total_ga_p96": -0.02,
           "goals_conceded": 0,
           "shots_faced": 5,
@@ -1028,7 +1036,7 @@
           "goals_prevented": 0.16,
           "components": {
             "shot_stopping": 0.192,
-            "handling": 0.035,
+            "handling": 0.04,
             "claiming": 0.002,
             "sweeping": 0.001,
             "passing": -0.001,
@@ -1119,7 +1127,7 @@
           "date": "2026-09-13",
           "matchday": 26,
           "matches_in_window": 5,
-          "rate_p96": -0.11
+          "rate_p96": -0.1
         }
       ],
       "ranking_history": [

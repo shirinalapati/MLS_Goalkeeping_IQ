@@ -3,7 +3,7 @@
   "player_id": "4JMAaogDMK",
   "slug": "jimmy-maurer",
   "name": "Jimmy Maurer",
-  "generated_at": "2026-09-18T17:41:36Z",
+  "generated_at": "2026-09-19T17:17:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.208,
           "adjusted_p96": 0.043,
           "baseline_p96": 0.048,
-          "total": -0.294,
+          "total": -0.295,
           "raw_total": -0.334,
           "percentile": 44.4,
           "observed_percentile": 5.8,
@@ -156,7 +156,7 @@
           "xgoals_faced": 0.4,
           "goals_prevented": -0.6,
           "components": {
-            "shot_stopping": -0.584,
+            "shot_stopping": -0.585,
             "handling": -0.059,
             "claiming": -0.0,
             "sweeping": 0.022,
@@ -350,7 +350,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 67.9,
+      "keeperiq": 71.4,
       "adjusted_total_p96": 0.06,
       "observed_total_p96": 1.21,
       "baseline_total_p96": 0.05,
@@ -363,7 +363,7 @@
       "observed_interval_high": null,
       "keeperiq_low": null,
       "keeperiq_high": null,
-      "rank": 14,
+      "rank": 13,
       "rank_observed": 2,
       "rank_goals_conceded": 1,
       "rank_pool": null,
@@ -379,13 +379,13 @@
       "goals_prevented": 0.65,
       "goals_prevented_p96": 1.2,
       "previous_rank": 14,
-      "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "rank_change": 1,
+      "keeperiq_change": 3.5,
       "components": {
         "shot_stopping": {
           "observed_p96": 1.231,
-          "adjusted_p96": 0.073,
-          "baseline_p96": 0.063,
+          "adjusted_p96": 0.074,
+          "baseline_p96": 0.064,
           "total": 0.667,
           "raw_total": 0.651,
           "percentile": 62.0,
@@ -412,7 +412,7 @@
           "baseline_p96": -0.001,
           "total": 0.002,
           "raw_total": 0.002,
-          "percentile": 34.9,
+          "percentile": 35.0,
           "observed_percentile": 79.5,
           "opportunities": 1,
           "opportunities_p96": 1.85,
@@ -436,8 +436,8 @@
           "baseline_p96": -0.008,
           "total": -0.002,
           "raw_total": 0.031,
-          "percentile": 42.1,
-          "observed_percentile": 66.2,
+          "percentile": 42.2,
+          "observed_percentile": 66.3,
           "opportunities": 15,
           "opportunities_p96": 27.69,
           "reliability": 0.102
@@ -448,7 +448,7 @@
           "baseline_p96": 0.003,
           "total": 0.007,
           "raw_total": 0.004,
-          "percentile": 49.0,
+          "percentile": 48.8,
           "observed_percentile": 93.4,
           "opportunities": 7,
           "opportunities_p96": 12.92,
@@ -457,7 +457,16 @@
       },
       "archetype": null,
       "notes": {
-        "strengths": [],
+        "strengths": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 71.4,
+            "band": "strong",
+            "opportunities": null,
+            "text": "Above-average complete impact across the full goalkeeping workload."
+          }
+        ],
         "concerns": [
           {
             "component": "sample",

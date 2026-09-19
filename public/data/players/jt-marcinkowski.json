@@ -3,7 +3,7 @@
   "player_id": "ljqE2keVQx",
   "slug": "jt-marcinkowski",
   "name": "JT Marcinkowski",
-  "generated_at": "2026-09-18T17:41:36Z",
+  "generated_at": "2026-09-19T17:17:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -402,10 +402,10 @@
       "keeperiq_high": 100.0,
       "rank": 2,
       "rank_observed": 4,
-      "rank_goals_conceded": 16,
+      "rank_goals_conceded": 17,
       "rank_pool": 2,
-      "rank_goals_conceded_pool": 10,
-      "rank_disagreement": 8,
+      "rank_goals_conceded_pool": 11,
+      "rank_disagreement": 9,
       "goals_conceded": 26,
       "goals_conceded_p96": 1.24,
       "shots_faced": 109,
@@ -423,7 +423,7 @@
           "observed_p96": 0.436,
           "adjusted_p96": 0.162,
           "baseline_p96": 0.068,
-          "total": 9.116,
+          "total": 9.115,
           "raw_total": 8.527,
           "percentile": 95.2,
           "observed_percentile": 95.2,
@@ -433,7 +433,7 @@
         },
         "handling": {
           "observed_p96": -0.033,
-          "adjusted_p96": -0.021,
+          "adjusted_p96": -0.02,
           "baseline_p96": -0.018,
           "total": -0.7,
           "raw_total": -0.716,
@@ -450,7 +450,7 @@
           "total": 0.043,
           "raw_total": 0.033,
           "percentile": 45.8,
-          "observed_percentile": 54.7,
+          "observed_percentile": 54.8,
           "opportunities": 33,
           "opportunities_p96": 1.58,
           "reliability": 0.163
@@ -473,8 +473,8 @@
           "baseline_p96": -0.009,
           "total": 0.031,
           "raw_total": 1.285,
-          "percentile": 74.6,
-          "observed_percentile": 74.6,
+          "percentile": 74.7,
+          "observed_percentile": 74.7,
           "opportunities": 712,
           "opportunities_p96": 34.02,
           "reliability": 0.844
@@ -486,13 +486,13 @@
           "total": 0.224,
           "raw_total": 0.117,
           "percentile": 85.2,
-          "observed_percentile": 84.9,
+          "observed_percentile": 84.8,
           "opportunities": 527,
           "opportunities_p96": 25.18,
           "reliability": 0.095
         }
       },
-      "archetype": "Busy Handler",
+      "archetype": "High-Volume Shot Stopper",
       "notes": {
         "strengths": [
           {
@@ -522,7 +522,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 74.6,
+            "percentile": 74.7,
             "band": "strong",
             "opportunities": 712,
             "text": "Strong passing contribution."
@@ -941,7 +941,7 @@
           "date": "2026-09-10",
           "matchday": 25,
           "minutes": 99.0,
-          "total_ga": 0.545,
+          "total_ga": 0.544,
           "total_ga_p96": 0.53,
           "rolling_total_ga_p96": 0.41,
           "goals_conceded": 3,
@@ -950,7 +950,7 @@
           "xgoals_faced": 3.36,
           "goals_prevented": 0.36,
           "components": {
-            "shot_stopping": 0.388,
+            "shot_stopping": 0.387,
             "handling": -0.048,
             "claiming": 0.01,
             "sweeping": 0.191,

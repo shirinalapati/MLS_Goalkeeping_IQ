@@ -3,7 +3,7 @@
   "player_id": "7vQ7rKGYqD",
   "slug": "andrew-thomas",
   "name": "Andrew Thomas",
-  "generated_at": "2026-09-18T17:41:36Z",
+  "generated_at": "2026-09-19T17:17:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.06,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -0.53,
+      "adjusted_total": -0.54,
       "reliability": 0.114,
       "interval_low": -0.13,
       "interval_high": 0.18,
@@ -596,9 +596,9 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.347,
-          "adjusted_p96": 0.146,
+          "adjusted_p96": 0.147,
           "baseline_p96": 0.067,
-          "total": 8.392,
+          "total": 8.391,
           "raw_total": 7.712,
           "percentile": 85.6,
           "observed_percentile": 88.9,
@@ -610,10 +610,10 @@
           "observed_p96": -0.025,
           "adjusted_p96": -0.019,
           "baseline_p96": -0.018,
-          "total": -0.604,
+          "total": -0.605,
           "raw_total": -0.623,
-          "percentile": 20.7,
-          "observed_percentile": 33.1,
+          "percentile": 20.8,
+          "observed_percentile": 32.4,
           "opportunities": 88,
           "opportunities_p96": 3.64,
           "reliability": 0.232
@@ -624,20 +624,20 @@
           "baseline_p96": -0.002,
           "total": -0.088,
           "raw_total": -0.1,
-          "percentile": 24.7,
-          "observed_percentile": 26.6,
+          "percentile": 24.8,
+          "observed_percentile": 26.7,
           "opportunities": 43,
           "opportunities_p96": 1.78,
           "reliability": 0.202
         },
         "sweeping": {
           "observed_p96": 0.002,
-          "adjusted_p96": 0.005,
+          "adjusted_p96": 0.004,
           "baseline_p96": 0.005,
           "total": 0.04,
           "raw_total": 0.013,
           "percentile": 55.8,
-          "observed_percentile": 33.3,
+          "observed_percentile": 36.7,
           "opportunities": 46,
           "opportunities_p96": 1.9,
           "reliability": 0.049
@@ -648,8 +648,8 @@
           "baseline_p96": -0.008,
           "total": -0.105,
           "raw_total": 1.343,
-          "percentile": 64.6,
-          "observed_percentile": 63.9,
+          "percentile": 64.7,
+          "observed_percentile": 64.0,
           "opportunities": 700,
           "opportunities_p96": 28.98,
           "reliability": 0.841
@@ -660,14 +660,14 @@
           "baseline_p96": 0.003,
           "total": 0.188,
           "raw_total": 0.064,
-          "percentile": 50.5,
+          "percentile": 50.4,
           "observed_percentile": 69.9,
           "opportunities": 438,
           "opportunities_p96": 18.13,
           "reliability": 0.081
         }
       },
-      "archetype": "Busy Handler",
+      "archetype": "High-Volume Shot Stopper",
       "notes": {
         "strengths": [
           {
@@ -691,7 +691,7 @@
           {
             "component": "handling",
             "label": "Handling",
-            "percentile": 20.7,
+            "percentile": 20.8,
             "band": "weak",
             "opportunities": 88,
             "text": "Handling contribution below the MLS median."
@@ -699,7 +699,7 @@
           {
             "component": "claiming",
             "label": "Claiming",
-            "percentile": 24.7,
+            "percentile": 24.8,
             "band": "weak",
             "opportunities": 43,
             "text": "Claiming contribution below the MLS median."
@@ -734,7 +734,7 @@
           "date": "2026-03-01",
           "matchday": 2,
           "minutes": 105.0,
-          "total_ga": -0.756,
+          "total_ga": -0.757,
           "total_ga_p96": -0.69,
           "rolling_total_ga_p96": -0.21,
           "goals_conceded": 2,
