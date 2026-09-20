@@ -3,7 +3,7 @@
   "player_id": "0x5g2Z8ZM7",
   "slug": "kristijan-kahlina",
   "name": "Kristijan Kahlina",
-  "generated_at": "2026-09-19T17:17:48Z",
+  "generated_at": "2026-09-20T17:29:11Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.1,
       "observed_total_p96": 0.18,
       "baseline_total_p96": 0.05,
-      "adjusted_total": 6.69,
+      "adjusted_total": 6.68,
       "reliability": 0.362,
       "interval_low": -0.04,
       "interval_high": 0.24,
@@ -422,7 +422,7 @@
           "date": "2025-05-11",
           "matchday": 12,
           "minutes": 97.0,
-          "total_ga": -0.597,
+          "total_ga": -0.598,
           "total_ga_p96": -0.59,
           "rolling_total_ga_p96": 0.22,
           "goals_conceded": 2,
@@ -611,7 +611,7 @@
             "handling": 0.045,
             "claiming": 0.001,
             "sweeping": 0.15,
-            "passing": -0.029,
+            "passing": -0.028,
             "fielding": 0.007
           }
         },
@@ -695,7 +695,7 @@
           "xgoals_faced": 1.32,
           "goals_prevented": 1.32,
           "components": {
-            "shot_stopping": 1.354,
+            "shot_stopping": 1.353,
             "handling": -0.005,
             "claiming": 0.053,
             "sweeping": 0.03,
@@ -1277,6 +1277,13 @@
           "rank": 7,
           "keeperiq": 85.0,
           "adj_total_p96": 0.1015
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2025-12-06",
+          "rank": 7,
+          "keeperiq": 85.0,
+          "adj_total_p96": 0.1014
         }
       ],
       "team_stints": [
@@ -1335,15 +1342,15 @@
       "xgoals_faced": 35.13,
       "goals_prevented": 0.13,
       "goals_prevented_p96": 0.0,
-      "previous_rank": 18,
-      "rank_change": 1,
-      "keeperiq_change": 3.5,
+      "previous_rank": 17,
+      "rank_change": 0,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.033,
           "adjusted_p96": 0.056,
-          "baseline_p96": 0.068,
-          "total": 0.881,
+          "baseline_p96": 0.069,
+          "total": 0.88,
           "raw_total": 0.133,
           "percentile": 44.0,
           "observed_percentile": 40.6,
@@ -2266,6 +2273,13 @@
           "rank": 18,
           "keeperiq": 58.3,
           "adj_total_p96": 0.0517
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2026-09-18",
+          "rank": 17,
+          "keeperiq": 61.8,
+          "adj_total_p96": 0.0522
         }
       ],
       "team_stints": [

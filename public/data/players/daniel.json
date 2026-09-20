@@ -3,7 +3,7 @@
   "player_id": "NPqxeGOZQ9",
   "slug": "daniel",
   "name": "Daniel",
-  "generated_at": "2026-09-19T17:17:48Z",
+  "generated_at": "2026-09-20T17:29:11Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.022,
           "adjusted_p96": 0.027,
           "baseline_p96": 0.053,
-          "total": -0.655,
+          "total": -0.656,
           "raw_total": -1.483,
           "percentile": 26.9,
           "observed_percentile": 26.3,
@@ -269,7 +269,7 @@
           "xgoals_faced": 2.47,
           "goals_prevented": -1.53,
           "components": {
-            "shot_stopping": -1.498,
+            "shot_stopping": -1.499,
             "handling": 0.021,
             "claiming": 0.001,
             "sweeping": 0.113,
@@ -1101,6 +1101,13 @@
           "rank": 45,
           "keeperiq": 36.2,
           "adj_total_p96": 0.025
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2025-12-06",
+          "rank": 45,
+          "keeperiq": 36.2,
+          "adj_total_p96": 0.0249
         }
       ],
       "team_stints": [
@@ -1161,12 +1168,12 @@
       "goals_prevented_p96": 0.3,
       "previous_rank": 6,
       "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.324,
           "adjusted_p96": 0.119,
-          "baseline_p96": 0.06,
+          "baseline_p96": 0.061,
           "total": 5.859,
           "raw_total": 5.352,
           "percentile": 82.9,
@@ -1655,7 +1662,7 @@
           "xgoals_faced": 1.12,
           "goals_prevented": 0.12,
           "components": {
-            "shot_stopping": 0.149,
+            "shot_stopping": 0.148,
             "handling": -0.034,
             "claiming": 0.023,
             "sweeping": 0.183,
@@ -1893,6 +1900,13 @@
           "rank": 6,
           "keeperiq": 82.8,
           "adj_total_p96": 0.1091
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2026-09-18",
+          "rank": 6,
+          "keeperiq": 82.9,
+          "adj_total_p96": 0.1096
         }
       ],
       "team_stints": [

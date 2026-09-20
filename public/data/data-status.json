@@ -2,12 +2,12 @@
   "schema_version": "1",
   "pipeline_version": "1.0.0",
   "methodology_version": "1.0.0",
-  "last_attempted_update": "2026-09-19T17:17:48Z",
-  "last_successful_update": "2026-09-19T17:18:21Z",
-  "generated_at": "2026-09-19T17:17:48Z",
+  "last_attempted_update": "2026-09-20T17:29:11Z",
+  "last_successful_update": "2026-09-20T17:29:46Z",
+  "generated_at": "2026-09-20T17:29:11Z",
   "data_is_current": true,
   "fallback_reason": null,
-  "source_fingerprint": "86b1146960b9c45dcac0a0171a725bbb19204e3b9ad827719c18e79a5f3fdaab",
+  "source_fingerprint": "67c16eb62e6c1a8001ef28523f57745bb547b302b2e159b28690cb779ff2fd0e",
   "source": {
     "provider": "American Soccer Analysis",
     "attribution_url": "https://www.americansocceranalysis.com/",
@@ -67,193 +67,193 @@
     {
       "resource": "games?season_name=2021",
       "rows": 472,
-      "fetched_at": "2026-09-19T17:17:52Z",
+      "fetched_at": "2026-09-20T17:29:15Z",
       "from_cache": false
     },
     {
       "resource": "games?season_name=2022",
       "rows": 489,
-      "fetched_at": "2026-09-19T17:17:57Z",
+      "fetched_at": "2026-09-20T17:29:21Z",
       "from_cache": false
     },
     {
       "resource": "games?season_name=2023",
       "rows": 521,
-      "fetched_at": "2026-09-19T17:18:02Z",
+      "fetched_at": "2026-09-20T17:29:27Z",
       "from_cache": false
     },
     {
       "resource": "games?season_name=2024",
       "rows": 522,
-      "fetched_at": "2026-09-19T17:18:07Z",
+      "fetched_at": "2026-09-20T17:29:33Z",
       "from_cache": false
     },
     {
       "resource": "games?season_name=2025",
       "rows": 540,
-      "fetched_at": "2026-09-19T17:18:13Z",
+      "fetched_at": "2026-09-20T17:29:37Z",
       "from_cache": false
     },
     {
       "resource": "games?season_name=2026",
       "rows": 373,
-      "fetched_at": "2026-09-19T17:18:18Z",
+      "fetched_at": "2026-09-20T17:29:43Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2021",
       "rows": 65,
-      "fetched_at": "2026-09-19T17:17:52Z",
+      "fetched_at": "2026-09-20T17:29:15Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2021&split_by_games=true",
       "rows": 953,
-      "fetched_at": "2026-09-19T17:17:54Z",
+      "fetched_at": "2026-09-20T17:29:19Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2022",
       "rows": 63,
-      "fetched_at": "2026-09-19T17:17:57Z",
+      "fetched_at": "2026-09-20T17:29:23Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2022&split_by_games=true",
       "rows": 990,
-      "fetched_at": "2026-09-19T17:17:59Z",
+      "fetched_at": "2026-09-20T17:29:25Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2023",
       "rows": 65,
-      "fetched_at": "2026-09-19T17:18:02Z",
+      "fetched_at": "2026-09-20T17:29:28Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2023&split_by_games=true",
       "rows": 1053,
-      "fetched_at": "2026-09-19T17:18:05Z",
+      "fetched_at": "2026-09-20T17:29:30Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2024",
       "rows": 66,
-      "fetched_at": "2026-09-19T17:18:08Z",
+      "fetched_at": "2026-09-20T17:29:33Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2024&split_by_games=true",
       "rows": 1059,
-      "fetched_at": "2026-09-19T17:18:10Z",
+      "fetched_at": "2026-09-20T17:29:35Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2025",
       "rows": 67,
-      "fetched_at": "2026-09-19T17:18:13Z",
+      "fetched_at": "2026-09-20T17:29:38Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2025&split_by_games=true",
       "rows": 1099,
-      "fetched_at": "2026-09-19T17:18:15Z",
+      "fetched_at": "2026-09-20T17:29:40Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2026",
       "rows": 52,
-      "fetched_at": "2026-09-19T17:18:18Z",
+      "fetched_at": "2026-09-20T17:29:44Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/goals-added?season_name=2026&split_by_games=true",
       "rows": 756,
-      "fetched_at": "2026-09-19T17:18:20Z",
+      "fetched_at": "2026-09-20T17:29:46Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2021",
       "rows": 66,
-      "fetched_at": "2026-09-19T17:17:53Z",
+      "fetched_at": "2026-09-20T17:29:16Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2021&split_by_games=true",
       "rows": 954,
-      "fetched_at": "2026-09-19T17:17:55Z",
+      "fetched_at": "2026-09-20T17:29:19Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2022",
       "rows": 63,
-      "fetched_at": "2026-09-19T17:17:58Z",
+      "fetched_at": "2026-09-20T17:29:23Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2022&split_by_games=true",
       "rows": 990,
-      "fetched_at": "2026-09-19T17:18:00Z",
+      "fetched_at": "2026-09-20T17:29:25Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2023",
       "rows": 66,
-      "fetched_at": "2026-09-19T17:18:03Z",
+      "fetched_at": "2026-09-20T17:29:28Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2023&split_by_games=true",
       "rows": 1054,
-      "fetched_at": "2026-09-19T17:18:05Z",
+      "fetched_at": "2026-09-20T17:29:30Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2024",
       "rows": 66,
-      "fetched_at": "2026-09-19T17:18:08Z",
+      "fetched_at": "2026-09-20T17:29:33Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2024&split_by_games=true",
       "rows": 1059,
-      "fetched_at": "2026-09-19T17:18:11Z",
+      "fetched_at": "2026-09-20T17:29:35Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2025",
       "rows": 67,
-      "fetched_at": "2026-09-19T17:18:14Z",
+      "fetched_at": "2026-09-20T17:29:38Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2025&split_by_games=true",
       "rows": 1099,
-      "fetched_at": "2026-09-19T17:18:16Z",
+      "fetched_at": "2026-09-20T17:29:41Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2026",
       "rows": 52,
-      "fetched_at": "2026-09-19T17:18:19Z",
+      "fetched_at": "2026-09-20T17:29:44Z",
       "from_cache": false
     },
     {
       "resource": "goalkeepers/xgoals?season_name=2026&split_by_games=true",
       "rows": 756,
-      "fetched_at": "2026-09-19T17:18:21Z",
+      "fetched_at": "2026-09-20T17:29:46Z",
       "from_cache": false
     },
     {
       "resource": "players",
       "rows": 3594,
-      "fetched_at": "2026-09-19T17:17:50Z",
+      "fetched_at": "2026-09-20T17:29:13Z",
       "from_cache": false
     },
     {
       "resource": "teams",
       "rows": 31,
-      "fetched_at": "2026-09-19T17:17:49Z",
+      "fetched_at": "2026-09-20T17:29:12Z",
       "from_cache": false
     }
   ],
@@ -275,16 +275,16 @@
     "fielding": "fallback"
   },
   "snapshots_written": [
-    "20260919T171824Z.json",
-    "20260919T171824Z.json"
+    "20260920T172951Z.json",
+    "20260920T172951Z.json"
   ],
   "snapshot_counts": {
-    "2025": 18,
-    "2026": 18
+    "2025": 19,
+    "2026": 19
   },
   "database": {
     "path": "data/keeperiq.duckdb",
-    "refresh_id": "8f222a26c499",
+    "refresh_id": "94077a4b127a",
     "table_counts": {
       "teams": 33,
       "players": 3594,
@@ -294,7 +294,7 @@
       "goalkeeper_components": 714,
       "keeperiq_ratings": 119,
       "talent_estimates": 76,
-      "ranking_snapshots": 2107,
+      "ranking_snapshots": 2226,
       "data_refreshes": 1,
       "scraped_rosters": 0,
       "scrape_runs": 0

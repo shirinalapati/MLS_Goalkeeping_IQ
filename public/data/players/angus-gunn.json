@@ -3,7 +3,7 @@
   "player_id": "2vQ1LyOKqr",
   "slug": "angus-gunn",
   "name": "Angus Gunn",
-  "generated_at": "2026-09-19T17:17:48Z",
+  "generated_at": "2026-09-20T17:29:11Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -52,13 +52,13 @@
       "goals_prevented_p96": -0.16,
       "previous_rank": 36,
       "rank_change": 0,
-      "keeperiq_change": -0.1,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.129,
           "adjusted_p96": 0.037,
-          "baseline_p96": 0.067,
-          "total": -1.357,
+          "baseline_p96": 0.068,
+          "total": -1.358,
           "raw_total": -1.654,
           "percentile": 25.9,
           "observed_percentile": 16.0,
@@ -569,6 +569,13 @@
           "rank": 36,
           "keeperiq": 33.3,
           "adj_total_p96": 0.0265
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2026-09-18",
+          "rank": 36,
+          "keeperiq": 33.2,
+          "adj_total_p96": 0.0273
         }
       ],
       "team_stints": [

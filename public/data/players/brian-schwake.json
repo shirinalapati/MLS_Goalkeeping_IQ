@@ -3,7 +3,7 @@
   "player_id": "jYQJagNWqG",
   "slug": "brian-schwake",
   "name": "Brian Schwake",
-  "generated_at": "2026-09-19T17:17:48Z",
+  "generated_at": "2026-09-20T17:29:11Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -52,7 +52,7 @@
       "goals_prevented_p96": 0.35,
       "previous_rank": 4,
       "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.382,
@@ -532,7 +532,7 @@
           "date": "2026-07-26",
           "matchday": 18,
           "minutes": 101.0,
-          "total_ga": -0.349,
+          "total_ga": -0.35,
           "total_ga_p96": -0.33,
           "rolling_total_ga_p96": 0.42,
           "goals_conceded": 1,
@@ -554,7 +554,7 @@
           "date": "2026-08-01",
           "matchday": 19,
           "minutes": 106.0,
-          "total_ga": 0.358,
+          "total_ga": 0.357,
           "total_ga_p96": 0.32,
           "rolling_total_ga_p96": 0.41,
           "goals_conceded": 2,
@@ -651,7 +651,7 @@
           "xgoals_faced": 0.94,
           "goals_prevented": 0.94,
           "components": {
-            "shot_stopping": 0.967,
+            "shot_stopping": 0.966,
             "handling": -0.09,
             "claiming": 0.0,
             "sweeping": -0.022,
@@ -997,6 +997,13 @@
           "rank": 4,
           "keeperiq": 88.8,
           "adj_total_p96": 0.1346
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2026-09-18",
+          "rank": 4,
+          "keeperiq": 88.9,
+          "adj_total_p96": 0.1354
         }
       ],
       "team_stints": [

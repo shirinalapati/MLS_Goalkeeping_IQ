@@ -3,7 +3,7 @@
   "player_id": "vzqo721jqa",
   "slug": "mason-stajduhar",
   "name": "Mason Stajduhar",
-  "generated_at": "2026-09-19T17:17:48Z",
+  "generated_at": "2026-09-20T17:29:11Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,10 +22,10 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 56.5,
+      "keeperiq": 53.0,
       "adjusted_total_p96": 0.05,
       "observed_total_p96": 0.03,
-      "baseline_total_p96": 0.04,
+      "baseline_total_p96": 0.05,
       "adjusted_total": 0.03,
       "reliability": 0.028,
       "interval_low": null,
@@ -35,7 +35,7 @@
       "observed_interval_high": null,
       "keeperiq_low": null,
       "keeperiq_high": null,
-      "rank": 20,
+      "rank": 21,
       "rank_observed": 20,
       "rank_goals_conceded": 40,
       "rank_pool": null,
@@ -51,16 +51,16 @@
       "goals_prevented": 0.05,
       "goals_prevented_p96": 0.05,
       "previous_rank": 20,
-      "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "rank_change": -1,
+      "keeperiq_change": -3.5,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.077,
-          "adjusted_p96": 0.063,
+          "adjusted_p96": 0.064,
           "baseline_p96": 0.063,
           "total": 0.082,
           "raw_total": 0.052,
-          "percentile": 51.1,
+          "percentile": 47.6,
           "observed_percentile": 55.7,
           "opportunities": 3,
           "opportunities_p96": 2.82,
@@ -236,6 +236,13 @@
           "rank": 20,
           "keeperiq": 56.5,
           "adj_total_p96": 0.0465
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2026-09-18",
+          "rank": 20,
+          "keeperiq": 56.5,
+          "adj_total_p96": 0.0474
         }
       ],
       "team_stints": [

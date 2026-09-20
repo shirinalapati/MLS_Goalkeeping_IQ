@@ -3,7 +3,7 @@
   "player_id": "Vj58WrY3M8",
   "slug": "cabral-carter",
   "name": "Cabral Carter",
-  "generated_at": "2026-09-19T17:17:48Z",
+  "generated_at": "2026-09-20T17:29:11Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -56,8 +56,8 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.715,
-          "adjusted_p96": 0.084,
-          "baseline_p96": 0.065,
+          "adjusted_p96": 0.085,
+          "baseline_p96": 0.066,
           "total": 1.356,
           "raw_total": 1.303,
           "percentile": 68.4,
@@ -96,7 +96,7 @@
           "baseline_p96": 0.005,
           "total": -0.788,
           "raw_total": -0.79,
-          "percentile": 16.4,
+          "percentile": 12.9,
           "observed_percentile": 0.0,
           "opportunities": 6,
           "opportunities_p96": 3.16,
@@ -329,6 +329,13 @@
           "rank": 10,
           "keeperiq": 72.1,
           "adj_total_p96": 0.063
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2026-09-18",
+          "rank": 10,
+          "keeperiq": 72.1,
+          "adj_total_p96": 0.0639
         }
       ],
       "team_stints": [
@@ -360,10 +367,10 @@
     "talent_low": -0.11,
     "talent_high": 0.22,
     "talent_sd": 0.1,
-    "keeperiq": 47.4,
+    "keeperiq": 45.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 26,
+    "rank": 27,
     "weights": {
       "league_prior": 0.976,
       "prior_season": 0.0,

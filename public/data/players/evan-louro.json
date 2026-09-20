@@ -3,7 +3,7 @@
   "player_id": "kRQa2L2LMK",
   "slug": "evan-louro",
   "name": "Evan Louro",
-  "generated_at": "2026-09-19T17:17:48Z",
+  "generated_at": "2026-09-20T17:29:11Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -222,7 +222,7 @@
           "date": "2025-10-04",
           "matchday": 35,
           "minutes": 102.0,
-          "total_ga": 0.38,
+          "total_ga": 0.379,
           "total_ga_p96": 0.36,
           "rolling_total_ga_p96": 0.46,
           "goals_conceded": 0,
@@ -385,6 +385,13 @@
           "rank": 14,
           "keeperiq": 70.9,
           "adj_total_p96": 0.0672
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2025-12-06",
+          "rank": 14,
+          "keeperiq": 70.9,
+          "adj_total_p96": 0.0671
         }
       ],
       "team_stints": [
@@ -445,7 +452,7 @@
       "goals_prevented_p96": -0.92,
       "previous_rank": 35,
       "rank_change": 0,
-      "keeperiq_change": -0.1,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.888,
@@ -462,7 +469,7 @@
         "handling": {
           "observed_p96": 0.022,
           "adjusted_p96": -0.016,
-          "baseline_p96": -0.017,
+          "baseline_p96": -0.016,
           "total": 0.048,
           "raw_total": 0.047,
           "percentile": 44.4,
@@ -730,6 +737,13 @@
           "rank": 35,
           "keeperiq": 34.0,
           "adj_total_p96": 0.0268
+        },
+        {
+          "captured_at": "2026-09-19T17:18:24Z",
+          "max_match_date": "2026-09-18",
+          "rank": 35,
+          "keeperiq": 33.9,
+          "adj_total_p96": 0.0277
         }
       ],
       "team_stints": [
@@ -762,10 +776,10 @@
     "talent_low": -0.11,
     "talent_high": 0.21,
     "talent_sd": 0.097,
-    "keeperiq": 43.6,
+    "keeperiq": 41.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 28,
+    "rank": 29,
     "weights": {
       "league_prior": 0.913,
       "prior_season": 0.061,
