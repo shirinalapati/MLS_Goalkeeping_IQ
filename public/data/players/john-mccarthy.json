@@ -3,7 +3,7 @@
   "player_id": "2vQ1L20Oqr",
   "slug": "john-mccarthy",
   "name": "John McCarthy",
-  "generated_at": "2026-09-20T17:29:11Z",
+  "generated_at": "2026-09-21T19:27:56Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.339,
-          "adjusted_p96": -0.016,
-          "baseline_p96": 0.051,
-          "total": -4.275,
+          "observed_p96": -0.338,
+          "adjusted_p96": -0.015,
+          "baseline_p96": 0.052,
+          "total": -4.271,
           "raw_total": -4.63,
           "percentile": 9.2,
           "observed_percentile": 1.9,
@@ -76,7 +76,7 @@
           "observed_percentile": 94.3,
           "opportunities": 35,
           "opportunities_p96": 2.77,
-          "reliability": 0.108
+          "reliability": 0.107
         },
         "claiming": {
           "observed_p96": 0.008,
@@ -94,7 +94,7 @@
           "observed_p96": -0.026,
           "adjusted_p96": -0.001,
           "baseline_p96": -0.001,
-          "total": -0.328,
+          "total": -0.329,
           "raw_total": -0.343,
           "percentile": 17.6,
           "observed_percentile": 5.3,
@@ -172,7 +172,7 @@
           "xgoals_faced": 0.79,
           "goals_prevented": -0.21,
           "components": {
-            "shot_stopping": -0.177,
+            "shot_stopping": -0.176,
             "handling": -0.105,
             "claiming": 0.001,
             "sweeping": 0.009,
@@ -194,7 +194,7 @@
           "xgoals_faced": 2.76,
           "goals_prevented": 0.76,
           "components": {
-            "shot_stopping": 0.79,
+            "shot_stopping": 0.791,
             "handling": 0.138,
             "claiming": 0.01,
             "sweeping": 0.025,
@@ -238,7 +238,7 @@
           "xgoals_faced": 1.53,
           "goals_prevented": -0.47,
           "components": {
-            "shot_stopping": -0.436,
+            "shot_stopping": -0.435,
             "handling": 0.001,
             "claiming": 0.045,
             "sweeping": 0.001,
@@ -326,7 +326,7 @@
           "xgoals_faced": 0.0,
           "goals_prevented": 0.0,
           "components": {
-            "shot_stopping": 0.029,
+            "shot_stopping": 0.03,
             "handling": 0.001,
             "claiming": -0.0,
             "sweeping": 0.001,
@@ -623,6 +623,13 @@
           "rank": 66,
           "keeperiq": 3.1,
           "adj_total_p96": -0.0488
+        },
+        {
+          "captured_at": "2026-09-20T17:29:51Z",
+          "max_match_date": "2025-12-06",
+          "rank": 66,
+          "keeperiq": 3.1,
+          "adj_total_p96": -0.0488
         }
       ],
       "team_stints": [
@@ -661,9 +668,9 @@
     "age": 34,
     "talent_p96": -0.02,
     "talent_low": -0.17,
-    "talent_high": 0.13,
+    "talent_high": 0.14,
     "talent_sd": 0.093,
-    "keeperiq": 12.1,
+    "keeperiq": 12.0,
     "keeperiq_low": 0.0,
     "keeperiq_high": 96.0,
     "rank": 69,

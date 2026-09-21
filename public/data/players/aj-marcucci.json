@@ -3,7 +3,7 @@
   "player_id": "7VqG3Onxqv",
   "slug": "aj-marcucci",
   "name": "AJ Marcucci",
-  "generated_at": "2026-09-20T17:29:11Z",
+  "generated_at": "2026-09-21T19:27:56Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.126,
+          "observed_p96": -0.125,
           "adjusted_p96": 0.042,
           "baseline_p96": 0.047,
-          "total": -0.271,
+          "total": -0.27,
           "raw_total": -0.331,
           "percentile": 44.4,
           "observed_percentile": 11.8,
@@ -97,7 +97,7 @@
           "total": -0.004,
           "raw_total": -0.006,
           "percentile": 44.5,
-          "observed_percentile": 41.1,
+          "observed_percentile": 43.3,
           "opportunities": 3,
           "opportunities_p96": 1.39,
           "reliability": 0.003
@@ -178,7 +178,7 @@
           "date": "2025-08-10",
           "matchday": 27,
           "minutes": 104.0,
-          "total_ga": 0.015,
+          "total_ga": 0.016,
           "total_ga_p96": 0.01,
           "rolling_total_ga_p96": -0.08,
           "goals_conceded": 1,
@@ -187,7 +187,7 @@
           "xgoals_faced": 0.95,
           "goals_prevented": -0.05,
           "components": {
-            "shot_stopping": -0.018,
+            "shot_stopping": -0.017,
             "handling": 0.017,
             "claiming": 0.001,
             "sweeping": 0.01,
@@ -336,6 +336,13 @@
           "rank": 29,
           "keeperiq": 49.7,
           "adj_total_p96": 0.042
+        },
+        {
+          "captured_at": "2026-09-20T17:29:51Z",
+          "max_match_date": "2025-12-06",
+          "rank": 29,
+          "keeperiq": 49.7,
+          "adj_total_p96": 0.042
         }
       ],
       "team_stints": [
@@ -367,10 +374,10 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.098,
-    "keeperiq": 35.3,
+    "keeperiq": 31.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 38,
+    "rank": 39,
     "weights": {
       "league_prior": 0.935,
       "prior_season": 0.065,
