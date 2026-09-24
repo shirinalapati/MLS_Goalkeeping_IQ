@@ -3,7 +3,7 @@
   "player_id": "KAqBjB97qb",
   "slug": "ethan-horvath",
   "name": "Ethan Horvath",
-  "generated_at": "2026-09-23T18:24:49Z",
+  "generated_at": "2026-09-24T18:26:07Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -23,9 +23,9 @@
       "sample_status": "qualified",
       "sample_status_label": "Qualified",
       "keeperiq": 55.1,
-      "adjusted_total_p96": 0.04,
+      "adjusted_total_p96": 0.05,
       "observed_total_p96": 0.06,
-      "baseline_total_p96": 0.04,
+      "baseline_total_p96": 0.05,
       "adjusted_total": 1.66,
       "reliability": 0.295,
       "interval_low": -0.08,
@@ -52,13 +52,13 @@
       "goals_prevented_p96": 0.03,
       "previous_rank": 19,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.057,
-          "adjusted_p96": 0.058,
-          "baseline_p96": 0.06,
-          "total": 1.57,
+          "adjusted_p96": 0.059,
+          "baseline_p96": 0.061,
+          "total": 1.567,
           "raw_total": 0.791,
           "percentile": 54.9,
           "observed_percentile": 51.5,
@@ -93,7 +93,7 @@
         "sweeping": {
           "observed_p96": 0.026,
           "adjusted_p96": 0.007,
-          "baseline_p96": 0.005,
+          "baseline_p96": 0.006,
           "total": 0.701,
           "raw_total": 0.671,
           "percentile": 98.3,
@@ -121,7 +121,7 @@
           "total": 0.197,
           "raw_total": 0.057,
           "percentile": 55.5,
-          "observed_percentile": 67.8,
+          "observed_percentile": 67.6,
           "opportunities": 520,
           "opportunities_p96": 18.97,
           "reliability": 0.094
@@ -188,7 +188,7 @@
           "goals_prevented": 0.17,
           "components": {
             "shot_stopping": 0.203,
-            "handling": 0.012,
+            "handling": 0.011,
             "claiming": 0.009,
             "sweeping": 0.096,
             "passing": 0.021,
@@ -244,7 +244,7 @@
           "date": "2026-03-21",
           "matchday": 5,
           "minutes": 98.0,
-          "total_ga": -0.205,
+          "total_ga": -0.206,
           "total_ga_p96": -0.2,
           "rolling_total_ga_p96": -0.14,
           "goals_conceded": 6,
@@ -288,7 +288,7 @@
           "date": "2026-04-11",
           "matchday": 7,
           "minutes": 100.0,
-          "total_ga": -0.42,
+          "total_ga": -0.421,
           "total_ga_p96": -0.4,
           "rolling_total_ga_p96": -0.2,
           "goals_conceded": 2,
@@ -473,7 +473,7 @@
           "xgoals_faced": 1.5,
           "goals_prevented": 0.5,
           "components": {
-            "shot_stopping": 0.533,
+            "shot_stopping": 0.532,
             "handling": -0.033,
             "claiming": 0.016,
             "sweeping": 0.298,
@@ -530,7 +530,7 @@
           "date": "2026-08-01",
           "matchday": 19,
           "minutes": 103.0,
-          "total_ga": 0.453,
+          "total_ga": 0.452,
           "total_ga_p96": 0.42,
           "rolling_total_ga_p96": -0.06,
           "goals_conceded": 2,
@@ -606,7 +606,7 @@
           "goals_prevented": -0.21,
           "components": {
             "shot_stopping": -0.182,
-            "handling": 0.066,
+            "handling": 0.065,
             "claiming": 0.001,
             "sweeping": 0.001,
             "passing": -0.033,
@@ -777,7 +777,7 @@
           "date": "2026-04-22",
           "matchday": 9,
           "matches_in_window": 5,
-          "rate_p96": -0.43
+          "rate_p96": -0.44
         },
         {
           "date": "2026-04-25",
