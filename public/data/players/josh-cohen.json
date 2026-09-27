@@ -1,0 +1,223 @@
+{
+  "schema_version": "1",
+  "player_id": "KXMekmrPq6",
+  "slug": "josh-cohen",
+  "name": "Josh Cohen",
+  "generated_at": "2026-09-27T18:24:26Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2026": {
+      "player_id": "KXMekmrPq6",
+      "slug": "josh-cohen",
+      "name": "Josh Cohen",
+      "season": 2026,
+      "team_id": "X0Oq66zq6D",
+      "team": "Chicago Fire FC",
+      "team_abbreviation": "CHI",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1992-08-18",
+      "age": 34,
+      "minutes": 100.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 66.8,
+      "adjusted_total_p96": 0.05,
+      "observed_total_p96": 0.72,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": 0.75,
+      "reliability": 0.038,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 16,
+      "rank_observed": 2,
+      "rank_goals_conceded": 1,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 0,
+      "goals_conceded_p96": 0.0,
+      "shots_faced": 2,
+      "shots_faced_p96": 1.92,
+      "saves": 2,
+      "save_pct": 100.0,
+      "xgoals_faced": 0.76,
+      "goals_prevented": 0.76,
+      "goals_prevented_p96": 0.73,
+      "previous_rank": null,
+      "rank_change": null,
+      "keeperiq_change": null,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 0.762,
+          "adjusted_p96": 0.066,
+          "baseline_p96": 0.054,
+          "total": 0.793,
+          "raw_total": 0.764,
+          "percentile": 60.0,
+          "observed_percentile": 100.0,
+          "opportunities": 2,
+          "opportunities_p96": 1.92,
+          "reliability": 0.007
+        },
+        "handling": {
+          "observed_p96": -0.081,
+          "adjusted_p96": -0.016,
+          "baseline_p96": -0.015,
+          "total": -0.085,
+          "raw_total": -0.085,
+          "percentile": 37.2,
+          "observed_percentile": 0.0,
+          "opportunities": 2,
+          "opportunities_p96": 1.92,
+          "reliability": 0.007
+        },
+        "claiming": {
+          "observed_p96": 0.002,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.002,
+          "total": 0.002,
+          "raw_total": 0.002,
+          "percentile": 33.0,
+          "observed_percentile": 56.5,
+          "opportunities": 1,
+          "opportunities_p96": 0.96,
+          "reliability": 0.006
+        },
+        "sweeping": {
+          "observed_p96": 0.022,
+          "adjusted_p96": 0.005,
+          "baseline_p96": 0.005,
+          "total": 0.023,
+          "raw_total": 0.021,
+          "percentile": 71.6,
+          "observed_percentile": 93.0,
+          "opportunities": 4,
+          "opportunities_p96": 3.84,
+          "reliability": 0.004
+        },
+        "passing": {
+          "observed_p96": -0.006,
+          "adjusted_p96": -0.008,
+          "baseline_p96": -0.009,
+          "total": -0.006,
+          "raw_total": 0.057,
+          "percentile": 49.2,
+          "observed_percentile": 52.6,
+          "opportunities": 38,
+          "opportunities_p96": 36.48,
+          "reliability": 0.223
+        },
+        "fielding": {
+          "observed_p96": 0.019,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.02,
+          "raw_total": 0.015,
+          "percentile": 65.1,
+          "observed_percentile": 96.5,
+          "opportunities": 28,
+          "opportunities_p96": 26.88,
+          "reliability": 0.006
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (100 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "wvq9kwB1MW",
+          "date": "2026-09-26",
+          "matchday": 28,
+          "minutes": 100.0,
+          "total_ga": 0.748,
+          "total_ga_p96": 0.72,
+          "rolling_total_ga_p96": 0.72,
+          "goals_conceded": 0,
+          "shots_faced": 2,
+          "saves": 2,
+          "xgoals_faced": 0.76,
+          "goals_prevented": 0.76,
+          "components": {
+            "shot_stopping": 0.793,
+            "handling": -0.085,
+            "claiming": 0.002,
+            "sweeping": 0.023,
+            "passing": -0.006,
+            "fielding": 0.02
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-09-26",
+          "matchday": 28,
+          "matches_in_window": 1,
+          "rate_p96": 0.72
+        }
+      ],
+      "ranking_history": [],
+      "team_stints": [
+        {
+          "team_id": "X0Oq66zq6D",
+          "team_name": "Chicago Fire FC",
+          "team_abbreviation": "CHI",
+          "appearances": 1,
+          "minutes": 100.0,
+          "first_match": "2026-09-26",
+          "last_match": "2026-09-26"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2026
+  ],
+  "talent": {
+    "player_id": "KXMekmrPq6",
+    "slug": "josh-cohen",
+    "name": "Josh Cohen",
+    "team": "Chicago Fire FC",
+    "team_abbreviation": "CHI",
+    "nationality": "USA",
+    "birth_date": "1992-08-18",
+    "age": 34,
+    "talent_p96": 0.08,
+    "talent_low": -0.09,
+    "talent_high": 0.24,
+    "talent_sd": 0.099,
+    "keeperiq": 67.7,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 17,
+    "weights": {
+      "league_prior": 0.962,
+      "prior_season": 0.0,
+      "live_season": 0.038
+    },
+    "prior_season_rate": null,
+    "live_season_rate": 0.72,
+    "prior_season_minutes": 0.0,
+    "live_season_minutes": 100.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "no_prior_season",
+    "in_live_season": true
+  }
+}
