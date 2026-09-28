@@ -3,7 +3,7 @@
   "player_id": "9YqdoDvL5v",
   "slug": "jayden-hibbert",
   "name": "Jayden Hibbert",
-  "generated_at": "2026-09-27T18:24:26Z",
+  "generated_at": "2026-09-28T20:34:13Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -80,7 +80,7 @@
         },
         "claiming": {
           "observed_p96": -0.01,
-          "adjusted_p96": 0.001,
+          "adjusted_p96": 0.0,
           "baseline_p96": 0.001,
           "total": -0.088,
           "raw_total": -0.092,
@@ -96,7 +96,7 @@
           "baseline_p96": -0.001,
           "total": 0.143,
           "raw_total": 0.133,
-          "percentile": 64.4,
+          "percentile": 62.0,
           "observed_percentile": 92.1,
           "opportunities": 20,
           "opportunities_p96": 2.35,
@@ -187,7 +187,7 @@
           "xgoals_faced": 0.29,
           "goals_prevented": 0.29,
           "components": {
-            "shot_stopping": 0.324,
+            "shot_stopping": 0.323,
             "handling": -0.008,
             "claiming": 0.043,
             "sweeping": 0.038,
@@ -200,7 +200,7 @@
           "date": "2025-08-31",
           "matchday": 30,
           "minutes": 104.0,
-          "total_ga": 1.302,
+          "total_ga": 1.301,
           "total_ga_p96": 1.2,
           "rolling_total_ga_p96": 0.51,
           "goals_conceded": 0,
@@ -525,6 +525,13 @@
           "rank": 47,
           "keeperiq": 34.4,
           "adj_total_p96": 0.0231
+        },
+        {
+          "captured_at": "2026-09-27T18:25:35Z",
+          "max_match_date": "2025-12-06",
+          "rank": 47,
+          "keeperiq": 34.4,
+          "adj_total_p96": 0.0234
         }
       ],
       "team_stints": [
@@ -556,10 +563,10 @@
     "talent_low": -0.12,
     "talent_high": 0.19,
     "talent_sd": 0.095,
-    "keeperiq": 29.2,
+    "keeperiq": 31.4,
     "keeperiq_low": 0.0,
     "keeperiq_high": 97.7,
-    "rank": 47,
+    "rank": 46,
     "weights": {
       "league_prior": 0.893,
       "prior_season": 0.107,

@@ -3,7 +3,7 @@
   "player_id": "gpMO4XD5zy",
   "slug": "oscar-ustari",
   "name": "Óscar Ustari",
-  "generated_at": "2026-09-27T18:24:26Z",
+  "generated_at": "2026-09-28T20:34:13Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.201,
           "adjusted_p96": -0.02,
           "baseline_p96": 0.052,
-          "total": -4.849,
+          "total": -4.85,
           "raw_total": -5.536,
           "percentile": 7.5,
           "observed_percentile": 6.9,
@@ -82,7 +82,7 @@
           "observed_p96": 0.002,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
-          "total": 0.047,
+          "total": 0.046,
           "raw_total": 0.035,
           "percentile": 36.7,
           "observed_percentile": 40.9,
@@ -92,9 +92,9 @@
         },
         "sweeping": {
           "observed_p96": 0.021,
-          "adjusted_p96": 0.0,
+          "adjusted_p96": -0.0,
           "baseline_p96": -0.001,
-          "total": 0.509,
+          "total": 0.508,
           "raw_total": 0.482,
           "percentile": 96.3,
           "observed_percentile": 94.3,
@@ -249,7 +249,7 @@
           "components": {
             "shot_stopping": 0.251,
             "handling": -0.082,
-            "claiming": 0.004,
+            "claiming": 0.003,
             "sweeping": -0.005,
             "passing": 0.024,
             "fielding": 0.006
@@ -316,7 +316,7 @@
             "shot_stopping": -0.713,
             "handling": -0.053,
             "claiming": 0.004,
-            "sweeping": 0.029,
+            "sweeping": 0.028,
             "passing": 0.003,
             "fielding": -0.023
           }
@@ -458,7 +458,7 @@
           "date": "2025-07-05",
           "matchday": 22,
           "minutes": 100.0,
-          "total_ga": 0.523,
+          "total_ga": 0.522,
           "total_ga_p96": 0.5,
           "rolling_total_ga_p96": -0.16,
           "goals_conceded": 1,
@@ -489,7 +489,7 @@
           "xgoals_faced": 0.47,
           "goals_prevented": -0.53,
           "components": {
-            "shot_stopping": -0.503,
+            "shot_stopping": -0.504,
             "handling": -0.16,
             "claiming": 0.004,
             "sweeping": 0.015,
@@ -1017,6 +1017,13 @@
           "rank": 62,
           "keeperiq": 9.4,
           "adj_total_p96": -0.0267
+        },
+        {
+          "captured_at": "2026-09-27T18:25:35Z",
+          "max_match_date": "2025-12-06",
+          "rank": 62,
+          "keeperiq": 9.4,
+          "adj_total_p96": -0.0264
         }
       ],
       "team_stints": [

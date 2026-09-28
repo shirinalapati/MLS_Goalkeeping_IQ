@@ -3,7 +3,7 @@
   "player_id": "gOMnRnO8Mw",
   "slug": "thomas-hasal",
   "name": "Thomas Hasal",
-  "generated_at": "2026-09-27T18:24:26Z",
+  "generated_at": "2026-09-28T20:34:13Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -356,6 +356,13 @@
           "rank": 57,
           "keeperiq": 19.0,
           "adj_total_p96": 0.0043
+        },
+        {
+          "captured_at": "2026-09-27T18:25:35Z",
+          "max_match_date": "2025-12-06",
+          "rank": 57,
+          "keeperiq": 19.0,
+          "adj_total_p96": 0.0046
         }
       ],
       "team_stints": [
@@ -386,7 +393,7 @@
       "appearances": 3,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 28.6,
+      "keeperiq": 28.3,
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -0.65,
       "baseline_total_p96": 0.04,
@@ -398,8 +405,8 @@
       "observed_interval_low": -1.38,
       "observed_interval_high": 0.11,
       "keeperiq_low": 0.0,
-      "keeperiq_high": 96.5,
-      "rank": 43,
+      "keeperiq_high": 96.6,
+      "rank": 42,
       "rank_observed": 50,
       "rank_goals_conceded": 18,
       "rank_pool": null,
@@ -414,18 +421,18 @@
       "xgoals_faced": 1.87,
       "goals_prevented": -1.13,
       "goals_prevented_p96": -0.48,
-      "previous_rank": 42,
-      "rank_change": -1,
-      "keeperiq_change": 4.8,
+      "previous_rank": 43,
+      "rank_change": 1,
+      "keeperiq_change": -0.3,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.451,
-          "adjusted_p96": 0.036,
-          "baseline_p96": 0.054,
+          "adjusted_p96": 0.037,
+          "baseline_p96": 0.055,
           "total": -1.067,
           "raw_total": -1.135,
-          "percentile": 39.0,
-          "observed_percentile": 1.2,
+          "percentile": 42.2,
+          "observed_percentile": 1.1,
           "opportunities": 8,
           "opportunities_p96": 3.38,
           "reliability": 0.028
@@ -436,7 +443,7 @@
           "baseline_p96": -0.015,
           "total": -0.425,
           "raw_total": -0.426,
-          "percentile": 8.4,
+          "percentile": 13.0,
           "observed_percentile": 0.0,
           "opportunities": 5,
           "opportunities_p96": 2.11,
@@ -448,20 +455,20 @@
           "baseline_p96": -0.001,
           "total": 0.003,
           "raw_total": 0.002,
-          "percentile": 33.0,
-          "observed_percentile": 40.5,
+          "percentile": 35.1,
+          "observed_percentile": 39.1,
           "opportunities": 2,
           "opportunities_p96": 0.85,
           "reliability": 0.012
         },
         "sweeping": {
           "observed_p96": 0.009,
-          "adjusted_p96": 0.004,
-          "baseline_p96": 0.004,
+          "adjusted_p96": 0.005,
+          "baseline_p96": 0.005,
           "total": 0.022,
           "raw_total": 0.019,
-          "percentile": 54.3,
-          "observed_percentile": 63.2,
+          "percentile": 54.0,
+          "observed_percentile": 62.7,
           "opportunities": 3,
           "opportunities_p96": 1.27,
           "reliability": 0.003
@@ -472,7 +479,7 @@
           "baseline_p96": -0.006,
           "total": -0.082,
           "raw_total": 0.06,
-          "percentile": 23.9,
+          "percentile": 23.7,
           "observed_percentile": 0.0,
           "opportunities": 33,
           "opportunities_p96": 13.96,
@@ -485,7 +492,7 @@
           "total": 0.012,
           "raw_total": 0.0,
           "percentile": 5.8,
-          "observed_percentile": 36.7,
+          "observed_percentile": 37.3,
           "opportunities": 14,
           "opportunities_p96": 5.92,
           "reliability": 0.003
@@ -498,7 +505,7 @@
           {
             "component": "total",
             "label": "Complete impact",
-            "percentile": 28.6,
+            "percentile": 28.3,
             "band": "weak",
             "opportunities": null,
             "text": "Complete impact sits below the MLS median."
@@ -506,7 +513,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 23.9,
+            "percentile": 23.7,
             "band": "weak",
             "opportunities": 33,
             "text": "Passing contribution below the MLS median."
@@ -756,6 +763,13 @@
           "rank": 42,
           "keeperiq": 23.8,
           "adj_total_p96": 0.0085
+        },
+        {
+          "captured_at": "2026-09-27T18:25:35Z",
+          "max_match_date": "2026-09-27",
+          "rank": 43,
+          "keeperiq": 28.6,
+          "adj_total_p96": 0.0053
         }
       ],
       "team_stints": [

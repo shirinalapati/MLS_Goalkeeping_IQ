@@ -3,7 +3,7 @@
   "player_id": "Vj58B64EQ8",
   "slug": "pablo-sisniega",
   "name": "Pablo Sisniega",
-  "generated_at": "2026-09-27T18:24:26Z",
+  "generated_at": "2026-09-28T20:34:13Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.07,
       "observed_total_p96": 0.4,
       "baseline_total_p96": 0.04,
-      "adjusted_total": 3.26,
+      "adjusted_total": 3.25,
       "reliability": 0.157,
       "interval_low": -0.06,
       "interval_high": 0.19,
@@ -70,7 +70,7 @@
           "observed_p96": -0.012,
           "adjusted_p96": -0.005,
           "baseline_p96": -0.004,
-          "total": -0.101,
+          "total": -0.1,
           "raw_total": -0.107,
           "percentile": 40.7,
           "observed_percentile": 32.3,
@@ -106,7 +106,7 @@
           "observed_p96": -0.024,
           "adjusted_p96": -0.017,
           "baseline_p96": -0.004,
-          "total": -0.199,
+          "total": -0.198,
           "raw_total": 0.293,
           "percentile": 4.2,
           "observed_percentile": 2.2,
@@ -541,6 +541,13 @@
           "rank": 15,
           "keeperiq": 70.3,
           "adj_total_p96": 0.0659
+        },
+        {
+          "captured_at": "2026-09-27T18:25:35Z",
+          "max_match_date": "2025-12-06",
+          "rank": 15,
+          "keeperiq": 70.3,
+          "adj_total_p96": 0.0662
         }
       ],
       "team_stints": [
@@ -571,8 +578,8 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 50.0,
-      "adjusted_total_p96": 0.03,
+      "keeperiq": 45.4,
+      "adjusted_total_p96": 0.04,
       "observed_total_p96": -0.03,
       "baseline_total_p96": 0.04,
       "adjusted_total": -0.03,
@@ -584,7 +591,7 @@
       "observed_interval_high": null,
       "keeperiq_low": null,
       "keeperiq_high": null,
-      "rank": 24,
+      "rank": 26,
       "rank_observed": 31,
       "rank_goals_conceded": 52,
       "rank_pool": null,
@@ -599,18 +606,18 @@
       "xgoals_faced": 3.38,
       "goals_prevented": 0.38,
       "goals_prevented_p96": 0.34,
-      "previous_rank": 23,
-      "rank_change": -1,
-      "keeperiq_change": -0.1,
+      "previous_rank": 24,
+      "rank_change": -2,
+      "keeperiq_change": -4.6,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.368,
-          "adjusted_p96": 0.062,
-          "baseline_p96": 0.057,
+          "adjusted_p96": 0.063,
+          "baseline_p96": 0.058,
           "total": 0.414,
           "raw_total": 0.382,
-          "percentile": 55.2,
-          "observed_percentile": 89.9,
+          "percentile": 54.6,
+          "observed_percentile": 90.0,
           "opportunities": 8,
           "opportunities_p96": 7.11,
           "reliability": 0.028
@@ -618,10 +625,10 @@
         "handling": {
           "observed_p96": -0.116,
           "adjusted_p96": -0.017,
-          "baseline_p96": -0.015,
+          "baseline_p96": -0.016,
           "total": -0.13,
           "raw_total": -0.131,
-          "percentile": 37.2,
+          "percentile": 36.8,
           "observed_percentile": 0.0,
           "opportunities": 5,
           "opportunities_p96": 4.44,
@@ -630,23 +637,23 @@
         "claiming": {
           "observed_p96": 0.003,
           "adjusted_p96": -0.001,
-          "baseline_p96": -0.002,
+          "baseline_p96": -0.001,
           "total": 0.003,
           "raw_total": 0.003,
-          "percentile": 33.0,
-          "observed_percentile": 64.5,
+          "percentile": 35.1,
+          "observed_percentile": 63.1,
           "opportunities": 1,
           "opportunities_p96": 0.89,
           "reliability": 0.006
         },
         "sweeping": {
           "observed_p96": -0.009,
-          "adjusted_p96": 0.004,
-          "baseline_p96": 0.004,
+          "adjusted_p96": 0.005,
+          "baseline_p96": 0.005,
           "total": -0.01,
           "raw_total": -0.011,
-          "percentile": 54.3,
-          "observed_percentile": 16.4,
+          "percentile": 54.0,
+          "observed_percentile": 16.2,
           "opportunities": 2,
           "opportunities_p96": 1.78,
           "reliability": 0.002
@@ -654,10 +661,10 @@
         "passing": {
           "observed_p96": -0.045,
           "adjusted_p96": -0.017,
-          "baseline_p96": -0.01,
+          "baseline_p96": -0.011,
           "total": -0.051,
           "raw_total": 0.016,
-          "percentile": 23.9,
+          "percentile": 23.7,
           "observed_percentile": 0.0,
           "opportunities": 70,
           "opportunities_p96": 62.22,
@@ -669,7 +676,7 @@
           "baseline_p96": 0.005,
           "total": -0.254,
           "raw_total": -0.26,
-          "percentile": 44.9,
+          "percentile": 44.3,
           "observed_percentile": 0.0,
           "opportunities": 49,
           "opportunities_p96": 43.56,
@@ -683,7 +690,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 23.9,
+            "percentile": 23.7,
             "band": "weak",
             "opportunities": 70,
             "text": "Passing contribution below the MLS median."
@@ -877,6 +884,13 @@
           "rank": 23,
           "keeperiq": 50.1,
           "adj_total_p96": 0.0381
+        },
+        {
+          "captured_at": "2026-09-27T18:25:35Z",
+          "max_match_date": "2026-09-27",
+          "rank": 24,
+          "keeperiq": 50.0,
+          "adj_total_p96": 0.0345
         }
       ],
       "team_stints": [
@@ -909,10 +923,10 @@
     "talent_low": -0.05,
     "talent_high": 0.25,
     "talent_sd": 0.092,
-    "keeperiq": 88.4,
+    "keeperiq": 84.9,
     "keeperiq_low": 2.7,
     "keeperiq_high": 100.0,
-    "rank": 7,
+    "rank": 8,
     "weights": {
       "league_prior": 0.838,
       "prior_season": 0.152,

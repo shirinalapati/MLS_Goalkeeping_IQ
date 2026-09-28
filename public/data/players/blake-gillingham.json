@@ -3,7 +3,7 @@
   "player_id": "EGMP1vPx5a",
   "slug": "blake-gillingham",
   "name": "Blake Gillingham",
-  "generated_at": "2026-09-27T18:24:26Z",
+  "generated_at": "2026-09-28T20:34:13Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -31,7 +31,7 @@
       "interval_low": -0.1,
       "interval_high": 0.23,
       "interval_se": 0.099,
-      "observed_interval_low": -0.0,
+      "observed_interval_low": -0.01,
       "observed_interval_high": 1.39,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
@@ -56,9 +56,9 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.638,
-          "adjusted_p96": 0.08,
+          "adjusted_p96": 0.079,
           "baseline_p96": 0.049,
-          "total": 2.193,
+          "total": 2.192,
           "raw_total": 2.095,
           "percentile": 79.4,
           "observed_percentile": 100.0,
@@ -80,7 +80,7 @@
         },
         "claiming": {
           "observed_p96": -0.07,
-          "adjusted_p96": -0.0,
+          "adjusted_p96": -0.001,
           "baseline_p96": 0.001,
           "total": -0.24,
           "raw_total": -0.241,
@@ -404,6 +404,13 @@
           "rank": 16,
           "keeperiq": 69.9,
           "adj_total_p96": 0.0654
+        },
+        {
+          "captured_at": "2026-09-27T18:25:35Z",
+          "max_match_date": "2025-12-06",
+          "rank": 16,
+          "keeperiq": 69.9,
+          "adj_total_p96": 0.0657
         }
       ],
       "team_stints": [
@@ -435,7 +442,7 @@
     "talent_low": -0.08,
     "talent_high": 0.24,
     "talent_sd": 0.098,
-    "keeperiq": 71.8,
+    "keeperiq": 71.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 15,

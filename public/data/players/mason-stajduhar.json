@@ -3,7 +3,7 @@
   "player_id": "vzqo721jqa",
   "slug": "mason-stajduhar",
   "name": "Mason Stajduhar",
-  "generated_at": "2026-09-27T18:24:26Z",
+  "generated_at": "2026-09-28T20:34:13Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 60.1,
+      "keeperiq": 53.0,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": 0.03,
       "baseline_total_p96": 0.04,
@@ -35,8 +35,8 @@
       "observed_interval_high": null,
       "keeperiq_low": null,
       "keeperiq_high": null,
-      "rank": 20,
-      "rank_observed": 24,
+      "rank": 22,
+      "rank_observed": 25,
       "rank_goals_conceded": 43,
       "rank_pool": null,
       "rank_goals_conceded_pool": null,
@@ -50,18 +50,18 @@
       "xgoals_faced": 2.05,
       "goals_prevented": 0.05,
       "goals_prevented_p96": 0.05,
-      "previous_rank": 21,
-      "rank_change": 1,
-      "keeperiq_change": 6.7,
+      "previous_rank": 20,
+      "rank_change": -2,
+      "keeperiq_change": -7.1,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.077,
-          "adjusted_p96": 0.055,
-          "baseline_p96": 0.054,
+          "adjusted_p96": 0.056,
+          "baseline_p96": 0.055,
           "total": 0.082,
           "raw_total": 0.052,
-          "percentile": 50.8,
-          "observed_percentile": 57.5,
+          "percentile": 50.5,
+          "observed_percentile": 53.8,
           "opportunities": 3,
           "opportunities_p96": 2.82,
           "reliability": 0.011
@@ -72,7 +72,7 @@
           "baseline_p96": -0.015,
           "total": -0.088,
           "raw_total": -0.089,
-          "percentile": 37.2,
+          "percentile": 36.8,
           "observed_percentile": 0.0,
           "opportunities": 1,
           "opportunities_p96": 0.94,
@@ -81,10 +81,10 @@
         "claiming": {
           "observed_p96": 0.011,
           "adjusted_p96": -0.001,
-          "baseline_p96": -0.002,
+          "baseline_p96": -0.001,
           "total": 0.012,
           "raw_total": 0.011,
-          "percentile": 33.0,
+          "percentile": 35.1,
           "observed_percentile": 98.6,
           "opportunities": 2,
           "opportunities_p96": 1.88,
@@ -92,12 +92,12 @@
         },
         "sweeping": {
           "observed_p96": 0.009,
-          "adjusted_p96": 0.004,
-          "baseline_p96": 0.004,
+          "adjusted_p96": 0.005,
+          "baseline_p96": 0.005,
           "total": 0.01,
           "raw_total": 0.009,
-          "percentile": 54.3,
-          "observed_percentile": 63.2,
+          "percentile": 54.0,
+          "observed_percentile": 62.7,
           "opportunities": 1,
           "opportunities_p96": 0.94,
           "reliability": 0.001
@@ -108,8 +108,8 @@
           "baseline_p96": -0.008,
           "total": 0.005,
           "raw_total": 0.069,
-          "percentile": 55.9,
-          "observed_percentile": 82.4,
+          "percentile": 59.7,
+          "observed_percentile": 82.6,
           "opportunities": 33,
           "opportunities_p96": 31.06,
           "reliability": 0.2
@@ -118,10 +118,10 @@
           "observed_p96": 0.01,
           "adjusted_p96": 0.003,
           "baseline_p96": 0.003,
-          "total": 0.011,
+          "total": 0.01,
           "raw_total": 0.005,
-          "percentile": 43.9,
-          "observed_percentile": 79.9,
+          "percentile": 44.3,
+          "observed_percentile": 80.1,
           "opportunities": 17,
           "opportunities_p96": 16.0,
           "reliability": 0.003
@@ -161,7 +161,7 @@
             "claiming": 0.012,
             "sweeping": 0.01,
             "passing": 0.005,
-            "fielding": 0.011
+            "fielding": 0.01
           }
         }
       ],
@@ -264,6 +264,13 @@
           "rank": 21,
           "keeperiq": 53.4,
           "adj_total_p96": 0.0429
+        },
+        {
+          "captured_at": "2026-09-27T18:25:35Z",
+          "max_match_date": "2026-09-27",
+          "rank": 20,
+          "keeperiq": 60.1,
+          "adj_total_p96": 0.0396
         }
       ],
       "team_stints": [
