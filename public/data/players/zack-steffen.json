@@ -3,7 +3,7 @@
   "player_id": "ljqEjOpzQx",
   "slug": "zack-steffen",
   "name": "Zack Steffen",
-  "generated_at": "2026-09-30T19:20:26Z",
+  "generated_at": "2026-10-01T19:32:32Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.12,
       "observed_total_p96": 0.32,
       "baseline_total_p96": 0.05,
-      "adjusted_total": 7.71,
+      "adjusted_total": 7.7,
       "reliability": 0.257,
       "interval_low": -0.03,
       "interval_high": 0.26,
@@ -58,7 +58,7 @@
           "observed_p96": 0.271,
           "adjusted_p96": 0.117,
           "baseline_p96": 0.055,
-          "total": 6.578,
+          "total": 6.577,
           "raw_total": 5.888,
           "percentile": 88.7,
           "observed_percentile": 85.7,
@@ -70,13 +70,13 @@
           "observed_p96": 0.02,
           "adjusted_p96": 0.001,
           "baseline_p96": -0.005,
-          "total": 0.484,
+          "total": 0.483,
           "raw_total": 0.464,
           "percentile": 94.5,
           "observed_percentile": 96.0,
           "opportunities": 92,
           "opportunities_p96": 3.79,
-          "reliability": 0.241
+          "reliability": 0.24
         },
         "claiming": {
           "observed_p96": 0.005,
@@ -106,7 +106,7 @@
           "observed_p96": -0.001,
           "adjusted_p96": -0.002,
           "baseline_p96": -0.004,
-          "total": -0.028,
+          "total": -0.027,
           "raw_total": 1.427,
           "percentile": 66.7,
           "observed_percentile": 66.7,
@@ -118,7 +118,7 @@
           "observed_p96": 0.01,
           "adjusted_p96": 0.002,
           "baseline_p96": 0.001,
-          "total": 0.232,
+          "total": 0.231,
           "raw_total": 0.106,
           "percentile": 60.7,
           "observed_percentile": 88.1,
@@ -1024,7 +1024,7 @@
       "observed_interval_low": -0.52,
       "observed_interval_high": 0.02,
       "keeperiq_low": 0.0,
-      "keeperiq_high": 93.3,
+      "keeperiq_high": 93.4,
       "rank": 48,
       "rank_observed": 42,
       "rank_goals_conceded": 30,
@@ -1042,15 +1042,15 @@
       "goals_prevented_p96": -0.26,
       "previous_rank": 48,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.229,
-          "adjusted_p96": 0.017,
-          "baseline_p96": 0.055,
+          "adjusted_p96": 0.018,
+          "baseline_p96": 0.056,
           "total": -2.231,
           "raw_total": -2.508,
-          "percentile": 20.6,
+          "percentile": 20.7,
           "observed_percentile": 7.7,
           "opportunities": 41,
           "opportunities_p96": 4.2,
@@ -1062,7 +1062,7 @@
           "baseline_p96": -0.015,
           "total": -0.388,
           "raw_total": -0.395,
-          "percentile": 30.4,
+          "percentile": 30.3,
           "observed_percentile": 8.2,
           "opportunities": 27,
           "opportunities_p96": 2.77,
@@ -1075,7 +1075,7 @@
           "total": 0.025,
           "raw_total": 0.021,
           "percentile": 37.5,
-          "observed_percentile": 62.5,
+          "observed_percentile": 62.4,
           "opportunities": 12,
           "opportunities_p96": 1.23,
           "reliability": 0.066
@@ -1086,8 +1086,8 @@
           "baseline_p96": 0.006,
           "total": 0.136,
           "raw_total": 0.125,
-          "percentile": 84.8,
-          "observed_percentile": 73.5,
+          "percentile": 84.7,
+          "observed_percentile": 73.4,
           "opportunities": 29,
           "opportunities_p96": 2.97,
           "reliability": 0.031
@@ -1098,8 +1098,8 @@
           "baseline_p96": -0.009,
           "total": -0.172,
           "raw_total": 0.413,
-          "percentile": 30.9,
-          "observed_percentile": 24.3,
+          "percentile": 30.8,
+          "observed_percentile": 24.2,
           "opportunities": 342,
           "opportunities_p96": 35.04,
           "reliability": 0.721
@@ -1110,8 +1110,8 @@
           "baseline_p96": 0.004,
           "total": 0.069,
           "raw_total": 0.019,
-          "percentile": 72.6,
-          "observed_percentile": 60.5,
+          "percentile": 72.7,
+          "observed_percentile": 63.9,
           "opportunities": 269,
           "opportunities_p96": 27.56,
           "reliability": 0.051
@@ -1123,7 +1123,7 @@
           {
             "component": "sweeping",
             "label": "Sweeping",
-            "percentile": 84.8,
+            "percentile": 84.7,
             "band": "strong",
             "opportunities": 29,
             "text": "Strong sweeping contribution."
@@ -1131,7 +1131,7 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 72.6,
+            "percentile": 72.7,
             "band": "strong",
             "opportunities": 269,
             "text": "Strong fielding contribution."
@@ -1149,7 +1149,7 @@
           {
             "component": "shot_stopping",
             "label": "Shot Stopping",
-            "percentile": 20.6,
+            "percentile": 20.7,
             "band": "weak",
             "opportunities": 41,
             "text": "Shot Stopping contribution below the MLS median."

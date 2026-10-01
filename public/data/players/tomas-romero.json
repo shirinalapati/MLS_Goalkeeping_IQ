@@ -3,7 +3,7 @@
   "player_id": "Oa5wV6LWM1",
   "slug": "tomas-romero",
   "name": "Tomás Romero",
-  "generated_at": "2026-09-30T19:20:26Z",
+  "generated_at": "2026-10-01T19:32:32Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -459,9 +459,9 @@
       "sample_status_label": "Limited Sample",
       "keeperiq": 35.4,
       "adjusted_total_p96": 0.02,
-      "observed_total_p96": -0.89,
+      "observed_total_p96": -0.88,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -0.93,
+      "adjusted_total": -0.92,
       "reliability": 0.016,
       "interval_low": null,
       "interval_high": null,
@@ -487,7 +487,7 @@
       "goals_prevented_p96": -0.8,
       "previous_rank": 36,
       "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.775,
@@ -502,12 +502,12 @@
           "reliability": 0.018
         },
         "handling": {
-          "observed_p96": -0.106,
+          "observed_p96": -0.101,
           "adjusted_p96": -0.016,
           "baseline_p96": -0.015,
-          "total": -0.111,
-          "raw_total": -0.112,
-          "percentile": 36.8,
+          "total": -0.106,
+          "raw_total": -0.106,
+          "percentile": 36.7,
           "observed_percentile": 0.0,
           "opportunities": 3,
           "opportunities_p96": 2.88,
@@ -532,7 +532,7 @@
           "total": 0.01,
           "raw_total": 0.009,
           "percentile": 54.0,
-          "observed_percentile": 62.7,
+          "observed_percentile": 62.6,
           "opportunities": 2,
           "opportunities_p96": 1.92,
           "reliability": 0.002
@@ -543,7 +543,7 @@
           "baseline_p96": -0.008,
           "total": -0.032,
           "raw_total": 0.03,
-          "percentile": 38.4,
+          "percentile": 38.3,
           "observed_percentile": 0.0,
           "opportunities": 28,
           "opportunities_p96": 26.88,
@@ -555,8 +555,8 @@
           "baseline_p96": 0.003,
           "total": 0.001,
           "raw_total": -0.005,
-          "percentile": 45.3,
-          "observed_percentile": 27.7,
+          "percentile": 45.2,
+          "observed_percentile": 27.6,
           "opportunities": 20,
           "opportunities_p96": 19.2,
           "reliability": 0.004
@@ -582,9 +582,9 @@
           "date": "2026-09-26",
           "matchday": 28,
           "minutes": 100.0,
-          "total_ga": -0.926,
-          "total_ga_p96": -0.89,
-          "rolling_total_ga_p96": -0.89,
+          "total_ga": -0.92,
+          "total_ga_p96": -0.88,
+          "rolling_total_ga_p96": -0.88,
           "goals_conceded": 2,
           "shots_faced": 5,
           "saves": 3,
@@ -592,7 +592,7 @@
           "goals_prevented": -0.84,
           "components": {
             "shot_stopping": -0.808,
-            "handling": -0.111,
+            "handling": -0.106,
             "claiming": 0.015,
             "sweeping": 0.01,
             "passing": -0.032,
@@ -605,7 +605,7 @@
           "date": "2026-09-26",
           "matchday": 28,
           "matches_in_window": 1,
-          "rate_p96": -0.89
+          "rate_p96": -0.88
         }
       ],
       "ranking_history": [
@@ -664,7 +664,7 @@
       "live_season": 0.015
     },
     "prior_season_rate": 0.72,
-    "live_season_rate": -0.89,
+    "live_season_rate": -0.88,
     "prior_season_minutes": 330.0,
     "live_season_minutes": 100.0,
     "league_prior_rate": 0.05,

@@ -3,7 +3,7 @@
   "player_id": "jYQJaDwkqG",
   "slug": "damian-las",
   "name": "Damian Las",
-  "generated_at": "2026-09-30T19:20:26Z",
+  "generated_at": "2026-10-01T19:32:32Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -24,14 +24,14 @@
       "sample_status_label": "Limited Sample",
       "keeperiq": 38.7,
       "adjusted_total_p96": 0.02,
-      "observed_total_p96": -0.55,
+      "observed_total_p96": -0.54,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -1.16,
+      "adjusted_total": -1.15,
       "reliability": 0.028,
       "interval_low": -0.14,
       "interval_high": 0.19,
       "interval_se": 0.099,
-      "observed_interval_low": -1.23,
+      "observed_interval_low": -1.22,
       "observed_interval_high": 0.16,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
@@ -67,12 +67,12 @@
           "reliability": 0.042
         },
         "handling": {
-          "observed_p96": -0.161,
-          "adjusted_p96": -0.019,
+          "observed_p96": -0.156,
+          "adjusted_p96": -0.018,
           "baseline_p96": -0.016,
-          "total": -0.341,
-          "raw_total": -0.343,
-          "percentile": 13.0,
+          "total": -0.331,
+          "raw_total": -0.333,
+          "percentile": 19.6,
           "observed_percentile": 0.0,
           "opportunities": 9,
           "opportunities_p96": 4.24,
@@ -97,7 +97,7 @@
           "total": 0.043,
           "raw_total": 0.041,
           "percentile": 54.0,
-          "observed_percentile": 89.1,
+          "observed_percentile": 89.0,
           "opportunities": 3,
           "opportunities_p96": 1.41,
           "reliability": 0.003
@@ -108,8 +108,8 @@
           "baseline_p96": -0.009,
           "total": -0.015,
           "raw_total": 0.113,
-          "percentile": 45.7,
-          "observed_percentile": 48.9,
+          "percentile": 45.6,
+          "observed_percentile": 48.8,
           "opportunities": 81,
           "opportunities_p96": 38.12,
           "reliability": 0.38
@@ -120,7 +120,7 @@
           "baseline_p96": 0.004,
           "total": 0.016,
           "raw_total": 0.005,
-          "percentile": 68.8,
+          "percentile": 68.9,
           "observed_percentile": 69.3,
           "opportunities": 56,
           "opportunities_p96": 26.35,
@@ -169,9 +169,9 @@
           "date": "2026-09-27",
           "matchday": 28,
           "minutes": 104.0,
-          "total_ga": -1.33,
-          "total_ga_p96": -1.23,
-          "rolling_total_ga_p96": -0.55,
+          "total_ga": -1.32,
+          "total_ga_p96": -1.22,
+          "rolling_total_ga_p96": -0.54,
           "goals_conceded": 2,
           "shots_faced": 5,
           "saves": 3,
@@ -179,7 +179,7 @@
           "goals_prevented": -1.19,
           "components": {
             "shot_stopping": -1.157,
-            "handling": -0.226,
+            "handling": -0.216,
             "claiming": 0.001,
             "sweeping": 0.042,
             "passing": -0.0,
@@ -198,7 +198,7 @@
           "date": "2026-09-27",
           "matchday": 28,
           "matches_in_window": 2,
-          "rate_p96": -0.55
+          "rate_p96": -0.54
         }
       ],
       "ranking_history": [
@@ -354,7 +354,7 @@
       "live_season": 0.028
     },
     "prior_season_rate": null,
-    "live_season_rate": -0.55,
+    "live_season_rate": -0.54,
     "prior_season_minutes": 0.0,
     "live_season_minutes": 204.0,
     "league_prior_rate": 0.05,

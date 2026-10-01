@@ -3,7 +3,7 @@
   "player_id": "gOMnRnO8Mw",
   "slug": "thomas-hasal",
   "name": "Thomas Hasal",
-  "generated_at": "2026-09-30T19:20:26Z",
+  "generated_at": "2026-10-01T19:32:32Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -400,7 +400,7 @@
       "appearances": 3,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 28.3,
+      "keeperiq": 28.4,
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -0.65,
       "baseline_total_p96": 0.04,
@@ -430,12 +430,12 @@
       "goals_prevented_p96": -0.48,
       "previous_rank": 42,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.451,
-          "adjusted_p96": 0.037,
-          "baseline_p96": 0.055,
+          "adjusted_p96": 0.038,
+          "baseline_p96": 0.056,
           "total": -1.067,
           "raw_total": -1.135,
           "percentile": 42.2,
@@ -475,7 +475,7 @@
           "total": 0.022,
           "raw_total": 0.019,
           "percentile": 54.0,
-          "observed_percentile": 62.7,
+          "observed_percentile": 62.6,
           "opportunities": 3,
           "opportunities_p96": 1.27,
           "reliability": 0.003
@@ -512,7 +512,7 @@
           {
             "component": "total",
             "label": "Complete impact",
-            "percentile": 28.3,
+            "percentile": 28.4,
             "band": "weak",
             "opportunities": null,
             "text": "Complete impact sits below the MLS median."

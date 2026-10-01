@@ -3,7 +3,7 @@
   "player_id": "jYQJz0RGQG",
   "slug": "cj-dos-santos",
   "name": "CJ dos Santos",
-  "generated_at": "2026-09-30T19:20:26Z",
+  "generated_at": "2026-10-01T19:32:32Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.118,
           "adjusted_p96": 0.071,
           "baseline_p96": 0.046,
-          "total": 3.917,
+          "total": 3.916,
           "raw_total": 2.971,
           "percentile": 72.8,
           "observed_percentile": 70.2,
@@ -70,7 +70,7 @@
           "observed_p96": -0.018,
           "adjusted_p96": -0.007,
           "baseline_p96": -0.004,
-          "total": -0.594,
+          "total": -0.595,
           "raw_total": -0.621,
           "percentile": 11.4,
           "observed_percentile": 12.1,
@@ -194,7 +194,7 @@
           "date": "2025-03-02",
           "matchday": 2,
           "minutes": 98.0,
-          "total_ga": 0.158,
+          "total_ga": 0.157,
           "total_ga_p96": 0.15,
           "rolling_total_ga_p96": 0.48,
           "goals_conceded": 0,
@@ -270,7 +270,7 @@
           "goals_prevented": 0.2,
           "components": {
             "shot_stopping": 0.23,
-            "handling": 0.062,
+            "handling": 0.061,
             "claiming": 0.001,
             "sweeping": 0.076,
             "passing": -0.007,
@@ -313,7 +313,7 @@
           "xgoals_faced": 0.51,
           "goals_prevented": 0.51,
           "components": {
-            "shot_stopping": 0.541,
+            "shot_stopping": 0.54,
             "handling": -0.059,
             "claiming": 0.001,
             "sweeping": 0.032,
@@ -702,7 +702,7 @@
           "minutes": 103.0,
           "total_ga": 0.111,
           "total_ga_p96": 0.1,
-          "rolling_total_ga_p96": 0.11,
+          "rolling_total_ga_p96": 0.1,
           "goals_conceded": 1,
           "shots_faced": 4,
           "saves": 3,
@@ -801,7 +801,7 @@
             "handling": -0.001,
             "claiming": 0.001,
             "sweeping": -0.071,
-            "passing": -0.017,
+            "passing": -0.016,
             "fielding": 0.001
           }
         },
@@ -907,7 +907,7 @@
           "date": "2025-03-30",
           "matchday": 6,
           "matches_in_window": 5,
-          "rate_p96": 0.18
+          "rate_p96": 0.17
         },
         {
           "date": "2025-04-06",
@@ -1267,7 +1267,7 @@
       "interval_high": 0.17,
       "interval_se": 0.083,
       "observed_interval_low": -0.24,
-      "observed_interval_high": 0.24,
+      "observed_interval_high": 0.25,
       "keeperiq_low": 0.0,
       "keeperiq_high": 96.6,
       "rank": 27,
@@ -1290,13 +1290,13 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.101,
+          "observed_p96": 0.1,
           "adjusted_p96": 0.065,
           "baseline_p96": 0.058,
           "total": 1.258,
           "raw_total": 0.903,
-          "percentile": 55.3,
-          "observed_percentile": 58.0,
+          "percentile": 55.4,
+          "observed_percentile": 58.1,
           "opportunities": 59,
           "opportunities_p96": 4.71,
           "reliability": 0.177
@@ -1307,8 +1307,8 @@
           "baseline_p96": -0.016,
           "total": -0.143,
           "raw_total": -0.152,
-          "percentile": 40.9,
-          "observed_percentile": 40.9,
+          "percentile": 40.8,
+          "observed_percentile": 44.0,
           "opportunities": 42,
           "opportunities_p96": 3.35,
           "reliability": 0.126
@@ -1319,8 +1319,8 @@
           "baseline_p96": -0.001,
           "total": -0.138,
           "raw_total": -0.144,
-          "percentile": 20.2,
-          "observed_percentile": 10.2,
+          "percentile": 20.3,
+          "observed_percentile": 10.3,
           "opportunities": 19,
           "opportunities_p96": 1.52,
           "reliability": 0.101
@@ -1332,7 +1332,7 @@
           "total": 0.001,
           "raw_total": -0.012,
           "percentile": 70.8,
-          "observed_percentile": 30.8,
+          "observed_percentile": 30.7,
           "opportunities": 32,
           "opportunities_p96": 2.56,
           "reliability": 0.034
@@ -1343,7 +1343,7 @@
           "baseline_p96": -0.008,
           "total": -0.353,
           "raw_total": 0.397,
-          "percentile": 10.4,
+          "percentile": 10.3,
           "observed_percentile": 4.1,
           "opportunities": 388,
           "opportunities_p96": 30.99,
@@ -1386,7 +1386,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 10.4,
+            "percentile": 10.3,
             "band": "poor",
             "opportunities": 388,
             "text": "Passing contribution well below the MLS median."
@@ -1583,9 +1583,9 @@
           "date": "2026-08-30",
           "matchday": 23,
           "minutes": 103.0,
-          "total_ga": 0.092,
+          "total_ga": 0.091,
           "total_ga_p96": 0.09,
-          "rolling_total_ga_p96": 0.11,
+          "rolling_total_ga_p96": 0.1,
           "goals_conceded": 1,
           "shots_faced": 7,
           "saves": 6,

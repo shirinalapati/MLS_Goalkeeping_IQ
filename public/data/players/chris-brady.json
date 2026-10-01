@@ -3,7 +3,7 @@
   "player_id": "gOMnlA96qw",
   "slug": "chris-brady",
   "name": "Chris Brady",
-  "generated_at": "2026-09-30T19:20:26Z",
+  "generated_at": "2026-10-01T19:32:32Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.129,
           "adjusted_p96": 0.077,
           "baseline_p96": 0.052,
-          "total": 4.038,
+          "total": 4.037,
           "raw_total": 3.15,
           "percentile": 78.0,
           "observed_percentile": 76.2,
@@ -68,9 +68,9 @@
         },
         "handling": {
           "observed_p96": -0.01,
-          "adjusted_p96": -0.005,
+          "adjusted_p96": -0.006,
           "baseline_p96": -0.004,
-          "total": -0.297,
+          "total": -0.298,
           "raw_total": -0.322,
           "percentile": 34.8,
           "observed_percentile": 39.6,
@@ -604,7 +604,7 @@
           "xgoals_faced": 2.62,
           "goals_prevented": -1.38,
           "components": {
-            "shot_stopping": -1.35,
+            "shot_stopping": -1.351,
             "handling": 0.028,
             "claiming": 0.012,
             "sweeping": -0.006,
@@ -648,8 +648,8 @@
           "xgoals_faced": 2.38,
           "goals_prevented": -0.62,
           "components": {
-            "shot_stopping": -0.589,
-            "handling": 0.012,
+            "shot_stopping": -0.59,
+            "handling": 0.011,
             "claiming": 0.001,
             "sweeping": 0.019,
             "passing": -0.06,
@@ -1194,7 +1194,7 @@
       "interval_high": 0.18,
       "interval_se": 0.088,
       "observed_interval_low": -0.23,
-      "observed_interval_high": 0.36,
+      "observed_interval_high": 0.37,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
       "rank": 24,
@@ -1218,9 +1218,9 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.055,
-          "adjusted_p96": 0.054,
-          "baseline_p96": 0.053,
-          "total": 1.447,
+          "adjusted_p96": 0.055,
+          "baseline_p96": 0.054,
+          "total": 1.446,
           "raw_total": 0.695,
           "percentile": 48.9,
           "observed_percentile": 48.9,
@@ -1234,7 +1234,7 @@
           "baseline_p96": -0.014,
           "total": -0.021,
           "raw_total": -0.042,
-          "percentile": 88.5,
+          "percentile": 88.6,
           "observed_percentile": 91.7,
           "opportunities": 68,
           "opportunities_p96": 2.57,
@@ -1246,8 +1246,8 @@
           "baseline_p96": -0.001,
           "total": -0.254,
           "raw_total": -0.267,
-          "percentile": 11.1,
-          "observed_percentile": 18.0,
+          "percentile": 11.2,
+          "observed_percentile": 18.1,
           "opportunities": 40,
           "opportunities_p96": 1.51,
           "reliability": 0.191
@@ -1259,7 +1259,7 @@
           "total": 0.468,
           "raw_total": 0.439,
           "percentile": 36.5,
-          "observed_percentile": 82.6,
+          "observed_percentile": 82.5,
           "opportunities": 31,
           "opportunities_p96": 1.17,
           "reliability": 0.033
@@ -1270,8 +1270,8 @@
           "baseline_p96": -0.009,
           "total": -0.205,
           "raw_total": 1.378,
-          "percentile": 47.3,
-          "observed_percentile": 47.3,
+          "percentile": 47.2,
+          "observed_percentile": 47.2,
           "opportunities": 878,
           "opportunities_p96": 33.21,
           "reliability": 0.869
@@ -1282,8 +1282,8 @@
           "baseline_p96": 0.003,
           "total": -0.025,
           "raw_total": -0.161,
-          "percentile": 36.3,
-          "observed_percentile": 23.8,
+          "percentile": 35.4,
+          "observed_percentile": 20.2,
           "opportunities": 579,
           "opportunities_p96": 21.9,
           "reliability": 0.104
@@ -1295,7 +1295,7 @@
           {
             "component": "handling",
             "label": "Handling",
-            "percentile": 88.5,
+            "percentile": 88.6,
             "band": "elite",
             "opportunities": 68,
             "text": "Elite adjusted handling percentile."
@@ -1305,7 +1305,7 @@
           {
             "component": "claiming",
             "label": "Claiming",
-            "percentile": 11.1,
+            "percentile": 11.2,
             "band": "poor",
             "opportunities": 40,
             "text": "Claiming contribution well below the MLS median."
@@ -2209,7 +2209,7 @@
     "talent_low": -0.05,
     "talent_high": 0.18,
     "talent_sd": 0.072,
-    "keeperiq": 60.2,
+    "keeperiq": 60.3,
     "keeperiq_low": 2.7,
     "keeperiq_high": 97.7,
     "rank": 21,
