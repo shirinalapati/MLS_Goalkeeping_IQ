@@ -3,7 +3,7 @@
   "player_id": "gOMnRnO8Mw",
   "slug": "thomas-hasal",
   "name": "Thomas Hasal",
-  "generated_at": "2026-10-01T19:32:32Z",
+  "generated_at": "2026-10-02T19:18:44Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -370,6 +370,13 @@
           "rank": 57,
           "keeperiq": 19.0,
           "adj_total_p96": 0.0045
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2025-12-06",
+          "rank": 57,
+          "keeperiq": 19.0,
+          "adj_total_p96": 0.0045
         }
       ],
       "team_stints": [
@@ -400,20 +407,20 @@
       "appearances": 3,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 28.4,
+      "keeperiq": 30.6,
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -0.65,
       "baseline_total_p96": 0.04,
       "adjusted_total": -1.54,
       "reliability": 0.051,
-      "interval_low": -0.16,
+      "interval_low": -0.15,
       "interval_high": 0.17,
       "interval_se": 0.099,
       "observed_interval_low": -1.38,
       "observed_interval_high": 0.11,
       "keeperiq_low": 0.0,
       "keeperiq_high": 96.6,
-      "rank": 42,
+      "rank": 41,
       "rank_observed": 50,
       "rank_goals_conceded": 18,
       "rank_pool": null,
@@ -429,14 +436,14 @@
       "goals_prevented": -1.13,
       "goals_prevented_p96": -0.48,
       "previous_rank": 42,
-      "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "rank_change": 1,
+      "keeperiq_change": 2.2,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.451,
-          "adjusted_p96": 0.038,
-          "baseline_p96": 0.056,
-          "total": -1.067,
+          "observed_p96": -0.452,
+          "adjusted_p96": 0.039,
+          "baseline_p96": 0.057,
+          "total": -1.068,
           "raw_total": -1.135,
           "percentile": 42.2,
           "observed_percentile": 1.1,
@@ -462,8 +469,8 @@
           "baseline_p96": -0.001,
           "total": 0.003,
           "raw_total": 0.002,
-          "percentile": 35.1,
-          "observed_percentile": 39.1,
+          "percentile": 35.3,
+          "observed_percentile": 39.3,
           "opportunities": 2,
           "opportunities_p96": 0.85,
           "reliability": 0.012
@@ -474,8 +481,8 @@
           "baseline_p96": 0.005,
           "total": 0.022,
           "raw_total": 0.019,
-          "percentile": 54.0,
-          "observed_percentile": 62.6,
+          "percentile": 53.9,
+          "observed_percentile": 62.7,
           "opportunities": 3,
           "opportunities_p96": 1.27,
           "reliability": 0.003
@@ -486,7 +493,7 @@
           "baseline_p96": -0.006,
           "total": -0.082,
           "raw_total": 0.06,
-          "percentile": 23.7,
+          "percentile": 23.6,
           "observed_percentile": 0.0,
           "opportunities": 33,
           "opportunities_p96": 13.96,
@@ -510,17 +517,9 @@
         "strengths": [],
         "concerns": [
           {
-            "component": "total",
-            "label": "Complete impact",
-            "percentile": 28.4,
-            "band": "weak",
-            "opportunities": null,
-            "text": "Complete impact sits below the MLS median."
-          },
-          {
             "component": "passing",
             "label": "Passing",
-            "percentile": 23.7,
+            "percentile": 23.6,
             "band": "weak",
             "opportunities": 33,
             "text": "Passing contribution below the MLS median."
@@ -594,7 +593,7 @@
           "xgoals_faced": 0.54,
           "goals_prevented": 0.54,
           "components": {
-            "shot_stopping": 0.571,
+            "shot_stopping": 0.57,
             "handling": -0.417,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -784,6 +783,13 @@
           "rank": 42,
           "keeperiq": 28.3,
           "adj_total_p96": 0.0073
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2026-09-30",
+          "rank": 42,
+          "keeperiq": 28.4,
+          "adj_total_p96": 0.0078
         }
       ],
       "team_stints": [
@@ -816,7 +822,7 @@
     "talent_low": -0.17,
     "talent_high": 0.15,
     "talent_sd": 0.097,
-    "keeperiq": 15.4,
+    "keeperiq": 15.3,
     "keeperiq_low": 0.0,
     "keeperiq_high": 96.1,
     "rank": 67,

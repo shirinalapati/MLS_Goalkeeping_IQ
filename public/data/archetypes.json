@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-10-01T19:32:32Z",
+  "generated_at": "2026-10-02T19:18:44Z",
   "methodology_version": "1.0.0",
   "default_season": 2025,
   "seasons": {
@@ -418,7 +418,7 @@
           "cluster_id": 1,
           "label": "High-Volume Shot Stopper",
           "keeperiq": 68.5,
-          "adjusted_total_p96": 0.07,
+          "adjusted_total_p96": 0.06,
           "minutes": 2999.0,
           "involvement": {
             "shot_stopping": 4.74,
@@ -570,7 +570,7 @@
           "cluster_id": 1,
           "label": "High-Volume Shot Stopper",
           "keeperiq": 13.5,
-          "adjusted_total_p96": 0.0,
+          "adjusted_total_p96": -0.0,
           "minutes": 2342.0,
           "involvement": {
             "shot_stopping": 5.0,
@@ -874,98 +874,98 @@
       "profiles": [
         {
           "cluster_id": 0,
+          "label": "Low-Involvement Keeper",
+          "description": "Below-average involvement across most dimensions, typically behind a controlling side.",
+          "size": 11,
+          "distinctive_variables": [],
+          "centroid": {
+            "claiming_actions_p96": -0.36,
+            "sweeping_actions_p96": -0.485,
+            "passing_actions_p96": -0.889,
+            "fielding_actions_p96": -0.776,
+            "handling_actions_p96": -0.446,
+            "shot_stopping_actions_p96": -0.433
+          },
+          "centroid_raw": {
+            "claiming_actions_p96": 1.0,
+            "sweeping_actions_p96": 1.59,
+            "passing_actions_p96": 28.43,
+            "fielding_actions_p96": 17.56,
+            "handling_actions_p96": 2.73,
+            "shot_stopping_actions_p96": 4.15
+          },
+          "median_keeperiq": 48.0
+        },
+        {
+          "cluster_id": 1,
           "label": "Sweeper-Keeper Receiver",
           "description": "Receives and secures loose balls and back-passes very frequently.",
-          "size": 10,
+          "size": 11,
           "distinctive_variables": [
             "fielding_actions_p96",
             "passing_actions_p96",
             "sweeping_actions_p96"
           ],
           "centroid": {
-            "claiming_actions_p96": -0.368,
-            "sweeping_actions_p96": 0.622,
-            "passing_actions_p96": 1.041,
-            "fielding_actions_p96": 1.24,
-            "handling_actions_p96": -0.801,
-            "shot_stopping_actions_p96": -0.826
+            "claiming_actions_p96": -0.455,
+            "sweeping_actions_p96": 0.674,
+            "passing_actions_p96": 0.936,
+            "fielding_actions_p96": 1.14,
+            "handling_actions_p96": -0.744,
+            "shot_stopping_actions_p96": -0.71
           },
           "centroid_raw": {
-            "claiming_actions_p96": 1.0,
-            "sweeping_actions_p96": 2.31,
-            "passing_actions_p96": 35.76,
-            "fielding_actions_p96": 29.5,
-            "handling_actions_p96": 2.51,
-            "shot_stopping_actions_p96": 3.83
+            "claiming_actions_p96": 0.97,
+            "sweeping_actions_p96": 2.34,
+            "passing_actions_p96": 35.36,
+            "fielding_actions_p96": 28.92,
+            "handling_actions_p96": 2.55,
+            "shot_stopping_actions_p96": 3.93
           },
-          "median_keeperiq": 35.4
-        },
-        {
-          "cluster_id": 1,
-          "label": "Low-Involvement Keeper",
-          "description": "Below-average involvement across most dimensions, typically behind a controlling side.",
-          "size": 13,
-          "distinctive_variables": [],
-          "centroid": {
-            "claiming_actions_p96": -0.471,
-            "sweeping_actions_p96": -0.394,
-            "passing_actions_p96": -0.768,
-            "fielding_actions_p96": -0.659,
-            "handling_actions_p96": -0.345,
-            "shot_stopping_actions_p96": -0.246
-          },
-          "centroid_raw": {
-            "claiming_actions_p96": 0.96,
-            "sweeping_actions_p96": 1.65,
-            "passing_actions_p96": 28.87,
-            "fielding_actions_p96": 18.22,
-            "handling_actions_p96": 2.78,
-            "shot_stopping_actions_p96": 4.3
-          },
-          "median_keeperiq": 43.0
+          "median_keeperiq": 33.7
         },
         {
           "cluster_id": 2,
           "label": "Busy Handler",
           "description": "Deals with a high rate of post-shot situations, parries, and rebounds.",
-          "size": 12,
+          "size": 13,
           "distinctive_variables": [
             "handling_actions_p96",
             "shot_stopping_actions_p96",
             "claiming_actions_p96"
           ],
           "centroid": {
-            "claiming_actions_p96": 0.817,
-            "sweeping_actions_p96": -0.092,
-            "passing_actions_p96": -0.036,
-            "fielding_actions_p96": -0.319,
-            "handling_actions_p96": 1.041,
-            "shot_stopping_actions_p96": 0.954
+            "claiming_actions_p96": 0.69,
+            "sweeping_actions_p96": -0.16,
+            "passing_actions_p96": -0.039,
+            "fielding_actions_p96": -0.309,
+            "handling_actions_p96": 1.007,
+            "shot_stopping_actions_p96": 0.967
           },
           "centroid_raw": {
-            "claiming_actions_p96": 1.38,
-            "sweeping_actions_p96": 1.84,
+            "claiming_actions_p96": 1.34,
+            "sweeping_actions_p96": 1.8,
             "passing_actions_p96": 31.66,
-            "fielding_actions_p96": 20.24,
-            "handling_actions_p96": 3.61,
-            "shot_stopping_actions_p96": 5.25
+            "fielding_actions_p96": 20.33,
+            "handling_actions_p96": 3.6,
+            "shot_stopping_actions_p96": 5.27
           },
-          "median_keeperiq": 69.1
+          "median_keeperiq": 67.8
         }
       ],
       "diagnostics": {
         "chosen_k": 3,
         "silhouette_scores": {
-          "3": 0.2331,
-          "4": 0.218,
-          "5": 0.1948,
-          "6": 0.2074
+          "3": 0.2424,
+          "4": 0.2212,
+          "5": 0.232,
+          "6": 0.2031
         },
         "inertia": {
-          "3": 111.5084,
-          "4": 94.8762,
-          "5": 82.8308,
-          "6": 70.9458
+          "3": 110.4847,
+          "4": 94.0093,
+          "5": 81.8437,
+          "6": 70.9121
         },
         "variables": [
           "claiming_actions_p96",
@@ -982,201 +982,11 @@
       },
       "members": [
         {
-          "player_id": "jYQJagNWqG",
-          "slug": "brian-schwake",
-          "name": "Brian Schwake",
-          "team": "Nashville SC",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 91.7,
-          "adjusted_total_p96": 0.13,
-          "minutes": 2639.0,
-          "involvement": {
-            "shot_stopping": 3.27,
-            "handling": 2.55,
-            "claiming": 1.2,
-            "sweeping": 2.07,
-            "passing": 33.61,
-            "fielding": 26.37
-          }
-        },
-        {
-          "player_id": "7VqG07YAQv",
-          "slug": "yohei-takaoka",
-          "name": "Yohei Takaoka",
-          "team": "Vancouver Whitecaps FC",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 80.1,
-          "adjusted_total_p96": 0.09,
-          "minutes": 2511.0,
-          "involvement": {
-            "shot_stopping": 2.79,
-            "handling": 1.87,
-            "claiming": 0.73,
-            "sweeping": 2.29,
-            "passing": 33.76,
-            "fielding": 31.73
-          }
-        },
-        {
-          "player_id": "KAqBgD4Qbg",
-          "slug": "jonathan-bond",
-          "name": "Jonathan Bond",
-          "team": "Houston Dynamo FC",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 51.3,
-          "adjusted_total_p96": 0.04,
-          "minutes": 2723.0,
-          "involvement": {
-            "shot_stopping": 3.35,
-            "handling": 2.33,
-            "claiming": 1.23,
-            "sweeping": 1.62,
-            "passing": 32.51,
-            "fielding": 27.22
-          }
-        },
-        {
-          "player_id": "zeQZJYDZQK",
-          "slug": "lucas-hoyos",
-          "name": "Lucas Hoyos",
-          "team": "Atlanta United FC",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 40.5,
-          "adjusted_total_p96": 0.03,
-          "minutes": 2758.0,
-          "involvement": {
-            "shot_stopping": 3.86,
-            "handling": 2.33,
-            "claiming": 1.29,
-            "sweeping": 2.09,
-            "passing": 35.85,
-            "fielding": 28.75
-          }
-        },
-        {
-          "player_id": "p6qb4pwM0G",
-          "slug": "rafael-cabral",
-          "name": "Rafael Cabral",
-          "team": "Real Salt Lake",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 37.1,
-          "adjusted_total_p96": 0.02,
-          "minutes": 2637.0,
-          "involvement": {
-            "shot_stopping": 4.11,
-            "handling": 2.62,
-            "claiming": 0.69,
-            "sweeping": 1.82,
-            "passing": 38.3,
-            "fielding": 32.0
-          }
-        },
-        {
-          "player_id": "kRQaonbo5K",
-          "slug": "patrick-schulte",
-          "name": "Patrick Schulte",
-          "team": "Columbus Crew",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 33.7,
-          "adjusted_total_p96": 0.02,
-          "minutes": 2778.0,
-          "involvement": {
-            "shot_stopping": 4.15,
-            "handling": 2.66,
-            "claiming": 0.52,
-            "sweeping": 1.38,
-            "passing": 35.21,
-            "fielding": 29.37
-          }
-        },
-        {
-          "player_id": "N6MmeEN0ME",
-          "slug": "nico-hansen",
-          "name": "Nico Hansen",
-          "team": "Colorado Rapids",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 24.2,
-          "adjusted_total_p96": 0.01,
-          "minutes": 1608.0,
-          "involvement": {
-            "shot_stopping": 3.76,
-            "handling": 2.63,
-            "claiming": 1.19,
-            "sweeping": 3.58,
-            "passing": 38.69,
-            "fielding": 32.12
-          }
-        },
-        {
-          "player_id": "BLMv64wlMx",
-          "slug": "duran-michael-ferree",
-          "name": "Duran Michael Ferree",
-          "team": "San Diego FC",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 22.3,
-          "adjusted_total_p96": 0.0,
-          "minutes": 1453.0,
-          "involvement": {
-            "shot_stopping": 4.62,
-            "handling": 2.91,
-            "claiming": 1.06,
-            "sweeping": 2.58,
-            "passing": 41.03,
-            "fielding": 34.49
-          }
-        },
-        {
-          "player_id": "ljqEjOpzQx",
-          "slug": "zack-steffen",
-          "name": "Zack Steffen",
-          "team": "Colorado Rapids",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 17.6,
-          "adjusted_total_p96": -0.0,
-          "minutes": 937.0,
-          "involvement": {
-            "shot_stopping": 4.2,
-            "handling": 2.77,
-            "claiming": 1.23,
-            "sweeping": 2.97,
-            "passing": 35.04,
-            "fielding": 27.56
-          }
-        },
-        {
-          "player_id": "kRQa2LebMK",
-          "slug": "dayne-st-clair",
-          "name": "Dayne St. Clair",
-          "team": "Inter Miami CF",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 8.1,
-          "adjusted_total_p96": -0.03,
-          "minutes": 2165.0,
-          "involvement": {
-            "shot_stopping": 4.21,
-            "handling": 2.44,
-            "claiming": 0.84,
-            "sweeping": 2.66,
-            "passing": 33.61,
-            "fielding": 25.36
-          }
-        },
-        {
           "player_id": "NPqxeGOZQ9",
           "slug": "daniel",
           "name": "Daniel",
           "team": "FC Dallas",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
           "keeperiq": 82.8,
           "adjusted_total_p96": 0.11,
@@ -1195,7 +1005,7 @@
           "slug": "hugo-lloris",
           "name": "Hugo Lloris",
           "team": "Los Angeles FC",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
           "keeperiq": 77.0,
           "adjusted_total_p96": 0.08,
@@ -1214,9 +1024,9 @@
           "slug": "drake-callender",
           "name": "Drake Callender",
           "team": "Minnesota United FC",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
-          "keeperiq": 65.5,
+          "keeperiq": 61.2,
           "adjusted_total_p96": 0.05,
           "minutes": 2680.0,
           "involvement": {
@@ -1233,7 +1043,7 @@
           "slug": "matt-freese",
           "name": "Matt Freese",
           "team": "New York City FC",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
           "keeperiq": 57.9,
           "adjusted_total_p96": 0.05,
@@ -1252,7 +1062,7 @@
           "slug": "sean-johnson",
           "name": "Sean Johnson",
           "team": "D.C. United",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
           "keeperiq": 54.6,
           "adjusted_total_p96": 0.04,
@@ -1271,7 +1081,7 @@
           "slug": "chris-brady",
           "name": "Chris Brady",
           "team": "Chicago Fire FC",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
           "keeperiq": 48.0,
           "adjusted_total_p96": 0.04,
@@ -1290,7 +1100,7 @@
           "slug": "michael-collodi",
           "name": "Michael Collodi",
           "team": "FC Dallas",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
           "keeperiq": 43.0,
           "adjusted_total_p96": 0.03,
@@ -1305,60 +1115,22 @@
           }
         },
         {
-          "player_id": "2vQ1LyOKqr",
-          "slug": "angus-gunn",
-          "name": "Angus Gunn",
-          "team": "San Jose Earthquakes",
-          "cluster_id": 1,
-          "label": "Low-Involvement Keeper",
-          "keeperiq": 31.2,
-          "adjusted_total_p96": 0.01,
-          "minutes": 1117.0,
-          "involvement": {
-            "shot_stopping": 4.9,
-            "handling": 2.92,
-            "claiming": 0.69,
-            "sweeping": 2.66,
-            "passing": 31.37,
-            "fielding": 23.12
-          }
-        },
-        {
-          "player_id": "gjMNRZE3MK",
-          "slug": "stefan-cleveland",
-          "name": "Stefan Cleveland",
-          "team": "Sporting Kansas City",
-          "cluster_id": 1,
-          "label": "Low-Involvement Keeper",
-          "keeperiq": 29.5,
-          "adjusted_total_p96": 0.01,
-          "minutes": 1715.0,
-          "involvement": {
-            "shot_stopping": 5.26,
-            "handling": 3.25,
-            "claiming": 0.84,
-            "sweeping": 1.34,
-            "passing": 31.23,
-            "fielding": 20.6
-          }
-        },
-        {
           "player_id": "BLMva87Qxe",
           "slug": "roman-burki",
           "name": "Roman Bürki",
           "team": "St. Louis City SC",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
-          "keeperiq": 26.8,
+          "keeperiq": 26.7,
           "adjusted_total_p96": 0.01,
           "minutes": 2529.0,
           "involvement": {
             "shot_stopping": 3.61,
             "handling": 2.32,
             "claiming": 0.76,
-            "sweeping": 1.25,
+            "sweeping": 1.29,
             "passing": 30.9,
-            "fielding": 24.9
+            "fielding": 24.94
           }
         },
         {
@@ -1366,10 +1138,10 @@
           "slug": "andre-blake",
           "name": "Andre Blake",
           "team": "Philadelphia Union",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
-          "keeperiq": 19.8,
-          "adjusted_total_p96": -0.0,
+          "keeperiq": 19.7,
+          "adjusted_total_p96": 0.0,
           "minutes": 2574.0,
           "involvement": {
             "shot_stopping": 3.28,
@@ -1385,7 +1157,7 @@
           "slug": "roman-celentano",
           "name": "Roman Celentano",
           "team": "FC Cincinnati",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
           "keeperiq": 4.0,
           "adjusted_total_p96": -0.05,
@@ -1404,7 +1176,7 @@
           "slug": "thomas-gillier",
           "name": "Thomas Gillier",
           "team": "CF Montréal",
-          "cluster_id": 1,
+          "cluster_id": 0,
           "label": "Low-Involvement Keeper",
           "keeperiq": 1.2,
           "adjusted_total_p96": -0.08,
@@ -1416,6 +1188,215 @@
             "sweeping": 1.87,
             "passing": 27.51,
             "fielding": 18.99
+          }
+        },
+        {
+          "player_id": "jYQJagNWqG",
+          "slug": "brian-schwake",
+          "name": "Brian Schwake",
+          "team": "Nashville SC",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 88.3,
+          "adjusted_total_p96": 0.13,
+          "minutes": 2639.0,
+          "involvement": {
+            "shot_stopping": 3.27,
+            "handling": 2.55,
+            "claiming": 1.2,
+            "sweeping": 2.07,
+            "passing": 33.61,
+            "fielding": 26.37
+          }
+        },
+        {
+          "player_id": "7VqG07YAQv",
+          "slug": "yohei-takaoka",
+          "name": "Yohei Takaoka",
+          "team": "Vancouver Whitecaps FC",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 80.0,
+          "adjusted_total_p96": 0.09,
+          "minutes": 2511.0,
+          "involvement": {
+            "shot_stopping": 2.79,
+            "handling": 1.87,
+            "claiming": 0.73,
+            "sweeping": 2.29,
+            "passing": 33.76,
+            "fielding": 31.73
+          }
+        },
+        {
+          "player_id": "KAqBgD4Qbg",
+          "slug": "jonathan-bond",
+          "name": "Jonathan Bond",
+          "team": "Houston Dynamo FC",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 51.3,
+          "adjusted_total_p96": 0.04,
+          "minutes": 2723.0,
+          "involvement": {
+            "shot_stopping": 3.35,
+            "handling": 2.33,
+            "claiming": 1.23,
+            "sweeping": 1.62,
+            "passing": 32.51,
+            "fielding": 27.22
+          }
+        },
+        {
+          "player_id": "zeQZJYDZQK",
+          "slug": "lucas-hoyos",
+          "name": "Lucas Hoyos",
+          "team": "Atlanta United FC",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 40.5,
+          "adjusted_total_p96": 0.03,
+          "minutes": 2758.0,
+          "involvement": {
+            "shot_stopping": 3.86,
+            "handling": 2.33,
+            "claiming": 1.29,
+            "sweeping": 2.09,
+            "passing": 35.85,
+            "fielding": 28.75
+          }
+        },
+        {
+          "player_id": "p6qb4pwM0G",
+          "slug": "rafael-cabral",
+          "name": "Rafael Cabral",
+          "team": "Real Salt Lake",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 37.1,
+          "adjusted_total_p96": 0.02,
+          "minutes": 2637.0,
+          "involvement": {
+            "shot_stopping": 4.11,
+            "handling": 2.62,
+            "claiming": 0.69,
+            "sweeping": 1.82,
+            "passing": 38.3,
+            "fielding": 32.0
+          }
+        },
+        {
+          "player_id": "kRQaonbo5K",
+          "slug": "patrick-schulte",
+          "name": "Patrick Schulte",
+          "team": "Columbus Crew",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 33.7,
+          "adjusted_total_p96": 0.02,
+          "minutes": 2778.0,
+          "involvement": {
+            "shot_stopping": 4.15,
+            "handling": 2.66,
+            "claiming": 0.52,
+            "sweeping": 1.38,
+            "passing": 35.21,
+            "fielding": 29.37
+          }
+        },
+        {
+          "player_id": "2vQ1LyOKqr",
+          "slug": "angus-gunn",
+          "name": "Angus Gunn",
+          "team": "San Jose Earthquakes",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 31.3,
+          "adjusted_total_p96": 0.01,
+          "minutes": 1117.0,
+          "involvement": {
+            "shot_stopping": 4.9,
+            "handling": 2.92,
+            "claiming": 0.69,
+            "sweeping": 2.66,
+            "passing": 31.37,
+            "fielding": 23.12
+          }
+        },
+        {
+          "player_id": "N6MmeEN0ME",
+          "slug": "nico-hansen",
+          "name": "Nico Hansen",
+          "team": "Colorado Rapids",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 24.1,
+          "adjusted_total_p96": 0.01,
+          "minutes": 1608.0,
+          "involvement": {
+            "shot_stopping": 3.76,
+            "handling": 2.63,
+            "claiming": 1.19,
+            "sweeping": 3.58,
+            "passing": 38.69,
+            "fielding": 32.12
+          }
+        },
+        {
+          "player_id": "BLMv64wlMx",
+          "slug": "duran-michael-ferree",
+          "name": "Duran Michael Ferree",
+          "team": "San Diego FC",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 22.2,
+          "adjusted_total_p96": 0.0,
+          "minutes": 1453.0,
+          "involvement": {
+            "shot_stopping": 4.62,
+            "handling": 2.91,
+            "claiming": 1.06,
+            "sweeping": 2.58,
+            "passing": 41.03,
+            "fielding": 34.49
+          }
+        },
+        {
+          "player_id": "ljqEjOpzQx",
+          "slug": "zack-steffen",
+          "name": "Zack Steffen",
+          "team": "Colorado Rapids",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 17.5,
+          "adjusted_total_p96": -0.0,
+          "minutes": 937.0,
+          "involvement": {
+            "shot_stopping": 4.2,
+            "handling": 2.77,
+            "claiming": 1.23,
+            "sweeping": 2.97,
+            "passing": 35.04,
+            "fielding": 27.56
+          }
+        },
+        {
+          "player_id": "kRQa2LebMK",
+          "slug": "dayne-st-clair",
+          "name": "Dayne St. Clair",
+          "team": "Inter Miami CF",
+          "cluster_id": 1,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 8.0,
+          "adjusted_total_p96": -0.03,
+          "minutes": 2165.0,
+          "involvement": {
+            "shot_stopping": 4.21,
+            "handling": 2.44,
+            "claiming": 0.84,
+            "sweeping": 2.66,
+            "passing": 33.61,
+            "fielding": 25.36
           }
         },
         {
@@ -1457,13 +1438,32 @@
           }
         },
         {
+          "player_id": "7vQ7rKGYqD",
+          "slug": "andrew-thomas",
+          "name": "Andrew Thomas",
+          "team": "Seattle Sounders FC",
+          "cluster_id": 2,
+          "label": "Busy Handler",
+          "keeperiq": 91.7,
+          "adjusted_total_p96": 0.14,
+          "minutes": 2714.0,
+          "involvement": {
+            "shot_stopping": 4.88,
+            "handling": 3.64,
+            "claiming": 1.8,
+            "sweeping": 1.8,
+            "passing": 29.78,
+            "fielding": 19.35
+          }
+        },
+        {
           "player_id": "ljqE2keVQx",
           "slug": "jt-marcinkowski",
           "name": "JT Marcinkowski",
           "team": "LA Galaxy",
           "cluster_id": 2,
           "label": "Busy Handler",
-          "keeperiq": 88.7,
+          "keeperiq": 85.3,
           "adjusted_total_p96": 0.13,
           "minutes": 2213.0,
           "involvement": {
@@ -1476,32 +1476,13 @@
           }
         },
         {
-          "player_id": "7vQ7rKGYqD",
-          "slug": "andrew-thomas",
-          "name": "Andrew Thomas",
-          "team": "Seattle Sounders FC",
-          "cluster_id": 2,
-          "label": "Busy Handler",
-          "keeperiq": 85.6,
-          "adjusted_total_p96": 0.12,
-          "minutes": 2617.0,
-          "involvement": {
-            "shot_stopping": 4.7,
-            "handling": 3.45,
-            "claiming": 1.8,
-            "sweeping": 1.83,
-            "passing": 29.2,
-            "fielding": 18.56
-          }
-        },
-        {
           "player_id": "gOMnRzymMw",
           "slug": "james-pantemis",
           "name": "James Pantemis",
           "team": "Portland Timbers FC",
           "cluster_id": 2,
           "label": "Busy Handler",
-          "keeperiq": 73.8,
+          "keeperiq": 73.7,
           "adjusted_total_p96": 0.07,
           "minutes": 2773.0,
           "involvement": {
@@ -1539,7 +1520,7 @@
           "team": "FC Dallas",
           "cluster_id": 2,
           "label": "Busy Handler",
-          "keeperiq": 67.9,
+          "keeperiq": 67.8,
           "adjusted_total_p96": 0.06,
           "minutes": 1109.0,
           "involvement": {
@@ -1558,7 +1539,7 @@
           "team": "New York Red Bulls",
           "cluster_id": 2,
           "label": "Busy Handler",
-          "keeperiq": 61.3,
+          "keeperiq": 65.4,
           "adjusted_total_p96": 0.05,
           "minutes": 2731.0,
           "involvement": {
@@ -1590,6 +1571,25 @@
           }
         },
         {
+          "player_id": "gjMNRZE3MK",
+          "slug": "stefan-cleveland",
+          "name": "Stefan Cleveland",
+          "team": "Sporting Kansas City",
+          "cluster_id": 2,
+          "label": "Busy Handler",
+          "keeperiq": 29.5,
+          "adjusted_total_p96": 0.01,
+          "minutes": 1812.0,
+          "involvement": {
+            "shot_stopping": 5.35,
+            "handling": 3.34,
+            "claiming": 0.85,
+            "sweeping": 1.27,
+            "passing": 31.05,
+            "fielding": 20.61
+          }
+        },
+        {
           "player_id": "wvq9XwJ35W",
           "slug": "luka-gavran",
           "name": "Luka Gavran",
@@ -1615,7 +1615,7 @@
           "team": "Orlando City SC",
           "cluster_id": 2,
           "label": "Busy Handler",
-          "keeperiq": 11.9,
+          "keeperiq": 11.8,
           "adjusted_total_p96": -0.01,
           "minutes": 2598.0,
           "involvement": {

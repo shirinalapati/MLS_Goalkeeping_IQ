@@ -3,7 +3,7 @@
   "player_id": "4JMAk3z9qK",
   "slug": "thomas-gillier",
   "name": "Thomas Gillier",
-  "generated_at": "2026-10-01T19:32:32Z",
+  "generated_at": "2026-10-02T19:18:44Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -56,9 +56,9 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.125,
-          "adjusted_p96": 0.059,
+          "adjusted_p96": 0.058,
           "baseline_p96": 0.05,
-          "total": 1.065,
+          "total": 1.064,
           "raw_total": 0.824,
           "percentile": 59.0,
           "observed_percentile": 74.3,
@@ -82,7 +82,7 @@
           "observed_p96": 0.017,
           "adjusted_p96": 0.002,
           "baseline_p96": 0.001,
-          "total": 0.142,
+          "total": 0.141,
           "raw_total": 0.138,
           "percentile": 84.0,
           "observed_percentile": 99.6,
@@ -186,7 +186,7 @@
           "date": "2025-08-16",
           "matchday": 28,
           "minutes": 98.0,
-          "total_ga": -0.41,
+          "total_ga": -0.411,
           "total_ga_p96": -0.4,
           "rolling_total_ga_p96": 0.24,
           "goals_conceded": 1,
@@ -261,7 +261,7 @@
           "xgoals_faced": 1.91,
           "goals_prevented": -0.09,
           "components": {
-            "shot_stopping": -0.059,
+            "shot_stopping": -0.06,
             "handling": 0.044,
             "claiming": 0.059,
             "sweeping": -0.009,
@@ -547,6 +547,13 @@
           "rank": 22,
           "keeperiq": 60.2,
           "adj_total_p96": 0.0559
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2025-12-06",
+          "rank": 22,
+          "keeperiq": 60.2,
+          "adj_total_p96": 0.0558
         }
       ],
       "team_stints": [
@@ -611,9 +618,9 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.366,
-          "adjusted_p96": -0.048,
-          "baseline_p96": 0.058,
-          "total": -7.438,
+          "adjusted_p96": -0.047,
+          "baseline_p96": 0.06,
+          "total": -7.441,
           "raw_total": -8.015,
           "percentile": 1.2,
           "observed_percentile": 3.2,
@@ -623,7 +630,7 @@
         },
         "handling": {
           "observed_p96": -0.001,
-          "adjusted_p96": -0.013,
+          "adjusted_p96": -0.012,
           "baseline_p96": -0.015,
           "total": -0.016,
           "raw_total": -0.032,
@@ -639,7 +646,7 @@
           "baseline_p96": -0.001,
           "total": 0.07,
           "raw_total": 0.06,
-          "percentile": 52.5,
+          "percentile": 52.6,
           "observed_percentile": 68.8,
           "opportunities": 23,
           "opportunities_p96": 1.13,
@@ -664,7 +671,7 @@
           "total": -0.556,
           "raw_total": 0.661,
           "percentile": 6.5,
-          "observed_percentile": 9.9,
+          "observed_percentile": 9.8,
           "opportunities": 559,
           "opportunities_p96": 27.51,
           "reliability": 0.809
@@ -801,8 +808,8 @@
           "date": "2026-03-14",
           "matchday": 4,
           "minutes": 105.0,
-          "total_ga": -0.18,
-          "total_ga_p96": -0.16,
+          "total_ga": -0.181,
+          "total_ga_p96": -0.17,
           "rolling_total_ga_p96": -0.05,
           "goals_conceded": 2,
           "shots_faced": 6,
@@ -835,7 +842,7 @@
             "shot_stopping": -1.685,
             "handling": -0.015,
             "claiming": 0.016,
-            "sweeping": 0.006,
+            "sweeping": 0.007,
             "passing": -0.044,
             "fielding": 0.006
           }
@@ -1043,7 +1050,7 @@
           "date": "2026-07-16",
           "matchday": 16,
           "minutes": 97.0,
-          "total_ga": 0.018,
+          "total_ga": 0.017,
           "total_ga_p96": 0.02,
           "rolling_total_ga_p96": -0.25,
           "goals_conceded": 0,
@@ -1426,6 +1433,13 @@
           "rank": 55,
           "keeperiq": 1.2,
           "adj_total_p96": -0.0793
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2026-09-30",
+          "rank": 55,
+          "keeperiq": 1.2,
+          "adj_total_p96": -0.0789
         }
       ],
       "team_stints": [

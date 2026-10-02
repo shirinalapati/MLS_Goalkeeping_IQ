@@ -3,7 +3,7 @@
   "player_id": "gOMn2jBXMw",
   "slug": "alec-smir",
   "name": "Alec Smir",
-  "generated_at": "2026-10-01T19:32:32Z",
+  "generated_at": "2026-10-02T19:18:44Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -24,7 +24,7 @@
       "sample_status_label": "Limited Sample",
       "keeperiq": 42.7,
       "adjusted_total_p96": 0.04,
-      "observed_total_p96": 0.06,
+      "observed_total_p96": 0.05,
       "baseline_total_p96": 0.04,
       "adjusted_total": 0.11,
       "reliability": 0.031,
@@ -56,8 +56,8 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.053,
-          "adjusted_p96": 0.05,
-          "baseline_p96": 0.05,
+          "adjusted_p96": 0.049,
+          "baseline_p96": 0.049,
           "total": 0.104,
           "raw_total": 0.049,
           "percentile": 49.6,
@@ -171,7 +171,7 @@
           "minutes": 85.0,
           "total_ga": 0.591,
           "total_ga_p96": 0.67,
-          "rolling_total_ga_p96": 0.06,
+          "rolling_total_ga_p96": 0.05,
           "goals_conceded": 1,
           "shots_faced": 5,
           "saves": 4,
@@ -362,6 +362,13 @@
           "rank": 33,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0394
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2025-12-06",
+          "rank": 33,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.0393
         }
       ],
       "team_stints": [
@@ -422,12 +429,12 @@
       "goals_prevented_p96": -1.19,
       "previous_rank": 29,
       "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -1.161,
-          "adjusted_p96": 0.047,
-          "baseline_p96": 0.058,
+          "adjusted_p96": 0.048,
+          "baseline_p96": 0.059,
           "total": -0.641,
           "raw_total": -0.657,
           "percentile": 42.2,
@@ -454,8 +461,8 @@
           "baseline_p96": -0.001,
           "total": 0.0,
           "raw_total": 0.0,
-          "percentile": 35.1,
-          "observed_percentile": 38.3,
+          "percentile": 35.3,
+          "observed_percentile": 38.5,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -466,20 +473,20 @@
           "baseline_p96": 0.005,
           "total": 0.001,
           "raw_total": 0.0,
-          "percentile": 54.0,
-          "observed_percentile": 38.1,
+          "percentile": 53.9,
+          "observed_percentile": 41.3,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
         },
         "passing": {
           "observed_p96": -0.011,
-          "adjusted_p96": -0.009,
+          "adjusted_p96": -0.008,
           "baseline_p96": -0.008,
           "total": -0.006,
           "raw_total": 0.027,
           "percentile": 42.1,
-          "observed_percentile": 38.3,
+          "observed_percentile": 38.2,
           "opportunities": 13,
           "opportunities_p96": 23.55,
           "reliability": 0.09
@@ -490,8 +497,8 @@
           "baseline_p96": 0.003,
           "total": 0.002,
           "raw_total": -0.001,
-          "percentile": 41.1,
-          "observed_percentile": 34.1,
+          "percentile": 41.0,
+          "observed_percentile": 34.0,
           "opportunities": 6,
           "opportunities_p96": 10.87,
           "reliability": 0.001
@@ -634,6 +641,13 @@
           "rank": 29,
           "keeperiq": 43.8,
           "adj_total_p96": 0.0292
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2026-09-30",
+          "rank": 29,
+          "keeperiq": 43.9,
+          "adj_total_p96": 0.0297
         }
       ],
       "team_stints": [
@@ -671,11 +685,11 @@
     "keeperiq_high": 100.0,
     "rank": 39,
     "weights": {
-      "league_prior": 0.963,
+      "league_prior": 0.964,
       "prior_season": 0.031,
       "live_season": 0.006
     },
-    "prior_season_rate": 0.06,
+    "prior_season_rate": 0.05,
     "live_season_rate": -1.15,
     "prior_season_minutes": 187.0,
     "live_season_minutes": 53.0,

@@ -3,7 +3,7 @@
   "player_id": "XVqKneW501",
   "slug": "stefan-frei",
   "name": "Stefan Frei",
-  "generated_at": "2026-10-01T19:32:32Z",
+  "generated_at": "2026-10-02T19:18:44Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,10 +26,10 @@
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -0.02,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -0.69,
+      "adjusted_total": -0.7,
       "reliability": 0.378,
       "interval_low": -0.11,
-      "interval_high": 0.14,
+      "interval_high": 0.13,
       "interval_se": 0.075,
       "observed_interval_low": -0.21,
       "observed_interval_high": 0.16,
@@ -58,7 +58,7 @@
           "observed_p96": -0.02,
           "adjusted_p96": 0.026,
           "baseline_p96": 0.046,
-          "total": -0.611,
+          "total": -0.615,
           "raw_total": -1.474,
           "percentile": 23.6,
           "observed_percentile": 29.9,
@@ -94,7 +94,7 @@
           "observed_p96": 0.001,
           "adjusted_p96": -0.001,
           "baseline_p96": -0.001,
-          "total": 0.041,
+          "total": 0.042,
           "raw_total": 0.009,
           "percentile": 80.2,
           "observed_percentile": 62.2,
@@ -189,7 +189,7 @@
           "xgoals_faced": 0.49,
           "goals_prevented": -0.51,
           "components": {
-            "shot_stopping": -0.481,
+            "shot_stopping": -0.482,
             "handling": 0.001,
             "claiming": 0.02,
             "sweeping": 0.009,
@@ -324,7 +324,7 @@
             "shot_stopping": 0.031,
             "handling": 0.001,
             "claiming": 0.005,
-            "sweeping": -0.004,
+            "sweeping": -0.003,
             "passing": -0.005,
             "fielding": 0.002
           }
@@ -335,7 +335,7 @@
           "matchday": 9,
           "minutes": 101.0,
           "total_ga": 1.51,
-          "total_ga_p96": 1.44,
+          "total_ga_p96": 1.43,
           "rolling_total_ga_p96": 0.03,
           "goals_conceded": 0,
           "shots_faced": 8,
@@ -497,7 +497,7 @@
           "xgoals_faced": 2.58,
           "goals_prevented": -0.42,
           "components": {
-            "shot_stopping": -0.389,
+            "shot_stopping": -0.39,
             "handling": -0.057,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -511,7 +511,7 @@
           "matchday": 18,
           "minutes": 95.0,
           "total_ga": -1.242,
-          "total_ga_p96": -1.25,
+          "total_ga_p96": -1.26,
           "rolling_total_ga_p96": 0.03,
           "goals_conceded": 3,
           "shots_faced": 5,
@@ -554,7 +554,7 @@
           "date": "2025-07-06",
           "matchday": 22,
           "minutes": 106.0,
-          "total_ga": 0.424,
+          "total_ga": 0.423,
           "total_ga_p96": 0.38,
           "rolling_total_ga_p96": 0.06,
           "goals_conceded": 1,
@@ -686,7 +686,7 @@
           "date": "2025-10-05",
           "matchday": 35,
           "minutes": 101.0,
-          "total_ga": 0.72,
+          "total_ga": 0.719,
           "total_ga_p96": 0.68,
           "rolling_total_ga_p96": 0.04,
           "goals_conceded": 0,
@@ -805,7 +805,7 @@
           "xgoals_faced": 1.29,
           "goals_prevented": -1.71,
           "components": {
-            "shot_stopping": -1.679,
+            "shot_stopping": -1.68,
             "handling": 0.029,
             "claiming": 0.002,
             "sweeping": 0.001,
@@ -1151,6 +1151,13 @@
           "rank": 55,
           "keeperiq": 22.7,
           "adj_total_p96": 0.0112
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2025-12-06",
+          "rank": 55,
+          "keeperiq": 22.7,
+          "adj_total_p96": 0.0111
         }
       ],
       "team_stints": [

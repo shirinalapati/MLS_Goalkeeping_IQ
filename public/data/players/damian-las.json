@@ -3,7 +3,7 @@
   "player_id": "jYQJaDwkqG",
   "slug": "damian-las",
   "name": "Damian Las",
-  "generated_at": "2026-10-01T19:32:32Z",
+  "generated_at": "2026-10-02T19:18:44Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 38.7,
+      "keeperiq": 38.8,
       "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.54,
       "baseline_total_p96": 0.04,
@@ -52,13 +52,13 @@
       "goals_prevented_p96": -0.43,
       "previous_rank": 32,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.406,
-          "adjusted_p96": 0.042,
-          "baseline_p96": 0.058,
-          "total": -0.863,
+          "adjusted_p96": 0.044,
+          "baseline_p96": 0.06,
+          "total": -0.864,
           "raw_total": -0.924,
           "percentile": 42.2,
           "observed_percentile": 1.1,
@@ -72,7 +72,7 @@
           "baseline_p96": -0.016,
           "total": -0.331,
           "raw_total": -0.333,
-          "percentile": 19.6,
+          "percentile": 16.3,
           "observed_percentile": 0.0,
           "opportunities": 9,
           "opportunities_p96": 4.24,
@@ -84,8 +84,8 @@
           "baseline_p96": -0.001,
           "total": 0.001,
           "raw_total": 0.0,
-          "percentile": 36.9,
-          "observed_percentile": 38.3,
+          "percentile": 37.1,
+          "observed_percentile": 38.5,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -96,7 +96,7 @@
           "baseline_p96": 0.005,
           "total": 0.043,
           "raw_total": 0.041,
-          "percentile": 54.0,
+          "percentile": 53.9,
           "observed_percentile": 89.0,
           "opportunities": 3,
           "opportunities_p96": 1.41,
@@ -147,7 +147,7 @@
           "date": "2026-08-20",
           "matchday": 21,
           "minutes": 100.0,
-          "total_ga": 0.171,
+          "total_ga": 0.17,
           "total_ga_p96": 0.16,
           "rolling_total_ga_p96": 0.16,
           "goals_conceded": 1,
@@ -156,7 +156,7 @@
           "xgoals_faced": 1.26,
           "goals_prevented": 0.26,
           "components": {
-            "shot_stopping": 0.294,
+            "shot_stopping": 0.293,
             "handling": -0.116,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -313,6 +313,13 @@
           "rank": 32,
           "keeperiq": 38.7,
           "adj_total_p96": 0.0227
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2026-09-30",
+          "rank": 32,
+          "keeperiq": 38.7,
+          "adj_total_p96": 0.0233
         }
       ],
       "team_stints": [

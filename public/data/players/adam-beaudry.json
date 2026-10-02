@@ -3,7 +3,7 @@
   "player_id": "odMXEAde5Y",
   "slug": "adam-beaudry",
   "name": "Adam Beaudry",
-  "generated_at": "2026-10-01T19:32:32Z",
+  "generated_at": "2026-10-02T19:18:44Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -57,7 +57,7 @@
         "shot_stopping": {
           "observed_p96": 0.799,
           "adjusted_p96": 0.061,
-          "baseline_p96": 0.05,
+          "baseline_p96": 0.049,
           "total": 0.799,
           "raw_total": 0.771,
           "percentile": 59.4,
@@ -147,7 +147,7 @@
           "date": "2025-03-23",
           "matchday": 5,
           "minutes": 96.0,
-          "total_ga": 0.822,
+          "total_ga": 0.821,
           "total_ga_p96": 0.82,
           "rolling_total_ga_p96": 0.82,
           "goals_conceded": 2,
@@ -334,6 +334,13 @@
           "rank": 20,
           "keeperiq": 63.2,
           "adj_total_p96": 0.0585
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2025-12-06",
+          "rank": 20,
+          "keeperiq": 63.2,
+          "adj_total_p96": 0.0585
         }
       ],
       "team_stints": [
@@ -364,8 +371,8 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 31.9,
-      "adjusted_total_p96": 0.01,
+      "keeperiq": 32.0,
+      "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.7,
       "baseline_total_p96": 0.04,
       "adjusted_total": -1.47,
@@ -394,12 +401,12 @@
       "goals_prevented_p96": -0.67,
       "previous_rank": 38,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.642,
-          "adjusted_p96": 0.033,
-          "baseline_p96": 0.055,
+          "adjusted_p96": 0.035,
+          "baseline_p96": 0.057,
           "total": -1.351,
           "raw_total": -1.411,
           "percentile": 38.7,
@@ -410,11 +417,11 @@
         },
         "handling": {
           "observed_p96": -0.043,
-          "adjusted_p96": -0.016,
+          "adjusted_p96": -0.015,
           "baseline_p96": -0.015,
           "total": -0.091,
           "raw_total": -0.093,
-          "percentile": 36.7,
+          "percentile": 36.8,
           "observed_percentile": 6.2,
           "opportunities": 3,
           "opportunities_p96": 1.43,
@@ -426,8 +433,8 @@
           "baseline_p96": -0.001,
           "total": 0.002,
           "raw_total": 0.001,
-          "percentile": 35.1,
-          "observed_percentile": 38.3,
+          "percentile": 35.3,
+          "observed_percentile": 38.5,
           "opportunities": 2,
           "opportunities_p96": 0.95,
           "reliability": 0.012
@@ -438,8 +445,8 @@
           "baseline_p96": 0.005,
           "total": 0.003,
           "raw_total": 0.0,
-          "percentile": 54.0,
-          "observed_percentile": 38.1,
+          "percentile": 53.9,
+          "observed_percentile": 41.3,
           "opportunities": 4,
           "opportunities_p96": 1.9,
           "reliability": 0.004
@@ -447,10 +454,10 @@
         "passing": {
           "observed_p96": -0.017,
           "adjusted_p96": -0.011,
-          "baseline_p96": -0.009,
+          "baseline_p96": -0.008,
           "total": -0.036,
           "raw_total": 0.09,
-          "percentile": 38.3,
+          "percentile": 38.2,
           "observed_percentile": 27.9,
           "opportunities": 70,
           "opportunities_p96": 33.27,
@@ -462,8 +469,8 @@
           "baseline_p96": 0.004,
           "total": 0.005,
           "raw_total": -0.006,
-          "percentile": 57.5,
-          "observed_percentile": 27.6,
+          "percentile": 57.6,
+          "observed_percentile": 27.5,
           "opportunities": 50,
           "opportunities_p96": 23.76,
           "reliability": 0.01
@@ -489,7 +496,7 @@
           "date": "2026-08-30",
           "matchday": 23,
           "minutes": 98.0,
-          "total_ga": 0.029,
+          "total_ga": 0.028,
           "total_ga_p96": 0.03,
           "rolling_total_ga_p96": 0.03,
           "goals_conceded": 0,
@@ -634,6 +641,13 @@
           "rank": 38,
           "keeperiq": 31.9,
           "adj_total_p96": 0.0133
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2026-09-30",
+          "rank": 38,
+          "keeperiq": 31.9,
+          "adj_total_p96": 0.0138
         }
       ],
       "team_stints": [

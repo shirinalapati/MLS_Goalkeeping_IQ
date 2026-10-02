@@ -3,7 +3,7 @@
   "player_id": "KXMekmrPq6",
   "slug": "josh-cohen",
   "name": "Josh Cohen",
-  "generated_at": "2026-10-01T19:32:32Z",
+  "generated_at": "2026-10-02T19:18:44Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 67.2,
+      "keeperiq": 67.1,
       "adjusted_total_p96": 0.05,
       "observed_total_p96": 0.73,
       "baseline_total_p96": 0.04,
@@ -52,12 +52,12 @@
       "goals_prevented_p96": 0.73,
       "previous_rank": 15,
       "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.762,
-          "adjusted_p96": 0.067,
-          "baseline_p96": 0.055,
+          "adjusted_p96": 0.069,
+          "baseline_p96": 0.057,
           "total": 0.793,
           "raw_total": 0.764,
           "percentile": 57.2,
@@ -72,7 +72,7 @@
           "baseline_p96": -0.015,
           "total": -0.067,
           "raw_total": -0.068,
-          "percentile": 36.7,
+          "percentile": 36.8,
           "observed_percentile": 0.0,
           "opportunities": 2,
           "opportunities_p96": 1.92,
@@ -84,8 +84,8 @@
           "baseline_p96": -0.001,
           "total": 0.002,
           "raw_total": 0.002,
-          "percentile": 35.1,
-          "observed_percentile": 55.1,
+          "percentile": 35.3,
+          "observed_percentile": 55.2,
           "opportunities": 1,
           "opportunities_p96": 0.96,
           "reliability": 0.006
@@ -97,7 +97,7 @@
           "total": 0.016,
           "raw_total": 0.015,
           "percentile": 68.4,
-          "observed_percentile": 74.0,
+          "observed_percentile": 74.1,
           "opportunities": 4,
           "opportunities_p96": 3.84,
           "reliability": 0.004
@@ -109,7 +109,7 @@
           "total": -0.006,
           "raw_total": 0.056,
           "percentile": 45.6,
-          "observed_percentile": 52.9,
+          "observed_percentile": 56.3,
           "opportunities": 38,
           "opportunities_p96": 36.48,
           "reliability": 0.223
@@ -120,7 +120,7 @@
           "baseline_p96": 0.004,
           "total": 0.022,
           "raw_total": 0.017,
-          "percentile": 60.7,
+          "percentile": 60.8,
           "observed_percentile": 100.0,
           "opportunities": 27,
           "opportunities_p96": 25.92,
@@ -187,6 +187,13 @@
           "rank": 15,
           "keeperiq": 67.1,
           "adj_total_p96": 0.0514
+        },
+        {
+          "captured_at": "2026-10-01T19:33:19Z",
+          "max_match_date": "2026-09-30",
+          "rank": 15,
+          "keeperiq": 67.2,
+          "adj_total_p96": 0.052
         }
       ],
       "team_stints": [
