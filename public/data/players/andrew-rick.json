@@ -3,7 +3,7 @@
   "player_id": "KXMe39a6q6",
   "slug": "andrew-rick",
   "name": "Andrew Rick",
-  "generated_at": "2026-10-06T19:32:55Z",
+  "generated_at": "2026-10-07T19:59:56Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.048,
           "adjusted_p96": 0.045,
           "baseline_p96": 0.042,
-          "total": 0.721,
+          "total": 0.723,
           "raw_total": 0.296,
           "percentile": 45.1,
           "observed_percentile": 48.5,
@@ -280,9 +280,9 @@
           "goals_prevented": 0.06,
           "components": {
             "shot_stopping": 0.093,
-            "handling": -0.005,
+            "handling": -0.006,
             "claiming": 0.001,
-            "sweeping": -0.003,
+            "sweeping": -0.002,
             "passing": -0.016,
             "fielding": 0.005
           }
@@ -294,7 +294,7 @@
           "minutes": 105.0,
           "total_ga": 0.174,
           "total_ga_p96": 0.16,
-          "rolling_total_ga_p96": -0.05,
+          "rolling_total_ga_p96": -0.04,
           "goals_conceded": 1,
           "shots_faced": 2,
           "saves": 1,
@@ -761,7 +761,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 30.6,
+      "keeperiq": 28.3,
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -1.15,
       "baseline_total_p96": 0.04,
@@ -774,7 +774,7 @@
       "observed_interval_high": -0.99,
       "keeperiq_low": 0.0,
       "keeperiq_high": 90.0,
-      "rank": 42,
+      "rank": 43,
       "rank_observed": 55,
       "rank_goals_conceded": 54,
       "rank_pool": null,
@@ -790,16 +790,16 @@
       "goals_prevented": -2.44,
       "goals_prevented_p96": -1.11,
       "previous_rank": 42,
-      "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "rank_change": -1,
+      "keeperiq_change": -2.3,
       "components": {
         "shot_stopping": {
           "observed_p96": -1.081,
-          "adjusted_p96": 0.019,
-          "baseline_p96": 0.058,
+          "adjusted_p96": 0.018,
+          "baseline_p96": 0.056,
           "total": -2.377,
           "raw_total": -2.439,
-          "percentile": 21.2,
+          "percentile": 20.0,
           "observed_percentile": 0.0,
           "opportunities": 8,
           "opportunities_p96": 3.64,
@@ -808,10 +808,10 @@
         "handling": {
           "observed_p96": 0.024,
           "adjusted_p96": -0.014,
-          "baseline_p96": -0.015,
+          "baseline_p96": -0.014,
           "total": 0.053,
           "raw_total": 0.051,
-          "percentile": 56.5,
+          "percentile": 56.4,
           "observed_percentile": 100.0,
           "opportunities": 2,
           "opportunities_p96": 0.91,
@@ -823,8 +823,8 @@
           "baseline_p96": -0.001,
           "total": 0.003,
           "raw_total": 0.002,
-          "percentile": 35.3,
-          "observed_percentile": 39.3,
+          "percentile": 35.2,
+          "observed_percentile": 42.5,
           "opportunities": 3,
           "opportunities_p96": 1.36,
           "reliability": 0.017
@@ -836,7 +836,7 @@
           "total": 0.01,
           "raw_total": 0.007,
           "percentile": 53.9,
-          "observed_percentile": 44.7,
+          "observed_percentile": 44.6,
           "opportunities": 3,
           "opportunities_p96": 1.36,
           "reliability": 0.003
@@ -847,8 +847,8 @@
           "baseline_p96": -0.008,
           "total": 0.026,
           "raw_total": 0.158,
-          "percentile": 73.8,
-          "observed_percentile": 96.9,
+          "percentile": 73.7,
+          "observed_percentile": 96.7,
           "opportunities": 60,
           "opportunities_p96": 27.3,
           "reliability": 0.312
@@ -872,13 +872,21 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 73.8,
+            "percentile": 73.7,
             "band": "strong",
             "opportunities": 60,
             "text": "Strong passing contribution."
           }
         ],
         "concerns": [
+          {
+            "component": "total",
+            "label": "Complete impact",
+            "percentile": 28.3,
+            "band": "weak",
+            "opportunities": null,
+            "text": "Complete impact sits below the MLS median."
+          },
           {
             "component": "fielding",
             "label": "Fielding",
@@ -934,7 +942,7 @@
           "xgoals_faced": 0.87,
           "goals_prevented": -1.13,
           "components": {
-            "shot_stopping": -1.095,
+            "shot_stopping": -1.094,
             "handling": 0.001,
             "claiming": 0.002,
             "sweeping": 0.009,
@@ -1164,7 +1172,7 @@
     "talent_low": -0.13,
     "talent_high": 0.15,
     "talent_sd": 0.084,
-    "keeperiq": 21.6,
+    "keeperiq": 21.5,
     "keeperiq_low": 0.0,
     "keeperiq_high": 96.1,
     "rank": 62,

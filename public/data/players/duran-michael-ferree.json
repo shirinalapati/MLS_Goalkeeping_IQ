@@ -3,7 +3,7 @@
   "player_id": "BLMv64wlMx",
   "slug": "duran-michael-ferree",
   "name": "Duran Michael Ferree",
-  "generated_at": "2026-10-06T19:32:55Z",
+  "generated_at": "2026-10-07T19:59:56Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -384,9 +384,9 @@
       "baseline_total_p96": 0.04,
       "adjusted_total": -1.35,
       "reliability": 0.198,
-      "interval_low": -0.13,
+      "interval_low": -0.14,
       "interval_high": 0.14,
-      "interval_se": 0.084,
+      "interval_se": 0.083,
       "observed_interval_low": -0.33,
       "observed_interval_high": 0.15,
       "keeperiq_low": 0.0,
@@ -412,11 +412,11 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.089,
-          "adjusted_p96": 0.03,
-          "baseline_p96": 0.059,
-          "total": -1.355,
+          "adjusted_p96": 0.028,
+          "baseline_p96": 0.058,
+          "total": -1.352,
           "raw_total": -1.782,
-          "percentile": 35.8,
+          "percentile": 33.5,
           "observed_percentile": 20.4,
           "opportunities": 70,
           "opportunities_p96": 4.62,
@@ -428,11 +428,11 @@
           "baseline_p96": -0.015,
           "total": -0.138,
           "raw_total": -0.149,
-          "percentile": 49.0,
-          "observed_percentile": 51.4,
+          "percentile": 48.9,
+          "observed_percentile": 51.3,
           "opportunities": 44,
           "opportunities_p96": 2.91,
-          "reliability": 0.131
+          "reliability": 0.132
         },
         "claiming": {
           "observed_p96": -0.001,
@@ -440,15 +440,15 @@
           "baseline_p96": -0.001,
           "total": -0.008,
           "raw_total": -0.015,
-          "percentile": 36.2,
-          "observed_percentile": 36.2,
+          "percentile": 36.1,
+          "observed_percentile": 36.1,
           "opportunities": 16,
           "opportunities_p96": 1.06,
           "reliability": 0.086
         },
         "sweeping": {
           "observed_p96": 0.025,
-          "adjusted_p96": 0.007,
+          "adjusted_p96": 0.006,
           "baseline_p96": 0.006,
           "total": 0.379,
           "raw_total": 0.362,
@@ -464,7 +464,7 @@
           "baseline_p96": -0.01,
           "total": -0.415,
           "raw_total": 0.491,
-          "percentile": 8.7,
+          "percentile": 8.6,
           "observed_percentile": 7.7,
           "opportunities": 621,
           "opportunities_p96": 41.03,
@@ -515,7 +515,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 8.7,
+            "percentile": 8.6,
             "band": "poor",
             "opportunities": 621,
             "text": "Passing contribution well below the MLS median."
@@ -581,7 +581,7 @@
           "xgoals_faced": 0.38,
           "goals_prevented": 0.38,
           "components": {
-            "shot_stopping": 0.411,
+            "shot_stopping": 0.412,
             "handling": 0.017,
             "claiming": -0.04,
             "sweeping": -0.01,
@@ -603,7 +603,7 @@
           "xgoals_faced": 1.4,
           "goals_prevented": -0.6,
           "components": {
-            "shot_stopping": -0.565,
+            "shot_stopping": -0.564,
             "handling": -0.066,
             "claiming": 0.005,
             "sweeping": -0.001,
@@ -682,7 +682,7 @@
           "date": "2026-04-23",
           "matchday": 9,
           "minutes": 103.0,
-          "total_ga": -0.134,
+          "total_ga": -0.133,
           "total_ga_p96": -0.12,
           "rolling_total_ga_p96": 0.05,
           "goals_conceded": 1,
@@ -1181,10 +1181,10 @@
     "talent_low": -0.09,
     "talent_high": 0.2,
     "talent_sd": 0.089,
-    "keeperiq": 52.8,
+    "keeperiq": 52.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
-    "rank": 25,
+    "rank": 24,
     "weights": {
       "league_prior": 0.784,
       "prior_season": 0.022,
