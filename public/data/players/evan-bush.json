@@ -3,7 +3,7 @@
   "player_id": "KPqjo08PQ6",
   "slug": "evan-bush",
   "name": "Evan Bush",
-  "generated_at": "2026-10-14T18:38:21Z",
+  "generated_at": "2026-10-15T18:18:18Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.189,
           "adjusted_p96": 0.026,
           "baseline_p96": 0.044,
-          "total": -1.187,
+          "total": -1.19,
           "raw_total": -1.366,
           "percentile": 25.3,
           "observed_percentile": 11.6,
@@ -70,7 +70,7 @@
           "observed_p96": 0.004,
           "adjusted_p96": -0.003,
           "baseline_p96": -0.004,
-          "total": 0.027,
+          "total": 0.028,
           "raw_total": 0.022,
           "percentile": 49.4,
           "observed_percentile": 66.5,
@@ -120,7 +120,7 @@
           "baseline_p96": 0.002,
           "total": 0.081,
           "raw_total": 0.048,
-          "percentile": 68.6,
+          "percentile": 72.0,
           "observed_percentile": 98.8,
           "opportunities": 150,
           "opportunities_p96": 23.84,
@@ -129,7 +129,16 @@
       },
       "archetype": null,
       "notes": {
-        "strengths": [],
+        "strengths": [
+          {
+            "component": "fielding",
+            "label": "Fielding",
+            "percentile": 72.0,
+            "band": "strong",
+            "opportunities": 150,
+            "text": "Strong fielding contribution."
+          }
+        ],
         "concerns": [
           {
             "component": "sample",
@@ -147,7 +156,7 @@
           "date": "2025-03-22",
           "matchday": 5,
           "minutes": 97.0,
-          "total_ga": 0.036,
+          "total_ga": 0.035,
           "total_ga_p96": 0.04,
           "rolling_total_ga_p96": 0.04,
           "goals_conceded": 0,
@@ -156,7 +165,7 @@
           "xgoals_faced": 0.0,
           "goals_prevented": 0.0,
           "components": {
-            "shot_stopping": 0.029,
+            "shot_stopping": 0.028,
             "handling": 0.001,
             "claiming": 0.001,
             "sweeping": 0.003,
@@ -169,7 +178,7 @@
           "date": "2025-06-14",
           "matchday": 19,
           "minutes": 101.0,
-          "total_ga": -0.58,
+          "total_ga": -0.581,
           "total_ga_p96": -0.55,
           "rolling_total_ga_p96": -0.26,
           "goals_conceded": 1,
@@ -191,7 +200,7 @@
           "date": "2025-06-25",
           "matchday": 20,
           "minutes": 100.0,
-          "total_ga": 0.057,
+          "total_ga": 0.056,
           "total_ga_p96": 0.05,
           "rolling_total_ga_p96": -0.16,
           "goals_conceded": 1,
@@ -200,7 +209,7 @@
           "xgoals_faced": 1.01,
           "goals_prevented": 0.01,
           "components": {
-            "shot_stopping": 0.043,
+            "shot_stopping": 0.042,
             "handling": -0.01,
             "claiming": 0.002,
             "sweeping": 0.013,
@@ -225,7 +234,7 @@
             "shot_stopping": 0.029,
             "handling": 0.001,
             "claiming": 0.016,
-            "sweeping": -0.002,
+            "sweeping": -0.001,
             "passing": 0.042,
             "fielding": 0.027
           }
@@ -244,7 +253,7 @@
           "xgoals_faced": 1.2,
           "goals_prevented": 0.2,
           "components": {
-            "shot_stopping": 0.231,
+            "shot_stopping": 0.23,
             "handling": -0.01,
             "claiming": 0.006,
             "sweeping": 0.002,
@@ -266,7 +275,7 @@
           "xgoals_faced": 1.08,
           "goals_prevented": -0.92,
           "components": {
-            "shot_stopping": -0.894,
+            "shot_stopping": -0.895,
             "handling": 0.025,
             "claiming": -0.0,
             "sweeping": -0.067,
@@ -280,7 +289,7 @@
           "date": "2025-03-22",
           "matchday": 5,
           "matches_in_window": 1,
-          "rate_p96": 0.04
+          "rate_p96": 0.03
         },
         {
           "date": "2025-06-14",
@@ -536,14 +545,14 @@
     "nationality": "USA",
     "birth_date": "1986-03-06",
     "age": 40,
-    "talent_p96": 0.02,
+    "talent_p96": 0.01,
     "talent_low": -0.14,
     "talent_high": 0.17,
     "talent_sd": 0.093,
-    "keeperiq": 18.3,
+    "keeperiq": 23.7,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 96.1,
-    "rank": 63,
+    "keeperiq_high": 96.0,
+    "rank": 61,
     "weights": {
       "league_prior": 0.841,
       "prior_season": 0.159,
