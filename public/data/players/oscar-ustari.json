@@ -3,7 +3,7 @@
   "player_id": "gpMO4XD5zy",
   "slug": "oscar-ustari",
   "name": "Óscar Ustari",
-  "generated_at": "2026-10-21T18:39:24Z",
+  "generated_at": "2026-10-22T18:33:28Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": -0.03,
       "observed_total_p96": -0.19,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -4.61,
+      "adjusted_total": -4.62,
       "reliability": 0.276,
       "interval_low": -0.16,
       "interval_high": 0.11,
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.201,
+          "observed_p96": -0.202,
           "adjusted_p96": -0.02,
           "baseline_p96": 0.052,
-          "total": -4.86,
+          "total": -4.861,
           "raw_total": -5.536,
           "percentile": 7.5,
           "observed_percentile": 6.9,
@@ -70,7 +70,7 @@
           "observed_p96": -0.012,
           "adjusted_p96": -0.006,
           "baseline_p96": -0.004,
-          "total": -0.288,
+          "total": -0.289,
           "raw_total": -0.307,
           "percentile": 32.2,
           "observed_percentile": 33.7,
@@ -92,9 +92,9 @@
         },
         "sweeping": {
           "observed_p96": 0.021,
-          "adjusted_p96": -0.0,
+          "adjusted_p96": 0.0,
           "baseline_p96": -0.001,
-          "total": 0.507,
+          "total": 0.508,
           "raw_total": 0.482,
           "percentile": 96.3,
           "observed_percentile": 94.3,
@@ -172,7 +172,7 @@
           "date": "2025-02-23",
           "matchday": 1,
           "minutes": 114.0,
-          "total_ga": -0.975,
+          "total_ga": -0.974,
           "total_ga_p96": -0.82,
           "rolling_total_ga_p96": -0.82,
           "goals_conceded": 2,
@@ -247,7 +247,7 @@
           "xgoals_faced": 1.22,
           "goals_prevented": 0.22,
           "components": {
-            "shot_stopping": 0.251,
+            "shot_stopping": 0.25,
             "handling": -0.082,
             "claiming": 0.003,
             "sweeping": -0.005,
@@ -291,7 +291,7 @@
           "xgoals_faced": 1.42,
           "goals_prevented": 1.42,
           "components": {
-            "shot_stopping": 1.453,
+            "shot_stopping": 1.452,
             "handling": 0.03,
             "claiming": 0.0,
             "sweeping": 0.238,
@@ -338,7 +338,7 @@
             "shot_stopping": -1.074,
             "handling": -0.028,
             "claiming": 0.0,
-            "sweeping": 0.007,
+            "sweeping": 0.008,
             "passing": -0.028,
             "fielding": 0.008
           }
@@ -402,7 +402,7 @@
           "goals_prevented": -0.13,
           "components": {
             "shot_stopping": -0.098,
-            "handling": 0.0,
+            "handling": -0.0,
             "claiming": 0.009,
             "sweeping": 0.001,
             "passing": 0.021,
@@ -469,7 +469,7 @@
           "components": {
             "shot_stopping": 0.479,
             "handling": -0.016,
-            "claiming": 0.0,
+            "claiming": 0.001,
             "sweeping": 0.001,
             "passing": 0.033,
             "fielding": 0.024
@@ -557,8 +557,8 @@
           "components": {
             "shot_stopping": -0.394,
             "handling": 0.045,
-            "claiming": 0.0,
-            "sweeping": -0.016,
+            "claiming": 0.001,
+            "sweeping": -0.015,
             "passing": -0.009,
             "fielding": -0.001
           }
@@ -599,9 +599,9 @@
           "xgoals_faced": 2.53,
           "goals_prevented": -0.47,
           "components": {
-            "shot_stopping": -0.44,
+            "shot_stopping": -0.441,
             "handling": -0.024,
-            "claiming": 0.0,
+            "claiming": 0.001,
             "sweeping": 0.001,
             "passing": -0.004,
             "fielding": 0.007
@@ -643,7 +643,7 @@
           "xgoals_faced": 1.66,
           "goals_prevented": -0.34,
           "components": {
-            "shot_stopping": -0.307,
+            "shot_stopping": -0.308,
             "handling": 0.011,
             "claiming": 0.013,
             "sweeping": 0.089,
@@ -1114,7 +1114,7 @@
     "keeperiq": 14.8,
     "keeperiq_low": 0.0,
     "keeperiq_high": 96.0,
-    "rank": 69,
+    "rank": 70,
     "weights": {
       "league_prior": 0.735,
       "prior_season": 0.265,

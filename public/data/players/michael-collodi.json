@@ -3,7 +3,7 @@
   "player_id": "0x5g2mYrM7",
   "slug": "michael-collodi",
   "name": "Michael Collodi",
-  "generated_at": "2026-10-21T18:39:24Z",
+  "generated_at": "2026-10-22T18:33:28Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.583,
           "adjusted_p96": 0.133,
           "baseline_p96": 0.054,
-          "total": 6.314,
+          "total": 6.313,
           "raw_total": 6.011,
           "percentile": 99.5,
           "observed_percentile": 99.5,
@@ -91,12 +91,12 @@
           "reliability": 0.15
         },
         "sweeping": {
-          "observed_p96": 0.027,
-          "adjusted_p96": -0.001,
+          "observed_p96": 0.028,
+          "adjusted_p96": -0.0,
           "baseline_p96": -0.001,
-          "total": 0.297,
+          "total": 0.298,
           "raw_total": 0.286,
-          "percentile": 87.7,
+          "percentile": 89.1,
           "observed_percentile": 98.8,
           "opportunities": 26,
           "opportunities_p96": 2.4,
@@ -157,7 +157,7 @@
           {
             "component": "sweeping",
             "label": "Sweeping",
-            "percentile": 87.7,
+            "percentile": 89.1,
             "band": "elite",
             "opportunities": 26,
             "text": "Elite adjusted sweeping percentile."
@@ -284,7 +284,7 @@
           "xgoals_faced": 1.65,
           "goals_prevented": 0.65,
           "components": {
-            "shot_stopping": 0.682,
+            "shot_stopping": 0.681,
             "handling": -0.018,
             "claiming": 0.028,
             "sweeping": -0.006,
@@ -733,7 +733,7 @@
       "appearances": 13,
       "sample_status": "provisional",
       "sample_status_label": "Provisional",
-      "keeperiq": 44.1,
+      "keeperiq": 44.2,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.04,
       "baseline_total_p96": 0.04,
@@ -763,16 +763,16 @@
       "goals_prevented_p96": 0.01,
       "previous_rank": 30,
       "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.037,
-          "adjusted_p96": 0.05,
-          "baseline_p96": 0.052,
+          "adjusted_p96": 0.052,
+          "baseline_p96": 0.053,
           "total": 0.515,
           "raw_total": 0.127,
           "percentile": 47.5,
-          "observed_percentile": 44.1,
+          "observed_percentile": 44.2,
           "opportunities": 49,
           "opportunities_p96": 3.53,
           "reliability": 0.151
@@ -804,8 +804,8 @@
         "sweeping": {
           "observed_p96": -0.024,
           "adjusted_p96": 0.005,
-          "baseline_p96": 0.007,
-          "total": -0.336,
+          "baseline_p96": 0.006,
+          "total": -0.335,
           "raw_total": -0.35,
           "percentile": 69.1,
           "observed_percentile": 4.6,
@@ -819,8 +819,8 @@
           "baseline_p96": -0.008,
           "total": -0.141,
           "raw_total": 0.688,
-          "percentile": 41.0,
-          "observed_percentile": 41.0,
+          "percentile": 41.1,
+          "observed_percentile": 41.1,
           "opportunities": 416,
           "opportunities_p96": 29.98,
           "reliability": 0.759
@@ -831,7 +831,7 @@
           "baseline_p96": 0.002,
           "total": 0.085,
           "raw_total": 0.013,
-          "percentile": 22.3,
+          "percentile": 22.4,
           "observed_percentile": 59.1,
           "opportunities": 204,
           "opportunities_p96": 14.7,
@@ -853,7 +853,7 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 22.3,
+            "percentile": 22.4,
             "band": "weak",
             "opportunities": 204,
             "text": "Fielding contribution below the MLS median."
@@ -918,7 +918,7 @@
           "date": "2026-03-08",
           "matchday": 3,
           "minutes": 102.0,
-          "total_ga": 0.803,
+          "total_ga": 0.804,
           "total_ga_p96": 0.76,
           "rolling_total_ga_p96": -0.07,
           "goals_conceded": 1,
@@ -949,7 +949,7 @@
           "xgoals_faced": 2.72,
           "goals_prevented": -0.28,
           "components": {
-            "shot_stopping": -0.252,
+            "shot_stopping": -0.253,
             "handling": 0.008,
             "claiming": 0.001,
             "sweeping": -0.005,
@@ -1018,7 +1018,7 @@
             "shot_stopping": 0.507,
             "handling": -0.047,
             "claiming": -0.008,
-            "sweeping": 0.013,
+            "sweeping": 0.014,
             "passing": 0.005,
             "fielding": 0.01
           }

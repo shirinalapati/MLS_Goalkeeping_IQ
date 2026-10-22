@@ -1,0 +1,223 @@
+{
+  "schema_version": "1",
+  "player_id": "ljqEjOZEQx",
+  "slug": "alex-bono",
+  "name": "Alex Bono",
+  "generated_at": "2026-10-22T18:33:28Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2026": {
+      "player_id": "ljqEjOZEQx",
+      "slug": "alex-bono",
+      "name": "Alex Bono",
+      "season": 2026,
+      "team_id": "EKXMeX3Q64",
+      "team": "D.C. United",
+      "team_abbreviation": "DCU",
+      "changed_teams": false,
+      "nationality": "USA",
+      "birth_date": "1994-04-25",
+      "age": 32,
+      "minutes": 98.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 43.4,
+      "adjusted_total_p96": 0.03,
+      "observed_total_p96": -0.52,
+      "baseline_total_p96": 0.04,
+      "adjusted_total": -0.54,
+      "reliability": 0.016,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 32,
+      "rank_observed": 50,
+      "rank_goals_conceded": 48,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 2,
+      "goals_conceded_p96": 1.96,
+      "shots_faced": 6,
+      "shots_faced_p96": 5.88,
+      "saves": 3,
+      "save_pct": 50.0,
+      "xgoals_faced": 1.44,
+      "goals_prevented": -0.56,
+      "goals_prevented_p96": -0.55,
+      "previous_rank": null,
+      "rank_change": null,
+      "keeperiq_change": null,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.523,
+          "adjusted_p96": 0.048,
+          "baseline_p96": 0.058,
+          "total": -0.534,
+          "raw_total": -0.562,
+          "percentile": 43.4,
+          "observed_percentile": 0.0,
+          "opportunities": 5,
+          "opportunities_p96": 4.9,
+          "reliability": 0.018
+        },
+        "handling": {
+          "observed_p96": 0.026,
+          "adjusted_p96": -0.013,
+          "baseline_p96": -0.014,
+          "total": 0.026,
+          "raw_total": 0.025,
+          "percentile": 49.0,
+          "observed_percentile": 100.0,
+          "opportunities": 3,
+          "opportunities_p96": 2.94,
+          "reliability": 0.01
+        },
+        "claiming": {
+          "observed_p96": 0.001,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
+          "total": 0.001,
+          "raw_total": 0.001,
+          "percentile": 33.9,
+          "observed_percentile": 39.5,
+          "opportunities": 1,
+          "opportunities_p96": 0.98,
+          "reliability": 0.006
+        },
+        "sweeping": {
+          "observed_p96": 0.001,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.001,
+          "raw_total": 0.0,
+          "percentile": 47.1,
+          "observed_percentile": 35.6,
+          "opportunities": 0,
+          "opportunities_p96": 0.0,
+          "reliability": 0.0
+        },
+        "passing": {
+          "observed_p96": -0.028,
+          "adjusted_p96": -0.012,
+          "baseline_p96": -0.008,
+          "total": -0.029,
+          "raw_total": 0.032,
+          "percentile": 37.9,
+          "observed_percentile": 4.9,
+          "opportunities": 30,
+          "opportunities_p96": 29.39,
+          "reliability": 0.185
+        },
+        "fielding": {
+          "observed_p96": -0.002,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": -0.002,
+          "raw_total": -0.007,
+          "percentile": 36.4,
+          "observed_percentile": 20.6,
+          "opportunities": 16,
+          "opportunities_p96": 15.67,
+          "reliability": 0.003
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (98 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "gOMnGza85w",
+          "date": "2026-10-21",
+          "matchday": 24,
+          "minutes": 98.0,
+          "total_ga": -0.536,
+          "total_ga_p96": -0.52,
+          "rolling_total_ga_p96": -0.52,
+          "goals_conceded": 2,
+          "shots_faced": 6,
+          "saves": 3,
+          "xgoals_faced": 1.44,
+          "goals_prevented": -0.56,
+          "components": {
+            "shot_stopping": -0.534,
+            "handling": 0.026,
+            "claiming": 0.001,
+            "sweeping": 0.001,
+            "passing": -0.029,
+            "fielding": -0.002
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-10-21",
+          "matchday": 24,
+          "matches_in_window": 1,
+          "rate_p96": -0.53
+        }
+      ],
+      "ranking_history": [],
+      "team_stints": [
+        {
+          "team_id": "EKXMeX3Q64",
+          "team_name": "D.C. United",
+          "team_abbreviation": "DCU",
+          "appearances": 1,
+          "minutes": 98.0,
+          "first_match": "2026-10-21",
+          "last_match": "2026-10-21"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2026
+  ],
+  "talent": {
+    "player_id": "ljqEjOZEQx",
+    "slug": "alex-bono",
+    "name": "Alex Bono",
+    "team": "D.C. United",
+    "team_abbreviation": "DCU",
+    "nationality": "USA",
+    "birth_date": "1994-04-25",
+    "age": 32,
+    "talent_p96": 0.04,
+    "talent_low": -0.12,
+    "talent_high": 0.21,
+    "talent_sd": 0.1,
+    "keeperiq": 36.5,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 41,
+    "weights": {
+      "league_prior": 0.984,
+      "prior_season": 0.0,
+      "live_season": 0.016
+    },
+    "prior_season_rate": null,
+    "live_season_rate": -0.52,
+    "prior_season_minutes": 0.0,
+    "live_season_minutes": 98.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "no_prior_season",
+    "in_live_season": true
+  }
+}
