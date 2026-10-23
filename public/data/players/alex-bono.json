@@ -3,7 +3,7 @@
   "player_id": "ljqEjOZEQx",
   "slug": "alex-bono",
   "name": "Alex Bono",
-  "generated_at": "2026-10-22T18:33:28Z",
+  "generated_at": "2026-10-23T18:21:51Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -50,9 +50,9 @@
       "xgoals_faced": 1.44,
       "goals_prevented": -0.56,
       "goals_prevented_p96": -0.55,
-      "previous_rank": null,
-      "rank_change": null,
-      "keeperiq_change": null,
+      "previous_rank": 32,
+      "rank_change": 0,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.523,
@@ -173,7 +173,15 @@
           "rate_p96": -0.53
         }
       ],
-      "ranking_history": [],
+      "ranking_history": [
+        {
+          "captured_at": "2026-10-22T18:35:11Z",
+          "max_match_date": "2026-10-21",
+          "rank": 32,
+          "keeperiq": 43.4,
+          "adj_total_p96": 0.0284
+        }
+      ],
       "team_stints": [
         {
           "team_id": "EKXMeX3Q64",
