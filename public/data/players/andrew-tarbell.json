@@ -3,7 +3,7 @@
   "player_id": "jYQJz3rWQG",
   "slug": "andrew-tarbell",
   "name": "Andrew Tarbell",
-  "generated_at": "2026-10-24T17:28:07Z",
+  "generated_at": "2026-10-25T17:39:54Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.212,
+          "observed_p96": -0.213,
           "adjusted_p96": 0.035,
-          "baseline_p96": 0.049,
-          "total": -0.73,
+          "baseline_p96": 0.048,
+          "total": -0.732,
           "raw_total": -0.826,
           "percentile": 40.2,
           "observed_percentile": 5.8,
@@ -70,7 +70,7 @@
           "observed_p96": 0.011,
           "adjusted_p96": -0.004,
           "baseline_p96": -0.004,
-          "total": 0.037,
+          "total": 0.038,
           "raw_total": 0.035,
           "percentile": 47.7,
           "observed_percentile": 87.6,
@@ -178,7 +178,7 @@
           "xgoals_faced": 2.37,
           "goals_prevented": -1.63,
           "components": {
-            "shot_stopping": -1.603,
+            "shot_stopping": -1.604,
             "handling": -0.031,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -191,7 +191,7 @@
           "date": "2025-03-08",
           "matchday": 3,
           "minutes": 97.0,
-          "total_ga": 1.402,
+          "total_ga": 1.401,
           "total_ga_p96": 1.39,
           "rolling_total_ga_p96": -0.24,
           "goals_conceded": 0,
@@ -200,7 +200,7 @@
           "xgoals_faced": 1.31,
           "goals_prevented": 1.31,
           "components": {
-            "shot_stopping": 1.337,
+            "shot_stopping": 1.336,
             "handling": 0.046,
             "claiming": 0.002,
             "sweeping": 0.001,
@@ -222,7 +222,7 @@
           "xgoals_faced": 1.19,
           "goals_prevented": 0.19,
           "components": {
-            "shot_stopping": 0.199,
+            "shot_stopping": 0.198,
             "handling": 0.004,
             "claiming": 0.0,
             "sweeping": 0.0,
@@ -505,9 +505,9 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.098,
-    "keeperiq": 30.3,
+    "keeperiq": 31.0,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 100.0,
+    "keeperiq_high": 97.6,
     "rank": 46,
     "weights": {
       "league_prior": 0.944,

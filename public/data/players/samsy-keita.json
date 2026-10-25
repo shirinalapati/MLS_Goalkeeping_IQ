@@ -1,0 +1,223 @@
+{
+  "schema_version": "1",
+  "player_id": "N6Mmkk90qE",
+  "slug": "samsy-keita",
+  "name": "Samsy Keita",
+  "generated_at": "2026-10-25T17:39:54Z",
+  "methodology_version": "1.0.0",
+  "seasons": {
+    "2026": {
+      "player_id": "N6Mmkk90qE",
+      "slug": "samsy-keita",
+      "name": "Samsy Keita",
+      "season": 2026,
+      "team_id": "APk5LGOMOW",
+      "team": "CF Montréal",
+      "team_abbreviation": "MTL",
+      "changed_teams": false,
+      "nationality": "Canada",
+      "birth_date": "2009-07-27",
+      "age": 17,
+      "minutes": 97.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 63.5,
+      "adjusted_total_p96": 0.06,
+      "observed_total_p96": 1.19,
+      "baseline_total_p96": 0.05,
+      "adjusted_total": 1.2,
+      "reliability": 0.019,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 16,
+      "rank_observed": 3,
+      "rank_goals_conceded": 10,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 1,
+      "goals_conceded_p96": 0.99,
+      "shots_faced": 4,
+      "shots_faced_p96": 3.96,
+      "saves": 3,
+      "save_pct": 75.0,
+      "xgoals_faced": 2.13,
+      "goals_prevented": 1.13,
+      "goals_prevented_p96": 1.12,
+      "previous_rank": null,
+      "rank_change": null,
+      "keeperiq_change": null,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": 1.147,
+          "adjusted_p96": 0.081,
+          "baseline_p96": 0.063,
+          "total": 1.159,
+          "raw_total": 1.132,
+          "percentile": 54.8,
+          "observed_percentile": 100.0,
+          "opportunities": 4,
+          "opportunities_p96": 3.96,
+          "reliability": 0.014
+        },
+        "handling": {
+          "observed_p96": 0.056,
+          "adjusted_p96": -0.013,
+          "baseline_p96": -0.014,
+          "total": 0.057,
+          "raw_total": 0.056,
+          "percentile": 52.1,
+          "observed_percentile": 100.0,
+          "opportunities": 3,
+          "opportunities_p96": 2.97,
+          "reliability": 0.01
+        },
+        "claiming": {
+          "observed_p96": 0.002,
+          "adjusted_p96": -0.0,
+          "baseline_p96": -0.001,
+          "total": 0.002,
+          "raw_total": 0.002,
+          "percentile": 33.9,
+          "observed_percentile": 55.8,
+          "opportunities": 1,
+          "opportunities_p96": 0.99,
+          "reliability": 0.006
+        },
+        "sweeping": {
+          "observed_p96": 0.01,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.01,
+          "raw_total": 0.009,
+          "percentile": 50.4,
+          "observed_percentile": 67.0,
+          "opportunities": 1,
+          "opportunities_p96": 0.99,
+          "reliability": 0.001
+        },
+        "passing": {
+          "observed_p96": -0.023,
+          "adjusted_p96": -0.011,
+          "baseline_p96": -0.008,
+          "total": -0.023,
+          "raw_total": 0.037,
+          "percentile": 37.7,
+          "observed_percentile": 12.7,
+          "opportunities": 27,
+          "opportunities_p96": 26.72,
+          "reliability": 0.169
+        },
+        "fielding": {
+          "observed_p96": -0.007,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": -0.007,
+          "raw_total": -0.012,
+          "percentile": 46.3,
+          "observed_percentile": 18.6,
+          "opportunities": 23,
+          "opportunities_p96": 22.76,
+          "reliability": 0.005
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (97 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "ljqEdk3o5x",
+          "date": "2026-10-24",
+          "matchday": 32,
+          "minutes": 97.0,
+          "total_ga": 1.198,
+          "total_ga_p96": 1.19,
+          "rolling_total_ga_p96": 1.19,
+          "goals_conceded": 1,
+          "shots_faced": 4,
+          "saves": 3,
+          "xgoals_faced": 2.13,
+          "goals_prevented": 1.13,
+          "components": {
+            "shot_stopping": 1.159,
+            "handling": 0.057,
+            "claiming": 0.002,
+            "sweeping": 0.01,
+            "passing": -0.023,
+            "fielding": -0.007
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-10-24",
+          "matchday": 32,
+          "matches_in_window": 1,
+          "rate_p96": 1.19
+        }
+      ],
+      "ranking_history": [],
+      "team_stints": [
+        {
+          "team_id": "APk5LGOMOW",
+          "team_name": "CF Montréal",
+          "team_abbreviation": "MTL",
+          "appearances": 1,
+          "minutes": 97.0,
+          "first_match": "2026-10-24",
+          "last_match": "2026-10-24"
+        }
+      ]
+    }
+  },
+  "available_seasons": [
+    2026
+  ],
+  "talent": {
+    "player_id": "N6Mmkk90qE",
+    "slug": "samsy-keita",
+    "name": "Samsy Keita",
+    "team": "CF Montréal",
+    "team_abbreviation": "MTL",
+    "nationality": "Canada",
+    "birth_date": "2009-07-27",
+    "age": 17,
+    "talent_p96": 0.07,
+    "talent_low": -0.09,
+    "talent_high": 0.24,
+    "talent_sd": 0.1,
+    "keeperiq": 60.4,
+    "keeperiq_low": 0.0,
+    "keeperiq_high": 100.0,
+    "rank": 20,
+    "weights": {
+      "league_prior": 0.981,
+      "prior_season": 0.0,
+      "live_season": 0.019
+    },
+    "prior_season_rate": null,
+    "live_season_rate": 1.19,
+    "prior_season_minutes": 0.0,
+    "live_season_minutes": 97.0,
+    "league_prior_rate": 0.05,
+    "prior_source": "no_prior_season",
+    "in_live_season": true
+  }
+}

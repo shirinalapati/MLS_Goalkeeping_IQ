@@ -3,7 +3,7 @@
   "player_id": "gpMOaPn1qz",
   "slug": "nicholas-hagen",
   "name": "Nicholas Hagen",
-  "generated_at": "2026-10-24T17:28:07Z",
+  "generated_at": "2026-10-25T17:39:54Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.022,
+          "observed_p96": -0.023,
           "adjusted_p96": 0.048,
           "baseline_p96": 0.053,
-          "total": -0.068,
+          "total": -0.069,
           "raw_total": -0.154,
           "percentile": 49.2,
           "observed_percentile": 27.7,
@@ -68,9 +68,9 @@
         },
         "handling": {
           "observed_p96": 0.052,
-          "adjusted_p96": -0.003,
+          "adjusted_p96": -0.002,
           "baseline_p96": -0.004,
-          "total": 0.158,
+          "total": 0.159,
           "raw_total": 0.156,
           "percentile": 63.0,
           "observed_percentile": 100.0,
@@ -112,15 +112,15 @@
           "observed_percentile": 28.6,
           "opportunities": 68,
           "opportunities_p96": 22.2,
-          "reliability": 0.34
+          "reliability": 0.339
         },
         "fielding": {
-          "observed_p96": 0.002,
+          "observed_p96": 0.003,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
           "total": 0.008,
           "raw_total": -0.008,
-          "percentile": 31.1,
+          "percentile": 27.7,
           "observed_percentile": 38.4,
           "opportunities": 37,
           "opportunities_p96": 12.08,
@@ -131,6 +131,14 @@
       "notes": {
         "strengths": [],
         "concerns": [
+          {
+            "component": "fielding",
+            "label": "Fielding",
+            "percentile": 27.7,
+            "band": "weak",
+            "opportunities": 37,
+            "text": "Fielding contribution below the MLS median."
+          },
           {
             "component": "sample",
             "label": "Sample",
@@ -178,12 +186,12 @@
           "xgoals_faced": 1.78,
           "goals_prevented": -0.22,
           "components": {
-            "shot_stopping": -0.187,
+            "shot_stopping": -0.188,
             "handling": 0.024,
             "claiming": 0.0,
             "sweeping": 0.001,
             "passing": 0.005,
-            "fielding": -0.0
+            "fielding": 0.0
           }
         },
         {
@@ -479,8 +487,8 @@
     "talent_sd": 0.099,
     "keeperiq": 43.1,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 100.0,
-    "rank": 34,
+    "keeperiq_high": 97.6,
+    "rank": 35,
     "weights": {
       "league_prior": 0.97,
       "prior_season": 0.03,

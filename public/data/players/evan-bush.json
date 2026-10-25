@@ -3,7 +3,7 @@
   "player_id": "KPqjo08PQ6",
   "slug": "evan-bush",
   "name": "Evan Bush",
-  "generated_at": "2026-10-24T17:28:07Z",
+  "generated_at": "2026-10-25T17:39:54Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.189,
-          "adjusted_p96": 0.026,
+          "observed_p96": -0.19,
+          "adjusted_p96": 0.025,
           "baseline_p96": 0.044,
-          "total": -1.19,
+          "total": -1.192,
           "raw_total": -1.366,
           "percentile": 25.3,
           "observed_percentile": 11.6,
@@ -68,9 +68,9 @@
         },
         "handling": {
           "observed_p96": 0.004,
-          "adjusted_p96": -0.004,
+          "adjusted_p96": -0.003,
           "baseline_p96": -0.004,
-          "total": 0.027,
+          "total": 0.028,
           "raw_total": 0.022,
           "percentile": 49.4,
           "observed_percentile": 66.5,
@@ -157,8 +157,8 @@
           "matchday": 5,
           "minutes": 97.0,
           "total_ga": 0.035,
-          "total_ga_p96": 0.04,
-          "rolling_total_ga_p96": 0.04,
+          "total_ga_p96": 0.03,
+          "rolling_total_ga_p96": 0.03,
           "goals_conceded": 0,
           "shots_faced": 0,
           "saves": 0,
@@ -187,12 +187,12 @@
           "xgoals_faced": 0.35,
           "goals_prevented": -0.65,
           "components": {
-            "shot_stopping": -0.624,
+            "shot_stopping": -0.625,
             "handling": 0.021,
             "claiming": 0.003,
             "sweeping": 0.016,
             "passing": -0.008,
-            "fielding": 0.011
+            "fielding": 0.012
           }
         },
         {
@@ -231,7 +231,7 @@
           "xgoals_faced": 0.0,
           "goals_prevented": 0.0,
           "components": {
-            "shot_stopping": 0.029,
+            "shot_stopping": 0.028,
             "handling": 0.001,
             "claiming": 0.016,
             "sweeping": -0.002,
@@ -244,7 +244,7 @@
           "date": "2025-07-06",
           "matchday": 22,
           "minutes": 106.0,
-          "total_ga": 0.198,
+          "total_ga": 0.197,
           "total_ga_p96": 0.18,
           "rolling_total_ga_p96": -0.03,
           "goals_conceded": 1,
@@ -266,7 +266,7 @@
           "date": "2025-09-28",
           "matchday": 34,
           "minutes": 101.0,
-          "total_ga": -0.93,
+          "total_ga": -0.931,
           "total_ga_p96": -0.88,
           "rolling_total_ga_p96": -0.18,
           "goals_conceded": 2,
@@ -570,10 +570,10 @@
     "talent_low": -0.14,
     "talent_high": 0.17,
     "talent_sd": 0.093,
-    "keeperiq": 24.0,
+    "keeperiq": 22.7,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 96.0,
-    "rank": 61,
+    "keeperiq_high": 95.9,
+    "rank": 63,
     "weights": {
       "league_prior": 0.841,
       "prior_season": 0.159,

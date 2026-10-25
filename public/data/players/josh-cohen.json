@@ -3,7 +3,7 @@
   "player_id": "KXMekmrPq6",
   "slug": "josh-cohen",
   "name": "Josh Cohen",
-  "generated_at": "2026-10-24T17:28:07Z",
+  "generated_at": "2026-10-25T17:39:54Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,11 +22,11 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 48.3,
-      "adjusted_total_p96": 0.04,
+      "keeperiq": 45.0,
+      "adjusted_total_p96": 0.05,
       "observed_total_p96": 0.05,
       "baseline_total_p96": 0.04,
-      "adjusted_total": 0.11,
+      "adjusted_total": 0.1,
       "reliability": 0.074,
       "interval_low": -0.12,
       "interval_high": 0.21,
@@ -34,9 +34,9 @@
       "observed_interval_low": -0.63,
       "observed_interval_high": 0.73,
       "keeperiq_low": 0.0,
-      "keeperiq_high": 100.0,
-      "rank": 24,
-      "rank_observed": 22,
+      "keeperiq_high": 96.5,
+      "rank": 26,
+      "rank_observed": 24,
       "rank_goals_conceded": 3,
       "rank_pool": null,
       "rank_goals_conceded_pool": null,
@@ -51,17 +51,17 @@
       "goals_prevented": 0.06,
       "goals_prevented_p96": 0.03,
       "previous_rank": 24,
-      "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "rank_change": -2,
+      "keeperiq_change": -3.3,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.056,
-          "adjusted_p96": 0.056,
-          "baseline_p96": 0.055,
-          "total": 0.117,
+          "adjusted_p96": 0.061,
+          "baseline_p96": 0.06,
+          "total": 0.116,
           "raw_total": 0.058,
-          "percentile": 48.3,
-          "observed_percentile": 48.3,
+          "percentile": 44.9,
+          "observed_percentile": 45.0,
           "opportunities": 4,
           "opportunities_p96": 1.92,
           "reliability": 0.014
@@ -69,11 +69,11 @@
         "handling": {
           "observed_p96": -0.033,
           "adjusted_p96": -0.014,
-          "baseline_p96": -0.013,
+          "baseline_p96": -0.014,
           "total": -0.068,
           "raw_total": -0.07,
           "percentile": 44.9,
-          "observed_percentile": 8.2,
+          "observed_percentile": 8.1,
           "opportunities": 3,
           "opportunities_p96": 1.44,
           "reliability": 0.01
@@ -96,8 +96,8 @@
           "baseline_p96": 0.004,
           "total": 0.017,
           "raw_total": 0.015,
-          "percentile": 55.2,
-          "observed_percentile": 59.9,
+          "percentile": 55.0,
+          "observed_percentile": 60.7,
           "opportunities": 4,
           "opportunities_p96": 1.92,
           "reliability": 0.004
@@ -106,7 +106,7 @@
           "observed_p96": -0.001,
           "adjusted_p96": -0.006,
           "baseline_p96": -0.009,
-          "total": -0.002,
+          "total": -0.001,
           "raw_total": 0.123,
           "percentile": 55.9,
           "observed_percentile": 77.0,
@@ -116,11 +116,11 @@
         },
         "fielding": {
           "observed_p96": 0.013,
-          "adjusted_p96": 0.003,
-          "baseline_p96": 0.003,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
           "total": 0.027,
           "raw_total": 0.016,
-          "percentile": 73.7,
+          "percentile": 67.0,
           "observed_percentile": 96.6,
           "opportunities": 55,
           "opportunities_p96": 26.4,
@@ -129,16 +129,7 @@
       },
       "archetype": null,
       "notes": {
-        "strengths": [
-          {
-            "component": "fielding",
-            "label": "Fielding",
-            "percentile": 73.7,
-            "band": "strong",
-            "opportunities": 55,
-            "text": "Strong fielding contribution."
-          }
-        ],
+        "strengths": [],
         "concerns": [
           {
             "component": "sample",
@@ -165,7 +156,7 @@
           "xgoals_faced": 0.76,
           "goals_prevented": 0.76,
           "components": {
-            "shot_stopping": 0.793,
+            "shot_stopping": 0.792,
             "handling": -0.067,
             "claiming": 0.002,
             "sweeping": 0.016,
@@ -187,7 +178,7 @@
           "xgoals_faced": 0.29,
           "goals_prevented": -0.71,
           "components": {
-            "shot_stopping": -0.676,
+            "shot_stopping": -0.677,
             "handling": -0.001,
             "claiming": 0.012,
             "sweeping": 0.001,
@@ -313,8 +304,8 @@
     "talent_sd": 0.097,
     "keeperiq": 43.2,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 100.0,
-    "rank": 31,
+    "keeperiq_high": 97.6,
+    "rank": 32,
     "weights": {
       "league_prior": 0.926,
       "prior_season": 0.0,
