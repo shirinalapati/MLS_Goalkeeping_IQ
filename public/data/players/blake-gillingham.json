@@ -3,7 +3,7 @@
   "player_id": "EGMP1vPx5a",
   "slug": "blake-gillingham",
   "name": "Blake Gillingham",
-  "generated_at": "2026-10-25T17:39:54Z",
+  "generated_at": "2026-10-26T19:57:02Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -56,7 +56,7 @@
       "components": {
         "shot_stopping": {
           "observed_p96": 0.637,
-          "adjusted_p96": 0.079,
+          "adjusted_p96": 0.078,
           "baseline_p96": 0.048,
           "total": 2.189,
           "raw_total": 2.095,
@@ -106,7 +106,7 @@
           "observed_p96": -0.017,
           "adjusted_p96": -0.01,
           "baseline_p96": -0.004,
-          "total": -0.06,
+          "total": -0.059,
           "raw_total": 0.146,
           "percentile": 39.3,
           "observed_percentile": 12.2,
@@ -200,7 +200,7 @@
           "xgoals_faced": 0.45,
           "goals_prevented": 0.45,
           "components": {
-            "shot_stopping": 0.478,
+            "shot_stopping": 0.477,
             "handling": -0.019,
             "claiming": 0.014,
             "sweeping": -0.011,
@@ -474,6 +474,13 @@
           "rank": 16,
           "keeperiq": 69.9,
           "adj_total_p96": 0.0653
+        },
+        {
+          "captured_at": "2026-10-25T17:40:33Z",
+          "max_match_date": "2025-12-06",
+          "rank": 16,
+          "keeperiq": 69.9,
+          "adj_total_p96": 0.0649
         }
       ],
       "team_stints": [
@@ -504,7 +511,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 45.0,
+      "keeperiq": 44.9,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": -1.28,
       "baseline_total_p96": 0.05,
@@ -532,17 +539,17 @@
       "xgoals_faced": 0.59,
       "goals_prevented": -0.41,
       "goals_prevented_p96": -1.44,
-      "previous_rank": 27,
-      "rank_change": -1,
-      "keeperiq_change": 0.1,
+      "previous_rank": 28,
+      "rank_change": 0,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -1.415,
-          "adjusted_p96": 0.057,
-          "baseline_p96": 0.064,
+          "adjusted_p96": 0.058,
+          "baseline_p96": 0.065,
           "total": -0.398,
           "raw_total": -0.406,
-          "percentile": 41.7,
+          "percentile": 41.6,
           "observed_percentile": 0.0,
           "opportunities": 2,
           "opportunities_p96": 7.11,
@@ -554,7 +561,7 @@
           "baseline_p96": -0.014,
           "total": 0.026,
           "raw_total": 0.026,
-          "percentile": 51.4,
+          "percentile": 51.5,
           "observed_percentile": 100.0,
           "opportunities": 1,
           "opportunities_p96": 3.56,
@@ -578,8 +585,8 @@
           "baseline_p96": 0.004,
           "total": 0.0,
           "raw_total": 0.0,
-          "percentile": 50.4,
-          "observed_percentile": 35.5,
+          "percentile": 53.9,
+          "observed_percentile": 35.4,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -590,7 +597,7 @@
           "baseline_p96": -0.009,
           "total": 0.012,
           "raw_total": 0.029,
-          "percentile": 55.9,
+          "percentile": 59.2,
           "observed_percentile": 100.0,
           "opportunities": 12,
           "opportunities_p96": 42.67,
@@ -602,7 +609,7 @@
           "baseline_p96": 0.002,
           "total": 0.001,
           "raw_total": -0.001,
-          "percentile": 51.0,
+          "percentile": 51.1,
           "observed_percentile": 43.4,
           "opportunities": 8,
           "opportunities_p96": 28.44,
@@ -690,6 +697,13 @@
           "rank": 27,
           "keeperiq": 44.9,
           "adj_total_p96": 0.0387
+        },
+        {
+          "captured_at": "2026-10-25T17:40:33Z",
+          "max_match_date": "2026-10-25",
+          "rank": 28,
+          "keeperiq": 45.0,
+          "adj_total_p96": 0.0433
         }
       ],
       "team_stints": [
@@ -722,7 +736,7 @@
     "talent_low": -0.09,
     "talent_high": 0.24,
     "talent_sd": 0.098,
-    "keeperiq": 64.2,
+    "keeperiq": 64.0,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 16,

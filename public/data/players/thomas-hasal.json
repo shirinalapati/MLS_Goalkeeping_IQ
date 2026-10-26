@@ -3,7 +3,7 @@
   "player_id": "gOMnRnO8Mw",
   "slug": "thomas-hasal",
   "name": "Thomas Hasal",
-  "generated_at": "2026-10-25T17:39:54Z",
+  "generated_at": "2026-10-26T19:57:02Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -164,7 +164,7 @@
           "xgoals_faced": 2.61,
           "goals_prevented": -2.39,
           "components": {
-            "shot_stopping": -2.362,
+            "shot_stopping": -2.363,
             "handling": 0.01,
             "claiming": 0.004,
             "sweeping": -0.099,
@@ -426,6 +426,13 @@
           "rank": 57,
           "keeperiq": 19.0,
           "adj_total_p96": 0.0042
+        },
+        {
+          "captured_at": "2026-10-25T17:40:33Z",
+          "max_match_date": "2025-12-06",
+          "rank": 57,
+          "keeperiq": 19.0,
+          "adj_total_p96": 0.0038
         }
       ],
       "team_stints": [
@@ -456,7 +463,7 @@
       "appearances": 3,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 28.7,
+      "keeperiq": 25.4,
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -0.65,
       "baseline_total_p96": 0.05,
@@ -469,8 +476,8 @@
       "observed_interval_high": 0.11,
       "keeperiq_low": 0.0,
       "keeperiq_high": 96.5,
-      "rank": 43,
-      "rank_observed": 53,
+      "rank": 44,
+      "rank_observed": 54,
       "rank_goals_conceded": 20,
       "rank_pool": null,
       "rank_goals_conceded_pool": null,
@@ -484,24 +491,24 @@
       "xgoals_faced": 1.87,
       "goals_prevented": -1.13,
       "goals_prevented_p96": -0.48,
-      "previous_rank": 44,
-      "rank_change": 1,
-      "keeperiq_change": -1.0,
+      "previous_rank": 43,
+      "rank_change": -1,
+      "keeperiq_change": -3.3,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.452,
           "adjusted_p96": 0.044,
-          "baseline_p96": 0.062,
-          "total": -1.069,
+          "baseline_p96": 0.063,
+          "total": -1.07,
           "raw_total": -1.135,
-          "percentile": 36.7,
+          "percentile": 36.6,
           "observed_percentile": 1.0,
           "opportunities": 8,
           "opportunities_p96": 3.38,
           "reliability": 0.028
         },
         "handling": {
-          "observed_p96": -0.18,
+          "observed_p96": -0.179,
           "adjusted_p96": -0.018,
           "baseline_p96": -0.014,
           "total": -0.424,
@@ -530,8 +537,8 @@
           "baseline_p96": 0.004,
           "total": 0.022,
           "raw_total": 0.019,
-          "percentile": 50.4,
-          "observed_percentile": 67.0,
+          "percentile": 50.5,
+          "observed_percentile": 67.1,
           "opportunities": 3,
           "opportunities_p96": 1.27,
           "reliability": 0.003
@@ -542,7 +549,7 @@
           "baseline_p96": -0.006,
           "total": -0.081,
           "raw_total": 0.06,
-          "percentile": 23.3,
+          "percentile": 20.3,
           "observed_percentile": 0.0,
           "opportunities": 33,
           "opportunities_p96": 13.96,
@@ -568,7 +575,7 @@
           {
             "component": "total",
             "label": "Complete impact",
-            "percentile": 28.7,
+            "percentile": 25.4,
             "band": "weak",
             "opportunities": null,
             "text": "Complete impact sits below the MLS median."
@@ -576,7 +583,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 23.3,
+            "percentile": 20.3,
             "band": "weak",
             "opportunities": 33,
             "text": "Passing contribution below the MLS median."
@@ -620,7 +627,7 @@
           "matchday": 14,
           "minutes": 101.0,
           "total_ga": -1.678,
-          "total_ga_p96": -1.59,
+          "total_ga_p96": -1.6,
           "rolling_total_ga_p96": -1.21,
           "goals_conceded": 3,
           "shots_faced": 4,
@@ -631,7 +638,7 @@
             "shot_stopping": -1.648,
             "handling": -0.008,
             "claiming": 0.001,
-            "sweeping": 0.004,
+            "sweeping": 0.003,
             "passing": -0.032,
             "fielding": 0.005
           }
@@ -896,6 +903,13 @@
           "rank": 44,
           "keeperiq": 29.7,
           "adj_total_p96": 0.0093
+        },
+        {
+          "captured_at": "2026-10-25T17:40:33Z",
+          "max_match_date": "2026-10-25",
+          "rank": 43,
+          "keeperiq": 28.7,
+          "adj_total_p96": 0.0138
         }
       ],
       "team_stints": [
@@ -928,7 +942,7 @@
     "talent_low": -0.17,
     "talent_high": 0.15,
     "talent_sd": 0.097,
-    "keeperiq": 14.9,
+    "keeperiq": 14.8,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.9,
     "rank": 70,

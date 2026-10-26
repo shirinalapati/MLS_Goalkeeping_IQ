@@ -3,7 +3,7 @@
   "player_id": "315VXNkGQ9",
   "slug": "carlos-coronel",
   "name": "Carlos Coronel",
-  "generated_at": "2026-10-25T17:39:54Z",
+  "generated_at": "2026-10-26T19:57:02Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.278,
           "adjusted_p96": 0.126,
           "baseline_p96": 0.048,
-          "total": 9.102,
+          "total": 9.098,
           "raw_total": 8.201,
           "percentile": 91.3,
           "observed_percentile": 91.5,
@@ -70,7 +70,7 @@
           "observed_p96": -0.016,
           "adjusted_p96": -0.007,
           "baseline_p96": -0.004,
-          "total": -0.527,
+          "total": -0.525,
           "raw_total": -0.555,
           "percentile": 17.3,
           "observed_percentile": 17.3,
@@ -91,12 +91,12 @@
           "reliability": 0.175
         },
         "sweeping": {
-          "observed_p96": -0.005,
-          "adjusted_p96": -0.001,
+          "observed_p96": -0.006,
+          "adjusted_p96": -0.002,
           "baseline_p96": -0.001,
           "total": -0.18,
           "raw_total": -0.215,
-          "percentile": 19.7,
+          "percentile": 18.6,
           "observed_percentile": 28.5,
           "opportunities": 73,
           "opportunities_p96": 2.23,
@@ -175,7 +175,7 @@
           {
             "component": "sweeping",
             "label": "Sweeping",
-            "percentile": 19.7,
+            "percentile": 18.6,
             "band": "weak",
             "opportunities": 73,
             "text": "Sweeping contribution below the MLS median."
@@ -188,7 +188,7 @@
           "date": "2025-02-23",
           "matchday": 1,
           "minutes": 98.0,
-          "total_ga": -0.217,
+          "total_ga": -0.218,
           "total_ga_p96": -0.21,
           "rolling_total_ga_p96": -0.21,
           "goals_conceded": 1,
@@ -197,7 +197,7 @@
           "xgoals_faced": 0.76,
           "goals_prevented": -0.24,
           "components": {
-            "shot_stopping": -0.209,
+            "shot_stopping": -0.21,
             "handling": 0.022,
             "claiming": 0.0,
             "sweeping": -0.01,
@@ -285,7 +285,7 @@
           "xgoals_faced": 2.01,
           "goals_prevented": 0.01,
           "components": {
-            "shot_stopping": 0.036,
+            "shot_stopping": 0.035,
             "handling": 0.011,
             "claiming": 0.002,
             "sweeping": 0.017,
@@ -374,7 +374,7 @@
           "goals_prevented": 0.72,
           "components": {
             "shot_stopping": 0.746,
-            "handling": 0.048,
+            "handling": 0.049,
             "claiming": 0.027,
             "sweeping": 0.003,
             "passing": 0.042,
@@ -782,7 +782,7 @@
           "date": "2025-09-14",
           "matchday": 32,
           "minutes": 101.0,
-          "total_ga": 1.322,
+          "total_ga": 1.321,
           "total_ga_p96": 1.26,
           "rolling_total_ga_p96": 0.26,
           "goals_conceded": 2,
@@ -1271,6 +1271,13 @@
           "rank": 4,
           "keeperiq": 92.1,
           "adj_total_p96": 0.1181
+        },
+        {
+          "captured_at": "2026-10-25T17:40:33Z",
+          "max_match_date": "2025-12-06",
+          "rank": 4,
+          "keeperiq": 92.1,
+          "adj_total_p96": 0.1178
         }
       ],
       "team_stints": [

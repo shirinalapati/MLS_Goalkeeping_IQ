@@ -3,7 +3,7 @@
   "player_id": "4JMAaDp2MK",
   "slug": "aljaz-ivacic",
   "name": "Aljaž Ivačič",
-  "generated_at": "2026-10-25T17:39:54Z",
+  "generated_at": "2026-10-26T19:57:02Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.017,
           "adjusted_p96": 0.029,
           "baseline_p96": 0.046,
-          "total": -0.423,
+          "total": -0.426,
           "raw_total": -1.124,
           "percentile": 29.4,
           "observed_percentile": 32.5,
@@ -70,7 +70,7 @@
           "observed_p96": -0.022,
           "adjusted_p96": -0.008,
           "baseline_p96": -0.004,
-          "total": -0.559,
+          "total": -0.558,
           "raw_total": -0.581,
           "percentile": 8.7,
           "observed_percentile": 9.5,
@@ -181,8 +181,8 @@
           "matchday": 1,
           "minutes": 95.0,
           "total_ga": 0.312,
-          "total_ga_p96": 0.32,
-          "rolling_total_ga_p96": 0.32,
+          "total_ga_p96": 0.31,
+          "rolling_total_ga_p96": 0.31,
           "goals_conceded": 0,
           "shots_faced": 3,
           "saves": 3,
@@ -233,7 +233,7 @@
           "xgoals_faced": 1.93,
           "goals_prevented": -0.07,
           "components": {
-            "shot_stopping": -0.042,
+            "shot_stopping": -0.043,
             "handling": -0.328,
             "claiming": 0.001,
             "sweeping": -0.064,
@@ -334,7 +334,7 @@
           "date": "2025-04-19",
           "matchday": 9,
           "minutes": 101.0,
-          "total_ga": 0.278,
+          "total_ga": 0.277,
           "total_ga_p96": 0.26,
           "rolling_total_ga_p96": 0.24,
           "goals_conceded": 0,
@@ -475,7 +475,7 @@
           "xgoals_faced": 1.15,
           "goals_prevented": 0.15,
           "components": {
-            "shot_stopping": 0.18,
+            "shot_stopping": 0.179,
             "handling": 0.065,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -510,7 +510,7 @@
           "date": "2025-06-14",
           "matchday": 19,
           "minutes": 98.0,
-          "total_ga": 0.131,
+          "total_ga": 0.13,
           "total_ga_p96": 0.13,
           "rolling_total_ga_p96": 0.15,
           "goals_conceded": 1,
@@ -563,7 +563,7 @@
           "xgoals_faced": 2.42,
           "goals_prevented": -0.58,
           "components": {
-            "shot_stopping": -0.552,
+            "shot_stopping": -0.553,
             "handling": -0.042,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -607,7 +607,7 @@
           "xgoals_faced": 1.4,
           "goals_prevented": -0.6,
           "components": {
-            "shot_stopping": -0.569,
+            "shot_stopping": -0.57,
             "handling": 0.001,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -775,7 +775,7 @@
           "date": "2025-05-17",
           "matchday": 14,
           "matches_in_window": 5,
-          "rate_p96": 0.21
+          "rate_p96": 0.2
         },
         {
           "date": "2025-05-25",
@@ -1067,6 +1067,13 @@
           "rank": 56,
           "keeperiq": 20.1,
           "adj_total_p96": 0.007
+        },
+        {
+          "captured_at": "2026-10-25T17:40:33Z",
+          "max_match_date": "2025-12-06",
+          "rank": 56,
+          "keeperiq": 20.1,
+          "adj_total_p96": 0.0067
         }
       ],
       "team_stints": [

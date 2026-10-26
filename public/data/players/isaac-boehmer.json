@@ -3,7 +3,7 @@
   "player_id": "kRQaoRPO5K",
   "slug": "isaac-boehmer",
   "name": "Isaac Boehmer",
-  "generated_at": "2026-10-25T17:39:54Z",
+  "generated_at": "2026-10-26T19:57:02Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,10 +22,10 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 40.2,
+      "keeperiq": 40.1,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.46,
-      "baseline_total_p96": 0.04,
+      "baseline_total_p96": 0.05,
       "adjusted_total": -0.64,
       "reliability": 0.046,
       "interval_low": -0.14,
@@ -50,17 +50,17 @@
       "xgoals_faced": 0.81,
       "goals_prevented": -1.19,
       "goals_prevented_p96": -0.85,
-      "previous_rank": 35,
-      "rank_change": 1,
-      "keeperiq_change": 0.3,
+      "previous_rank": 34,
+      "rank_change": 0,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.818,
-          "adjusted_p96": 0.043,
-          "baseline_p96": 0.061,
+          "adjusted_p96": 0.044,
+          "baseline_p96": 0.062,
           "total": -1.15,
           "raw_total": -1.189,
-          "percentile": 36.7,
+          "percentile": 36.6,
           "observed_percentile": 0.0,
           "opportunities": 3,
           "opportunities_p96": 2.13,
@@ -72,7 +72,7 @@
           "baseline_p96": -0.014,
           "total": 0.01,
           "raw_total": 0.009,
-          "percentile": 52.1,
+          "percentile": 52.2,
           "observed_percentile": 100.0,
           "opportunities": 1,
           "opportunities_p96": 0.71,
@@ -80,7 +80,7 @@
         },
         "claiming": {
           "observed_p96": 0.001,
-          "adjusted_p96": -0.0,
+          "adjusted_p96": -0.001,
           "baseline_p96": -0.001,
           "total": 0.001,
           "raw_total": 0.0,
@@ -108,8 +108,8 @@
           "baseline_p96": -0.009,
           "total": -0.013,
           "raw_total": 0.071,
-          "percentile": 45.1,
-          "observed_percentile": 45.1,
+          "percentile": 48.5,
+          "observed_percentile": 41.7,
           "opportunities": 52,
           "opportunities_p96": 36.98,
           "reliability": 0.282
@@ -120,8 +120,8 @@
           "baseline_p96": 0.002,
           "total": -0.003,
           "raw_total": -0.01,
-          "percentile": 51.0,
-          "observed_percentile": 23.9,
+          "percentile": 54.6,
+          "observed_percentile": 23.8,
           "opportunities": 36,
           "opportunities_p96": 25.6,
           "reliability": 0.007
@@ -418,6 +418,13 @@
           "rank": 35,
           "keeperiq": 39.9,
           "adj_total_p96": 0.0233
+        },
+        {
+          "captured_at": "2026-10-25T17:40:33Z",
+          "max_match_date": "2026-10-25",
+          "rank": 34,
+          "keeperiq": 40.2,
+          "adj_total_p96": 0.0277
         }
       ],
       "team_stints": [
@@ -449,7 +456,7 @@
     "talent_low": -0.14,
     "talent_high": 0.19,
     "talent_sd": 0.099,
-    "keeperiq": 27.7,
+    "keeperiq": 27.6,
     "keeperiq_low": 0.0,
     "keeperiq_high": 97.6,
     "rank": 53,

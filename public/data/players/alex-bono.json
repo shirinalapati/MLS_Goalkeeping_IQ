@@ -3,7 +3,7 @@
   "player_id": "ljqEjOZEQx",
   "slug": "alex-bono",
   "name": "Alex Bono",
-  "generated_at": "2026-10-25T17:39:54Z",
+  "generated_at": "2026-10-26T19:57:02Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 45.0,
+      "keeperiq": 44.9,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": -0.34,
       "baseline_total_p96": 0.05,
@@ -50,17 +50,17 @@
       "xgoals_faced": 1.64,
       "goals_prevented": -0.36,
       "goals_prevented_p96": -0.35,
-      "previous_rank": 32,
-      "rank_change": 2,
-      "keeperiq_change": 1.6,
+      "previous_rank": 30,
+      "rank_change": 0,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.32,
-          "adjusted_p96": 0.057,
+          "adjusted_p96": 0.058,
           "baseline_p96": 0.064,
           "total": -0.327,
           "raw_total": -0.355,
-          "percentile": 41.7,
+          "percentile": 41.6,
           "observed_percentile": 3.8,
           "opportunities": 5,
           "opportunities_p96": 4.9,
@@ -72,16 +72,16 @@
           "baseline_p96": -0.014,
           "total": 0.001,
           "raw_total": -0.0,
-          "percentile": 51.4,
-          "observed_percentile": 90.5,
+          "percentile": 51.5,
+          "observed_percentile": 93.9,
           "opportunities": 3,
           "opportunities_p96": 2.94,
           "reliability": 0.01
         },
         "claiming": {
           "observed_p96": 0.0,
-          "adjusted_p96": -0.0,
-          "baseline_p96": -0.0,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
           "total": 0.0,
           "raw_total": 0.0,
           "percentile": 33.9,
@@ -96,8 +96,8 @@
           "baseline_p96": 0.004,
           "total": 0.001,
           "raw_total": 0.0,
-          "percentile": 46.9,
-          "observed_percentile": 35.5,
+          "percentile": 50.5,
+          "observed_percentile": 35.4,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -120,8 +120,8 @@
           "baseline_p96": 0.002,
           "total": 0.006,
           "raw_total": 0.0,
-          "percentile": 32.9,
-          "observed_percentile": 50.4,
+          "percentile": 33.3,
+          "observed_percentile": 53.9,
           "opportunities": 13,
           "opportunities_p96": 12.73,
           "reliability": 0.003
@@ -180,6 +180,13 @@
           "rank": 32,
           "keeperiq": 43.4,
           "adj_total_p96": 0.0284
+        },
+        {
+          "captured_at": "2026-10-25T17:40:33Z",
+          "max_match_date": "2026-10-25",
+          "rank": 30,
+          "keeperiq": 45.0,
+          "adj_total_p96": 0.0358
         }
       ],
       "team_stints": [
@@ -211,7 +218,7 @@
     "talent_low": -0.12,
     "talent_high": 0.21,
     "talent_sd": 0.1,
-    "keeperiq": 40.4,
+    "keeperiq": 40.3,
     "keeperiq_low": 0.0,
     "keeperiq_high": 97.6,
     "rank": 39,
