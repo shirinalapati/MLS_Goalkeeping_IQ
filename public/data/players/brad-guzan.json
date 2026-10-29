@@ -3,7 +3,7 @@
   "player_id": "0x5gZ9mM7O",
   "slug": "brad-guzan",
   "name": "Brad Guzan",
-  "generated_at": "2026-10-28T19:34:33Z",
+  "generated_at": "2026-10-29T19:38:43Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -0.07,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -1.91,
+      "adjusted_total": -1.9,
       "reliability": 0.298,
       "interval_low": -0.13,
       "interval_high": 0.15,
@@ -58,7 +58,7 @@
           "observed_p96": -0.076,
           "adjusted_p96": 0.011,
           "baseline_p96": 0.052,
-          "total": -2.084,
+          "total": -2.083,
           "raw_total": -2.833,
           "percentile": 16.2,
           "observed_percentile": 20.4,
@@ -106,7 +106,7 @@
           "observed_p96": 0.003,
           "adjusted_p96": 0.002,
           "baseline_p96": -0.004,
-          "total": 0.091,
+          "total": 0.092,
           "raw_total": 1.726,
           "percentile": 74.4,
           "observed_percentile": 73.4,
@@ -587,7 +587,7 @@
           "components": {
             "shot_stopping": 0.745,
             "handling": 0.141,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.177,
             "passing": -0.017,
             "fielding": 0.004
@@ -631,7 +631,7 @@
           "components": {
             "shot_stopping": 0.989,
             "handling": 0.038,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.091,
             "passing": 0.004,
             "fielding": 0.01
@@ -642,7 +642,7 @@
           "date": "2025-07-19",
           "matchday": 25,
           "minutes": 103.0,
-          "total_ga": -0.692,
+          "total_ga": -0.693,
           "total_ga_p96": -0.65,
           "rolling_total_ga_p96": 0.02,
           "goals_conceded": 3,
@@ -719,7 +719,7 @@
           "components": {
             "shot_stopping": -1.375,
             "handling": 0.001,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.021,
             "passing": -0.017,
             "fielding": 0.008
@@ -1168,10 +1168,10 @@
     "talent_low": -0.12,
     "talent_high": 0.16,
     "talent_sd": 0.085,
-    "keeperiq": 22.7,
+    "keeperiq": 24.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.9,
-    "rank": 62,
+    "rank": 59,
     "weights": {
       "league_prior": 0.714,
       "prior_season": 0.286,
