@@ -3,7 +3,7 @@
   "player_id": "Xj5Y43JyMb",
   "slug": "jeffrey-gal",
   "name": "Jeffrey Gal",
-  "generated_at": "2026-10-31T18:34:29Z",
+  "generated_at": "2026-11-01T18:57:13Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.524,
-          "adjusted_p96": -0.014,
+          "observed_p96": -0.525,
+          "adjusted_p96": -0.015,
           "baseline_p96": 0.043,
-          "total": -4.174,
+          "total": -4.176,
           "raw_total": -4.392,
           "percentile": 10.1,
           "observed_percentile": 1.0,
@@ -80,7 +80,7 @@
         },
         "claiming": {
           "observed_p96": 0.01,
-          "adjusted_p96": 0.002,
+          "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
           "total": 0.081,
           "raw_total": 0.077,
@@ -215,7 +215,7 @@
           "date": "2025-06-07",
           "matchday": 18,
           "minutes": 98.0,
-          "total_ga": -0.471,
+          "total_ga": -0.472,
           "total_ga_p96": -0.46,
           "rolling_total_ga_p96": -0.25,
           "goals_conceded": 1,
@@ -237,9 +237,9 @@
           "date": "2025-06-15",
           "matchday": 19,
           "minutes": 100.0,
-          "total_ga": -0.998,
+          "total_ga": -0.999,
           "total_ga_p96": -0.96,
-          "rolling_total_ga_p96": -0.44,
+          "rolling_total_ga_p96": -0.45,
           "goals_conceded": 2,
           "shots_faced": 3,
           "saves": 1,
@@ -290,7 +290,7 @@
           "xgoals_faced": 1.59,
           "goals_prevented": -0.41,
           "components": {
-            "shot_stopping": -0.382,
+            "shot_stopping": -0.383,
             "handling": 0.001,
             "claiming": 0.014,
             "sweeping": 0.005,
@@ -366,7 +366,7 @@
           "date": "2025-06-15",
           "matchday": 19,
           "matches_in_window": 4,
-          "rate_p96": -0.44
+          "rate_p96": -0.45
         },
         {
           "date": "2025-06-26",
@@ -664,7 +664,7 @@
     "talent_sd": 0.091,
     "keeperiq": 2.4,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 65.7,
+    "keeperiq_high": 65.9,
     "rank": 79,
     "weights": {
       "league_prior": 0.813,
