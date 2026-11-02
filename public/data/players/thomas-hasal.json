@@ -3,7 +3,7 @@
   "player_id": "gOMnRnO8Mw",
   "slug": "thomas-hasal",
   "name": "Thomas Hasal",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -165,7 +165,7 @@
           "goals_prevented": -2.39,
           "components": {
             "shot_stopping": -2.363,
-            "handling": 0.011,
+            "handling": 0.01,
             "claiming": 0.004,
             "sweeping": -0.099,
             "passing": 0.004,
@@ -447,6 +447,13 @@
           "rank": 57,
           "keeperiq": 19.0,
           "adj_total_p96": 0.0037
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 57,
+          "keeperiq": 19.0,
+          "adj_total_p96": 0.0035
         }
       ],
       "team_stints": [
@@ -477,7 +484,7 @@
       "appearances": 3,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 33.1,
+      "keeperiq": 33.0,
       "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.65,
       "baseline_total_p96": 0.05,
@@ -490,9 +497,9 @@
       "observed_interval_high": 0.11,
       "keeperiq_low": 0.0,
       "keeperiq_high": 96.5,
-      "rank": 41,
+      "rank": 40,
       "rank_observed": 54,
-      "rank_goals_conceded": 18,
+      "rank_goals_conceded": 17,
       "rank_pool": null,
       "rank_goals_conceded_pool": null,
       "rank_disagreement": null,
@@ -506,16 +513,16 @@
       "goals_prevented": -1.13,
       "goals_prevented_p96": -0.48,
       "previous_rank": 41,
-      "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "rank_change": 1,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.453,
-          "adjusted_p96": 0.047,
-          "baseline_p96": 0.066,
+          "adjusted_p96": 0.046,
+          "baseline_p96": 0.064,
           "total": -1.07,
           "raw_total": -1.135,
-          "percentile": 36.5,
+          "percentile": 36.4,
           "observed_percentile": 1.0,
           "opportunities": 8,
           "opportunities_p96": 3.38,
@@ -523,11 +530,11 @@
         },
         "handling": {
           "observed_p96": -0.179,
-          "adjusted_p96": -0.018,
-          "baseline_p96": -0.014,
+          "adjusted_p96": -0.017,
+          "baseline_p96": -0.013,
           "total": -0.424,
           "raw_total": -0.426,
-          "percentile": 4.8,
+          "percentile": 4.9,
           "observed_percentile": 0.0,
           "opportunities": 5,
           "opportunities_p96": 2.11,
@@ -535,24 +542,24 @@
         },
         "claiming": {
           "observed_p96": 0.001,
-          "adjusted_p96": -0.0,
+          "adjusted_p96": -0.001,
           "baseline_p96": -0.001,
           "total": 0.003,
           "raw_total": 0.002,
-          "percentile": 36.5,
-          "observed_percentile": 49.2,
+          "percentile": 36.6,
+          "observed_percentile": 49.4,
           "opportunities": 2,
           "opportunities_p96": 0.85,
           "reliability": 0.012
         },
         "sweeping": {
           "observed_p96": 0.009,
-          "adjusted_p96": 0.003,
+          "adjusted_p96": 0.004,
           "baseline_p96": 0.003,
           "total": 0.022,
           "raw_total": 0.019,
-          "percentile": 51.3,
-          "observed_percentile": 65.1,
+          "percentile": 51.0,
+          "observed_percentile": 64.9,
           "opportunities": 3,
           "opportunities_p96": 1.27,
           "reliability": 0.003
@@ -563,7 +570,7 @@
           "baseline_p96": -0.006,
           "total": -0.081,
           "raw_total": 0.06,
-          "percentile": 22.8,
+          "percentile": 19.6,
           "observed_percentile": 0.0,
           "opportunities": 33,
           "opportunities_p96": 13.96,
@@ -575,8 +582,8 @@
           "baseline_p96": 0.001,
           "total": 0.012,
           "raw_total": 0.0,
-          "percentile": 18.0,
-          "observed_percentile": 47.1,
+          "percentile": 14.5,
+          "observed_percentile": 46.9,
           "opportunities": 14,
           "opportunities_p96": 5.92,
           "reliability": 0.003
@@ -589,7 +596,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 22.8,
+            "percentile": 19.6,
             "band": "weak",
             "opportunities": 33,
             "text": "Passing contribution below the MLS median."
@@ -644,7 +651,7 @@
             "shot_stopping": -1.648,
             "handling": -0.008,
             "claiming": 0.0,
-            "sweeping": 0.004,
+            "sweeping": 0.003,
             "passing": -0.032,
             "fielding": 0.005
           }
@@ -930,6 +937,13 @@
           "rank": 41,
           "keeperiq": 33.1,
           "adj_total_p96": 0.0167
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2026-11-01",
+          "rank": 41,
+          "keeperiq": 33.1,
+          "adj_total_p96": 0.0166
         }
       ],
       "team_stints": [
@@ -964,7 +978,7 @@
     "talent_sd": 0.097,
     "keeperiq": 13.3,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 95.9,
+    "keeperiq_high": 95.8,
     "rank": 70,
     "weights": {
       "league_prior": 0.932,

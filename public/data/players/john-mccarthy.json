@@ -3,7 +3,7 @@
   "player_id": "2vQ1L20Oqr",
   "slug": "john-mccarthy",
   "name": "John McCarthy",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -70,13 +70,13 @@
           "observed_p96": 0.015,
           "adjusted_p96": -0.002,
           "baseline_p96": -0.004,
-          "total": 0.185,
+          "total": 0.184,
           "raw_total": 0.173,
           "percentile": 65.8,
           "observed_percentile": 94.3,
           "opportunities": 35,
           "opportunities_p96": 2.77,
-          "reliability": 0.108
+          "reliability": 0.107
         },
         "claiming": {
           "observed_p96": 0.008,
@@ -92,11 +92,11 @@
         },
         "sweeping": {
           "observed_p96": -0.026,
-          "adjusted_p96": -0.001,
+          "adjusted_p96": -0.002,
           "baseline_p96": -0.001,
           "total": -0.329,
           "raw_total": -0.343,
-          "percentile": 17.6,
+          "percentile": 20.6,
           "observed_percentile": 5.3,
           "opportunities": 19,
           "opportunities_p96": 1.5,
@@ -735,6 +735,13 @@
           "rank": 66,
           "keeperiq": 3.1,
           "adj_total_p96": -0.0492
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 66,
+          "keeperiq": 3.1,
+          "adj_total_p96": -0.0494
         }
       ],
       "team_stints": [
@@ -775,9 +782,9 @@
     "talent_low": -0.17,
     "talent_high": 0.13,
     "talent_sd": 0.093,
-    "keeperiq": 10.9,
+    "keeperiq": 10.8,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 95.9,
+    "keeperiq_high": 95.8,
     "rank": 74,
     "weights": {
       "league_prior": 0.84,

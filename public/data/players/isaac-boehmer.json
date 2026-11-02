@@ -3,7 +3,7 @@
   "player_id": "kRQaoRPO5K",
   "slug": "isaac-boehmer",
   "name": "Isaac Boehmer",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 40.0,
+      "keeperiq": 39.7,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.46,
       "baseline_total_p96": 0.05,
@@ -50,17 +50,17 @@
       "xgoals_faced": 0.81,
       "goals_prevented": -1.19,
       "goals_prevented_p96": -0.85,
-      "previous_rank": 35,
-      "rank_change": 1,
-      "keeperiq_change": 3.5,
+      "previous_rank": 34,
+      "rank_change": 0,
+      "keeperiq_change": -0.3,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.818,
-          "adjusted_p96": 0.046,
-          "baseline_p96": 0.065,
+          "adjusted_p96": 0.045,
+          "baseline_p96": 0.064,
           "total": -1.15,
           "raw_total": -1.189,
-          "percentile": 36.5,
+          "percentile": 36.4,
           "observed_percentile": 0.0,
           "opportunities": 3,
           "opportunities_p96": 2.13,
@@ -68,11 +68,11 @@
         },
         "handling": {
           "observed_p96": 0.007,
-          "adjusted_p96": -0.014,
-          "baseline_p96": -0.014,
+          "adjusted_p96": -0.013,
+          "baseline_p96": -0.013,
           "total": 0.01,
           "raw_total": 0.009,
-          "percentile": 51.9,
+          "percentile": 51.8,
           "observed_percentile": 100.0,
           "opportunities": 1,
           "opportunities_p96": 0.71,
@@ -84,8 +84,8 @@
           "baseline_p96": -0.001,
           "total": 0.001,
           "raw_total": 0.0,
-          "percentile": 36.5,
-          "observed_percentile": 45.7,
+          "percentile": 36.6,
+          "observed_percentile": 45.9,
           "opportunities": 1,
           "opportunities_p96": 0.71,
           "reliability": 0.006
@@ -108,8 +108,8 @@
           "baseline_p96": -0.009,
           "total": -0.013,
           "raw_total": 0.071,
-          "percentile": 45.0,
-          "observed_percentile": 45.0,
+          "percentile": 44.9,
+          "observed_percentile": 42.3,
           "opportunities": 52,
           "opportunities_p96": 36.98,
           "reliability": 0.282
@@ -120,7 +120,7 @@
           "baseline_p96": 0.002,
           "total": -0.003,
           "raw_total": -0.01,
-          "percentile": 47.5,
+          "percentile": 50.9,
           "observed_percentile": 23.4,
           "opportunities": 36,
           "opportunities_p96": 25.6,
@@ -439,6 +439,13 @@
           "rank": 35,
           "keeperiq": 36.5,
           "adj_total_p96": 0.0307
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2026-11-01",
+          "rank": 34,
+          "keeperiq": 40.0,
+          "adj_total_p96": 0.0306
         }
       ],
       "team_stints": [
@@ -472,7 +479,7 @@
     "talent_sd": 0.099,
     "keeperiq": 28.2,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 97.7,
+    "keeperiq_high": 95.8,
     "rank": 53,
     "weights": {
       "league_prior": 0.954,

@@ -3,7 +3,7 @@
   "player_id": "gOMn2jBXMw",
   "slug": "alec-smir",
   "name": "Alec Smir",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -120,7 +120,7 @@
           "baseline_p96": 0.001,
           "total": 0.012,
           "raw_total": 0.002,
-          "percentile": 27.7,
+          "percentile": 31.1,
           "observed_percentile": 60.1,
           "opportunities": 19,
           "opportunities_p96": 9.75,
@@ -439,6 +439,13 @@
           "rank": 33,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0386
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 33,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.0384
         }
       ],
       "team_stints": [
@@ -469,7 +476,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 41.4,
+      "keeperiq": 41.2,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": -1.15,
       "baseline_total_p96": 0.05,
@@ -499,15 +506,15 @@
       "goals_prevented_p96": -1.19,
       "previous_rank": 32,
       "rank_change": 0,
-      "keeperiq_change": 3.5,
+      "keeperiq_change": -0.2,
       "components": {
         "shot_stopping": {
           "observed_p96": -1.163,
-          "adjusted_p96": 0.057,
-          "baseline_p96": 0.068,
+          "adjusted_p96": 0.055,
+          "baseline_p96": 0.067,
           "total": -0.642,
           "raw_total": -0.657,
-          "percentile": 36.5,
+          "percentile": 36.4,
           "observed_percentile": 0.0,
           "opportunities": 4,
           "opportunities_p96": 7.25,
@@ -516,10 +523,10 @@
         "handling": {
           "observed_p96": 0.021,
           "adjusted_p96": -0.014,
-          "baseline_p96": -0.015,
+          "baseline_p96": -0.014,
           "total": 0.011,
           "raw_total": 0.011,
-          "percentile": 48.5,
+          "percentile": 51.8,
           "observed_percentile": 100.0,
           "opportunities": 2,
           "opportunities_p96": 3.62,
@@ -531,8 +538,8 @@
           "baseline_p96": -0.001,
           "total": 0.0,
           "raw_total": 0.0,
-          "percentile": 34.9,
-          "observed_percentile": 42.2,
+          "percentile": 35.0,
+          "observed_percentile": 42.3,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -543,8 +550,8 @@
           "baseline_p96": 0.003,
           "total": 0.001,
           "raw_total": 0.0,
-          "percentile": 51.3,
-          "observed_percentile": 34.7,
+          "percentile": 51.0,
+          "observed_percentile": 37.9,
           "opportunities": 0,
           "opportunities_p96": 0.0,
           "reliability": 0.0
@@ -555,8 +562,8 @@
           "baseline_p96": -0.008,
           "total": -0.006,
           "raw_total": 0.027,
-          "percentile": 48.5,
-          "observed_percentile": 37.6,
+          "percentile": 48.4,
+          "observed_percentile": 37.4,
           "opportunities": 13,
           "opportunities_p96": 23.55,
           "reliability": 0.089
@@ -568,7 +575,7 @@
           "total": 0.002,
           "raw_total": -0.001,
           "percentile": 32.5,
-          "observed_percentile": 43.3,
+          "observed_percentile": 43.2,
           "opportunities": 6,
           "opportunities_p96": 10.87,
           "reliability": 0.001
@@ -788,6 +795,13 @@
           "rank": 32,
           "keeperiq": 37.9,
           "adj_total_p96": 0.0388
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2026-11-01",
+          "rank": 32,
+          "keeperiq": 41.4,
+          "adj_total_p96": 0.0388
         }
       ],
       "team_stints": [
@@ -820,9 +834,9 @@
     "talent_low": -0.12,
     "talent_high": 0.21,
     "talent_sd": 0.099,
-    "keeperiq": 37.0,
+    "keeperiq": 36.9,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 97.7,
+    "keeperiq_high": 97.6,
     "rank": 40,
     "weights": {
       "league_prior": 0.964,

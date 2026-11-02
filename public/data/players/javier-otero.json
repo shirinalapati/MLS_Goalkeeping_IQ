@@ -3,7 +3,7 @@
   "player_id": "p6qborPBQ0",
   "slug": "javier-otero",
   "name": "Javier Otero",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -30,7 +30,7 @@
       "reliability": 0.046,
       "interval_low": -0.09,
       "interval_high": 0.14,
-      "interval_se": 0.07,
+      "interval_se": 0.069,
       "observed_interval_low": -0.17,
       "observed_interval_high": 0.1,
       "keeperiq_low": 0.0,
@@ -447,6 +447,13 @@
           "rank": 42,
           "keeperiq": 38.3,
           "adj_total_p96": 0.0271
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 42,
+          "keeperiq": 38.3,
+          "adj_total_p96": 0.0269
         }
       ],
       "team_stints": [
@@ -477,7 +484,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 41.4,
+      "keeperiq": 41.2,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": -0.07,
       "baseline_total_p96": 0.05,
@@ -489,7 +496,7 @@
       "observed_interval_low": -0.16,
       "observed_interval_high": 0.04,
       "keeperiq_low": 2.1,
-      "keeperiq_high": 86.7,
+      "keeperiq_high": 90.0,
       "rank": 31,
       "rank_observed": 34,
       "rank_goals_conceded": 4,
@@ -507,15 +514,15 @@
       "goals_prevented_p96": -0.18,
       "previous_rank": 31,
       "rank_change": 0,
-      "keeperiq_change": 3.5,
+      "keeperiq_change": -0.2,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.15,
-          "adjusted_p96": 0.059,
-          "baseline_p96": 0.065,
+          "adjusted_p96": 0.058,
+          "baseline_p96": 0.064,
           "total": -0.295,
           "raw_total": -0.348,
-          "percentile": 41.3,
+          "percentile": 37.8,
           "observed_percentile": 11.7,
           "opportunities": 5,
           "opportunities_p96": 2.54,
@@ -523,11 +530,11 @@
         },
         "handling": {
           "observed_p96": 0.016,
-          "adjusted_p96": -0.014,
-          "baseline_p96": -0.014,
+          "adjusted_p96": -0.013,
+          "baseline_p96": -0.013,
           "total": 0.031,
           "raw_total": 0.029,
-          "percentile": 51.9,
+          "percentile": 53.4,
           "observed_percentile": 100.0,
           "opportunities": 4,
           "opportunities_p96": 2.03,
@@ -539,8 +546,8 @@
           "baseline_p96": -0.001,
           "total": -0.032,
           "raw_total": -0.033,
-          "percentile": 24.0,
-          "observed_percentile": 3.2,
+          "percentile": 24.1,
+          "observed_percentile": 3.1,
           "opportunities": 5,
           "opportunities_p96": 2.54,
           "reliability": 0.029
@@ -551,7 +558,7 @@
           "baseline_p96": 0.004,
           "total": 0.174,
           "raw_total": 0.172,
-          "percentile": 82.0,
+          "percentile": 85.5,
           "observed_percentile": 100.0,
           "opportunities": 9,
           "opportunities_p96": 4.57,
@@ -563,8 +570,8 @@
           "baseline_p96": -0.008,
           "total": -0.042,
           "raw_total": 0.076,
-          "percentile": 34.0,
-          "observed_percentile": 16.5,
+          "percentile": 33.8,
+          "observed_percentile": 16.3,
           "opportunities": 58,
           "opportunities_p96": 29.46,
           "reliability": 0.305
@@ -894,6 +901,13 @@
           "rank": 31,
           "keeperiq": 37.9,
           "adj_total_p96": 0.039
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2026-11-01",
+          "rank": 31,
+          "keeperiq": 41.4,
+          "adj_total_p96": 0.0388
         }
       ],
       "team_stints": [
@@ -926,10 +940,10 @@
     "talent_low": -0.12,
     "talent_high": 0.2,
     "talent_sd": 0.096,
-    "keeperiq": 36.8,
+    "keeperiq": 34.8,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 97.7,
-    "rank": 42,
+    "keeperiq_high": 97.6,
+    "rank": 43,
     "weights": {
       "league_prior": 0.905,
       "prior_season": 0.044,

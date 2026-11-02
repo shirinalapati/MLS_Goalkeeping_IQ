@@ -3,7 +3,7 @@
   "player_id": "odMXEAde5Y",
   "slug": "adam-beaudry",
   "name": "Adam Beaudry",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -97,7 +97,7 @@
           "total": 0.008,
           "raw_total": 0.007,
           "percentile": 44.5,
-          "observed_percentile": 79.9,
+          "observed_percentile": 80.8,
           "opportunities": 1,
           "opportunities_p96": 1.0,
           "reliability": 0.001
@@ -411,6 +411,13 @@
           "rank": 20,
           "keeperiq": 63.2,
           "adj_total_p96": 0.0577
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 20,
+          "keeperiq": 63.2,
+          "adj_total_p96": 0.0575
         }
       ],
       "team_stints": [
@@ -441,7 +448,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 36.5,
+      "keeperiq": 36.4,
       "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.7,
       "baseline_total_p96": 0.05,
@@ -471,15 +478,15 @@
       "goals_prevented_p96": -0.67,
       "previous_rank": 38,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.643,
-          "adjusted_p96": 0.043,
-          "baseline_p96": 0.065,
+          "adjusted_p96": 0.042,
+          "baseline_p96": 0.064,
           "total": -1.354,
           "raw_total": -1.411,
-          "percentile": 35.0,
+          "percentile": 34.9,
           "observed_percentile": 0.0,
           "opportunities": 6,
           "opportunities_p96": 2.85,
@@ -487,12 +494,12 @@
         },
         "handling": {
           "observed_p96": -0.043,
-          "adjusted_p96": -0.015,
-          "baseline_p96": -0.014,
+          "adjusted_p96": -0.014,
+          "baseline_p96": -0.013,
           "total": -0.091,
           "raw_total": -0.093,
-          "percentile": 45.5,
-          "observed_percentile": 5.8,
+          "percentile": 45.3,
+          "observed_percentile": 2.4,
           "opportunities": 3,
           "opportunities_p96": 1.43,
           "reliability": 0.01
@@ -503,8 +510,8 @@
           "baseline_p96": -0.001,
           "total": 0.001,
           "raw_total": 0.001,
-          "percentile": 36.5,
-          "observed_percentile": 45.7,
+          "percentile": 36.6,
+          "observed_percentile": 45.9,
           "opportunities": 2,
           "opportunities_p96": 0.95,
           "reliability": 0.012
@@ -513,10 +520,10 @@
           "observed_p96": 0.001,
           "adjusted_p96": 0.004,
           "baseline_p96": 0.004,
-          "total": 0.003,
+          "total": 0.002,
           "raw_total": 0.0,
-          "percentile": 54.7,
-          "observed_percentile": 38.0,
+          "percentile": 54.5,
+          "observed_percentile": 37.9,
           "opportunities": 4,
           "opportunities_p96": 1.9,
           "reliability": 0.004
@@ -527,8 +534,8 @@
           "baseline_p96": -0.008,
           "total": -0.036,
           "raw_total": 0.09,
-          "percentile": 37.6,
-          "observed_percentile": 23.8,
+          "percentile": 37.4,
+          "observed_percentile": 26.8,
           "opportunities": 70,
           "opportunities_p96": 33.27,
           "reliability": 0.346
@@ -539,8 +546,8 @@
           "baseline_p96": 0.002,
           "total": 0.005,
           "raw_total": -0.006,
-          "percentile": 47.5,
-          "observed_percentile": 37.4,
+          "percentile": 47.4,
+          "observed_percentile": 37.3,
           "opportunities": 50,
           "opportunities_p96": 23.76,
           "reliability": 0.01
@@ -788,6 +795,13 @@
           "rank": 38,
           "keeperiq": 36.5,
           "adj_total_p96": 0.022
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2026-11-01",
+          "rank": 38,
+          "keeperiq": 36.5,
+          "adj_total_p96": 0.0219
         }
       ],
       "team_stints": [
@@ -822,7 +836,7 @@
     "talent_sd": 0.098,
     "keeperiq": 25.5,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 95.9,
+    "keeperiq_high": 95.8,
     "rank": 56,
     "weights": {
       "league_prior": 0.934,

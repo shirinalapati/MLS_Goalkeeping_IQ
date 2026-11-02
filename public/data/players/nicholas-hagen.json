@@ -3,7 +3,7 @@
   "player_id": "gpMOaPn1qz",
   "slug": "nicholas-hagen",
   "name": "Nicholas Hagen",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.023,
           "adjusted_p96": 0.047,
           "baseline_p96": 0.052,
-          "total": -0.071,
+          "total": -0.07,
           "raw_total": -0.154,
           "percentile": 49.2,
           "observed_percentile": 27.7,
@@ -115,7 +115,7 @@
           "reliability": 0.339
         },
         "fielding": {
-          "observed_p96": 0.003,
+          "observed_p96": 0.002,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
           "total": 0.008,
@@ -179,11 +179,11 @@
           "goals_prevented": -0.22,
           "components": {
             "shot_stopping": -0.188,
-            "handling": 0.025,
+            "handling": 0.024,
             "claiming": 0.0,
             "sweeping": 0.001,
             "passing": 0.005,
-            "fielding": 0.0
+            "fielding": -0.0
           }
         },
         {
@@ -200,7 +200,7 @@
           "xgoals_faced": 2.21,
           "goals_prevented": -2.79,
           "components": {
-            "shot_stopping": -2.762,
+            "shot_stopping": -2.761,
             "handling": -0.012,
             "claiming": 0.0,
             "sweeping": -0.034,
@@ -467,6 +467,13 @@
           "rank": 34,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0375
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 34,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.0372
         }
       ],
       "team_stints": [
@@ -500,7 +507,7 @@
     "talent_sd": 0.099,
     "keeperiq": 39.9,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 97.7,
+    "keeperiq_high": 97.6,
     "rank": 35,
     "weights": {
       "league_prior": 0.97,

@@ -3,7 +3,7 @@
   "player_id": "Xj5Y43JyMb",
   "slug": "jeffrey-gal",
   "name": "Jeffrey Gal",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -28,7 +28,7 @@
       "baseline_total_p96": 0.04,
       "adjusted_total": -4.95,
       "reliability": 0.193,
-      "interval_low": -0.18,
+      "interval_low": -0.19,
       "interval_high": 0.11,
       "interval_se": 0.09,
       "observed_interval_low": -0.96,
@@ -80,7 +80,7 @@
         },
         "claiming": {
           "observed_p96": 0.01,
-          "adjusted_p96": 0.001,
+          "adjusted_p96": 0.002,
           "baseline_p96": 0.001,
           "total": 0.081,
           "raw_total": 0.077,
@@ -215,7 +215,7 @@
           "date": "2025-06-07",
           "matchday": 18,
           "minutes": 98.0,
-          "total_ga": -0.472,
+          "total_ga": -0.471,
           "total_ga_p96": -0.46,
           "rolling_total_ga_p96": -0.25,
           "goals_conceded": 1,
@@ -631,6 +631,13 @@
           "rank": 64,
           "keeperiq": 7.3,
           "adj_total_p96": -0.0363
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 64,
+          "keeperiq": 7.3,
+          "adj_total_p96": -0.0365
         }
       ],
       "team_stints": [
@@ -664,7 +671,7 @@
     "talent_sd": 0.091,
     "keeperiq": 2.4,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 65.9,
+    "keeperiq_high": 64.0,
     "rank": 79,
     "weights": {
       "league_prior": 0.813,

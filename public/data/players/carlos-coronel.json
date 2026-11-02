@@ -3,7 +3,7 @@
   "player_id": "315VXNkGQ9",
   "slug": "carlos-coronel",
   "name": "Carlos Coronel",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.277,
           "adjusted_p96": 0.125,
           "baseline_p96": 0.048,
-          "total": 9.089,
+          "total": 9.09,
           "raw_total": 8.201,
           "percentile": 91.3,
           "observed_percentile": 91.5,
@@ -70,7 +70,7 @@
           "observed_p96": -0.016,
           "adjusted_p96": -0.007,
           "baseline_p96": -0.004,
-          "total": -0.524,
+          "total": -0.525,
           "raw_total": -0.555,
           "percentile": 17.3,
           "observed_percentile": 17.3,
@@ -91,12 +91,12 @@
           "reliability": 0.175
         },
         "sweeping": {
-          "observed_p96": -0.005,
-          "adjusted_p96": -0.001,
+          "observed_p96": -0.006,
+          "adjusted_p96": -0.002,
           "baseline_p96": -0.001,
-          "total": -0.18,
+          "total": -0.181,
           "raw_total": -0.215,
-          "percentile": 19.7,
+          "percentile": 18.6,
           "observed_percentile": 28.5,
           "opportunities": 73,
           "opportunities_p96": 2.23,
@@ -106,7 +106,7 @@
           "observed_p96": -0.002,
           "adjusted_p96": -0.003,
           "baseline_p96": -0.004,
-          "total": -0.078,
+          "total": -0.077,
           "raw_total": 1.879,
           "percentile": 57.3,
           "observed_percentile": 56.3,
@@ -118,7 +118,7 @@
           "observed_p96": -0.005,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.002,
-          "total": -0.158,
+          "total": -0.159,
           "raw_total": -0.329,
           "percentile": 17.4,
           "observed_percentile": 18.8,
@@ -175,7 +175,7 @@
           {
             "component": "sweeping",
             "label": "Sweeping",
-            "percentile": 19.7,
+            "percentile": 18.6,
             "band": "weak",
             "opportunities": 73,
             "text": "Sweeping contribution below the MLS median."
@@ -254,7 +254,7 @@
           "date": "2025-03-15",
           "matchday": 4,
           "minutes": 105.0,
-          "total_ga": 0.217,
+          "total_ga": 0.216,
           "total_ga_p96": 0.2,
           "rolling_total_ga_p96": 0.39,
           "goals_conceded": 2,
@@ -353,7 +353,7 @@
           "components": {
             "shot_stopping": -0.719,
             "handling": -0.001,
-            "claiming": 0.0,
+            "claiming": 0.001,
             "sweeping": 0.004,
             "passing": 0.008,
             "fielding": 0.011
@@ -474,7 +474,7 @@
           "date": "2025-05-24",
           "matchday": 15,
           "minutes": 100.0,
-          "total_ga": 1.585,
+          "total_ga": 1.586,
           "total_ga_p96": 1.52,
           "rolling_total_ga_p96": 0.37,
           "goals_conceded": 0,
@@ -483,7 +483,7 @@
           "xgoals_faced": 1.57,
           "goals_prevented": 1.57,
           "components": {
-            "shot_stopping": 1.6,
+            "shot_stopping": 1.601,
             "handling": 0.003,
             "claiming": 0.015,
             "sweeping": -0.005,
@@ -716,7 +716,7 @@
           "date": "2025-08-16",
           "matchday": 28,
           "minutes": 103.0,
-          "total_ga": 0.669,
+          "total_ga": 0.67,
           "total_ga_p96": 0.62,
           "rolling_total_ga_p96": 0.27,
           "goals_conceded": 0,
@@ -738,7 +738,7 @@
           "date": "2025-08-24",
           "matchday": 29,
           "minutes": 100.0,
-          "total_ga": -0.712,
+          "total_ga": -0.713,
           "total_ga_p96": -0.68,
           "rolling_total_ga_p96": 0.23,
           "goals_conceded": 1,
@@ -750,7 +750,7 @@
             "shot_stopping": -0.76,
             "handling": 0.033,
             "claiming": 0.002,
-            "sweeping": -0.005,
+            "sweeping": -0.006,
             "passing": 0.014,
             "fielding": 0.004
           }
@@ -1292,6 +1292,13 @@
           "rank": 4,
           "keeperiq": 92.1,
           "adj_total_p96": 0.1177
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 4,
+          "keeperiq": 92.1,
+          "adj_total_p96": 0.1175
         }
       ],
       "team_stints": [
@@ -1323,10 +1330,10 @@
     "talent_low": -0.01,
     "talent_high": 0.26,
     "talent_sd": 0.081,
-    "keeperiq": 93.7,
+    "keeperiq": 95.8,
     "keeperiq_low": 13.4,
     "keeperiq_high": 100.0,
-    "rank": 4,
+    "rank": 3,
     "weights": {
       "league_prior": 0.651,
       "prior_season": 0.349,

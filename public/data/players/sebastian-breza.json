@@ -3,7 +3,7 @@
   "player_id": "raMyAW6BMd",
   "slug": "sebastian-breza",
   "name": "Sebastian Breza",
-  "generated_at": "2026-11-01T18:57:13Z",
+  "generated_at": "2026-11-02T22:47:21Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -475,6 +475,13 @@
           "rank": 52,
           "keeperiq": 26.6,
           "adj_total_p96": 0.0161
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2025-12-06",
+          "rank": 52,
+          "keeperiq": 26.6,
+          "adj_total_p96": 0.0158
         }
       ],
       "team_stints": [
@@ -505,7 +512,7 @@
       "appearances": 11,
       "sample_status": "provisional",
       "sample_status_label": "Provisional",
-      "keeperiq": 55.7,
+      "keeperiq": 51.9,
       "adjusted_total_p96": 0.05,
       "observed_total_p96": 0.17,
       "baseline_total_p96": 0.05,
@@ -514,15 +521,15 @@
       "interval_low": -0.1,
       "interval_high": 0.2,
       "interval_se": 0.091,
-      "observed_interval_low": -0.17,
-      "observed_interval_high": 0.54,
+      "observed_interval_low": -0.15,
+      "observed_interval_high": 0.52,
       "keeperiq_low": 0.0,
       "keeperiq_high": 96.5,
-      "rank": 20,
-      "rank_observed": 12,
-      "rank_goals_conceded": 30,
-      "rank_pool": 15,
-      "rank_goals_conceded_pool": 19,
+      "rank": 21,
+      "rank_observed": 11,
+      "rank_goals_conceded": 31,
+      "rank_pool": 16,
+      "rank_goals_conceded_pool": 20,
       "rank_disagreement": 4,
       "goals_conceded": 18,
       "goals_conceded_p96": 1.56,
@@ -534,17 +541,17 @@
       "goals_prevented": 1.68,
       "goals_prevented_p96": 0.15,
       "previous_rank": 20,
-      "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "rank_change": -1,
+      "keeperiq_change": -3.8,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.172,
-          "adjusted_p96": 0.083,
-          "baseline_p96": 0.066,
+          "adjusted_p96": 0.082,
+          "baseline_p96": 0.065,
           "total": 1.989,
           "raw_total": 1.676,
-          "percentile": 63.9,
-          "observed_percentile": 67.4,
+          "percentile": 60.3,
+          "observed_percentile": 73.9,
           "opportunities": 49,
           "opportunities_p96": 4.25,
           "reliability": 0.151
@@ -552,11 +559,11 @@
         "handling": {
           "observed_p96": -0.025,
           "adjusted_p96": -0.015,
-          "baseline_p96": -0.014,
+          "baseline_p96": -0.013,
           "total": -0.287,
           "raw_total": -0.298,
-          "percentile": 42.0,
-          "observed_percentile": 11.7,
+          "percentile": 35.1,
+          "observed_percentile": 11.8,
           "opportunities": 31,
           "opportunities_p96": 2.69,
           "reliability": 0.096
@@ -565,10 +572,10 @@
           "observed_p96": 0.005,
           "adjusted_p96": -0.0,
           "baseline_p96": -0.001,
-          "total": 0.052,
+          "total": 0.053,
           "raw_total": 0.048,
-          "percentile": 50.8,
-          "observed_percentile": 76.5,
+          "percentile": 51.0,
+          "observed_percentile": 76.7,
           "opportunities": 13,
           "opportunities_p96": 1.13,
           "reliability": 0.071
@@ -577,9 +584,9 @@
           "observed_p96": 0.046,
           "adjusted_p96": 0.005,
           "baseline_p96": 0.004,
-          "total": 0.529,
+          "total": 0.528,
           "raw_total": 0.516,
-          "percentile": 82.6,
+          "percentile": 86.0,
           "observed_percentile": 99.4,
           "opportunities": 23,
           "opportunities_p96": 1.99,
@@ -591,8 +598,8 @@
           "baseline_p96": -0.008,
           "total": -0.324,
           "raw_total": 0.365,
-          "percentile": 9.1,
-          "observed_percentile": 5.5,
+          "percentile": 9.0,
+          "observed_percentile": 5.4,
           "opportunities": 378,
           "opportunities_p96": 32.75,
           "reliability": 0.741
@@ -604,7 +611,7 @@
           "total": 0.048,
           "raw_total": -0.012,
           "percentile": 43.5,
-          "observed_percentile": 43.9,
+          "observed_percentile": 43.8,
           "opportunities": 238,
           "opportunities_p96": 20.62,
           "reliability": 0.045
@@ -617,7 +624,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 9.1,
+            "percentile": 9.0,
             "band": "poor",
             "opportunities": 378,
             "text": "Passing contribution well below the MLS median."
@@ -726,7 +733,7 @@
           "date": "2026-09-09",
           "matchday": 25,
           "minutes": 100.0,
-          "total_ga": -0.175,
+          "total_ga": -0.176,
           "total_ga_p96": -0.17,
           "rolling_total_ga_p96": 0.12,
           "goals_conceded": 2,
@@ -1182,6 +1189,13 @@
           "rank": 20,
           "keeperiq": 55.6,
           "adj_total_p96": 0.0516
+        },
+        {
+          "captured_at": "2026-11-01T19:00:36Z",
+          "max_match_date": "2026-11-01",
+          "rank": 20,
+          "keeperiq": 55.7,
+          "adj_total_p96": 0.0514
         }
       ],
       "team_stints": [
@@ -1214,10 +1228,10 @@
     "talent_low": -0.09,
     "talent_high": 0.2,
     "talent_sd": 0.091,
-    "keeperiq": 48.8,
+    "keeperiq": 55.7,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 97.7,
-    "rank": 26,
+    "keeperiq_high": 97.6,
+    "rank": 24,
     "weights": {
       "league_prior": 0.804,
       "prior_season": 0.03,
