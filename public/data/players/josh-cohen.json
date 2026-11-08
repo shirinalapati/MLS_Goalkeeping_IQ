@@ -3,7 +3,7 @@
   "player_id": "KXMekmrPq6",
   "slug": "josh-cohen",
   "name": "Josh Cohen",
-  "generated_at": "2026-11-07T18:48:41Z",
+  "generated_at": "2026-11-08T18:51:03Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 47.8,
+      "keeperiq": 47.6,
       "adjusted_total_p96": 0.05,
       "observed_total_p96": 0.05,
       "baseline_total_p96": 0.05,
@@ -34,8 +34,8 @@
       "observed_interval_low": -0.63,
       "observed_interval_high": 0.73,
       "keeperiq_low": 0.0,
-      "keeperiq_high": 96.5,
-      "rank": 24,
+      "keeperiq_high": 100.0,
+      "rank": 26,
       "rank_observed": 24,
       "rank_goals_conceded": 3,
       "rank_pool": null,
@@ -51,8 +51,8 @@
       "goals_prevented": 0.06,
       "goals_prevented_p96": 0.03,
       "previous_rank": 24,
-      "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "rank_change": -2,
+      "keeperiq_change": -0.2,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.055,
@@ -60,20 +60,20 @@
           "baseline_p96": 0.063,
           "total": 0.115,
           "raw_total": 0.058,
-          "percentile": 44.5,
-          "observed_percentile": 44.5,
+          "percentile": 41.0,
+          "observed_percentile": 41.0,
           "opportunities": 4,
           "opportunities_p96": 1.92,
           "reliability": 0.014
         },
         "handling": {
           "observed_p96": -0.033,
-          "adjusted_p96": -0.014,
+          "adjusted_p96": -0.013,
           "baseline_p96": -0.013,
           "total": -0.068,
           "raw_total": -0.07,
           "percentile": 48.3,
-          "observed_percentile": 8.1,
+          "observed_percentile": 8.0,
           "opportunities": 3,
           "opportunities_p96": 1.44,
           "reliability": 0.01
@@ -84,20 +84,20 @@
           "baseline_p96": -0.001,
           "total": 0.015,
           "raw_total": 0.014,
-          "percentile": 36.6,
-          "observed_percentile": 94.5,
+          "percentile": 35.2,
+          "observed_percentile": 94.6,
           "opportunities": 4,
           "opportunities_p96": 1.92,
           "reliability": 0.023
         },
         "sweeping": {
           "observed_p96": 0.008,
-          "adjusted_p96": 0.004,
-          "baseline_p96": 0.004,
+          "adjusted_p96": 0.003,
+          "baseline_p96": 0.003,
           "total": 0.017,
           "raw_total": 0.015,
-          "percentile": 54.5,
-          "observed_percentile": 61.4,
+          "percentile": 52.4,
+          "observed_percentile": 64.9,
           "opportunities": 4,
           "opportunities_p96": 1.92,
           "reliability": 0.004
@@ -108,8 +108,8 @@
           "baseline_p96": -0.009,
           "total": -0.001,
           "raw_total": 0.123,
-          "percentile": 51.9,
-          "observed_percentile": 73.5,
+          "percentile": 55.0,
+          "observed_percentile": 73.3,
           "opportunities": 80,
           "opportunities_p96": 38.4,
           "reliability": 0.377
@@ -117,11 +117,11 @@
         "fielding": {
           "observed_p96": 0.013,
           "adjusted_p96": 0.003,
-          "baseline_p96": 0.002,
+          "baseline_p96": 0.003,
           "total": 0.027,
           "raw_total": 0.016,
-          "percentile": 69.8,
-          "observed_percentile": 96.5,
+          "percentile": 70.7,
+          "observed_percentile": 96.6,
           "opportunities": 55,
           "opportunities_p96": 26.4,
           "reliability": 0.011
@@ -129,7 +129,16 @@
       },
       "archetype": null,
       "notes": {
-        "strengths": [],
+        "strengths": [
+          {
+            "component": "fielding",
+            "label": "Fielding",
+            "percentile": 70.7,
+            "band": "strong",
+            "opportunities": 55,
+            "text": "Strong fielding contribution."
+          }
+        ],
         "concerns": [
           {
             "component": "sample",
@@ -337,10 +346,10 @@
     "talent_low": -0.11,
     "talent_high": 0.21,
     "talent_sd": 0.097,
-    "keeperiq": 43.5,
+    "keeperiq": 43.8,
     "keeperiq_low": 0.0,
-    "keeperiq_high": 97.6,
-    "rank": 31,
+    "keeperiq_high": 95.8,
+    "rank": 30,
     "weights": {
       "league_prior": 0.926,
       "prior_season": 0.0,

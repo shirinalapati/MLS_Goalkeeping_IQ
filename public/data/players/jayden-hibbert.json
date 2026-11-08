@@ -3,7 +3,7 @@
   "player_id": "9YqdoDvL5v",
   "slug": "jayden-hibbert",
   "name": "Jayden Hibbert",
-  "generated_at": "2026-11-07T18:48:41Z",
+  "generated_at": "2026-11-08T18:51:03Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.114,
           "adjusted_p96": 0.03,
           "baseline_p96": 0.051,
-          "total": -0.971,
+          "total": -0.972,
           "raw_total": -1.202,
           "percentile": 32.4,
           "observed_percentile": 12.2,
@@ -117,8 +117,8 @@
         "fielding": {
           "observed_p96": 0.006,
           "adjusted_p96": 0.002,
-          "baseline_p96": 0.002,
-          "total": 0.053,
+          "baseline_p96": 0.001,
+          "total": 0.052,
           "raw_total": 0.008,
           "percentile": 55.2,
           "observed_percentile": 59.8,
@@ -244,7 +244,7 @@
           "date": "2025-09-20",
           "matchday": 33,
           "minutes": 102.0,
-          "total_ga": -0.11,
+          "total_ga": -0.111,
           "total_ga_p96": -0.1,
           "rolling_total_ga_p96": -0.07,
           "goals_conceded": 1,
@@ -643,10 +643,191 @@
           "last_match": "2025-10-11"
         }
       ]
+    },
+    "2026": {
+      "player_id": "9YqdoDvL5v",
+      "slug": "jayden-hibbert",
+      "name": "Jayden Hibbert",
+      "season": 2026,
+      "team_id": "KAqBN0Vqbg",
+      "team": "Atlanta United FC",
+      "team_abbreviation": "ATL",
+      "changed_teams": false,
+      "nationality": "Jamaica",
+      "birth_date": "2004-08-05",
+      "age": 22,
+      "minutes": 95.0,
+      "appearances": 1,
+      "sample_status": "limited",
+      "sample_status_label": "Limited Sample",
+      "keeperiq": 36.2,
+      "adjusted_total_p96": 0.03,
+      "observed_total_p96": -0.64,
+      "baseline_total_p96": 0.05,
+      "adjusted_total": -0.63,
+      "reliability": 0.01,
+      "interval_low": null,
+      "interval_high": null,
+      "interval_se": null,
+      "observed_interval_low": null,
+      "observed_interval_high": null,
+      "keeperiq_low": null,
+      "keeperiq_high": null,
+      "rank": 36,
+      "rank_observed": 56,
+      "rank_goals_conceded": 60,
+      "rank_pool": null,
+      "rank_goals_conceded_pool": null,
+      "rank_disagreement": null,
+      "goals_conceded": 3,
+      "goals_conceded_p96": 3.03,
+      "shots_faced": 7,
+      "shots_faced_p96": 7.07,
+      "saves": 4,
+      "save_pct": 57.1,
+      "xgoals_faced": 2.27,
+      "goals_prevented": -0.73,
+      "goals_prevented_p96": -0.74,
+      "previous_rank": null,
+      "rank_change": null,
+      "keeperiq_change": null,
+      "components": {
+        "shot_stopping": {
+          "observed_p96": -0.713,
+          "adjusted_p96": 0.055,
+          "baseline_p96": 0.068,
+          "total": -0.705,
+          "raw_total": -0.732,
+          "percentile": 39.6,
+          "observed_percentile": 0.0,
+          "opportunities": 7,
+          "opportunities_p96": 7.07,
+          "reliability": 0.025
+        },
+        "handling": {
+          "observed_p96": -0.097,
+          "adjusted_p96": -0.014,
+          "baseline_p96": -0.013,
+          "total": -0.096,
+          "raw_total": -0.097,
+          "percentile": 42.4,
+          "observed_percentile": 0.0,
+          "opportunities": 4,
+          "opportunities_p96": 4.04,
+          "reliability": 0.014
+        },
+        "claiming": {
+          "observed_p96": 0.006,
+          "adjusted_p96": -0.0,
+          "baseline_p96": -0.001,
+          "total": 0.006,
+          "raw_total": 0.006,
+          "percentile": 31.6,
+          "observed_percentile": 93.2,
+          "opportunities": 3,
+          "opportunities_p96": 3.03,
+          "reliability": 0.017
+        },
+        "sweeping": {
+          "observed_p96": 0.205,
+          "adjusted_p96": 0.004,
+          "baseline_p96": 0.004,
+          "total": 0.203,
+          "raw_total": 0.202,
+          "percentile": 78.3,
+          "observed_percentile": 100.0,
+          "opportunities": 4,
+          "opportunities_p96": 4.04,
+          "reliability": 0.004
+        },
+        "passing": {
+          "observed_p96": -0.038,
+          "adjusted_p96": -0.014,
+          "baseline_p96": -0.008,
+          "total": -0.037,
+          "raw_total": 0.022,
+          "percentile": 30.1,
+          "observed_percentile": 0.0,
+          "opportunities": 23,
+          "opportunities_p96": 23.24,
+          "reliability": 0.148
+        },
+        "fielding": {
+          "observed_p96": 0.0,
+          "adjusted_p96": 0.002,
+          "baseline_p96": 0.002,
+          "total": 0.0,
+          "raw_total": -0.005,
+          "percentile": 39.3,
+          "observed_percentile": 30.5,
+          "opportunities": 18,
+          "opportunities_p96": 18.19,
+          "reliability": 0.004
+        }
+      },
+      "archetype": null,
+      "notes": {
+        "strengths": [],
+        "concerns": [
+          {
+            "component": "sample",
+            "label": "Sample",
+            "percentile": null,
+            "band": "sample",
+            "opportunities": null,
+            "text": "Limited sample (95 minutes); the rating remains heavily regressed toward the league average."
+          }
+        ]
+      },
+      "timeline": [
+        {
+          "game_id": "eV5D897R5K",
+          "date": "2026-11-07",
+          "matchday": 35,
+          "minutes": 95.0,
+          "total_ga": -0.63,
+          "total_ga_p96": -0.64,
+          "rolling_total_ga_p96": -0.64,
+          "goals_conceded": 3,
+          "shots_faced": 7,
+          "saves": 4,
+          "xgoals_faced": 2.27,
+          "goals_prevented": -0.73,
+          "components": {
+            "shot_stopping": -0.705,
+            "handling": -0.096,
+            "claiming": 0.006,
+            "sweeping": 0.203,
+            "passing": -0.037,
+            "fielding": 0.0
+          }
+        }
+      ],
+      "rolling_form": [
+        {
+          "date": "2026-11-07",
+          "matchday": 35,
+          "matches_in_window": 1,
+          "rate_p96": -0.64
+        }
+      ],
+      "ranking_history": [],
+      "team_stints": [
+        {
+          "team_id": "KAqBN0Vqbg",
+          "team_name": "Atlanta United FC",
+          "team_abbreviation": "ATL",
+          "appearances": 1,
+          "minutes": 95.0,
+          "first_match": "2026-11-07",
+          "last_match": "2026-11-07"
+        }
+      ]
     }
   },
   "available_seasons": [
-    2025
+    2025,
+    2026
   ],
   "talent": {
     "player_id": "9YqdoDvL5v",
@@ -657,25 +838,25 @@
     "nationality": "Jamaica",
     "birth_date": "2004-08-05",
     "age": 22,
-    "talent_p96": 0.04,
-    "talent_low": -0.12,
+    "talent_p96": 0.03,
+    "talent_low": -0.13,
     "talent_high": 0.19,
     "talent_sd": 0.095,
-    "keeperiq": 34.6,
+    "keeperiq": 31.8,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
-    "rank": 47,
+    "rank": 51,
     "weights": {
-      "league_prior": 0.893,
-      "prior_season": 0.107,
-      "live_season": 0.0
+      "league_prior": 0.884,
+      "prior_season": 0.106,
+      "live_season": 0.009
     },
     "prior_season_rate": -0.08,
-    "live_season_rate": null,
+    "live_season_rate": -0.64,
     "prior_season_minutes": 818.0,
-    "live_season_minutes": 0.0,
+    "live_season_minutes": 95.0,
     "league_prior_rate": 0.05,
     "prior_source": "prior_season_available",
-    "in_live_season": false
+    "in_live_season": true
   }
 }
