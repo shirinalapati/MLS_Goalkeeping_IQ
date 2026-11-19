@@ -3,7 +3,7 @@
   "player_id": "p6qborPBQ0",
   "slug": "javier-otero",
   "name": "Javier Otero",
-  "generated_at": "2026-11-18T21:57:40Z",
+  "generated_at": "2026-11-19T22:10:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -30,7 +30,7 @@
       "reliability": 0.046,
       "interval_low": -0.09,
       "interval_high": 0.14,
-      "interval_se": 0.069,
+      "interval_se": 0.07,
       "observed_interval_low": -0.17,
       "observed_interval_high": 0.1,
       "keeperiq_low": 0.0,
@@ -165,7 +165,7 @@
           "goals_prevented": 0.1,
           "components": {
             "shot_stopping": 0.127,
-            "handling": -0.002,
+            "handling": -0.003,
             "claiming": 0.007,
             "sweeping": 0.007,
             "passing": -0.041,
@@ -177,7 +177,7 @@
           "date": "2025-07-12",
           "matchday": 23,
           "minutes": 105.0,
-          "total_ga": -0.185,
+          "total_ga": -0.186,
           "total_ga_p96": -0.17,
           "rolling_total_ga_p96": -0.04,
           "goals_conceded": 1,
@@ -510,7 +510,7 @@
       "observed_interval_low": -0.16,
       "observed_interval_high": 0.04,
       "keeperiq_low": 2.0,
-      "keeperiq_high": 83.0,
+      "keeperiq_high": 86.4,
       "rank": 31,
       "rank_observed": 36,
       "rank_goals_conceded": 4,
@@ -532,7 +532,7 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.15,
-          "adjusted_p96": 0.058,
+          "adjusted_p96": 0.059,
           "baseline_p96": 0.064,
           "total": -0.295,
           "raw_total": -0.348,
@@ -568,11 +568,11 @@
         },
         "sweeping": {
           "observed_p96": 0.089,
-          "adjusted_p96": 0.004,
+          "adjusted_p96": 0.005,
           "baseline_p96": 0.004,
           "total": 0.174,
           "raw_total": 0.172,
-          "percentile": 84.2,
+          "percentile": 81.8,
           "observed_percentile": 100.0,
           "opportunities": 9,
           "opportunities_p96": 4.57,

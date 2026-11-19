@@ -3,7 +3,7 @@
   "player_id": "KXMe39a6q6",
   "slug": "andrew-rick",
   "name": "Andrew Rick",
-  "generated_at": "2026-11-18T21:57:40Z",
+  "generated_at": "2026-11-19T22:10:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,19 +58,19 @@
           "observed_p96": 0.047,
           "adjusted_p96": 0.044,
           "baseline_p96": 0.041,
-          "total": 0.702,
+          "total": 0.701,
           "raw_total": 0.296,
           "percentile": 45.1,
           "observed_percentile": 48.5,
           "opportunities": 42,
           "opportunities_p96": 2.79,
-          "reliability": 0.133
+          "reliability": 0.132
         },
         "handling": {
           "observed_p96": 0.003,
           "adjusted_p96": -0.003,
           "baseline_p96": -0.004,
-          "total": 0.046,
+          "total": 0.045,
           "raw_total": 0.033,
           "percentile": 54.6,
           "observed_percentile": 59.8,
@@ -92,9 +92,9 @@
         },
         "sweeping": {
           "observed_p96": 0.011,
-          "adjusted_p96": -0.001,
+          "adjusted_p96": -0.0,
           "baseline_p96": -0.001,
-          "total": 0.159,
+          "total": 0.16,
           "raw_total": 0.144,
           "percentile": 87.9,
           "observed_percentile": 85.8,
@@ -257,7 +257,7 @@
           "xgoals_faced": 2.39,
           "goals_prevented": -0.61,
           "components": {
-            "shot_stopping": -0.585,
+            "shot_stopping": -0.586,
             "handling": 0.015,
             "claiming": -0.011,
             "sweeping": -0.01,
@@ -270,7 +270,7 @@
           "date": "2025-06-01",
           "matchday": 17,
           "minutes": 102.0,
-          "total_ga": 0.073,
+          "total_ga": 0.072,
           "total_ga_p96": 0.07,
           "rolling_total_ga_p96": -0.08,
           "goals_conceded": 0,
@@ -402,7 +402,7 @@
           "date": "2025-08-30",
           "matchday": 30,
           "minutes": 101.0,
-          "total_ga": 0.177,
+          "total_ga": 0.176,
           "total_ga_p96": 0.17,
           "rolling_total_ga_p96": 0.01,
           "goals_conceded": 0,
@@ -853,7 +853,7 @@
       "reliability": 0.067,
       "interval_low": -0.14,
       "interval_high": 0.18,
-      "interval_se": 0.095,
+      "interval_se": 0.096,
       "observed_interval_low": -1.21,
       "observed_interval_high": -0.47,
       "keeperiq_low": 0.0,
@@ -890,12 +890,12 @@
           "reliability": 0.028
         },
         "handling": {
-          "observed_p96": 0.02,
+          "observed_p96": 0.019,
           "adjusted_p96": -0.012,
           "baseline_p96": -0.012,
-          "total": 0.054,
+          "total": 0.053,
           "raw_total": 0.051,
-          "percentile": 59.4,
+          "percentile": 55.8,
           "observed_percentile": 100.0,
           "opportunities": 2,
           "opportunities_p96": 0.73,
@@ -938,15 +938,15 @@
           "reliability": 0.349
         },
         "fielding": {
-          "observed_p96": -0.089,
+          "observed_p96": -0.088,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.002,
-          "total": -0.245,
-          "raw_total": -0.259,
+          "total": -0.241,
+          "raw_total": -0.256,
           "percentile": 12.5,
           "observed_percentile": 0.0,
-          "opportunities": 29,
-          "opportunities_p96": 10.59,
+          "opportunities": 30,
+          "opportunities_p96": 10.95,
           "reliability": 0.006
         }
       },
@@ -968,7 +968,7 @@
             "label": "Fielding",
             "percentile": 12.5,
             "band": "poor",
-            "opportunities": 29,
+            "opportunities": 30,
             "text": "Fielding contribution well below the MLS median."
           },
           {
@@ -1031,7 +1031,7 @@
           "date": "2026-11-07",
           "matchday": 35,
           "minutes": 52.0,
-          "total_ga": 0.03,
+          "total_ga": 0.033,
           "total_ga_p96": 0.06,
           "rolling_total_ga_p96": -0.91,
           "goals_conceded": 0,
@@ -1044,8 +1044,8 @@
             "handling": 0.001,
             "claiming": 0.003,
             "sweeping": 0.001,
-            "passing": 0.009,
-            "fielding": 0.003
+            "passing": 0.008,
+            "fielding": 0.006
           }
         }
       ],
