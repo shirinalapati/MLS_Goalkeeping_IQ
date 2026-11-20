@@ -3,7 +3,7 @@
   "player_id": "e7Mz9eOGQr",
   "slug": "william-yarbrough",
   "name": "William Yarbrough",
-  "generated_at": "2026-11-19T22:10:06Z",
+  "generated_at": "2026-11-20T21:49:49Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,10 +22,10 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 44.4,
+      "keeperiq": 41.0,
       "adjusted_total_p96": 0.04,
       "observed_total_p96": -0.34,
-      "baseline_total_p96": 0.05,
+      "baseline_total_p96": 0.06,
       "adjusted_total": -0.67,
       "reliability": 0.019,
       "interval_low": -0.09,
@@ -35,7 +35,7 @@
       "observed_interval_high": -0.14,
       "keeperiq_low": 0.0,
       "keeperiq_high": 93.0,
-      "rank": 30,
+      "rank": 31,
       "rank_observed": 50,
       "rank_goals_conceded": 57,
       "rank_pool": null,
@@ -50,14 +50,14 @@
       "xgoals_faced": 4.15,
       "goals_prevented": -0.85,
       "goals_prevented_p96": -0.44,
-      "previous_rank": 32,
-      "rank_change": 2,
-      "keeperiq_change": -0.0,
+      "previous_rank": 30,
+      "rank_change": -1,
+      "keeperiq_change": -3.4,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.411,
-          "adjusted_p96": 0.054,
-          "baseline_p96": 0.07,
+          "adjusted_p96": 0.056,
+          "baseline_p96": 0.073,
           "total": -0.797,
           "raw_total": -0.849,
           "percentile": 39.6,
@@ -70,9 +70,9 @@
           "observed_p96": 0.046,
           "adjusted_p96": -0.012,
           "baseline_p96": -0.013,
-          "total": 0.089,
+          "total": 0.088,
           "raw_total": 0.087,
-          "percentile": 53.2,
+          "percentile": 53.3,
           "observed_percentile": 100.0,
           "opportunities": 10,
           "opportunities_p96": 5.16,
@@ -81,7 +81,7 @@
         "claiming": {
           "observed_p96": 0.005,
           "adjusted_p96": -0.0,
-          "baseline_p96": -0.001,
+          "baseline_p96": -0.0,
           "total": 0.009,
           "raw_total": 0.009,
           "percentile": 35.2,
@@ -96,8 +96,8 @@
           "baseline_p96": 0.004,
           "total": 0.006,
           "raw_total": 0.004,
-          "percentile": 52.4,
-          "observed_percentile": 48.2,
+          "percentile": 56.0,
+          "observed_percentile": 48.1,
           "opportunities": 4,
           "opportunities_p96": 2.06,
           "reliability": 0.004
@@ -278,6 +278,13 @@
           "rank": 32,
           "keeperiq": 44.4,
           "adj_total_p96": 0.0393
+        },
+        {
+          "captured_at": "2026-11-19T22:11:48Z",
+          "max_match_date": "2026-11-08",
+          "rank": 30,
+          "keeperiq": 44.4,
+          "adj_total_p96": 0.0402
         }
       ],
       "team_stints": [

@@ -1,6 +1,6 @@
 {
   "schema_version": "1",
-  "generated_at": "2026-11-19T22:10:06Z",
+  "generated_at": "2026-11-20T21:49:49Z",
   "methodology_version": "1.0.0",
   "default_season": 2025,
   "seasons": {
@@ -228,7 +228,7 @@
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
           "keeperiq": 61.9,
-          "adjusted_total_p96": 0.06,
+          "adjusted_total_p96": 0.05,
           "minutes": 2825.0,
           "involvement": {
             "shot_stopping": 3.67,
@@ -882,22 +882,22 @@
             "passing_actions_p96"
           ],
           "centroid": {
-            "claiming_actions_p96": -0.34,
-            "sweeping_actions_p96": 0.477,
+            "claiming_actions_p96": -0.332,
+            "sweeping_actions_p96": 0.478,
             "passing_actions_p96": 0.688,
-            "fielding_actions_p96": 0.738,
-            "handling_actions_p96": -0.68,
-            "shot_stopping_actions_p96": -0.724
+            "fielding_actions_p96": 0.739,
+            "handling_actions_p96": -0.681,
+            "shot_stopping_actions_p96": -0.721
           },
           "centroid_raw": {
             "claiming_actions_p96": 1.03,
             "sweeping_actions_p96": 2.15,
-            "passing_actions_p96": 34.54,
-            "fielding_actions_p96": 26.4,
-            "handling_actions_p96": 2.6,
+            "passing_actions_p96": 34.53,
+            "fielding_actions_p96": 26.38,
+            "handling_actions_p96": 2.61,
             "shot_stopping_actions_p96": 3.96
           },
-          "median_keeperiq": 35.2
+          "median_keeperiq": 36.3
         },
         {
           "cluster_id": 1,
@@ -910,18 +910,18 @@
             "claiming_actions_p96"
           ],
           "centroid": {
-            "claiming_actions_p96": 0.786,
-            "sweeping_actions_p96": -0.167,
-            "passing_actions_p96": -0.071,
-            "fielding_actions_p96": -0.311,
-            "handling_actions_p96": 1.024,
-            "shot_stopping_actions_p96": 1.023
+            "claiming_actions_p96": 0.787,
+            "sweeping_actions_p96": -0.17,
+            "passing_actions_p96": -0.073,
+            "fielding_actions_p96": -0.309,
+            "handling_actions_p96": 1.016,
+            "shot_stopping_actions_p96": 1.014
           },
           "centroid_raw": {
             "claiming_actions_p96": 1.35,
             "sweeping_actions_p96": 1.76,
-            "passing_actions_p96": 31.5,
-            "fielding_actions_p96": 20.14,
+            "passing_actions_p96": 31.48,
+            "fielding_actions_p96": 20.13,
             "handling_actions_p96": 3.57,
             "shot_stopping_actions_p96": 5.28
           },
@@ -934,37 +934,37 @@
           "size": 7,
           "distinctive_variables": [],
           "centroid": {
-            "claiming_actions_p96": -0.683,
-            "sweeping_actions_p96": -0.779,
-            "passing_actions_p96": -1.44,
-            "fielding_actions_p96": -1.11,
-            "handling_actions_p96": -0.347,
-            "shot_stopping_actions_p96": -0.246
+            "claiming_actions_p96": -0.702,
+            "sweeping_actions_p96": -0.778,
+            "passing_actions_p96": -1.437,
+            "fielding_actions_p96": -1.114,
+            "handling_actions_p96": -0.331,
+            "shot_stopping_actions_p96": -0.236
           },
           "centroid_raw": {
-            "claiming_actions_p96": 0.93,
+            "claiming_actions_p96": 0.92,
             "sweeping_actions_p96": 1.38,
             "passing_actions_p96": 26.03,
-            "fielding_actions_p96": 15.38,
-            "handling_actions_p96": 2.79,
-            "shot_stopping_actions_p96": 4.32
+            "fielding_actions_p96": 15.33,
+            "handling_actions_p96": 2.81,
+            "shot_stopping_actions_p96": 4.33
           },
-          "median_keeperiq": 46.0
+          "median_keeperiq": 46.1
         }
       ],
       "diagnostics": {
         "chosen_k": 3,
         "silhouette_scores": {
-          "3": 0.2902,
-          "4": 0.2349,
-          "5": 0.2582,
-          "6": 0.2216
+          "3": 0.2891,
+          "4": 0.2373,
+          "5": 0.2528,
+          "6": 0.2525
         },
         "inertia": {
-          "3": 109.5456,
-          "4": 91.6225,
-          "5": 77.8572,
-          "6": 67.401
+          "3": 110.0028,
+          "4": 91.5354,
+          "5": 78.0995,
+          "6": 66.3091
         },
         "variables": [
           "claiming_actions_p96",
@@ -987,7 +987,7 @@
           "team": "Nashville SC",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 94.7,
+          "keeperiq": 94.8,
           "adjusted_total_p96": 0.17,
           "minutes": 3339.0,
           "involvement": {
@@ -1025,7 +1025,7 @@
           "team": "FC Dallas",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 81.8,
+          "keeperiq": 81.7,
           "adjusted_total_p96": 0.1,
           "minutes": 2456.0,
           "involvement": {
@@ -1063,7 +1063,7 @@
           "team": "CF Montréal",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 51.8,
+          "keeperiq": 51.9,
           "adjusted_total_p96": 0.05,
           "minutes": 1108.0,
           "involvement": {
@@ -1082,7 +1082,7 @@
           "team": "Columbus Crew",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 49.4,
+          "keeperiq": 49.5,
           "adjusted_total_p96": 0.05,
           "minutes": 3494.0,
           "involvement": {
@@ -1120,7 +1120,7 @@
           "team": "Chicago Fire FC",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 37.9,
+          "keeperiq": 38.0,
           "adjusted_total_p96": 0.04,
           "minutes": 3247.0,
           "involvement": {
@@ -1133,13 +1133,32 @@
           }
         },
         {
+          "player_id": "p6qb4pwM0G",
+          "slug": "rafael-cabral",
+          "name": "Rafael Cabral",
+          "team": "Real Salt Lake",
+          "cluster_id": 0,
+          "label": "Sweeper-Keeper Receiver",
+          "keeperiq": 34.5,
+          "adjusted_total_p96": 0.02,
+          "minutes": 3449.0,
+          "involvement": {
+            "shot_stopping": 3.9,
+            "handling": 2.53,
+            "claiming": 0.72,
+            "sweeping": 1.78,
+            "passing": 36.85,
+            "fielding": 30.14
+          }
+        },
+        {
           "player_id": "N6MmeEN0ME",
           "slug": "nico-hansen",
           "name": "Nico Hansen",
           "team": "Colorado Rapids",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 32.4,
+          "keeperiq": 29.0,
           "adjusted_total_p96": 0.02,
           "minutes": 2325.0,
           "involvement": {
@@ -1158,7 +1177,7 @@
           "team": "St. Louis City SC",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 26.4,
+          "keeperiq": 23.0,
           "adjusted_total_p96": 0.01,
           "minutes": 2837.0,
           "involvement": {
@@ -1177,7 +1196,7 @@
           "team": "San Diego FC",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 24.2,
+          "keeperiq": 20.8,
           "adjusted_total_p96": 0.01,
           "minutes": 1453.0,
           "involvement": {
@@ -1190,25 +1209,6 @@
           }
         },
         {
-          "player_id": "p6qb4pwM0G",
-          "slug": "rafael-cabral",
-          "name": "Rafael Cabral",
-          "team": "Real Salt Lake",
-          "cluster_id": 0,
-          "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 21.8,
-          "adjusted_total_p96": 0.01,
-          "minutes": 3338.0,
-          "involvement": {
-            "shot_stopping": 3.85,
-            "handling": 2.47,
-            "claiming": 0.69,
-            "sweeping": 1.78,
-            "passing": 37.07,
-            "fielding": 30.46
-          }
-        },
-        {
           "player_id": "ljqEjOpzQx",
           "slug": "zack-steffen",
           "name": "Zack Steffen",
@@ -1216,7 +1216,7 @@
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
           "keeperiq": 18.1,
-          "adjusted_total_p96": 0.0,
+          "adjusted_total_p96": 0.01,
           "minutes": 937.0,
           "involvement": {
             "shot_stopping": 4.2,
@@ -1253,7 +1253,7 @@
           "team": "Atlanta United FC",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 10.8,
+          "keeperiq": 10.9,
           "adjusted_total_p96": -0.01,
           "minutes": 3363.0,
           "involvement": {
@@ -1272,8 +1272,8 @@
           "team": "Inter Miami CF",
           "cluster_id": 0,
           "label": "Sweeper-Keeper Receiver",
-          "keeperiq": 7.6,
-          "adjusted_total_p96": -0.02,
+          "keeperiq": 7.7,
+          "adjusted_total_p96": -0.01,
           "minutes": 2873.0,
           "involvement": {
             "shot_stopping": 4.08,
@@ -1312,14 +1312,14 @@
           "label": "Busy Handler",
           "keeperiq": 91.2,
           "adjusted_total_p96": 0.16,
-          "minutes": 3421.0,
+          "minutes": 3532.0,
           "involvement": {
-            "shot_stopping": 4.74,
-            "handling": 3.45,
-            "claiming": 1.66,
-            "sweeping": 1.77,
-            "passing": 29.13,
-            "fielding": 19.17
+            "shot_stopping": 4.65,
+            "handling": 3.37,
+            "claiming": 1.63,
+            "sweeping": 1.71,
+            "passing": 28.87,
+            "fielding": 19.05
           }
         },
         {
@@ -1329,7 +1329,7 @@
           "team": "Austin FC",
           "cluster_id": 1,
           "label": "Busy Handler",
-          "keeperiq": 88.0,
+          "keeperiq": 87.9,
           "adjusted_total_p96": 0.14,
           "minutes": 2949.0,
           "involvement": {
@@ -1443,16 +1443,16 @@
           "team": "Orlando City SC",
           "cluster_id": 1,
           "label": "Busy Handler",
-          "keeperiq": 42.7,
+          "keeperiq": 42.8,
           "adjusted_total_p96": 0.04,
-          "minutes": 3303.0,
+          "minutes": 3405.0,
           "involvement": {
-            "shot_stopping": 6.07,
-            "handling": 3.92,
-            "claiming": 1.25,
-            "sweeping": 1.31,
-            "passing": 27.93,
-            "fielding": 14.27
+            "shot_stopping": 6.12,
+            "handling": 3.95,
+            "claiming": 1.24,
+            "sweeping": 1.33,
+            "passing": 27.88,
+            "fielding": 14.24
           }
         },
         {
@@ -1462,7 +1462,7 @@
           "team": "Sporting Kansas City",
           "cluster_id": 1,
           "label": "Busy Handler",
-          "keeperiq": 34.9,
+          "keeperiq": 31.5,
           "adjusted_total_p96": 0.02,
           "minutes": 2522.0,
           "involvement": {
@@ -1501,7 +1501,7 @@
           "cluster_id": 1,
           "label": "Busy Handler",
           "keeperiq": 14.3,
-          "adjusted_total_p96": -0.01,
+          "adjusted_total_p96": -0.0,
           "minutes": 3308.0,
           "involvement": {
             "shot_stopping": 4.73,
@@ -1558,7 +1558,7 @@
           "cluster_id": 2,
           "label": "Low-Involvement Keeper",
           "keeperiq": 60.8,
-          "adjusted_total_p96": 0.06,
+          "adjusted_total_p96": 0.07,
           "minutes": 2921.0,
           "involvement": {
             "shot_stopping": 3.71,
@@ -1576,7 +1576,7 @@
           "team": "Minnesota United FC",
           "cluster_id": 2,
           "label": "Low-Involvement Keeper",
-          "keeperiq": 57.5,
+          "keeperiq": 57.6,
           "adjusted_total_p96": 0.06,
           "minutes": 3389.0,
           "involvement": {
@@ -1595,7 +1595,7 @@
           "team": "D.C. United",
           "cluster_id": 2,
           "label": "Low-Involvement Keeper",
-          "keeperiq": 46.0,
+          "keeperiq": 46.1,
           "adjusted_total_p96": 0.05,
           "minutes": 3143.0,
           "involvement": {
@@ -1614,7 +1614,7 @@
           "team": "Philadelphia Union",
           "cluster_id": 2,
           "label": "Low-Involvement Keeper",
-          "keeperiq": 29.6,
+          "keeperiq": 26.1,
           "adjusted_total_p96": 0.02,
           "minutes": 3246.0,
           "involvement": {
@@ -1635,14 +1635,14 @@
           "label": "Low-Involvement Keeper",
           "keeperiq": 3.6,
           "adjusted_total_p96": -0.05,
-          "minutes": 3081.0,
+          "minutes": 3183.0,
           "involvement": {
-            "shot_stopping": 4.8,
-            "handling": 2.87,
-            "claiming": 1.06,
+            "shot_stopping": 4.86,
+            "handling": 2.96,
+            "claiming": 1.03,
             "sweeping": 1.06,
-            "passing": 26.2,
-            "fielding": 15.95
+            "passing": 26.21,
+            "fielding": 15.59
           }
         },
         {

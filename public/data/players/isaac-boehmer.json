@@ -3,7 +3,7 @@
   "player_id": "kRQaoRPO5K",
   "slug": "isaac-boehmer",
   "name": "Isaac Boehmer",
-  "generated_at": "2026-11-19T22:10:06Z",
+  "generated_at": "2026-11-20T21:49:49Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -17,12 +17,12 @@
       "changed_teams": false,
       "nationality": "USA",
       "birth_date": "2001-11-20",
-      "age": 24,
+      "age": 25,
       "minutes": 135.0,
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 36.2,
+      "keeperiq": 36.3,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.46,
       "baseline_total_p96": 0.05,
@@ -34,7 +34,7 @@
       "observed_interval_low": -1.08,
       "observed_interval_high": 1.54,
       "keeperiq_low": 0.0,
-      "keeperiq_high": 96.4,
+      "keeperiq_high": 96.5,
       "rank": 37,
       "rank_observed": 53,
       "rank_goals_conceded": 24,
@@ -52,15 +52,15 @@
       "goals_prevented_p96": -0.85,
       "previous_rank": 37,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.818,
-          "adjusted_p96": 0.046,
-          "baseline_p96": 0.065,
+          "adjusted_p96": 0.048,
+          "baseline_p96": 0.066,
           "total": -1.151,
           "raw_total": -1.189,
-          "percentile": 36.2,
+          "percentile": 36.3,
           "observed_percentile": 0.0,
           "opportunities": 3,
           "opportunities_p96": 2.13,
@@ -69,10 +69,10 @@
         "handling": {
           "observed_p96": 0.007,
           "adjusted_p96": -0.012,
-          "baseline_p96": -0.013,
+          "baseline_p96": -0.012,
           "total": 0.01,
           "raw_total": 0.009,
-          "percentile": 51.7,
+          "percentile": 51.8,
           "observed_percentile": 97.6,
           "opportunities": 1,
           "opportunities_p96": 0.71,
@@ -85,7 +85,7 @@
           "total": 0.001,
           "raw_total": 0.0,
           "percentile": 31.6,
-          "observed_percentile": 44.5,
+          "observed_percentile": 44.6,
           "opportunities": 1,
           "opportunities_p96": 0.71,
           "reliability": 0.006
@@ -120,8 +120,8 @@
           "baseline_p96": 0.002,
           "total": -0.003,
           "raw_total": -0.01,
-          "percentile": 50.8,
-          "observed_percentile": 23.5,
+          "percentile": 50.7,
+          "observed_percentile": 23.6,
           "opportunities": 36,
           "opportunities_p96": 25.6,
           "reliability": 0.007
@@ -460,6 +460,13 @@
           "rank": 37,
           "keeperiq": 36.2,
           "adj_total_p96": 0.0314
+        },
+        {
+          "captured_at": "2026-11-19T22:11:48Z",
+          "max_match_date": "2026-11-08",
+          "rank": 37,
+          "keeperiq": 36.2,
+          "adj_total_p96": 0.0319
         }
       ],
       "team_stints": [
@@ -486,7 +493,7 @@
     "team_abbreviation": "VAN",
     "nationality": "USA",
     "birth_date": "2001-11-20",
-    "age": 24,
+    "age": 25,
     "talent_p96": 0.03,
     "talent_low": -0.14,
     "talent_high": 0.19,

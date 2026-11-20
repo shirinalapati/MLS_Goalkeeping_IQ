@@ -3,7 +3,7 @@
   "player_id": "Vj58WrY3M8",
   "slug": "cabral-carter",
   "name": "Cabral Carter",
-  "generated_at": "2026-11-19T22:10:06Z",
+  "generated_at": "2026-11-20T21:49:49Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 3,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 47.6,
+      "keeperiq": 47.7,
       "adjusted_total_p96": 0.05,
       "observed_total_p96": -0.29,
       "baseline_total_p96": 0.05,
@@ -30,11 +30,11 @@
       "reliability": 0.049,
       "interval_low": -0.11,
       "interval_high": 0.21,
-      "interval_se": 0.098,
+      "interval_se": 0.097,
       "observed_interval_low": -0.82,
       "observed_interval_high": 0.23,
       "keeperiq_low": 0.0,
-      "keeperiq_high": 96.4,
+      "keeperiq_high": 96.5,
       "rank": 27,
       "rank_observed": 48,
       "rank_goals_conceded": 21,
@@ -52,16 +52,16 @@
       "goals_prevented_p96": 0.04,
       "previous_rank": 27,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.071,
-          "adjusted_p96": 0.067,
-          "baseline_p96": 0.066,
-          "total": 0.209,
+          "observed_p96": 0.07,
+          "adjusted_p96": 0.069,
+          "baseline_p96": 0.068,
+          "total": 0.208,
           "raw_total": 0.129,
-          "percentile": 41.0,
-          "observed_percentile": 48.0,
+          "percentile": 44.6,
+          "observed_percentile": 44.6,
           "opportunities": 13,
           "opportunities_p96": 4.39,
           "reliability": 0.045
@@ -72,7 +72,7 @@
           "baseline_p96": -0.013,
           "total": -0.268,
           "raw_total": -0.271,
-          "percentile": 23.3,
+          "percentile": 20.7,
           "observed_percentile": 0.0,
           "opportunities": 9,
           "opportunities_p96": 3.04,
@@ -120,7 +120,7 @@
           "baseline_p96": 0.002,
           "total": 0.01,
           "raw_total": -0.006,
-          "percentile": 25.0,
+          "percentile": 25.1,
           "observed_percentile": 43.3,
           "opportunities": 38,
           "opportunities_p96": 12.85,
@@ -134,7 +134,7 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 25.0,
+            "percentile": 25.1,
             "band": "weak",
             "opportunities": 38,
             "text": "Fielding contribution below the MLS median."
@@ -496,6 +496,13 @@
           "rank": 27,
           "keeperiq": 47.6,
           "adj_total_p96": 0.049
+        },
+        {
+          "captured_at": "2026-11-19T22:11:48Z",
+          "max_match_date": "2026-11-08",
+          "rank": 27,
+          "keeperiq": 47.6,
+          "adj_total_p96": 0.0474
         }
       ],
       "team_stints": [
@@ -527,10 +534,10 @@
     "talent_low": -0.13,
     "talent_high": 0.2,
     "talent_sd": 0.098,
-    "keeperiq": 34.8,
+    "keeperiq": 31.2,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
-    "rank": 47,
+    "rank": 48,
     "weights": {
       "league_prior": 0.951,
       "prior_season": 0.0,
