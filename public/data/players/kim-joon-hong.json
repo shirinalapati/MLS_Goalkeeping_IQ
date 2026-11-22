@@ -3,7 +3,7 @@
   "player_id": "aDQ0N1Kv5E",
   "slug": "kim-joon-hong",
   "name": "Kim Joon-Hong",
-  "generated_at": "2026-11-21T20:32:15Z",
+  "generated_at": "2026-11-22T20:44:37Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.21,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -1.78,
+      "adjusted_total": -1.79,
       "reliability": 0.113,
       "interval_low": -0.13,
       "interval_high": 0.19,
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.234,
+          "observed_p96": -0.235,
           "adjusted_p96": 0.015,
-          "baseline_p96": 0.05,
-          "total": -1.97,
+          "baseline_p96": 0.049,
+          "total": -1.972,
           "raw_total": -2.195,
           "percentile": 19.9,
           "observed_percentile": 5.4,
@@ -70,7 +70,7 @@
           "observed_p96": -0.015,
           "adjusted_p96": -0.005,
           "baseline_p96": -0.004,
-          "total": -0.128,
+          "total": -0.129,
           "raw_total": -0.135,
           "percentile": 39.9,
           "observed_percentile": 24.3,
@@ -197,7 +197,7 @@
           "components": {
             "shot_stopping": 0.149,
             "handling": -0.112,
-            "claiming": 0.0,
+            "claiming": 0.001,
             "sweeping": 0.001,
             "passing": -0.014,
             "fielding": 0.019
@@ -217,7 +217,7 @@
           "xgoals_faced": 0.1,
           "goals_prevented": -0.9,
           "components": {
-            "shot_stopping": -0.87,
+            "shot_stopping": -0.871,
             "handling": 0.001,
             "claiming": 0.003,
             "sweeping": -0.001,
@@ -261,7 +261,7 @@
           "xgoals_faced": 2.58,
           "goals_prevented": -1.42,
           "components": {
-            "shot_stopping": -1.396,
+            "shot_stopping": -1.397,
             "handling": 0.05,
             "claiming": 0.002,
             "sweeping": -0.02,
@@ -318,7 +318,7 @@
           "date": "2025-08-09",
           "matchday": 27,
           "minutes": 100.0,
-          "total_ga": -0.921,
+          "total_ga": -0.922,
           "total_ga_p96": -0.88,
           "rolling_total_ga_p96": -0.21,
           "goals_conceded": 2,
@@ -695,8 +695,8 @@
     "keeperiq_high": 95.8,
     "rank": 58,
     "weights": {
-      "league_prior": 0.888,
-      "prior_season": 0.112,
+      "league_prior": 0.889,
+      "prior_season": 0.111,
       "live_season": 0.0
     },
     "prior_season_rate": -0.21,

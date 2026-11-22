@@ -3,7 +3,7 @@
   "player_id": "2lqRjZp2qr",
   "slug": "jacob-jackson",
   "name": "Jacob Jackson",
-  "generated_at": "2026-11-21T20:32:15Z",
+  "generated_at": "2026-11-22T20:44:37Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -27,7 +27,7 @@
       "observed_total_p96": 0.34,
       "baseline_total_p96": 0.04,
       "adjusted_total": 1.36,
-      "reliability": 0.086,
+      "reliability": 0.085,
       "interval_low": -0.11,
       "interval_high": 0.2,
       "interval_se": 0.093,
@@ -57,8 +57,8 @@
         "shot_stopping": {
           "observed_p96": 0.061,
           "adjusted_p96": 0.047,
-          "baseline_p96": 0.046,
-          "total": 0.249,
+          "baseline_p96": 0.045,
+          "total": 0.248,
           "raw_total": 0.141,
           "percentile": 49.4,
           "observed_percentile": 51.8,
@@ -177,7 +177,7 @@
           "date": "2025-09-14",
           "matchday": 32,
           "minutes": 102.0,
-          "total_ga": 0.23,
+          "total_ga": 0.229,
           "total_ga_p96": 0.22,
           "rolling_total_ga_p96": 0.61,
           "goals_conceded": 0,
@@ -208,7 +208,7 @@
           "xgoals_faced": 0.55,
           "goals_prevented": -0.45,
           "components": {
-            "shot_stopping": -0.42,
+            "shot_stopping": -0.421,
             "handling": 0.002,
             "claiming": 0.022,
             "sweeping": 0.035,
@@ -222,7 +222,7 @@
           "matchday": 34,
           "minutes": 103.0,
           "total_ga": 0.542,
-          "total_ga_p96": 0.51,
+          "total_ga_p96": 0.5,
           "rolling_total_ga_p96": 0.34,
           "goals_conceded": 1,
           "shots_faced": 8,
@@ -232,7 +232,7 @@
           "components": {
             "shot_stopping": 0.483,
             "handling": 0.03,
-            "claiming": 0.0,
+            "claiming": 0.001,
             "sweeping": 0.01,
             "passing": 0.01,
             "fielding": 0.008
@@ -569,7 +569,7 @@
     "talent_low": -0.09,
     "talent_high": 0.23,
     "talent_sd": 0.097,
-    "keeperiq": 64.2,
+    "keeperiq": 64.1,
     "keeperiq_low": 0.0,
     "keeperiq_high": 100.0,
     "rank": 17,

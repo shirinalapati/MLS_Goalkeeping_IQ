@@ -3,7 +3,7 @@
   "player_id": "N6Mmkk90qE",
   "slug": "samsy-keita",
   "name": "Samsy Keita",
-  "generated_at": "2026-11-21T20:32:15Z",
+  "generated_at": "2026-11-22T20:44:37Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -28,7 +28,7 @@
       "baseline_total_p96": 0.06,
       "adjusted_total": -1.12,
       "reliability": 0.051,
-      "interval_low": -0.15,
+      "interval_low": -0.14,
       "interval_high": 0.17,
       "interval_se": 0.095,
       "observed_interval_low": -0.76,
@@ -55,13 +55,13 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.174,
-          "adjusted_p96": 0.055,
-          "baseline_p96": 0.071,
-          "total": -0.705,
+          "observed_p96": -0.175,
+          "adjusted_p96": 0.057,
+          "baseline_p96": 0.074,
+          "total": -0.706,
           "raw_total": -0.813,
-          "percentile": 39.6,
-          "observed_percentile": 8.5,
+          "percentile": 39.5,
+          "observed_percentile": 5.5,
           "opportunities": 23,
           "opportunities_p96": 5.69,
           "reliability": 0.077
@@ -72,7 +72,7 @@
           "baseline_p96": -0.013,
           "total": -0.188,
           "raw_total": -0.191,
-          "percentile": 30.8,
+          "percentile": 30.6,
           "observed_percentile": 1.4,
           "opportunities": 14,
           "opportunities_p96": 3.46,
@@ -80,8 +80,8 @@
         },
         "claiming": {
           "observed_p96": 0.002,
-          "adjusted_p96": -0.0,
-          "baseline_p96": -0.0,
+          "adjusted_p96": -0.001,
+          "baseline_p96": -0.001,
           "total": 0.01,
           "raw_total": 0.008,
           "percentile": 35.2,
@@ -97,7 +97,7 @@
           "total": 0.036,
           "raw_total": 0.032,
           "percentile": 60.8,
-          "observed_percentile": 68.4,
+          "observed_percentile": 68.3,
           "opportunities": 9,
           "opportunities_p96": 2.23,
           "reliability": 0.01
@@ -120,8 +120,8 @@
           "baseline_p96": 0.002,
           "total": -0.005,
           "raw_total": -0.026,
-          "percentile": 32.5,
-          "observed_percentile": 23.6,
+          "percentile": 32.6,
+          "observed_percentile": 23.8,
           "opportunities": 79,
           "opportunities_p96": 19.55,
           "reliability": 0.016
@@ -194,7 +194,7 @@
           "xgoals_faced": 2.84,
           "goals_prevented": -1.16,
           "components": {
-            "shot_stopping": -1.135,
+            "shot_stopping": -1.136,
             "handling": -0.033,
             "claiming": 0.019,
             "sweeping": 0.032,
@@ -218,7 +218,7 @@
           "components": {
             "shot_stopping": 0.016,
             "handling": -0.06,
-            "claiming": 0.0,
+            "claiming": 0.001,
             "sweeping": -0.007,
             "passing": -0.125,
             "fielding": -0.003
@@ -229,7 +229,7 @@
           "date": "2026-11-07",
           "matchday": 35,
           "minutes": 93.0,
-          "total_ga": -0.144,
+          "total_ga": -0.145,
           "total_ga_p96": -0.15,
           "rolling_total_ga_p96": -0.28,
           "goals_conceded": 2,
@@ -360,7 +360,7 @@
     "talent_low": -0.13,
     "talent_high": 0.19,
     "talent_sd": 0.098,
-    "keeperiq": 31.0,
+    "keeperiq": 30.9,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 49,
