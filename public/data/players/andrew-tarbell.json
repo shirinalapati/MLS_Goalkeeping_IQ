@@ -3,7 +3,7 @@
   "player_id": "jYQJz3rWQG",
   "slug": "andrew-tarbell",
   "name": "Andrew Tarbell",
-  "generated_at": "2026-11-22T20:44:37Z",
+  "generated_at": "2026-11-24T01:40:46Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -23,10 +23,10 @@
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
       "keeperiq": 37.5,
-      "adjusted_total_p96": 0.03,
+      "adjusted_total_p96": 0.02,
       "observed_total_p96": -0.16,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -0.56,
+      "adjusted_total": -0.57,
       "reliability": 0.057,
       "interval_low": -0.14,
       "interval_high": 0.19,
@@ -58,7 +58,7 @@
           "observed_p96": -0.214,
           "adjusted_p96": 0.034,
           "baseline_p96": 0.047,
-          "total": -0.735,
+          "total": -0.737,
           "raw_total": -0.826,
           "percentile": 40.2,
           "observed_percentile": 5.8,
@@ -147,7 +147,7 @@
           "date": "2025-02-23",
           "matchday": 1,
           "minutes": 96.0,
-          "total_ga": -0.511,
+          "total_ga": -0.512,
           "total_ga_p96": -0.51,
           "rolling_total_ga_p96": -0.51,
           "goals_conceded": 2,
@@ -156,7 +156,7 @@
           "xgoals_faced": 1.31,
           "goals_prevented": -0.69,
           "components": {
-            "shot_stopping": -0.663,
+            "shot_stopping": -0.664,
             "handling": 0.018,
             "claiming": 0.001,
             "sweeping": 0.135,
@@ -169,7 +169,7 @@
           "date": "2025-03-03",
           "matchday": 2,
           "minutes": 100.0,
-          "total_ga": -1.639,
+          "total_ga": -1.64,
           "total_ga_p96": -1.57,
           "rolling_total_ga_p96": -1.05,
           "goals_conceded": 4,
@@ -530,6 +530,13 @@
           "rank": 44,
           "keeperiq": 37.5,
           "adj_total_p96": 0.0254
+        },
+        {
+          "captured_at": "2026-11-22T20:49:31Z",
+          "max_match_date": "2025-12-06",
+          "rank": 44,
+          "keeperiq": 37.5,
+          "adj_total_p96": 0.0252
         }
       ],
       "team_stints": [

@@ -3,7 +3,7 @@
   "player_id": "gpMOaPn1qz",
   "slug": "nicholas-hagen",
   "name": "Nicholas Hagen",
-  "generated_at": "2026-11-22T20:44:37Z",
+  "generated_at": "2026-11-24T01:40:46Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -57,8 +57,8 @@
         "shot_stopping": {
           "observed_p96": -0.024,
           "adjusted_p96": 0.046,
-          "baseline_p96": 0.052,
-          "total": -0.073,
+          "baseline_p96": 0.051,
+          "total": -0.074,
           "raw_total": -0.154,
           "percentile": 49.2,
           "observed_percentile": 27.7,
@@ -156,7 +156,7 @@
           "xgoals_faced": 5.85,
           "goals_prevented": 2.85,
           "components": {
-            "shot_stopping": 2.879,
+            "shot_stopping": 2.878,
             "handling": 0.146,
             "claiming": 0.005,
             "sweeping": 0.038,
@@ -170,7 +170,7 @@
           "matchday": 16,
           "minutes": 98.0,
           "total_ga": -0.158,
-          "total_ga_p96": -0.15,
+          "total_ga_p96": -0.16,
           "rolling_total_ga_p96": 1.43,
           "goals_conceded": 2,
           "shots_faced": 6,
@@ -178,7 +178,7 @@
           "xgoals_faced": 1.78,
           "goals_prevented": -0.22,
           "components": {
-            "shot_stopping": -0.189,
+            "shot_stopping": -0.19,
             "handling": 0.024,
             "claiming": 0.0,
             "sweeping": 0.001,
@@ -191,7 +191,7 @@
           "date": "2025-05-31",
           "matchday": 17,
           "minutes": 97.0,
-          "total_ga": -2.869,
+          "total_ga": -2.87,
           "total_ga_p96": -2.84,
           "rolling_total_ga_p96": 0.02,
           "goals_conceded": 5,
@@ -200,7 +200,7 @@
           "xgoals_faced": 2.21,
           "goals_prevented": -2.79,
           "components": {
-            "shot_stopping": -2.762,
+            "shot_stopping": -2.763,
             "handling": -0.012,
             "claiming": 0.0,
             "sweeping": -0.034,
@@ -502,6 +502,13 @@
           "rank": 34,
           "keeperiq": 42.7,
           "adj_total_p96": 0.0367
+        },
+        {
+          "captured_at": "2026-11-22T20:49:31Z",
+          "max_match_date": "2025-12-06",
+          "rank": 34,
+          "keeperiq": 42.7,
+          "adj_total_p96": 0.0364
         }
       ],
       "team_stints": [

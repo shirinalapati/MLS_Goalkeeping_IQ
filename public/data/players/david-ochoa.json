@@ -3,7 +3,7 @@
   "player_id": "4wM4an045j",
   "slug": "david-ochoa",
   "name": "David Ochoa",
-  "generated_at": "2026-11-22T20:44:37Z",
+  "generated_at": "2026-11-24T01:40:46Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -57,8 +57,8 @@
         "shot_stopping": {
           "observed_p96": -0.126,
           "adjusted_p96": 0.043,
-          "baseline_p96": 0.046,
-          "total": -0.132,
+          "baseline_p96": 0.045,
+          "total": -0.133,
           "raw_total": -0.16,
           "percentile": 45.7,
           "observed_percentile": 11.8,
@@ -147,7 +147,7 @@
           "date": "2025-06-30",
           "matchday": 21,
           "minutes": 101.0,
-          "total_ga": -0.123,
+          "total_ga": -0.124,
           "total_ga_p96": -0.12,
           "rolling_total_ga_p96": -0.12,
           "goals_conceded": 1,
@@ -156,7 +156,7 @@
           "xgoals_faced": 0.84,
           "goals_prevented": -0.16,
           "components": {
-            "shot_stopping": -0.132,
+            "shot_stopping": -0.133,
             "handling": 0.001,
             "claiming": 0.009,
             "sweeping": 0.009,
@@ -446,6 +446,13 @@
           "rank": 39,
           "keeperiq": 40.4,
           "adj_total_p96": 0.0339
+        },
+        {
+          "captured_at": "2026-11-22T20:49:31Z",
+          "max_match_date": "2025-12-06",
+          "rank": 39,
+          "keeperiq": 40.4,
+          "adj_total_p96": 0.0336
         }
       ],
       "team_stints": [
