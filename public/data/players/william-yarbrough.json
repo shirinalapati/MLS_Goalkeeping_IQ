@@ -3,7 +3,7 @@
   "player_id": "e7Mz9eOGQr",
   "slug": "william-yarbrough",
   "name": "William Yarbrough",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 44.4,
+      "keeperiq": 41.0,
       "adjusted_total_p96": 0.05,
       "observed_total_p96": -0.34,
       "baseline_total_p96": 0.06,
@@ -35,7 +35,7 @@
       "observed_interval_high": -0.14,
       "keeperiq_low": 0.0,
       "keeperiq_high": 96.4,
-      "rank": 30,
+      "rank": 31,
       "rank_observed": 50,
       "rank_goals_conceded": 57,
       "rank_pool": null,
@@ -51,13 +51,13 @@
       "goals_prevented": -0.85,
       "goals_prevented_p96": -0.44,
       "previous_rank": 30,
-      "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "rank_change": -1,
+      "keeperiq_change": -3.4,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.412,
-          "adjusted_p96": 0.063,
-          "baseline_p96": 0.08,
+          "adjusted_p96": 0.061,
+          "baseline_p96": 0.078,
           "total": -0.798,
           "raw_total": -0.849,
           "percentile": 39.6,
@@ -69,10 +69,10 @@
         "handling": {
           "observed_p96": 0.046,
           "adjusted_p96": -0.011,
-          "baseline_p96": -0.013,
+          "baseline_p96": -0.012,
           "total": 0.088,
           "raw_total": 0.087,
-          "percentile": 53.1,
+          "percentile": 53.2,
           "observed_percentile": 100.0,
           "opportunities": 10,
           "opportunities_p96": 5.16,
@@ -85,7 +85,7 @@
           "total": 0.009,
           "raw_total": 0.009,
           "percentile": 35.4,
-          "observed_percentile": 83.5,
+          "observed_percentile": 86.4,
           "opportunities": 3,
           "opportunities_p96": 1.55,
           "reliability": 0.017
@@ -96,7 +96,7 @@
           "baseline_p96": 0.004,
           "total": 0.006,
           "raw_total": 0.004,
-          "percentile": 56.0,
+          "percentile": 56.1,
           "observed_percentile": 48.1,
           "opportunities": 4,
           "opportunities_p96": 2.06,
@@ -299,6 +299,13 @@
           "rank": 30,
           "keeperiq": 44.4,
           "adj_total_p96": 0.0451
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 30,
+          "keeperiq": 44.4,
+          "adj_total_p96": 0.0499
         }
       ],
       "team_stints": [
@@ -330,10 +337,10 @@
     "talent_low": -0.12,
     "talent_high": 0.21,
     "talent_sd": 0.1,
-    "keeperiq": 35.5,
+    "keeperiq": 39.0,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
-    "rank": 40,
+    "rank": 39,
     "weights": {
       "league_prior": 0.981,
       "prior_season": 0.0,

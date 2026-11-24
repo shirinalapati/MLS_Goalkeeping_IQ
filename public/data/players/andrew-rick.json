@@ -3,7 +3,7 @@
   "player_id": "KXMe39a6q6",
   "slug": "andrew-rick",
   "name": "Andrew Rick",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.03,
       "observed_total_p96": 0.05,
       "baseline_total_p96": 0.03,
-      "adjusted_total": 0.68,
+      "adjusted_total": 0.69,
       "reliability": 0.29,
       "interval_low": -0.09,
       "interval_high": 0.15,
@@ -58,7 +58,7 @@
           "observed_p96": 0.046,
           "adjusted_p96": 0.043,
           "baseline_p96": 0.04,
-          "total": 0.686,
+          "total": 0.688,
           "raw_total": 0.296,
           "percentile": 45.1,
           "observed_percentile": 48.5,
@@ -257,7 +257,7 @@
           "xgoals_faced": 2.39,
           "goals_prevented": -0.61,
           "components": {
-            "shot_stopping": -0.587,
+            "shot_stopping": -0.586,
             "handling": 0.015,
             "claiming": -0.011,
             "sweeping": -0.01,
@@ -411,7 +411,7 @@
           "xgoals_faced": 0.13,
           "goals_prevented": 0.13,
           "components": {
-            "shot_stopping": 0.155,
+            "shot_stopping": 0.156,
             "handling": 0.033,
             "claiming": 0.0,
             "sweeping": -0.005,
@@ -836,6 +836,13 @@
           "rank": 41,
           "keeperiq": 39.0,
           "adj_total_p96": 0.0292
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2025-12-06",
+          "rank": 41,
+          "keeperiq": 39.0,
+          "adj_total_p96": 0.0288
         }
       ],
       "team_stints": [
@@ -900,8 +907,8 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.62,
-          "adjusted_p96": 0.035,
-          "baseline_p96": 0.073,
+          "adjusted_p96": 0.033,
+          "baseline_p96": 0.071,
           "total": -2.324,
           "raw_total": -2.421,
           "percentile": 28.4,
@@ -913,10 +920,10 @@
         "handling": {
           "observed_p96": 0.026,
           "adjusted_p96": -0.01,
-          "baseline_p96": -0.012,
+          "baseline_p96": -0.011,
           "total": 0.099,
           "raw_total": 0.096,
-          "percentile": 66.5,
+          "percentile": 66.6,
           "observed_percentile": 100.0,
           "opportunities": 5,
           "opportunities_p96": 1.33,
@@ -940,7 +947,7 @@
           "baseline_p96": 0.003,
           "total": 0.011,
           "raw_total": 0.007,
-          "percentile": 41.3,
+          "percentile": 41.4,
           "observed_percentile": 48.1,
           "opportunities": 4,
           "opportunities_p96": 1.07,
@@ -1008,7 +1015,7 @@
           "date": "2026-05-13",
           "matchday": 13,
           "minutes": 106.0,
-          "total_ga": -1.454,
+          "total_ga": -1.453,
           "total_ga_p96": -1.32,
           "rolling_total_ga_p96": -1.32,
           "goals_conceded": 4,
@@ -1398,6 +1405,13 @@
           "rank": 41,
           "keeperiq": 36.2,
           "adj_total_p96": 0.0237
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 41,
+          "keeperiq": 36.2,
+          "adj_total_p96": 0.0291
         }
       ],
       "team_stints": [
@@ -1430,10 +1444,10 @@
     "talent_low": -0.13,
     "talent_high": 0.14,
     "talent_sd": 0.083,
-    "keeperiq": 17.7,
+    "keeperiq": 20.6,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
-    "rank": 67,
+    "rank": 66,
     "weights": {
       "league_prior": 0.678,
       "prior_season": 0.261,

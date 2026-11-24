@@ -3,7 +3,7 @@
   "player_id": "0x5gP9Jjq7",
   "slug": "earl-edwards-jr",
   "name": "Earl Edwards Jr.",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": -0.747,
+          "observed_p96": -0.746,
           "adjusted_p96": -0.028,
           "baseline_p96": 0.046,
-          "total": -4.962,
+          "total": -4.961,
           "raw_total": -5.134,
           "percentile": 6.1,
           "observed_percentile": 0.3,
@@ -181,7 +181,7 @@
           "goals_prevented": -1.34,
           "components": {
             "shot_stopping": -1.321,
-            "handling": 0.012,
+            "handling": 0.011,
             "claiming": 0.001,
             "sweeping": 0.003,
             "passing": -0.05,
@@ -303,7 +303,7 @@
           "date": "2025-10-19",
           "matchday": 36,
           "minutes": 98.0,
-          "total_ga": -0.622,
+          "total_ga": -0.621,
           "total_ga_p96": -0.61,
           "rolling_total_ga_p96": -0.75,
           "goals_conceded": 1,
@@ -645,6 +645,13 @@
           "rank": 63,
           "keeperiq": 8.0,
           "adj_total_p96": -0.034
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2025-12-06",
+          "rank": 63,
+          "keeperiq": 8.0,
+          "adj_total_p96": -0.0345
         }
       ],
       "team_stints": [
@@ -705,15 +712,15 @@
       "goals_prevented_p96": 0.62,
       "previous_rank": 7,
       "rank_change": 0,
-      "keeperiq_change": -0.1,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.645,
-          "adjusted_p96": 0.11,
-          "baseline_p96": 0.081,
+          "adjusted_p96": 0.108,
+          "baseline_p96": 0.079,
           "total": 2.198,
           "raw_total": 2.11,
-          "percentile": 77.0,
+          "percentile": 73.4,
           "observed_percentile": 100.0,
           "opportunities": 23,
           "opportunities_p96": 6.75,
@@ -721,12 +728,12 @@
         },
         "handling": {
           "observed_p96": -0.005,
-          "adjusted_p96": -0.013,
+          "adjusted_p96": -0.012,
           "baseline_p96": -0.013,
           "total": -0.016,
           "raw_total": -0.019,
-          "percentile": 41.9,
-          "observed_percentile": 66.5,
+          "percentile": 42.4,
+          "observed_percentile": 66.6,
           "opportunities": 20,
           "opportunities_p96": 5.87,
           "reliability": 0.064
@@ -749,7 +756,7 @@
           "baseline_p96": 0.004,
           "total": 0.074,
           "raw_total": 0.07,
-          "percentile": 56.0,
+          "percentile": 56.1,
           "observed_percentile": 92.3,
           "opportunities": 6,
           "opportunities_p96": 1.76,
@@ -762,7 +769,7 @@
           "total": 0.027,
           "raw_total": 0.23,
           "percentile": 73.0,
-          "observed_percentile": 90.5,
+          "observed_percentile": 90.6,
           "opportunities": 122,
           "opportunities_p96": 35.82,
           "reliability": 0.48
@@ -774,7 +781,7 @@
           "total": -0.003,
           "raw_total": -0.021,
           "percentile": 32.5,
-          "observed_percentile": 23.8,
+          "observed_percentile": 23.7,
           "opportunities": 66,
           "opportunities_p96": 19.38,
           "reliability": 0.013
@@ -883,7 +890,7 @@
           "date": "2026-10-31",
           "matchday": 34,
           "minutes": 102.0,
-          "total_ga": 0.434,
+          "total_ga": 0.435,
           "total_ga_p96": 0.41,
           "rolling_total_ga_p96": 0.67,
           "goals_conceded": 1,
@@ -1207,6 +1214,13 @@
           "rank": 7,
           "keeperiq": 80.4,
           "adj_total_p96": 0.097
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 7,
+          "keeperiq": 80.3,
+          "adj_total_p96": 0.1016
         }
       ],
       "team_stints": [

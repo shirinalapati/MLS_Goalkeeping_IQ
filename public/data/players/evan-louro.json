@@ -3,7 +3,7 @@
   "player_id": "kRQa2L2LMK",
   "slug": "evan-louro",
   "name": "Evan Louro",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.377,
+          "observed_p96": 0.378,
           "adjusted_p96": 0.068,
           "baseline_p96": 0.048,
-          "total": 1.592,
+          "total": 1.593,
           "raw_total": 1.483,
           "percentile": 71.1,
           "observed_percentile": 96.2,
@@ -209,7 +209,7 @@
           "xgoals_faced": 1.33,
           "goals_prevented": 0.33,
           "components": {
-            "shot_stopping": 0.358,
+            "shot_stopping": 0.359,
             "handling": -0.058,
             "claiming": 0.001,
             "sweeping": 0.139,
@@ -546,6 +546,13 @@
           "rank": 14,
           "keeperiq": 70.9,
           "adj_total_p96": 0.0656
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2025-12-06",
+          "rank": 14,
+          "keeperiq": 70.9,
+          "adj_total_p96": 0.0652
         }
       ],
       "team_stints": [
@@ -584,7 +591,7 @@
       "reliability": 0.056,
       "interval_low": -0.12,
       "interval_high": 0.18,
-      "interval_se": 0.092,
+      "interval_se": 0.091,
       "observed_interval_low": -0.8,
       "observed_interval_high": -0.14,
       "keeperiq_low": 0.0,
@@ -610,9 +617,9 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.568,
-          "adjusted_p96": 0.034,
-          "baseline_p96": 0.079,
-          "total": -2.456,
+          "adjusted_p96": 0.032,
+          "baseline_p96": 0.077,
+          "total": -2.455,
           "raw_total": -2.568,
           "percentile": 28.4,
           "observed_percentile": 0.0,
@@ -626,7 +633,7 @@
           "baseline_p96": -0.012,
           "total": 0.187,
           "raw_total": 0.183,
-          "percentile": 77.2,
+          "percentile": 77.3,
           "observed_percentile": 100.0,
           "opportunities": 14,
           "opportunities_p96": 3.24,
@@ -650,7 +657,7 @@
           "baseline_p96": 0.004,
           "total": 0.093,
           "raw_total": 0.089,
-          "percentile": 69.2,
+          "percentile": 69.3,
           "observed_percentile": 92.3,
           "opportunities": 11,
           "opportunities_p96": 2.54,
@@ -674,7 +681,7 @@
           "baseline_p96": 0.002,
           "total": 0.047,
           "raw_total": 0.024,
-          "percentile": 63.8,
+          "percentile": 63.9,
           "observed_percentile": 91.6,
           "opportunities": 104,
           "opportunities_p96": 24.06,
@@ -776,7 +783,7 @@
           "date": "2026-10-14",
           "matchday": 30,
           "minutes": 102.0,
-          "total_ga": -0.473,
+          "total_ga": -0.472,
           "total_ga_p96": -0.44,
           "rolling_total_ga_p96": -0.48,
           "goals_conceded": 3,
@@ -1100,6 +1107,13 @@
           "rank": 39,
           "keeperiq": 36.2,
           "adj_total_p96": 0.0279
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 39,
+          "keeperiq": 36.2,
+          "adj_total_p96": 0.0324
         }
       ],
       "team_stints": [
@@ -1132,10 +1146,10 @@
     "talent_low": -0.11,
     "talent_high": 0.2,
     "talent_sd": 0.095,
-    "keeperiq": 39.5,
+    "keeperiq": 43.0,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
-    "rank": 36,
+    "rank": 35,
     "weights": {
       "league_prior": 0.888,
       "prior_season": 0.059,

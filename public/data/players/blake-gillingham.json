@@ -3,7 +3,7 @@
   "player_id": "EGMP1vPx5a",
   "slug": "blake-gillingham",
   "name": "Blake Gillingham",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,10 +55,10 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.635,
+          "observed_p96": 0.636,
           "adjusted_p96": 0.077,
           "baseline_p96": 0.047,
-          "total": 2.184,
+          "total": 2.185,
           "raw_total": 2.095,
           "percentile": 79.4,
           "observed_percentile": 100.0,
@@ -213,7 +213,7 @@
           "date": "2025-04-13",
           "matchday": 8,
           "minutes": 99.0,
-          "total_ga": -0.355,
+          "total_ga": -0.354,
           "total_ga_p96": -0.34,
           "rolling_total_ga_p96": 0.57,
           "goals_conceded": 1,
@@ -537,6 +537,13 @@
           "rank": 16,
           "keeperiq": 69.9,
           "adj_total_p96": 0.0638
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2025-12-06",
+          "rank": 16,
+          "keeperiq": 69.9,
+          "adj_total_p96": 0.0633
         }
       ],
       "team_stints": [
@@ -567,7 +574,7 @@
       "appearances": 2,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 52.4,
+      "keeperiq": 51.8,
       "adjusted_total_p96": 0.06,
       "observed_total_p96": -0.02,
       "baseline_total_p96": 0.06,
@@ -597,12 +604,12 @@
       "goals_prevented_p96": -0.19,
       "previous_rank": 23,
       "rank_change": 0,
-      "keeperiq_change": 3.7,
+      "keeperiq_change": -0.6,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.164,
-          "adjusted_p96": 0.071,
-          "baseline_p96": 0.077,
+          "adjusted_p96": 0.07,
+          "baseline_p96": 0.075,
           "total": -0.226,
           "raw_total": -0.262,
           "percentile": 41.0,
@@ -617,7 +624,7 @@
           "baseline_p96": -0.012,
           "total": 0.107,
           "raw_total": 0.106,
-          "percentile": 59.3,
+          "percentile": 59.4,
           "observed_percentile": 100.0,
           "opportunities": 4,
           "opportunities_p96": 2.91,
@@ -641,7 +648,7 @@
           "baseline_p96": 0.004,
           "total": 0.06,
           "raw_total": 0.058,
-          "percentile": 56.0,
+          "percentile": 56.1,
           "observed_percentile": 98.9,
           "opportunities": 3,
           "opportunities_p96": 2.18,
@@ -732,7 +739,7 @@
           "xgoals_faced": 3.14,
           "goals_prevented": 0.14,
           "components": {
-            "shot_stopping": 0.172,
+            "shot_stopping": 0.173,
             "handling": 0.081,
             "claiming": 0.004,
             "sweeping": 0.059,
@@ -853,6 +860,13 @@
           "rank": 23,
           "keeperiq": 48.7,
           "adj_total_p96": 0.0588
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 23,
+          "keeperiq": 52.4,
+          "adj_total_p96": 0.0635
         }
       ],
       "team_stints": [

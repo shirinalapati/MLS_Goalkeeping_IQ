@@ -3,7 +3,7 @@
   "player_id": "9YqdoDvL5v",
   "slug": "jayden-hibbert",
   "name": "Jayden Hibbert",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.115,
           "adjusted_p96": 0.029,
           "baseline_p96": 0.05,
-          "total": -0.981,
+          "total": -0.98,
           "raw_total": -1.202,
           "percentile": 32.4,
           "observed_percentile": 12.2,
@@ -156,7 +156,7 @@
           "date": "2025-07-12",
           "matchday": 23,
           "minutes": 112.0,
-          "total_ga": -0.01,
+          "total_ga": -0.009,
           "total_ga_p96": -0.01,
           "rolling_total_ga_p96": -0.01,
           "goals_conceded": 1,
@@ -165,7 +165,7 @@
           "xgoals_faced": 0.86,
           "goals_prevented": -0.14,
           "components": {
-            "shot_stopping": -0.11,
+            "shot_stopping": -0.109,
             "handling": 0.016,
             "claiming": 0.003,
             "sweeping": 0.044,
@@ -222,7 +222,7 @@
           "date": "2025-09-13",
           "matchday": 32,
           "minutes": 108.0,
-          "total_ga": -1.929,
+          "total_ga": -1.928,
           "total_ga_p96": -1.71,
           "rolling_total_ga_p96": -0.06,
           "goals_conceded": 5,
@@ -244,7 +244,7 @@
           "date": "2025-09-20",
           "matchday": 33,
           "minutes": 102.0,
-          "total_ga": -0.112,
+          "total_ga": -0.111,
           "total_ga_p96": -0.1,
           "rolling_total_ga_p96": -0.07,
           "goals_conceded": 1,
@@ -288,7 +288,7 @@
           "date": "2025-10-06",
           "matchday": 35,
           "minutes": 97.0,
-          "total_ga": 0.037,
+          "total_ga": 0.038,
           "total_ga_p96": 0.04,
           "rolling_total_ga_p96": -0.05,
           "goals_conceded": 1,
@@ -658,6 +658,13 @@
           "rank": 47,
           "keeperiq": 34.4,
           "adj_total_p96": 0.0215
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2025-12-06",
+          "rank": 47,
+          "keeperiq": 34.4,
+          "adj_total_p96": 0.021
         }
       ],
       "team_stints": [
@@ -716,14 +723,14 @@
       "xgoals_faced": 2.59,
       "goals_prevented": -0.41,
       "goals_prevented_p96": -0.42,
-      "previous_rank": 33,
-      "rank_change": -1,
-      "keeperiq_change": -3.4,
+      "previous_rank": 34,
+      "rank_change": 0,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.389,
-          "adjusted_p96": 0.069,
-          "baseline_p96": 0.078,
+          "adjusted_p96": 0.068,
+          "baseline_p96": 0.076,
           "total": -0.385,
           "raw_total": -0.411,
           "percentile": 41.0,
@@ -738,7 +745,7 @@
           "baseline_p96": -0.012,
           "total": 0.003,
           "raw_total": 0.002,
-          "percentile": 51.6,
+          "percentile": 51.7,
           "observed_percentile": 90.7,
           "opportunities": 4,
           "opportunities_p96": 4.04,
@@ -762,7 +769,7 @@
           "baseline_p96": 0.004,
           "total": -0.097,
           "raw_total": -0.098,
-          "percentile": 56.0,
+          "percentile": 56.1,
           "observed_percentile": 0.0,
           "opportunities": 4,
           "opportunities_p96": 4.04,
@@ -774,7 +781,7 @@
           "baseline_p96": -0.007,
           "total": -0.037,
           "raw_total": 0.022,
-          "percentile": 29.9,
+          "percentile": 30.0,
           "observed_percentile": 0.0,
           "opportunities": 23,
           "opportunities_p96": 23.24,
@@ -786,7 +793,7 @@
           "baseline_p96": 0.002,
           "total": 0.0,
           "raw_total": -0.005,
-          "percentile": 36.1,
+          "percentile": 36.2,
           "observed_percentile": 30.7,
           "opportunities": 18,
           "opportunities_p96": 18.19,
@@ -867,6 +874,13 @@
           "rank": 33,
           "keeperiq": 44.4,
           "adj_total_p96": 0.0441
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 34,
+          "keeperiq": 41.0,
+          "adj_total_p96": 0.0489
         }
       ],
       "team_stints": [

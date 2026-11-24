@@ -3,7 +3,7 @@
   "player_id": "jYQJaDwkqG",
   "slug": "damian-las",
   "name": "Damian Las",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -23,7 +23,7 @@
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
       "keeperiq": 47.6,
-      "adjusted_total_p96": 0.06,
+      "adjusted_total_p96": 0.05,
       "observed_total_p96": -0.01,
       "baseline_total_p96": 0.06,
       "adjusted_total": -0.05,
@@ -52,12 +52,12 @@
       "goals_prevented_p96": 0.03,
       "previous_rank": 28,
       "rank_change": 0,
-      "keeperiq_change": -0.0,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.059,
-          "adjusted_p96": 0.077,
-          "baseline_p96": 0.08,
+          "observed_p96": 0.06,
+          "adjusted_p96": 0.075,
+          "baseline_p96": 0.078,
           "total": 0.315,
           "raw_total": 0.177,
           "percentile": 41.0,
@@ -69,7 +69,7 @@
         "handling": {
           "observed_p96": -0.084,
           "adjusted_p96": -0.016,
-          "baseline_p96": -0.013,
+          "baseline_p96": -0.012,
           "total": -0.445,
           "raw_total": -0.45,
           "percentile": 4.8,
@@ -85,7 +85,7 @@
           "total": -0.028,
           "raw_total": -0.03,
           "percentile": 30.3,
-          "observed_percentile": 21.1,
+          "observed_percentile": 21.2,
           "opportunities": 2,
           "opportunities_p96": 0.38,
           "reliability": 0.012
@@ -96,8 +96,8 @@
           "baseline_p96": 0.004,
           "total": 0.135,
           "raw_total": 0.129,
-          "percentile": 60.8,
-          "observed_percentile": 93.7,
+          "percentile": 60.9,
+          "observed_percentile": 93.8,
           "opportunities": 10,
           "opportunities_p96": 1.89,
           "reliability": 0.011
@@ -109,7 +109,7 @@
           "total": -0.054,
           "raw_total": 0.261,
           "percentile": 38.6,
-          "observed_percentile": 37.2,
+          "observed_percentile": 37.3,
           "opportunities": 158,
           "opportunities_p96": 29.86,
           "reliability": 0.544
@@ -121,7 +121,7 @@
           "total": 0.028,
           "raw_total": 0.0,
           "percentile": 32.5,
-          "observed_percentile": 44.6,
+          "observed_percentile": 44.7,
           "opportunities": 97,
           "opportunities_p96": 18.33,
           "reliability": 0.019
@@ -191,7 +191,7 @@
           "date": "2026-10-25",
           "matchday": 32,
           "minutes": 103.0,
-          "total_ga": -0.529,
+          "total_ga": -0.528,
           "total_ga_p96": -0.49,
           "rolling_total_ga_p96": -0.53,
           "goals_conceded": 1,
@@ -235,7 +235,7 @@
           "date": "2026-10-31",
           "matchday": 34,
           "minutes": 100.0,
-          "total_ga": 2.149,
+          "total_ga": 2.15,
           "total_ga_p96": 2.06,
           "rolling_total_ga_p96": -0.01,
           "goals_conceded": 4,
@@ -516,6 +516,13 @@
           "rank": 28,
           "keeperiq": 47.6,
           "adj_total_p96": 0.0518
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 28,
+          "keeperiq": 47.6,
+          "adj_total_p96": 0.0562
         }
       ],
       "team_stints": [
@@ -543,14 +550,14 @@
     "nationality": "USA",
     "birth_date": "2002-04-11",
     "age": 24,
-    "talent_p96": 0.04,
+    "talent_p96": 0.05,
     "talent_low": -0.12,
     "talent_high": 0.21,
     "talent_sd": 0.098,
-    "keeperiq": 39.2,
+    "keeperiq": 42.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
-    "rank": 37,
+    "rank": 36,
     "weights": {
       "league_prior": 0.934,
       "prior_season": 0.0,

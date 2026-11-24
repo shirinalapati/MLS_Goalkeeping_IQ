@@ -3,7 +3,7 @@
   "player_id": "ljqEjOZEQx",
   "slug": "alex-bono",
   "name": "Alex Bono",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -34,7 +34,7 @@
       "observed_interval_low": -0.34,
       "observed_interval_high": -0.31,
       "keeperiq_low": 24.4,
-      "keeperiq_high": 52.4,
+      "keeperiq_high": 51.8,
       "rank": 38,
       "rank_observed": 49,
       "rank_goals_conceded": 49,
@@ -56,11 +56,11 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.372,
-          "adjusted_p96": 0.061,
-          "baseline_p96": 0.076,
+          "adjusted_p96": 0.06,
+          "baseline_p96": 0.074,
           "total": -0.763,
           "raw_total": -0.816,
-          "percentile": 39.6,
+          "percentile": 36.2,
           "observed_percentile": 0.9,
           "opportunities": 9,
           "opportunities_p96": 4.39,
@@ -72,7 +72,7 @@
           "baseline_p96": -0.012,
           "total": 0.064,
           "raw_total": 0.062,
-          "percentile": 55.6,
+          "percentile": 55.7,
           "observed_percentile": 100.0,
           "opportunities": 5,
           "opportunities_p96": 2.44,
@@ -96,7 +96,7 @@
           "baseline_p96": 0.003,
           "total": 0.041,
           "raw_total": 0.039,
-          "percentile": 44.9,
+          "percentile": 45.0,
           "observed_percentile": 92.3,
           "opportunities": 1,
           "opportunities_p96": 0.49,
@@ -108,7 +108,7 @@
           "baseline_p96": -0.007,
           "total": -0.054,
           "raw_total": 0.068,
-          "percentile": 29.9,
+          "percentile": 30.0,
           "observed_percentile": 9.3,
           "opportunities": 43,
           "opportunities_p96": 20.95,
@@ -120,7 +120,7 @@
           "baseline_p96": 0.002,
           "total": 0.007,
           "raw_total": -0.004,
-          "percentile": 25.0,
+          "percentile": 24.9,
           "observed_percentile": 43.5,
           "opportunities": 21,
           "opportunities_p96": 10.23,
@@ -134,7 +134,7 @@
           {
             "component": "passing",
             "label": "Passing",
-            "percentile": 29.9,
+            "percentile": 30.0,
             "band": "weak",
             "opportunities": 43,
             "text": "Passing contribution below the MLS median."
@@ -164,7 +164,7 @@
           "xgoals_faced": 1.64,
           "goals_prevented": -0.36,
           "components": {
-            "shot_stopping": -0.329,
+            "shot_stopping": -0.328,
             "handling": 0.001,
             "claiming": 0.0,
             "sweeping": 0.001,
@@ -186,7 +186,7 @@
           "xgoals_faced": 1.54,
           "goals_prevented": -0.46,
           "components": {
-            "shot_stopping": -0.435,
+            "shot_stopping": -0.434,
             "handling": 0.064,
             "claiming": 0.039,
             "sweeping": 0.04,
@@ -279,6 +279,13 @@
           "rank": 38,
           "keeperiq": 36.2,
           "adj_total_p96": 0.0363
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 38,
+          "keeperiq": 36.2,
+          "adj_total_p96": 0.0408
         }
       ],
       "team_stints": [

@@ -3,7 +3,7 @@
   "player_id": "kRQaoRPO5K",
   "slug": "isaac-boehmer",
   "name": "Isaac Boehmer",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -28,8 +28,8 @@
       "baseline_total_p96": 0.06,
       "adjusted_total": -0.65,
       "reliability": 0.046,
-      "interval_low": -0.12,
-      "interval_high": 0.21,
+      "interval_low": -0.13,
+      "interval_high": 0.2,
       "interval_se": 0.1,
       "observed_interval_low": -1.08,
       "observed_interval_high": 1.54,
@@ -56,8 +56,8 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.819,
-          "adjusted_p96": 0.055,
-          "baseline_p96": 0.073,
+          "adjusted_p96": 0.053,
+          "baseline_p96": 0.072,
           "total": -1.152,
           "raw_total": -1.189,
           "percentile": 36.2,
@@ -72,7 +72,7 @@
           "baseline_p96": -0.012,
           "total": 0.01,
           "raw_total": 0.009,
-          "percentile": 51.6,
+          "percentile": 53.2,
           "observed_percentile": 97.6,
           "opportunities": 1,
           "opportunities_p96": 0.71,
@@ -96,7 +96,7 @@
           "baseline_p96": 0.004,
           "total": 0.51,
           "raw_total": 0.508,
-          "percentile": 89.9,
+          "percentile": 90.0,
           "observed_percentile": 100.0,
           "opportunities": 5,
           "opportunities_p96": 3.56,
@@ -121,7 +121,7 @@
           "total": -0.003,
           "raw_total": -0.01,
           "percentile": 47.3,
-          "observed_percentile": 23.8,
+          "observed_percentile": 23.7,
           "opportunities": 36,
           "opportunities_p96": 25.6,
           "reliability": 0.007
@@ -481,6 +481,13 @@
           "rank": 37,
           "keeperiq": 36.2,
           "adj_total_p96": 0.0366
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 37,
+          "keeperiq": 36.2,
+          "adj_total_p96": 0.0411
         }
       ],
       "team_stints": [
@@ -512,7 +519,7 @@
     "talent_low": -0.14,
     "talent_high": 0.19,
     "talent_sd": 0.099,
-    "keeperiq": 24.4,
+    "keeperiq": 24.5,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 55,

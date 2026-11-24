@@ -3,7 +3,7 @@
   "player_id": "2lqRkwRnQr",
   "slug": "luis-barraza",
   "name": "Luis Barraza",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.105,
           "adjusted_p96": 0.005,
           "baseline_p96": 0.051,
-          "total": -2.558,
+          "total": -2.554,
           "raw_total": -3.191,
           "percentile": 13.8,
           "observed_percentile": 15.9,
@@ -70,7 +70,7 @@
           "observed_p96": 0.008,
           "adjusted_p96": -0.002,
           "baseline_p96": -0.004,
-          "total": 0.189,
+          "total": 0.188,
           "raw_total": 0.169,
           "percentile": 76.7,
           "observed_percentile": 82.9,
@@ -118,7 +118,7 @@
           "observed_p96": -0.009,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
-          "total": -0.21,
+          "total": -0.211,
           "raw_total": -0.337,
           "percentile": 14.8,
           "observed_percentile": 16.2,
@@ -453,7 +453,7 @@
           "xgoals_faced": 1.0,
           "goals_prevented": 0.0,
           "components": {
-            "shot_stopping": 0.03,
+            "shot_stopping": 0.031,
             "handling": 0.027,
             "claiming": 0.001,
             "sweeping": 0.028,
@@ -466,7 +466,7 @@
           "date": "2025-07-05",
           "matchday": 22,
           "minutes": 98.0,
-          "total_ga": 0.079,
+          "total_ga": 0.08,
           "total_ga_p96": 0.08,
           "rolling_total_ga_p96": -0.15,
           "goals_conceded": 0,
@@ -556,7 +556,7 @@
           "minutes": 111.0,
           "total_ga": -1.519,
           "total_ga_p96": -1.31,
-          "rolling_total_ga_p96": -0.22,
+          "rolling_total_ga_p96": -0.21,
           "goals_conceded": 4,
           "shots_faced": 6,
           "saves": 2,
@@ -576,7 +576,7 @@
           "date": "2025-08-16",
           "matchday": 28,
           "minutes": 98.0,
-          "total_ga": 0.048,
+          "total_ga": 0.049,
           "total_ga_p96": 0.05,
           "rolling_total_ga_p96": -0.2,
           "goals_conceded": 1,
@@ -799,7 +799,7 @@
           "date": "2025-07-16",
           "matchday": 24,
           "matches_in_window": 5,
-          "rate_p96": 0.03
+          "rate_p96": 0.04
         },
         {
           "date": "2025-07-20",
@@ -1130,6 +1130,13 @@
           "rank": 60,
           "keeperiq": 13.5,
           "adj_total_p96": -0.0017
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2025-12-06",
+          "rank": 60,
+          "keeperiq": 13.5,
+          "adj_total_p96": -0.0022
         }
       ],
       "team_stints": [
@@ -1161,7 +1168,7 @@
     "talent_low": -0.14,
     "talent_high": 0.15,
     "talent_sd": 0.087,
-    "keeperiq": 21.0,
+    "keeperiq": 21.1,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 65,

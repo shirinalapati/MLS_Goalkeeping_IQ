@@ -3,7 +3,7 @@
   "player_id": "4wM4J01Nqj",
   "slug": "rocco-rios-novo",
   "name": "Rocco Rios Novo",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -32,7 +32,7 @@
       "interval_high": 0.2,
       "interval_se": 0.083,
       "observed_interval_low": -0.1,
-      "observed_interval_high": 0.38,
+      "observed_interval_high": 0.39,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
       "rank": 18,
@@ -55,10 +55,10 @@
       "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.158,
+          "observed_p96": 0.159,
           "adjusted_p96": 0.066,
           "baseline_p96": 0.043,
-          "total": 2.48,
+          "total": 2.482,
           "raw_total": 2.074,
           "percentile": 70.2,
           "observed_percentile": 78.3,
@@ -178,7 +178,7 @@
           "xgoals_faced": 1.14,
           "goals_prevented": 0.14,
           "components": {
-            "shot_stopping": 0.169,
+            "shot_stopping": 0.17,
             "handling": -0.013,
             "claiming": 0.0,
             "sweeping": -0.001,
@@ -873,6 +873,13 @@
           "rank": 18,
           "keeperiq": 66.4,
           "adj_total_p96": 0.0616
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2025-12-06",
+          "rank": 18,
+          "keeperiq": 66.4,
+          "adj_total_p96": 0.0611
         }
       ],
       "team_stints": [
@@ -903,7 +910,7 @@
       "appearances": 6,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 59.2,
+      "keeperiq": 62.2,
       "adjusted_total_p96": 0.07,
       "observed_total_p96": 0.16,
       "baseline_total_p96": 0.06,
@@ -916,7 +923,7 @@
       "observed_interval_high": 0.99,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
-      "rank": 19,
+      "rank": 18,
       "rank_observed": 15,
       "rank_goals_conceded": 12,
       "rank_pool": null,
@@ -931,15 +938,15 @@
       "xgoals_faced": 8.65,
       "goals_prevented": 0.65,
       "goals_prevented_p96": 0.1,
-      "previous_rank": 21,
-      "rank_change": 2,
-      "keeperiq_change": 7.1,
+      "previous_rank": 19,
+      "rank_change": 1,
+      "keeperiq_change": 3.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.123,
-          "adjusted_p96": 0.08,
-          "baseline_p96": 0.075,
-          "total": 0.82,
+          "adjusted_p96": 0.078,
+          "baseline_p96": 0.073,
+          "total": 0.821,
           "raw_total": 0.646,
           "percentile": 47.8,
           "observed_percentile": 59.3,
@@ -953,8 +960,8 @@
           "baseline_p96": -0.012,
           "total": -0.055,
           "raw_total": -0.06,
-          "percentile": 51.6,
-          "observed_percentile": 53.1,
+          "percentile": 51.7,
+          "observed_percentile": 53.2,
           "opportunities": 20,
           "opportunities_p96": 3.0,
           "reliability": 0.064
@@ -966,7 +973,7 @@
           "total": 0.05,
           "raw_total": 0.048,
           "percentile": 47.2,
-          "observed_percentile": 97.8,
+          "observed_percentile": 97.9,
           "opportunities": 9,
           "opportunities_p96": 1.35,
           "reliability": 0.05
@@ -977,7 +984,7 @@
           "baseline_p96": 0.004,
           "total": 0.397,
           "raw_total": 0.39,
-          "percentile": 89.9,
+          "percentile": 90.0,
           "observed_percentile": 100.0,
           "opportunities": 19,
           "opportunities_p96": 2.85,
@@ -986,7 +993,7 @@
         "passing": {
           "observed_p96": -0.006,
           "adjusted_p96": -0.007,
-          "baseline_p96": -0.009,
+          "baseline_p96": -0.008,
           "total": -0.041,
           "raw_total": 0.357,
           "percentile": 48.0,
@@ -1001,7 +1008,7 @@
           "baseline_p96": 0.002,
           "total": -0.099,
           "raw_total": -0.134,
-          "percentile": 28.2,
+          "percentile": 28.1,
           "observed_percentile": 5.8,
           "opportunities": 151,
           "opportunities_p96": 22.65,
@@ -1015,7 +1022,7 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 28.2,
+            "percentile": 28.1,
             "band": "weak",
             "opportunities": 151,
             "text": "Fielding contribution below the MLS median."
@@ -1067,7 +1074,7 @@
           "xgoals_faced": 1.53,
           "goals_prevented": 0.53,
           "components": {
-            "shot_stopping": 0.56,
+            "shot_stopping": 0.561,
             "handling": 0.05,
             "claiming": 0.006,
             "sweeping": 0.016,
@@ -1482,6 +1489,13 @@
           "rank": 21,
           "keeperiq": 52.1,
           "adj_total_p96": 0.0632
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 19,
+          "keeperiq": 59.2,
+          "adj_total_p96": 0.0675
         }
       ],
       "team_stints": [

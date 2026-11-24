@@ -3,7 +3,7 @@
   "player_id": "gjMNRZE3MK",
   "slug": "stefan-cleveland",
   "name": "Stefan Cleveland",
-  "generated_at": "2026-11-24T01:40:46Z",
+  "generated_at": "2026-11-24T23:30:06Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 25,
       "sample_status": "qualified",
       "sample_status_label": "Qualified",
-      "keeperiq": 34.9,
+      "keeperiq": 35.0,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.06,
       "baseline_total_p96": 0.07,
@@ -31,7 +31,7 @@
       "interval_low": -0.12,
       "interval_high": 0.17,
       "interval_se": 0.087,
-      "observed_interval_low": -0.34,
+      "observed_interval_low": -0.35,
       "observed_interval_high": 0.21,
       "keeperiq_low": 0.0,
       "keeperiq_high": 92.9,
@@ -52,13 +52,13 @@
       "goals_prevented_p96": -0.07,
       "previous_rank": 42,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": 0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.046,
-          "adjusted_p96": 0.041,
-          "baseline_p96": 0.085,
-          "total": -1.201,
+          "adjusted_p96": 0.04,
+          "baseline_p96": 0.083,
+          "total": -1.197,
           "raw_total": -1.883,
           "percentile": 29.7,
           "observed_percentile": 32.6,
@@ -70,10 +70,10 @@
           "observed_p96": -0.006,
           "adjusted_p96": -0.011,
           "baseline_p96": -0.013,
-          "total": -0.165,
+          "total": -0.166,
           "raw_total": -0.186,
-          "percentile": 54.4,
-          "observed_percentile": 58.0,
+          "percentile": 54.5,
+          "observed_percentile": 58.1,
           "opportunities": 91,
           "opportunities_p96": 3.46,
           "reliability": 0.238
@@ -84,8 +84,8 @@
           "baseline_p96": -0.001,
           "total": -0.138,
           "raw_total": -0.149,
-          "percentile": 26.0,
-          "observed_percentile": 22.4,
+          "percentile": 26.1,
+          "observed_percentile": 22.5,
           "opportunities": 21,
           "opportunities_p96": 0.8,
           "reliability": 0.11
@@ -96,8 +96,8 @@
           "baseline_p96": 0.003,
           "total": -0.099,
           "raw_total": -0.126,
-          "percentile": 20.8,
-          "observed_percentile": 25.4,
+          "percentile": 21.0,
+          "observed_percentile": 22.5,
           "opportunities": 31,
           "opportunities_p96": 1.18,
           "reliability": 0.033
@@ -120,8 +120,8 @@
           "baseline_p96": 0.002,
           "total": 0.161,
           "raw_total": 0.025,
-          "percentile": 68.4,
-          "observed_percentile": 57.3,
+          "percentile": 68.5,
+          "observed_percentile": 58.6,
           "opportunities": 567,
           "opportunities_p96": 21.58,
           "reliability": 0.102
@@ -134,7 +134,7 @@
           {
             "component": "sweeping",
             "label": "Sweeping",
-            "percentile": 20.8,
+            "percentile": 21.0,
             "band": "weak",
             "opportunities": 31,
             "text": "Sweeping contribution below the MLS median."
@@ -252,7 +252,7 @@
           "xgoals_faced": 1.44,
           "goals_prevented": -0.56,
           "components": {
-            "shot_stopping": -0.536,
+            "shot_stopping": -0.535,
             "handling": 0.0,
             "claiming": 0.0,
             "sweeping": 0.006,
@@ -560,7 +560,7 @@
           "xgoals_faced": 2.61,
           "goals_prevented": -0.39,
           "components": {
-            "shot_stopping": -0.366,
+            "shot_stopping": -0.365,
             "handling": 0.043,
             "claiming": 0.001,
             "sweeping": 0.001,
@@ -648,7 +648,7 @@
           "xgoals_faced": 2.06,
           "goals_prevented": -0.94,
           "components": {
-            "shot_stopping": -0.915,
+            "shot_stopping": -0.914,
             "handling": 0.004,
             "claiming": 0.032,
             "sweeping": 0.004,
@@ -1133,6 +1133,13 @@
           "rank": 42,
           "keeperiq": 34.9,
           "adj_total_p96": 0.0236
+        },
+        {
+          "captured_at": "2026-11-24T01:41:52Z",
+          "max_match_date": "2026-11-23",
+          "rank": 42,
+          "keeperiq": 34.9,
+          "adj_total_p96": 0.027
         }
       ],
       "team_stints": [
