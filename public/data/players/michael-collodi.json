@@ -3,7 +3,7 @@
   "player_id": "0x5g2mYrM7",
   "slug": "michael-collodi",
   "name": "Michael Collodi",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -70,7 +70,7 @@
           "observed_p96": 0.051,
           "adjusted_p96": 0.001,
           "baseline_p96": -0.005,
-          "total": 0.55,
+          "total": 0.551,
           "raw_total": 0.542,
           "percentile": 99.5,
           "observed_percentile": 99.5,
@@ -416,7 +416,7 @@
           "xgoals_faced": 0.94,
           "goals_prevented": -0.06,
           "components": {
-            "shot_stopping": -0.029,
+            "shot_stopping": -0.028,
             "handling": 0.031,
             "claiming": 0.003,
             "sweeping": 0.001,
@@ -780,6 +780,13 @@
           "rank": 1,
           "keeperiq": 99.5,
           "adj_total_p96": 0.1415
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2025-12-06",
+          "rank": 1,
+          "keeperiq": 99.5,
+          "adj_total_p96": 0.1416
         }
       ],
       "team_stints": [
@@ -840,7 +847,7 @@
       "goals_prevented_p96": 0.01,
       "previous_rank": 36,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.035,
@@ -872,7 +879,7 @@
           "baseline_p96": -0.001,
           "total": 0.09,
           "raw_total": 0.084,
-          "percentile": 68.6,
+          "percentile": 65.2,
           "observed_percentile": 94.0,
           "opportunities": 21,
           "opportunities_p96": 1.51,
@@ -909,7 +916,7 @@
           "total": 0.085,
           "raw_total": 0.013,
           "percentile": 28.8,
-          "observed_percentile": 56.7,
+          "observed_percentile": 59.3,
           "opportunities": 204,
           "opportunities_p96": 14.7,
           "reliability": 0.039
@@ -1115,7 +1122,7 @@
           "goals_prevented": -0.59,
           "components": {
             "shot_stopping": -0.558,
-            "handling": 0.042,
+            "handling": 0.043,
             "claiming": 0.001,
             "sweeping": -0.013,
             "passing": -0.008,
@@ -1600,6 +1607,13 @@
           "rank": 36,
           "keeperiq": 36.9,
           "adj_total_p96": 0.0444
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 36,
+          "keeperiq": 36.9,
+          "adj_total_p96": 0.0432
         }
       ],
       "team_stints": [
@@ -1632,7 +1646,7 @@
     "talent_low": -0.05,
     "talent_high": 0.23,
     "talent_sd": 0.084,
-    "keeperiq": 67.9,
+    "keeperiq": 68.0,
     "keeperiq_low": 3.8,
     "keeperiq_high": 100.0,
     "rank": 13,

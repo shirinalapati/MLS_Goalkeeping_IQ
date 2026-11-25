@@ -3,7 +3,7 @@
   "player_id": "gjMNRZE3MK",
   "slug": "stefan-cleveland",
   "name": "Stefan Cleveland",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 25,
       "sample_status": "qualified",
       "sample_status_label": "Qualified",
-      "keeperiq": 35.0,
+      "keeperiq": 34.9,
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.06,
       "baseline_total_p96": 0.07,
@@ -52,7 +52,7 @@
       "goals_prevented_p96": -0.07,
       "previous_rank": 42,
       "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.046,
@@ -70,7 +70,7 @@
           "observed_p96": -0.006,
           "adjusted_p96": -0.011,
           "baseline_p96": -0.013,
-          "total": -0.166,
+          "total": -0.165,
           "raw_total": -0.186,
           "percentile": 54.5,
           "observed_percentile": 58.1,
@@ -81,18 +81,18 @@
         "claiming": {
           "observed_p96": -0.005,
           "adjusted_p96": -0.001,
-          "baseline_p96": -0.001,
+          "baseline_p96": -0.0,
           "total": -0.138,
           "raw_total": -0.149,
-          "percentile": 26.1,
-          "observed_percentile": 22.5,
+          "percentile": 26.0,
+          "observed_percentile": 22.4,
           "opportunities": 21,
           "opportunities_p96": 0.8,
           "reliability": 0.11
         },
         "sweeping": {
           "observed_p96": -0.004,
-          "adjusted_p96": 0.003,
+          "adjusted_p96": 0.002,
           "baseline_p96": 0.003,
           "total": -0.099,
           "raw_total": -0.126,
@@ -108,8 +108,8 @@
           "baseline_p96": -0.008,
           "total": -0.18,
           "raw_total": 1.388,
-          "percentile": 46.8,
-          "observed_percentile": 46.8,
+          "percentile": 46.7,
+          "observed_percentile": 46.7,
           "opportunities": 828,
           "opportunities_p96": 31.52,
           "reliability": 0.862
@@ -118,16 +118,16 @@
           "observed_p96": 0.006,
           "adjusted_p96": 0.003,
           "baseline_p96": 0.002,
-          "total": 0.161,
+          "total": 0.162,
           "raw_total": 0.025,
           "percentile": 68.5,
-          "observed_percentile": 58.6,
+          "observed_percentile": 57.3,
           "opportunities": 567,
           "opportunities_p96": 21.58,
           "reliability": 0.102
         }
       },
-      "archetype": "Busy Handler",
+      "archetype": "High-Volume Shot Stopper",
       "notes": {
         "strengths": [],
         "concerns": [
@@ -221,7 +221,7 @@
           "date": "2026-05-17",
           "matchday": 14,
           "minutes": 97.0,
-          "total_ga": -0.16,
+          "total_ga": -0.159,
           "total_ga_p96": -0.16,
           "rolling_total_ga_p96": -0.09,
           "goals_conceded": 1,
@@ -243,7 +243,7 @@
           "date": "2026-05-24",
           "matchday": 15,
           "minutes": 101.0,
-          "total_ga": -0.546,
+          "total_ga": -0.545,
           "total_ga_p96": -0.52,
           "rolling_total_ga_p96": -0.18,
           "goals_conceded": 2,
@@ -441,7 +441,7 @@
           "date": "2026-09-06",
           "matchday": 24,
           "minutes": 113.0,
-          "total_ga": -0.449,
+          "total_ga": -0.448,
           "total_ga_p96": -0.38,
           "rolling_total_ga_p96": -0.22,
           "goals_conceded": 4,
@@ -640,7 +640,7 @@
           "matchday": 33,
           "minutes": 100.0,
           "total_ga": -0.828,
-          "total_ga_p96": -0.8,
+          "total_ga_p96": -0.79,
           "rolling_total_ga_p96": -0.1,
           "goals_conceded": 3,
           "shots_faced": 8,
@@ -1140,6 +1140,13 @@
           "rank": 42,
           "keeperiq": 34.9,
           "adj_total_p96": 0.027
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 42,
+          "keeperiq": 35.0,
+          "adj_total_p96": 0.0259
         }
       ],
       "team_stints": [
@@ -1171,7 +1178,7 @@
     "talent_low": -0.12,
     "talent_high": 0.16,
     "talent_sd": 0.086,
-    "keeperiq": 23.6,
+    "keeperiq": 23.7,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 59,

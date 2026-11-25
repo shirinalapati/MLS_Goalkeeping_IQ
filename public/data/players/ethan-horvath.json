@@ -3,7 +3,7 @@
   "player_id": "KAqBjB97qb",
   "slug": "ethan-horvath",
   "name": "Ethan Horvath",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -36,7 +36,7 @@
       "keeperiq_low": 2.0,
       "keeperiq_high": 96.4,
       "rank": 14,
-      "rank_observed": 18,
+      "rank_observed": 19,
       "rank_goals_conceded": 35,
       "rank_pool": 11,
       "rank_goals_conceded_pool": 23,
@@ -52,15 +52,15 @@
       "goals_prevented_p96": 0.08,
       "previous_rank": 14,
       "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.109,
           "adjusted_p96": 0.088,
           "baseline_p96": 0.076,
-          "total": 3.898,
+          "total": 3.899,
           "raw_total": 2.962,
-          "percentile": 60.6,
+          "percentile": 60.7,
           "observed_percentile": 57.6,
           "opportunities": 169,
           "opportunities_p96": 4.71,
@@ -70,10 +70,10 @@
           "observed_p96": -0.005,
           "adjusted_p96": -0.01,
           "baseline_p96": -0.012,
-          "total": -0.168,
+          "total": -0.167,
           "raw_total": -0.196,
           "percentile": 70.0,
-          "observed_percentile": 68.3,
+          "observed_percentile": 68.4,
           "opportunities": 110,
           "opportunities_p96": 3.07,
           "reliability": 0.275
@@ -120,14 +120,14 @@
           "baseline_p96": 0.002,
           "total": 0.241,
           "raw_total": 0.055,
-          "percentile": 49.0,
+          "percentile": 49.1,
           "observed_percentile": 68.1,
           "opportunities": 621,
           "opportunities_p96": 17.32,
           "reliability": 0.11
         }
       },
-      "archetype": "Busy Handler",
+      "archetype": "High-Volume Shot Stopper",
       "notes": {
         "strengths": [
           {
@@ -137,6 +137,14 @@
             "band": "elite",
             "opportunities": 83,
             "text": "Elite adjusted sweeping percentile."
+          },
+          {
+            "component": "handling",
+            "label": "Handling",
+            "percentile": 70.0,
+            "band": "strong",
+            "opportunities": 110,
+            "text": "Strong handling contribution."
           }
         ],
         "concerns": [
@@ -277,7 +285,7 @@
           "components": {
             "shot_stopping": -0.351,
             "handling": -0.015,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.006,
             "passing": 0.027,
             "fielding": 0.003
@@ -530,7 +538,7 @@
           "date": "2026-08-01",
           "matchday": 19,
           "minutes": 103.0,
-          "total_ga": 0.45,
+          "total_ga": 0.451,
           "total_ga_p96": 0.42,
           "rolling_total_ga_p96": -0.06,
           "goals_conceded": 2,
@@ -640,7 +648,7 @@
           "date": "2026-09-06",
           "matchday": 24,
           "minutes": 101.0,
-          "total_ga": 1.294,
+          "total_ga": 1.295,
           "total_ga_p96": 1.23,
           "rolling_total_ga_p96": -0.06,
           "goals_conceded": 0,
@@ -804,7 +812,7 @@
           "goals_prevented": 0.2,
           "components": {
             "shot_stopping": 0.229,
-            "handling": 0.067,
+            "handling": 0.068,
             "claiming": 0.019,
             "sweeping": 0.049,
             "passing": -0.009,
@@ -860,7 +868,7 @@
           "date": "2026-11-01",
           "matchday": 34,
           "minutes": 109.0,
-          "total_ga": 1.15,
+          "total_ga": 1.151,
           "total_ga_p96": 1.01,
           "rolling_total_ga_p96": 0.12,
           "goals_conceded": 1,
@@ -1031,7 +1039,7 @@
           "date": "2026-08-29",
           "matchday": 23,
           "matches_in_window": 5,
-          "rate_p96": -0.24
+          "rate_p96": -0.23
         },
         {
           "date": "2026-09-06",
@@ -1393,6 +1401,13 @@
           "rank": 14,
           "keeperiq": 65.1,
           "adj_total_p96": 0.0759
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 14,
+          "keeperiq": 65.2,
+          "adj_total_p96": 0.0749
         }
       ],
       "team_stints": [
@@ -1424,7 +1439,7 @@
     "talent_low": -0.06,
     "talent_high": 0.21,
     "talent_sd": 0.08,
-    "keeperiq": 65.0,
+    "keeperiq": 65.1,
     "keeperiq_low": 2.3,
     "keeperiq_high": 95.8,
     "rank": 16,

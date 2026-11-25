@@ -3,7 +3,7 @@
   "player_id": "vzqo721jqa",
   "slug": "mason-stajduhar",
   "name": "Mason Stajduhar",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 1,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 51.8,
+      "keeperiq": 51.7,
       "adjusted_total_p96": 0.06,
       "observed_total_p96": 0.03,
       "baseline_total_p96": 0.06,
@@ -50,9 +50,9 @@
       "xgoals_faced": 2.05,
       "goals_prevented": 0.05,
       "goals_prevented_p96": 0.05,
-      "previous_rank": 25,
-      "rank_change": 1,
-      "keeperiq_change": 3.1,
+      "previous_rank": 24,
+      "rank_change": 0,
+      "keeperiq_change": -0.1,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.075,
@@ -60,7 +60,7 @@
           "baseline_p96": 0.073,
           "total": 0.08,
           "raw_total": 0.052,
-          "percentile": 41.0,
+          "percentile": 40.9,
           "observed_percentile": 44.4,
           "opportunities": 3,
           "opportunities_p96": 2.82,
@@ -72,7 +72,7 @@
           "baseline_p96": -0.012,
           "total": -0.088,
           "raw_total": -0.089,
-          "percentile": 39.1,
+          "percentile": 42.5,
           "observed_percentile": 0.0,
           "opportunities": 1,
           "opportunities_p96": 0.94,
@@ -84,7 +84,7 @@
           "baseline_p96": -0.001,
           "total": 0.012,
           "raw_total": 0.011,
-          "percentile": 35.4,
+          "percentile": 35.3,
           "observed_percentile": 98.8,
           "opportunities": 2,
           "opportunities_p96": 1.88,
@@ -109,7 +109,7 @@
           "total": 0.006,
           "raw_total": 0.069,
           "percentile": 61.0,
-          "observed_percentile": 86.9,
+          "observed_percentile": 87.0,
           "opportunities": 33,
           "opportunities_p96": 31.06,
           "reliability": 0.2
@@ -404,6 +404,13 @@
           "rank": 25,
           "keeperiq": 48.7,
           "adj_total_p96": 0.0616
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 24,
+          "keeperiq": 51.8,
+          "adj_total_p96": 0.0601
         }
       ],
       "team_stints": [
@@ -435,7 +442,7 @@
     "talent_low": -0.12,
     "talent_high": 0.21,
     "talent_sd": 0.1,
-    "keeperiq": 47.2,
+    "keeperiq": 47.3,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 31,

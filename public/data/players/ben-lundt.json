@@ -3,7 +3,7 @@
   "player_id": "gjMNvV70MK",
   "slug": "ben-lundt",
   "name": "Ben Lundt",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -192,7 +192,7 @@
           "goals_prevented": 0.2,
           "components": {
             "shot_stopping": 0.225,
-            "handling": 0.029,
+            "handling": 0.03,
             "claiming": 0.008,
             "sweeping": -0.007,
             "passing": -0.006,
@@ -675,6 +675,13 @@
           "rank": 37,
           "keeperiq": 42.3,
           "adj_total_p96": 0.0339
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2025-12-06",
+          "rank": 37,
+          "keeperiq": 42.3,
+          "adj_total_p96": 0.034
         }
       ],
       "team_stints": [
@@ -713,9 +720,9 @@
       "reliability": 0.103,
       "interval_low": -0.13,
       "interval_high": 0.17,
-      "interval_se": 0.092,
+      "interval_se": 0.091,
       "observed_interval_low": -0.45,
-      "observed_interval_high": 0.26,
+      "observed_interval_high": 0.25,
       "keeperiq_low": 0.0,
       "keeperiq_high": 92.9,
       "rank": 48,
@@ -733,18 +740,18 @@
       "xgoals_faced": 8.57,
       "goals_prevented": -0.43,
       "goals_prevented_p96": -0.07,
-      "previous_rank": 47,
-      "rank_change": -1,
-      "keeperiq_change": -3.3,
+      "previous_rank": 48,
+      "rank_change": 0,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.043,
-          "adjusted_p96": 0.063,
+          "adjusted_p96": 0.062,
           "baseline_p96": 0.073,
           "total": -0.268,
           "raw_total": -0.432,
           "percentile": 39.6,
-          "observed_percentile": 33.9,
+          "observed_percentile": 33.8,
           "opportunities": 26,
           "opportunities_p96": 4.15,
           "reliability": 0.086
@@ -756,7 +763,7 @@
           "total": -0.101,
           "raw_total": -0.106,
           "percentile": 45.4,
-          "observed_percentile": 35.4,
+          "observed_percentile": 38.8,
           "opportunities": 17,
           "opportunities_p96": 2.71,
           "reliability": 0.055
@@ -764,11 +771,11 @@
         "claiming": {
           "observed_p96": 0.001,
           "adjusted_p96": -0.0,
-          "baseline_p96": -0.001,
+          "baseline_p96": -0.0,
           "total": 0.004,
           "raw_total": 0.001,
           "percentile": 37.7,
-          "observed_percentile": 41.2,
+          "observed_percentile": 41.1,
           "opportunities": 2,
           "opportunities_p96": 0.32,
           "reliability": 0.012
@@ -804,7 +811,7 @@
           "total": 0.002,
           "raw_total": -0.031,
           "percentile": 28.1,
-          "observed_percentile": 30.7,
+          "observed_percentile": 30.8,
           "opportunities": 99,
           "opportunities_p96": 15.79,
           "reliability": 0.019
@@ -1307,6 +1314,13 @@
           "rank": 47,
           "keeperiq": 27.7,
           "adj_total_p96": 0.0225
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 48,
+          "keeperiq": 24.4,
+          "adj_total_p96": 0.0211
         }
       ],
       "team_stints": [
@@ -1339,7 +1353,7 @@
     "talent_low": -0.12,
     "talent_high": 0.18,
     "talent_sd": 0.09,
-    "keeperiq": 24.9,
+    "keeperiq": 25.0,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 54,

@@ -3,7 +3,7 @@
   "player_id": "N6MmeEN0ME",
   "slug": "nico-hansen",
   "name": "Nico Hansen",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -118,7 +118,7 @@
           "observed_p96": 0.005,
           "adjusted_p96": 0.001,
           "baseline_p96": 0.001,
-          "total": 0.052,
+          "total": 0.053,
           "raw_total": -0.002,
           "percentile": 39.0,
           "observed_percentile": 52.6,
@@ -230,7 +230,7 @@
             "claiming": 0.002,
             "sweeping": 0.004,
             "passing": 0.03,
-            "fielding": 0.003
+            "fielding": 0.004
           }
         },
         {
@@ -737,6 +737,13 @@
           "rank": 8,
           "keeperiq": 82.8,
           "adj_total_p96": 0.0853
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2025-12-06",
+          "rank": 8,
+          "keeperiq": 82.8,
+          "adj_total_p96": 0.0854
         }
       ],
       "team_stints": [
@@ -771,13 +778,13 @@
       "adjusted_total_p96": 0.03,
       "observed_total_p96": -0.03,
       "baseline_total_p96": 0.06,
-      "adjusted_total": -0.66,
+      "adjusted_total": -0.65,
       "reliability": 0.309,
       "interval_low": -0.1,
       "interval_high": 0.15,
-      "interval_se": 0.074,
+      "interval_se": 0.075,
       "observed_interval_low": -0.21,
-      "observed_interval_high": 0.15,
+      "observed_interval_high": 0.16,
       "keeperiq_low": 0.0,
       "keeperiq_high": 85.9,
       "rank": 43,
@@ -795,18 +802,18 @@
       "xgoals_faced": 28.92,
       "goals_prevented": -1.08,
       "goals_prevented_p96": -0.04,
-      "previous_rank": 44,
-      "rank_change": 1,
-      "keeperiq_change": 0.0,
+      "previous_rank": 43,
+      "rank_change": 0,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.018,
           "adjusted_p96": 0.047,
           "baseline_p96": 0.07,
-          "total": -0.444,
+          "total": -0.443,
           "raw_total": -1.076,
           "percentile": 33.6,
-          "observed_percentile": 35.1,
+          "observed_percentile": 35.0,
           "opportunities": 98,
           "opportunities_p96": 4.05,
           "reliability": 0.263
@@ -815,7 +822,7 @@
           "observed_p96": 0.011,
           "adjusted_p96": -0.007,
           "baseline_p96": -0.012,
-          "total": 0.262,
+          "total": 0.263,
           "raw_total": 0.243,
           "percentile": 98.8,
           "observed_percentile": 98.8,
@@ -829,7 +836,7 @@
           "baseline_p96": -0.001,
           "total": 0.006,
           "raw_total": -0.004,
-          "percentile": 36.6,
+          "percentile": 36.5,
           "observed_percentile": 40.0,
           "opportunities": 28,
           "opportunities_p96": 1.16,
@@ -863,7 +870,7 @@
           "observed_p96": 0.011,
           "adjusted_p96": 0.004,
           "baseline_p96": 0.003,
-          "total": 0.255,
+          "total": 0.256,
           "raw_total": 0.13,
           "percentile": 90.3,
           "observed_percentile": 90.4,
@@ -1203,7 +1210,7 @@
           "date": "2026-09-13",
           "matchday": 26,
           "minutes": 97.0,
-          "total_ga": 0.247,
+          "total_ga": 0.246,
           "total_ga_p96": 0.24,
           "rolling_total_ga_p96": -0.02,
           "goals_conceded": 0,
@@ -1323,8 +1330,8 @@
           "goals_prevented": 0.68,
           "components": {
             "shot_stopping": 0.71,
-            "handling": 0.045,
-            "claiming": 0.001,
+            "handling": 0.046,
+            "claiming": 0.0,
             "sweeping": 0.012,
             "passing": -0.031,
             "fielding": 0.014
@@ -1846,6 +1853,13 @@
           "rank": 44,
           "keeperiq": 32.5,
           "adj_total_p96": 0.0266
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 43,
+          "keeperiq": 32.5,
+          "adj_total_p96": 0.0255
         }
       ],
       "team_stints": [
@@ -1878,7 +1892,7 @@
     "talent_low": -0.07,
     "talent_high": 0.19,
     "talent_sd": 0.079,
-    "keeperiq": 52.8,
+    "keeperiq": 52.9,
     "keeperiq_low": 2.3,
     "keeperiq_high": 95.8,
     "rank": 24,

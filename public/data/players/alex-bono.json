@@ -3,7 +3,7 @@
   "player_id": "ljqEjOZEQx",
   "slug": "alex-bono",
   "name": "Alex Bono",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -30,11 +30,11 @@
       "reliability": 0.035,
       "interval_low": 0.02,
       "interval_high": 0.06,
-      "interval_se": 0.014,
+      "interval_se": 0.013,
       "observed_interval_low": -0.34,
       "observed_interval_high": -0.31,
       "keeperiq_low": 24.4,
-      "keeperiq_high": 51.8,
+      "keeperiq_high": 51.7,
       "rank": 38,
       "rank_observed": 49,
       "rank_goals_conceded": 49,
@@ -56,7 +56,7 @@
       "components": {
         "shot_stopping": {
           "observed_p96": -0.372,
-          "adjusted_p96": 0.06,
+          "adjusted_p96": 0.059,
           "baseline_p96": 0.074,
           "total": -0.763,
           "raw_total": -0.816,
@@ -72,7 +72,7 @@
           "baseline_p96": -0.012,
           "total": 0.064,
           "raw_total": 0.062,
-          "percentile": 55.7,
+          "percentile": 55.8,
           "observed_percentile": 100.0,
           "opportunities": 5,
           "opportunities_p96": 2.44,
@@ -82,9 +82,9 @@
           "observed_p96": 0.019,
           "adjusted_p96": -0.0,
           "baseline_p96": -0.001,
-          "total": 0.04,
+          "total": 0.039,
           "raw_total": 0.039,
-          "percentile": 43.8,
+          "percentile": 43.7,
           "observed_percentile": 100.0,
           "opportunities": 1,
           "opportunities_p96": 0.49,
@@ -121,7 +121,7 @@
           "total": 0.007,
           "raw_total": -0.004,
           "percentile": 24.9,
-          "observed_percentile": 43.5,
+          "observed_percentile": 43.6,
           "opportunities": 21,
           "opportunities_p96": 10.23,
           "reliability": 0.004
@@ -286,6 +286,13 @@
           "rank": 38,
           "keeperiq": 36.2,
           "adj_total_p96": 0.0408
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 38,
+          "keeperiq": 36.2,
+          "adj_total_p96": 0.0393
         }
       ],
       "team_stints": [
@@ -317,7 +324,7 @@
     "talent_low": -0.13,
     "talent_high": 0.2,
     "talent_sd": 0.099,
-    "keeperiq": 31.4,
+    "keeperiq": 31.5,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 46,

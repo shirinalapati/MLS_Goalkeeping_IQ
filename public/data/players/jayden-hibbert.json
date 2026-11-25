@@ -3,7 +3,7 @@
   "player_id": "9YqdoDvL5v",
   "slug": "jayden-hibbert",
   "name": "Jayden Hibbert",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": -0.115,
           "adjusted_p96": 0.029,
           "baseline_p96": 0.05,
-          "total": -0.98,
+          "total": -0.979,
           "raw_total": -1.202,
           "percentile": 32.4,
           "observed_percentile": 12.2,
@@ -70,7 +70,7 @@
           "observed_p96": 0.032,
           "adjusted_p96": -0.001,
           "baseline_p96": -0.004,
-          "total": 0.273,
+          "total": 0.274,
           "raw_total": 0.267,
           "percentile": 86.9,
           "observed_percentile": 97.9,
@@ -244,7 +244,7 @@
           "date": "2025-09-20",
           "matchday": 33,
           "minutes": 102.0,
-          "total_ga": -0.111,
+          "total_ga": -0.112,
           "total_ga_p96": -0.1,
           "rolling_total_ga_p96": -0.07,
           "goals_conceded": 1,
@@ -255,7 +255,7 @@
           "components": {
             "shot_stopping": -0.078,
             "handling": 0.016,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.009,
             "passing": -0.037,
             "fielding": -0.004
@@ -665,6 +665,13 @@
           "rank": 47,
           "keeperiq": 34.4,
           "adj_total_p96": 0.021
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2025-12-06",
+          "rank": 47,
+          "keeperiq": 34.4,
+          "adj_total_p96": 0.0211
         }
       ],
       "team_stints": [
@@ -725,15 +732,15 @@
       "goals_prevented_p96": -0.42,
       "previous_rank": 34,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.389,
-          "adjusted_p96": 0.068,
+          "adjusted_p96": 0.067,
           "baseline_p96": 0.076,
           "total": -0.385,
           "raw_total": -0.411,
-          "percentile": 41.0,
+          "percentile": 40.9,
           "observed_percentile": 0.9,
           "opportunities": 7,
           "opportunities_p96": 7.07,
@@ -745,7 +752,7 @@
           "baseline_p96": -0.012,
           "total": 0.003,
           "raw_total": 0.002,
-          "percentile": 51.7,
+          "percentile": 51.8,
           "observed_percentile": 90.7,
           "opportunities": 4,
           "opportunities_p96": 4.04,
@@ -757,7 +764,7 @@
           "baseline_p96": -0.001,
           "total": 0.006,
           "raw_total": 0.006,
-          "percentile": 30.3,
+          "percentile": 31.8,
           "observed_percentile": 89.7,
           "opportunities": 3,
           "opportunities_p96": 3.03,
@@ -769,7 +776,7 @@
           "baseline_p96": 0.004,
           "total": -0.097,
           "raw_total": -0.098,
-          "percentile": 56.1,
+          "percentile": 56.0,
           "observed_percentile": 0.0,
           "opportunities": 4,
           "opportunities_p96": 4.04,
@@ -778,7 +785,7 @@
         "passing": {
           "observed_p96": -0.038,
           "adjusted_p96": -0.013,
-          "baseline_p96": -0.007,
+          "baseline_p96": -0.008,
           "total": -0.037,
           "raw_total": 0.022,
           "percentile": 30.0,
@@ -793,8 +800,8 @@
           "baseline_p96": 0.002,
           "total": 0.0,
           "raw_total": -0.005,
-          "percentile": 36.2,
-          "observed_percentile": 30.7,
+          "percentile": 36.1,
+          "observed_percentile": 30.8,
           "opportunities": 18,
           "opportunities_p96": 18.19,
           "reliability": 0.004
@@ -881,6 +888,13 @@
           "rank": 34,
           "keeperiq": 41.0,
           "adj_total_p96": 0.0489
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 34,
+          "keeperiq": 41.0,
+          "adj_total_p96": 0.0473
         }
       ],
       "team_stints": [

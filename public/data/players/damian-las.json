@@ -3,7 +3,7 @@
   "player_id": "jYQJaDwkqG",
   "slug": "damian-las",
   "name": "Damian Las",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -52,16 +52,16 @@
       "goals_prevented_p96": 0.03,
       "previous_rank": 28,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.06,
           "adjusted_p96": 0.075,
-          "baseline_p96": 0.078,
+          "baseline_p96": 0.077,
           "total": 0.315,
           "raw_total": 0.177,
-          "percentile": 41.0,
-          "observed_percentile": 41.0,
+          "percentile": 40.9,
+          "observed_percentile": 40.9,
           "opportunities": 30,
           "opportunities_p96": 5.67,
           "reliability": 0.098
@@ -69,7 +69,7 @@
         "handling": {
           "observed_p96": -0.084,
           "adjusted_p96": -0.016,
-          "baseline_p96": -0.012,
+          "baseline_p96": -0.013,
           "total": -0.445,
           "raw_total": -0.45,
           "percentile": 4.8,
@@ -96,7 +96,7 @@
           "baseline_p96": 0.004,
           "total": 0.135,
           "raw_total": 0.129,
-          "percentile": 60.9,
+          "percentile": 60.8,
           "observed_percentile": 93.8,
           "opportunities": 10,
           "opportunities_p96": 1.89,
@@ -109,7 +109,7 @@
           "total": -0.054,
           "raw_total": 0.261,
           "percentile": 38.6,
-          "observed_percentile": 37.3,
+          "observed_percentile": 37.2,
           "opportunities": 158,
           "opportunities_p96": 29.86,
           "reliability": 0.544
@@ -244,7 +244,7 @@
           "xgoals_faced": 6.13,
           "goals_prevented": 2.13,
           "components": {
-            "shot_stopping": 2.159,
+            "shot_stopping": 2.16,
             "handling": -0.011,
             "claiming": 0.02,
             "sweeping": 0.001,
@@ -523,6 +523,13 @@
           "rank": 28,
           "keeperiq": 47.6,
           "adj_total_p96": 0.0562
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 28,
+          "keeperiq": 47.6,
+          "adj_total_p96": 0.0548
         }
       ],
       "team_stints": [

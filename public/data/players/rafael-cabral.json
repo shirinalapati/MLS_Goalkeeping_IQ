@@ -3,7 +3,7 @@
   "player_id": "p6qb4pwM0G",
   "slug": "rafael-cabral",
   "name": "Rafael Cabral",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -58,7 +58,7 @@
           "observed_p96": 0.09,
           "adjusted_p96": 0.062,
           "baseline_p96": 0.045,
-          "total": 3.357,
+          "total": 3.358,
           "raw_total": 2.388,
           "percentile": 64.3,
           "observed_percentile": 67.0,
@@ -70,7 +70,7 @@
           "observed_p96": -0.014,
           "adjusted_p96": -0.007,
           "baseline_p96": -0.004,
-          "total": -0.533,
+          "total": -0.532,
           "raw_total": -0.562,
           "percentile": 21.3,
           "observed_percentile": 26.4,
@@ -118,7 +118,7 @@
           "observed_p96": 0.006,
           "adjusted_p96": 0.003,
           "baseline_p96": 0.003,
-          "total": 0.224,
+          "total": 0.225,
           "raw_total": 0.031,
           "percentile": 92.7,
           "observed_percentile": 57.7,
@@ -345,7 +345,7 @@
           "components": {
             "shot_stopping": 0.573,
             "handling": 0.021,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.021,
             "passing": 0.037,
             "fielding": 0.007
@@ -411,7 +411,7 @@
           "components": {
             "shot_stopping": 0.869,
             "handling": -0.164,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": 0.001,
             "passing": 0.018,
             "fielding": -0.239
@@ -499,7 +499,7 @@
           "components": {
             "shot_stopping": -0.259,
             "handling": 0.063,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": 0.001,
             "passing": -0.027,
             "fielding": 0.01
@@ -763,7 +763,7 @@
           "components": {
             "shot_stopping": -1.528,
             "handling": 0.015,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.004,
             "passing": 0.023,
             "fielding": 0.023
@@ -818,7 +818,7 @@
           "date": "2025-09-22",
           "matchday": 33,
           "minutes": 102.0,
-          "total_ga": -1.488,
+          "total_ga": -1.489,
           "total_ga_p96": -1.4,
           "rolling_total_ga_p96": 0.09,
           "goals_conceded": 4,
@@ -829,7 +829,7 @@
           "components": {
             "shot_stopping": -1.535,
             "handling": 0.027,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": 0.004,
             "passing": 0.01,
             "fielding": 0.006
@@ -1445,6 +1445,13 @@
           "rank": 13,
           "keeperiq": 72.8,
           "adj_total_p96": 0.0659
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2025-12-06",
+          "rank": 13,
+          "keeperiq": 72.8,
+          "adj_total_p96": 0.0661
         }
       ],
       "team_stints": [
@@ -1510,8 +1517,8 @@
         "shot_stopping": {
           "observed_p96": -0.053,
           "adjusted_p96": 0.025,
-          "baseline_p96": 0.069,
-          "total": -1.969,
+          "baseline_p96": 0.068,
+          "total": -1.968,
           "raw_total": -2.934,
           "percentile": 22.4,
           "observed_percentile": 26.2,
@@ -1523,7 +1530,7 @@
           "observed_p96": -0.005,
           "adjusted_p96": -0.01,
           "baseline_p96": -0.011,
-          "total": -0.197,
+          "total": -0.196,
           "raw_total": -0.226,
           "percentile": 75.5,
           "observed_percentile": 64.8,
@@ -1549,7 +1556,7 @@
           "baseline_p96": 0.004,
           "total": 0.296,
           "raw_total": 0.257,
-          "percentile": 62.7,
+          "percentile": 62.6,
           "observed_percentile": 63.0,
           "opportunities": 66,
           "opportunities_p96": 1.79,
@@ -1762,7 +1769,7 @@
           "components": {
             "shot_stopping": 0.185,
             "handling": 0.004,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": 0.012,
             "passing": 0.014,
             "fielding": 0.033
@@ -1849,7 +1856,7 @@
           "goals_prevented": 0.58,
           "components": {
             "shot_stopping": 0.605,
-            "handling": 0.045,
+            "handling": 0.046,
             "claiming": 0.03,
             "sweeping": 0.002,
             "passing": -0.011,
@@ -2059,7 +2066,7 @@
           "date": "2026-08-30",
           "matchday": 23,
           "minutes": 98.0,
-          "total_ga": 0.176,
+          "total_ga": 0.177,
           "total_ga_p96": 0.17,
           "rolling_total_ga_p96": 0.03,
           "goals_conceded": 1,
@@ -2334,7 +2341,7 @@
           "components": {
             "shot_stopping": -0.887,
             "handling": 0.01,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.012,
             "passing": 0.094,
             "fielding": 0.005
@@ -2906,6 +2913,13 @@
           "rank": 45,
           "keeperiq": 29.5,
           "adj_total_p96": 0.0257
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 45,
+          "keeperiq": 29.5,
+          "adj_total_p96": 0.0241
         }
       ],
       "team_stints": [

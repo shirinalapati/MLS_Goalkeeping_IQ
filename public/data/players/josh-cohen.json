@@ -3,7 +3,7 @@
   "player_id": "KXMekmrPq6",
   "slug": "josh-cohen",
   "name": "Josh Cohen",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -22,7 +22,7 @@
       "appearances": 3,
       "sample_status": "limited",
       "sample_status_label": "Limited Sample",
-      "keeperiq": 55.4,
+      "keeperiq": 58.8,
       "adjusted_total_p96": 0.06,
       "observed_total_p96": 0.2,
       "baseline_total_p96": 0.06,
@@ -35,7 +35,7 @@
       "observed_interval_high": 1.18,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
-      "rank": 21,
+      "rank": 20,
       "rank_observed": 11,
       "rank_goals_conceded": 7,
       "rank_pool": null,
@@ -51,13 +51,13 @@
       "goals_prevented": 0.47,
       "goals_prevented_p96": 0.22,
       "previous_rank": 21,
-      "rank_change": 0,
-      "keeperiq_change": -0.3,
+      "rank_change": 1,
+      "keeperiq_change": 3.4,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.245,
           "adjusted_p96": 0.078,
-          "baseline_p96": 0.072,
+          "baseline_p96": 0.071,
           "total": 0.529,
           "raw_total": 0.473,
           "percentile": 47.8,
@@ -67,11 +67,11 @@
           "reliability": 0.021
         },
         "handling": {
-          "observed_p96": -0.075,
+          "observed_p96": -0.076,
           "adjusted_p96": -0.013,
           "baseline_p96": -0.012,
-          "total": -0.161,
-          "raw_total": -0.163,
+          "total": -0.165,
+          "raw_total": -0.166,
           "percentile": 31.7,
           "observed_percentile": 0.0,
           "opportunities": 4,
@@ -84,7 +84,7 @@
           "baseline_p96": -0.001,
           "total": 0.015,
           "raw_total": 0.014,
-          "percentile": 35.4,
+          "percentile": 35.3,
           "observed_percentile": 94.7,
           "opportunities": 4,
           "opportunities_p96": 1.86,
@@ -108,7 +108,7 @@
           "baseline_p96": -0.009,
           "total": -0.003,
           "raw_total": 0.126,
-          "percentile": 54.8,
+          "percentile": 54.7,
           "observed_percentile": 73.0,
           "opportunities": 81,
           "opportunities_p96": 37.57,
@@ -191,8 +191,8 @@
           "date": "2026-11-22",
           "matchday": 37,
           "minutes": 7.0,
-          "total_ga": 0.322,
-          "total_ga_p96": 4.42,
+          "total_ga": 0.319,
+          "total_ga_p96": 4.37,
           "rolling_total_ga_p96": 0.2,
           "goals_conceded": 1,
           "shots_faced": 2,
@@ -201,7 +201,7 @@
           "goals_prevented": 0.41,
           "components": {
             "shot_stopping": 0.416,
-            "handling": -0.093,
+            "handling": -0.096,
             "claiming": 0.0,
             "sweeping": 0.0,
             "passing": -0.002,
@@ -369,6 +369,13 @@
           "rank": 21,
           "keeperiq": 55.7,
           "adj_total_p96": 0.0661
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 21,
+          "keeperiq": 55.4,
+          "adj_total_p96": 0.0646
         }
       ],
       "team_stints": [

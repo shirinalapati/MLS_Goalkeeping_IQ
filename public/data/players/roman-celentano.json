@@ -3,7 +3,7 @@
   "player_id": "gjMNeXBpQK",
   "slug": "roman-celentano",
   "name": "Roman Celentano",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -70,7 +70,7 @@
           "observed_p96": -0.006,
           "adjusted_p96": -0.005,
           "baseline_p96": -0.004,
-          "total": -0.217,
+          "total": -0.216,
           "raw_total": -0.245,
           "percentile": 42.7,
           "observed_percentile": 44.8,
@@ -539,7 +539,7 @@
           "goals_prevented": 0.83,
           "components": {
             "shot_stopping": 0.861,
-            "handling": -0.151,
+            "handling": -0.15,
             "claiming": -0.006,
             "sweeping": 0.003,
             "passing": -0.01,
@@ -649,9 +649,9 @@
           "goals_prevented": 0.69,
           "components": {
             "shot_stopping": 0.717,
-            "handling": 0.038,
+            "handling": 0.039,
             "claiming": -0.206,
-            "sweeping": 0.014,
+            "sweeping": 0.013,
             "passing": -0.021,
             "fielding": -0.006
           }
@@ -1392,6 +1392,13 @@
           "rank": 28,
           "keeperiq": 51.4,
           "adj_total_p96": 0.042
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2025-12-06",
+          "rank": 28,
+          "keeperiq": 51.4,
+          "adj_total_p96": 0.0421
         }
       ],
       "team_stints": [
@@ -1431,7 +1438,7 @@
       "interval_low": -0.16,
       "interval_high": 0.13,
       "interval_se": 0.089,
-      "observed_interval_low": -0.46,
+      "observed_interval_low": -0.45,
       "observed_interval_high": 0.16,
       "keeperiq_low": 0.0,
       "keeperiq_high": 82.9,
@@ -1470,9 +1477,9 @@
           "observed_p96": -0.012,
           "adjusted_p96": -0.012,
           "baseline_p96": -0.012,
-          "total": -0.421,
+          "total": -0.42,
           "raw_total": -0.448,
-          "percentile": 47.0,
+          "percentile": 50.1,
           "observed_percentile": 50.1,
           "opportunities": 104,
           "opportunities_p96": 3.04,
@@ -1840,7 +1847,7 @@
           "components": {
             "shot_stopping": -0.091,
             "handling": 0.012,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": 0.03,
             "passing": -0.034,
             "fielding": 0.006
@@ -1906,7 +1913,7 @@
           "components": {
             "shot_stopping": 1.092,
             "handling": -0.019,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": 0.001,
             "passing": -0.04,
             "fielding": 0.011
@@ -1941,7 +1948,7 @@
           "minutes": 104.0,
           "total_ga": 0.849,
           "total_ga_p96": 0.78,
-          "rolling_total_ga_p96": -0.12,
+          "rolling_total_ga_p96": -0.11,
           "goals_conceded": 1,
           "shots_faced": 5,
           "saves": 4,
@@ -2191,7 +2198,7 @@
           "goals_prevented": -0.96,
           "components": {
             "shot_stopping": -0.931,
-            "handling": -0.021,
+            "handling": -0.02,
             "claiming": 0.002,
             "sweeping": 0.001,
             "passing": -0.031,
@@ -2258,7 +2265,7 @@
           "components": {
             "shot_stopping": 0.698,
             "handling": 0.068,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": 0.018,
             "passing": -0.008,
             "fielding": 0.007
@@ -2768,6 +2775,13 @@
           "rank": 59,
           "keeperiq": 4.6,
           "adj_total_p96": -0.0138
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 59,
+          "keeperiq": 4.6,
+          "adj_total_p96": -0.016
         }
       ],
       "team_stints": [

@@ -3,7 +3,7 @@
   "player_id": "Vj58B64EQ8",
   "slug": "pablo-sisniega",
   "name": "Pablo Sisniega",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -55,7 +55,7 @@
       "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
-          "observed_p96": 0.398,
+          "observed_p96": 0.399,
           "adjusted_p96": 0.084,
           "baseline_p96": 0.044,
           "total": 3.271,
@@ -172,9 +172,9 @@
           "date": "2025-07-13",
           "matchday": 23,
           "minutes": 103.0,
-          "total_ga": -0.038,
-          "total_ga_p96": -0.04,
-          "rolling_total_ga_p96": -0.04,
+          "total_ga": -0.037,
+          "total_ga_p96": -0.03,
+          "rolling_total_ga_p96": -0.03,
           "goals_conceded": 1,
           "shots_faced": 4,
           "saves": 3,
@@ -349,7 +349,7 @@
           "date": "2025-07-13",
           "matchday": 23,
           "matches_in_window": 1,
-          "rate_p96": -0.04
+          "rate_p96": -0.03
         },
         {
           "date": "2025-07-17",
@@ -681,6 +681,13 @@
           "rank": 15,
           "keeperiq": 70.3,
           "adj_total_p96": 0.064
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2025-12-06",
+          "rank": 15,
+          "keeperiq": 70.3,
+          "adj_total_p96": 0.0641
         }
       ],
       "team_stints": [
@@ -721,7 +728,7 @@
       "interval_high": 0.23,
       "interval_se": 0.097,
       "observed_interval_low": -0.44,
-      "observed_interval_high": 0.75,
+      "observed_interval_high": 0.77,
       "keeperiq_low": 0.0,
       "keeperiq_high": 100.0,
       "rank": 16,
@@ -741,7 +748,7 @@
       "goals_prevented_p96": 0.23,
       "previous_rank": 16,
       "rank_change": 0,
-      "keeperiq_change": 0.1,
+      "keeperiq_change": 0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": 0.26,
@@ -773,7 +780,7 @@
           "baseline_p96": -0.001,
           "total": 0.064,
           "raw_total": 0.061,
-          "percentile": 55.2,
+          "percentile": 55.1,
           "observed_percentile": 98.8,
           "opportunities": 10,
           "opportunities_p96": 1.57,
@@ -785,7 +792,7 @@
           "baseline_p96": 0.004,
           "total": -0.011,
           "raw_total": -0.018,
-          "percentile": 60.9,
+          "percentile": 60.8,
           "observed_percentile": 32.9,
           "opportunities": 14,
           "opportunities_p96": 2.2,
@@ -979,7 +986,7 @@
           "xgoals_faced": 2.07,
           "goals_prevented": 1.07,
           "components": {
-            "shot_stopping": 1.1,
+            "shot_stopping": 1.101,
             "handling": 0.093,
             "claiming": 0.0,
             "sweeping": -0.0,
@@ -1313,6 +1320,13 @@
           "rank": 16,
           "keeperiq": 62.1,
           "adj_total_p96": 0.0718
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 16,
+          "keeperiq": 62.2,
+          "adj_total_p96": 0.0703
         }
       ],
       "team_stints": [

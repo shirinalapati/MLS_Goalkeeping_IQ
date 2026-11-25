@@ -3,7 +3,7 @@
   "player_id": "2vQ1LyOKqr",
   "slug": "angus-gunn",
   "name": "Angus Gunn",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -52,11 +52,11 @@
       "goals_prevented_p96": -0.25,
       "previous_rank": 55,
       "rank_change": 0,
-      "keeperiq_change": 0.0,
+      "keeperiq_change": -0.0,
       "components": {
         "shot_stopping": {
           "observed_p96": -0.227,
-          "adjusted_p96": 0.01,
+          "adjusted_p96": 0.009,
           "baseline_p96": 0.077,
           "total": -3.805,
           "raw_total": -4.243,
@@ -70,10 +70,10 @@
           "observed_p96": 0.001,
           "adjusted_p96": -0.01,
           "baseline_p96": -0.012,
-          "total": 0.009,
+          "total": 0.01,
           "raw_total": -0.004,
           "percentile": 67.4,
-          "observed_percentile": 86.5,
+          "observed_percentile": 86.6,
           "opportunities": 50,
           "opportunities_p96": 2.98,
           "reliability": 0.147
@@ -120,8 +120,8 @@
           "baseline_p96": 0.002,
           "total": 0.125,
           "raw_total": 0.037,
-          "percentile": 74.1,
-          "observed_percentile": 78.2,
+          "percentile": 74.2,
+          "observed_percentile": 78.3,
           "opportunities": 383,
           "opportunities_p96": 22.81,
           "reliability": 0.071
@@ -141,7 +141,7 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 74.1,
+            "percentile": 74.2,
             "band": "strong",
             "opportunities": 383,
             "text": "Strong fielding contribution."
@@ -212,8 +212,8 @@
           "goals_prevented": 0.14,
           "components": {
             "shot_stopping": 0.169,
-            "handling": 0.003,
-            "claiming": 0.001,
+            "handling": 0.004,
+            "claiming": 0.0,
             "sweeping": 0.005,
             "passing": 0.012,
             "fielding": -0.013
@@ -256,7 +256,7 @@
           "goals_prevented": 0.55,
           "components": {
             "shot_stopping": 0.577,
-            "handling": 0.078,
+            "handling": 0.079,
             "claiming": -0.006,
             "sweeping": -0.021,
             "passing": 0.018,
@@ -476,7 +476,7 @@
           "goals_prevented": -0.29,
           "components": {
             "shot_stopping": -0.263,
-            "handling": -0.042,
+            "handling": -0.041,
             "claiming": -0.015,
             "sweeping": 0.182,
             "passing": 0.015,
@@ -502,7 +502,7 @@
             "claiming": -0.002,
             "sweeping": 0.001,
             "passing": -0.002,
-            "fielding": 0.0
+            "fielding": 0.001
           }
         },
         {
@@ -913,6 +913,13 @@
           "rank": 55,
           "keeperiq": 16.8,
           "adj_total_p96": 0.0034
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 55,
+          "keeperiq": 16.8,
+          "adj_total_p96": 0.0022
         }
       ],
       "team_stints": [
@@ -944,7 +951,7 @@
     "talent_low": -0.15,
     "talent_high": 0.15,
     "talent_sd": 0.09,
-    "keeperiq": 19.7,
+    "keeperiq": 19.8,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 67,

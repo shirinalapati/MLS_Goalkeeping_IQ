@@ -3,7 +3,7 @@
   "player_id": "XVqKneW501",
   "slug": "stefan-frei",
   "name": "Stefan Frei",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2025": {
@@ -26,7 +26,7 @@
       "adjusted_total_p96": 0.01,
       "observed_total_p96": -0.02,
       "baseline_total_p96": 0.04,
-      "adjusted_total": -0.76,
+      "adjusted_total": -0.75,
       "reliability": 0.378,
       "interval_low": -0.11,
       "interval_high": 0.13,
@@ -58,7 +58,7 @@
           "observed_p96": -0.022,
           "adjusted_p96": 0.024,
           "baseline_p96": 0.044,
-          "total": -0.68,
+          "total": -0.679,
           "raw_total": -1.474,
           "percentile": 23.6,
           "observed_percentile": 29.9,
@@ -304,7 +304,7 @@
             "claiming": 0.0,
             "sweeping": 0.001,
             "passing": -0.04,
-            "fielding": 0.006
+            "fielding": 0.007
           }
         },
         {
@@ -598,7 +598,7 @@
           "date": "2025-08-25",
           "matchday": 29,
           "minutes": 100.0,
-          "total_ga": 0.023,
+          "total_ga": 0.024,
           "total_ga_p96": 0.02,
           "rolling_total_ga_p96": 0.02,
           "goals_conceded": 1,
@@ -674,7 +674,7 @@
           "goals_prevented": -0.24,
           "components": {
             "shot_stopping": -0.209,
-            "handling": -0.034,
+            "handling": -0.033,
             "claiming": 0.001,
             "sweeping": 0.001,
             "passing": -0.017,
@@ -1277,6 +1277,13 @@
           "rank": 55,
           "keeperiq": 22.7,
           "adj_total_p96": 0.009
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2025-12-06",
+          "rank": 55,
+          "keeperiq": 22.7,
+          "adj_total_p96": 0.0091
         }
       ],
       "team_stints": [
@@ -1308,7 +1315,7 @@
     "talent_low": -0.11,
     "talent_high": 0.16,
     "talent_sd": 0.081,
-    "keeperiq": 24.4,
+    "keeperiq": 24.5,
     "keeperiq_low": 0.0,
     "keeperiq_high": 95.8,
     "rank": 56,

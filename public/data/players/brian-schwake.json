@@ -3,7 +3,7 @@
   "player_id": "jYQJagNWqG",
   "slug": "brian-schwake",
   "name": "Brian Schwake",
-  "generated_at": "2026-11-24T23:30:06Z",
+  "generated_at": "2026-11-25T23:06:48Z",
   "methodology_version": "1.0.0",
   "seasons": {
     "2026": {
@@ -30,10 +30,10 @@
       "reliability": 0.454,
       "interval_low": 0.06,
       "interval_high": 0.3,
-      "interval_se": 0.073,
+      "interval_se": 0.072,
       "observed_interval_low": 0.24,
       "observed_interval_high": 0.59,
-      "keeperiq_low": 47.6,
+      "keeperiq_low": 50.6,
       "keeperiq_high": 100.0,
       "rank": 2,
       "rank_observed": 6,
@@ -70,7 +70,7 @@
           "observed_p96": 0.004,
           "adjusted_p96": -0.008,
           "baseline_p96": -0.011,
-          "total": 0.136,
+          "total": 0.137,
           "raw_total": 0.108,
           "percentile": 92.5,
           "observed_percentile": 95.9,
@@ -97,7 +97,7 @@
           "total": 0.041,
           "raw_total": 0.003,
           "percentile": 57.8,
-          "observed_percentile": 36.1,
+          "observed_percentile": 36.0,
           "opportunities": 73,
           "opportunities_p96": 2.04,
           "reliability": 0.075
@@ -109,7 +109,7 @@
           "total": -0.135,
           "raw_total": 2.004,
           "percentile": 64.4,
-          "observed_percentile": 62.7,
+          "observed_percentile": 62.8,
           "opportunities": 1250,
           "opportunities_p96": 34.88,
           "reliability": 0.904
@@ -120,8 +120,8 @@
           "baseline_p96": 0.003,
           "total": 0.239,
           "raw_total": 0.053,
-          "percentile": 80.6,
-          "observed_percentile": 64.6,
+          "percentile": 80.7,
+          "observed_percentile": 64.7,
           "opportunities": 1039,
           "opportunities_p96": 29.0,
           "reliability": 0.172
@@ -157,7 +157,7 @@
           {
             "component": "fielding",
             "label": "Fielding",
-            "percentile": 80.6,
+            "percentile": 80.7,
             "band": "strong",
             "opportunities": 1039,
             "text": "Strong fielding contribution."
@@ -400,7 +400,7 @@
           "date": "2026-05-10",
           "matchday": 12,
           "minutes": 104.0,
-          "total_ga": 0.688,
+          "total_ga": 0.689,
           "total_ga_p96": 0.64,
           "rolling_total_ga_p96": 0.31,
           "goals_conceded": 2,
@@ -467,7 +467,7 @@
           "matchday": 15,
           "minutes": 102.0,
           "total_ga": 0.675,
-          "total_ga_p96": 0.64,
+          "total_ga_p96": 0.63,
           "rolling_total_ga_p96": 0.36,
           "goals_conceded": 1,
           "shots_faced": 4,
@@ -477,7 +477,7 @@
           "components": {
             "shot_stopping": 0.656,
             "handling": 0.002,
-            "claiming": 0.001,
+            "claiming": 0.0,
             "sweeping": -0.001,
             "passing": 0.01,
             "fielding": 0.007
@@ -519,7 +519,7 @@
           "xgoals_faced": 0.95,
           "goals_prevented": 0.95,
           "components": {
-            "shot_stopping": 0.979,
+            "shot_stopping": 0.98,
             "handling": 0.06,
             "claiming": 0.005,
             "sweeping": 0.023,
@@ -554,7 +554,7 @@
           "date": "2026-08-01",
           "matchday": 19,
           "minutes": 106.0,
-          "total_ga": 0.355,
+          "total_ga": 0.356,
           "total_ga_p96": 0.32,
           "rolling_total_ga_p96": 0.41,
           "goals_conceded": 2,
@@ -1013,7 +1013,7 @@
           "date": "2026-07-18",
           "matchday": 16,
           "matches_in_window": 5,
-          "rate_p96": 0.71
+          "rate_p96": 0.72
         },
         {
           "date": "2026-07-23",
@@ -1417,6 +1417,13 @@
           "rank": 2,
           "keeperiq": 94.7,
           "adj_total_p96": 0.1789
+        },
+        {
+          "captured_at": "2026-11-24T23:33:15Z",
+          "max_match_date": "2026-11-24",
+          "rank": 2,
+          "keeperiq": 94.7,
+          "adj_total_p96": 0.1781
         }
       ],
       "team_stints": [
